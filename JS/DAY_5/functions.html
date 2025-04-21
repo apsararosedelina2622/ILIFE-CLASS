@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // Function declaration
+        // function greet(name) {
+        // return `Hello, ${name}!`;
+        // }
+
+        // document.write(greet("Alice")); // Output: Hello, Alice!
+
+
+        // Function with Default Parameters
+        // function greet(name = "Guest") {
+        //     return `Hello, ${name}!`;
+        // }
+
+        // document.write(greet());        // Output: Hello, Guest!
+        // document.write(greet("Eve"));   // Output: Hello, Eve!
+
+
+        // Arrow function
+
+        // const greet = (name) => {
+        //     return `Hello, ${name}!`;
+        // };
+
+        // document.write(greet("Charlie")); // Output: Hello, Charlie!
+
+
+        // Concise arrow function
+
+        // const greet = (name) => `Hello, ${name}!`;
+
+        // document.write(greet("David")); // Output: Hello, David!
+
+
+        // Anonymous function inside an array method
+
+        // const numbers = [1, 2, 3];
+        // numbers.forEach(function(num) {
+        //     document.write(num);  // Output: 1 2 3
+        // });
+
+
+        // Return Statement
+        // function add(a, b) {
+        //     return a + b;
+        // }
+
+        // document.write(add(5, 3)); // Output: 8
+
+
+        // IIFE (Immediately Invoked Function Expression)
+        // (function() {
+        //     document.write("This is an IIFE!");
+        // })();  // Output: This is an IIFE!
+
+        
+
+        // Local variable
+        // function example() {
+        //     let localVar = "I am local";
+        //     document.write(localVar); // Output: I am local
+        // }
+
+        // document.write(localVar); // Error: localVar is not defined
+
+        // Global variable
+        // let localVar = "I am local";
+
+        // (function example() {
+        //     console.log(localVar); // Output: I am local
+        // })()
+
+        // document.write(localVar);
+
+
+        // Async Await Function
+        // (async function Fun() {
+        //     const url = await fetch('https://jsonplaceholder.typicode.com/users')
+        //     console.log(await url.json());
+        // })()
+
+
+
+        
+
+
+        // function FunctionName(){
+        //     return value;
+        // }
+        // FunctionName();
+
+
+
+        // function Fun(){
+        //     return 'Hello'
+        // }
+        // document.write(Fun())
+
+
+
+        // function Fun(name){
+        //     return `Hello! ${name}`
+        // }
+        // document.write(Fun('Banu'))
+
+
+        
+        // function Fun(name = 'Banu'){
+        //     return `Hello! ${name}`
+        // }
+        // document.write(Fun())
+        // document.write(Fun("Sheganaz"))
+
+
+
+        // (function(name = 'Banu'){
+        //     document.write(`Hello! ${name}`)
+        // })()
+
+        // const Fun = (e) => {
+        //     return `Hello! ${e}`
+        // }
+        // document.write(Fun("Ammu"))
+
+
+        // const Fun = (name) => `Hello! ${name}`
+        // document.write(Fun("Ammu"))
+
+
+        // async function Fun() {
+        //     const url = await fetch('https://jsonplaceholder.typicode.com/users')
+        //     console.log(await url.json());  
+        // }
+        // Fun()
+
+
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // Function
+
+        // function FunctionName(){
+
+        // }
+        // FunctionName()
+
+
+        // function Fun(){
+        //     console.log("Function working");
+        // }
+        // Fun()
+
+
+        // function Fun(){
+        //     return "Return Function"
+        // }
+        // console.log(Fun());
+        
+        
+        // parameter
+
+        // function Fun(a){
+        //     // console.log(a);
+            
+        //     return `Name : ${a}`
+        // }
+        // console.log(Fun("Banu"));
+
+
+        // function Num(number){
+        //     // console.log(number);
+            
+        //     return `Number : ${number}`
+        // }
+        // console.log(Num(96));
+
+
+        // function Add(num1 , num2){
+        //     return `Addition : ${num1 + num2}`
+        // }
+        // console.log(Add(50 , 67));
+
+
+        // function Details(name , course){
+        //     return `Name : ${name}, Course : ${course}`
+        // }
+        // console.log(Details("Banu" , "MERN"));
+
+
+        // Default Parameter
+
+        // function Fun(name = "User"){
+        //     return `Name : ${name}`
+        // }
+        // console.log(Fun("Banu"));
+        // console.log(Fun());
+
+
+        // Arrow Function
+
+        // const FunctionName = () => {
+
+        // }
+        // FunctionName()
+
+
+        // const Fun = () => {
+        //     console.log("Arrow Function");
+        // }
+        // Fun()
+        
+
+        // const Details = (name) => {
+        //     return `Name : ${name}`
+        // }
+        // console.log(Details("Banu"));
+        
+
+        // Consice Function
+
+        // const Fun = () => "Consice Function"
+
+        // console.log(Fun());
+        
+        
+        // const Fun = (num) => `Number : ${num}`
+
+        // console.log(Fun(5));
+
+
+        // Annonymous Function
+
+        // var num = [1 ,2 , 3 ,4]
+
+        // num.forEach((n)=> console.log(n))
+        
+        // num.forEach(function(n){
+        //     console.log(n);
+        // })
+
+
+        // IIFE
+
+        // (
+        //     function
+        // )()
+
+        // (function(){
+        //     console.log(`IIFE Function`);
+        // })()
+
+
+        // async Function
+
+        // async function Fun() {
+        //     const url = await fetch("https://jsonplaceholder.typicode.com/users")
+        //     var data = await url.json();
+        //     console.log(data);
+        // }
+        // Fun()
+
+
+        // Local Variable
+
+        // function Fun(){
+        //     var data = "Java Script"
+        //     console.log(data);
+        // }
+        // Fun()
+
+        // console.log(data);
+
+
+        // Global Variable
+
+        // var data = "Global Variable"
+
+        // function Fun(){
+        //     console.log(data);
+        // }
+        // Fun()
+
+        // console.log(data);       
+
+    </script>
+    
+</body>
+</html>

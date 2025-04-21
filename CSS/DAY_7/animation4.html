@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border: 10px solid gray;
+            border-top: 10px solid blue;
+            border-radius: 100%;
+            animation-name: animate;
+            animation-duration: 1.5s;
+            animation-delay: 0.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: alternate;
+            /* animation: name duration timing-function delay iteration-count direction; */
+        }
+        @keyframes animate{
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+
+    </div>
+    
+</body>
+</html>

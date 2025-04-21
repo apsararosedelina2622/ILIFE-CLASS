@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="d-flex justify-content-between my-3">
+            <div>
+                <h3>Products</h3>
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <i class="fa-solid fa-search" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="badge bg-primary rounded-pill"></span>
+                </i>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal">
+                        <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Search</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+
+                                    <input type="text" class="form-control my-3" placeholder="Search..." id="searchBox" onkeyup="search_product()">
+
+                                    <div class="row" id="searchRow">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                <i class="fa-regular fa-heart">
+                    <span class="badge bg-primary rounded-pill"></span>
+                </i>
+                <i class="fa-solid fa-shopping-cart p-1 position-relative">
+                    <span class="badge bg-primary rounded-pill position-absolute top-0 translate-middle" id="cartCount"></span>
+                </i>
+            </div>
+        </div>
+
+        <div class="row my-3" id="cardRow">
+            
+        </div>
+
+        <div class="d-flex justify-content-between my-3">
+            <h4>Cart List</h4>
+            <h5 class="text-success" id="totalPrice"></h5>
+        </div>
+
+        <table class="table align-middle table-primary table-striped table-hover">
+            <thead>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Product Quantity</th>
+                <th>Product Price</th>
+                <th>Action</th>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

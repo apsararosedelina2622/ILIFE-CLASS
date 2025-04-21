@@ -1,0 +1,221 @@
+BATCH
+
+10 - 11 => Satya Roslin
+11 - 12 => Thamodharan (Joining Date - 17 / 04)
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan
+
+LUNCH
+
+03 - 04 => Satya Roslin
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh
+
+SATURDAY BATCH
+
+Total 3 Classes => Yusuf
+
+
+
+
+
+STUDENTS FROM ILFE
+
+Satya Roslin , Vaishnavi , Kannan , Kaviyarasan , Murugan , Sundaresh , Thamodharan
+
+
+STUDENTS FROM EPIX
+
+Kirija , Ramakrishnan , Deepak , Dhinakaran
+
+
+
+
+
+PROGRESS
+
+09 / 04 - WEDNESSDAY
+
+10 - 11 => Satya Roslin [React Day - 2]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [typography , column responsive]
+
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh [Array Methods]
+
+
+10 / 04 - THURSDAY
+
+10 - 11 => Satya Roslin [React setup install]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [card , border]
+
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh [Array Foreach , Map]
+
+
+11 / 04 - FRIDAY
+
+10 - 11 => Satya Roslin [React Day - 3]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [carousel]
+
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh [Array Foreach , Map]
+
+
+12 / 04 - SATURDAY
+
+Total 2 Classes
+
+10.15 - 11.15 => Yusuf [Bootstrap - Colors , Background Colors , Margin , Padding , Width , Rounded , Badge]
+11.45 - 12.45 => Yusuf [Shadow , Typography , Bootstrap Icons]
+
+
+14 / 04 - MONDAY => No Classes
+
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran
+
+03 - 04 => Satya Roslin 
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh
+
+
+15 / 04 - TUESDAY
+
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Navbar , Dropdown , Pagination]
+
+03 - 04 => Satya Roslin [React Day3 - Props Balance , Assets]
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh
+
+
+16 / 04 - WEDNESSDAY
+
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Navbar , Dropdown , Pagination]
+
+03 - 04 => Satya Roslin [React Day4_State_1 - useState Balance , Day4_State_2]
+04 - 05 => Kaviyarasan , Murugan [Function]
+06 - 07 => Sundaresh 
+
+
+17 / 04 - THURSDAY
+
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Navbar , Dropdown , Pagination]
+
+03 - 04 => Satya Roslin [React Day4_State_1 - useState Balance , Day4_State_2]
+04 - 05 => Kaviyarasan , Murugan [Function]
+05 - 06 => Thamodharan [Introduction Class]
+06 - 07 => Sundaresh [DOM]
+
+
+18 / 04 - FRIDAY => Afternoon Leave For Good Friday
+
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Modal , Form]
+
+03 - 04 => Satya Roslin
+06 - 07 => Sundaresh 
+
+
+19 / 04 - SATURDAY => Team Out
+
+10 - 11 => Yusuf
+
+
+21 / 04 - MONDAY
+
+10 - 11 => Satya Roslin [React Bootstrap]
+11 - 12 => Thamodharan [HTML Day - 2]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran
+
+06 - 07 => Sundaresh [DOM]
+
+
+
+
+
+ATTENDANCE - Only Leave
+
+09 / 04 - WEDNESSDAY
+
+11 - 12 => Vaishnavi 
+04 - 05 => Kaviyarasan , Murugan
+
+
+10 / 04 - THURSDAY
+
+11 - 12 => Ramakrishnan , Deepak
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh
+
+
+11 / 04 - FRIDAY
+
+11 - 12 => Ramakrishnan , Deepak
+04 - 05 => Kaviyarasan , Murugan
+
+
+14 / 04 - MONDAY
+
+11 - 12 => Ramakrishnan , Deepak , Kirija , Vaishnavi
+03 - 04 => Satya Roslin
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh
+
+
+15 / 04 - TUESDAY
+
+11 - 12 => Ramakrishnan , Deepak , Kirija , Vaishnavi
+04 - 05 => Kaviyarasan , Murugan
+06 - 07 => Sundaresh
+
+
+16 / 04 - WEDNESSDAY
+
+11 - 12 => Ramakrishnan , Deepak
+06 - 07 => Sundaresh
+
+
+17 / 04 - THURSDAY
+
+03 - 04 => Satya Roslin
+
+
+18 / 04 - FRIDAY
+
+03 - 04 => Satya Roslin
+06 - 07 => Sundaresh
+
+
+19 / 04 - SATURDAY => Team Out
+
+10 - 11 => Yusuf
+
+
+21 / 04 - MONDAY
+
+11 - 12 => Ramakrishnan , Deepak , Kirija , Vaishnavi
+06 - 07 => Sundaresh
+
+
+
+
+
+STUDENTS WORK
+
+Satya Roslin 
+
+Bootstrap Project  => From Scratch           => https://flexstart1.netlify.app/
+Bootstrap Project  => Content Change         => https://sacredheartsrsecschool.netlify.app/
+JavaScript Project => Add To Cart , Wishlist => https://fragrantworld.netlify.app/
+
+
+Kirija 
+
+Ramakrishnan
+
+Deepak
+
+Vaishnavi
+
+Kannan
+
+Dhinakaran
+
+Sundaresh

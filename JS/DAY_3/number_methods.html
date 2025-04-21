@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // //number methods
+
+            // var a1=100.60;
+
+            // document.write(a1.toFixed());
+            // document.write("<br>");
+
+            // var a2=10000000;
+
+            // document.write(a2.toExponential(4));
+            // document.write("<br>");
+            
+            // document.write(Number('1')+Number('4'));
+            // document.write("<br>");
+
+            // document.write(isNaN("100"));//false  It checks value only not Data Type
+            // document.write("<br>");
+
+            // document.write(isNaN(1));//false
+            // document.write("<br>");
+
+            // document.write(isFinite(8));// true It checks value only not Data Type
+            // document.write("<br>");
+            
+            // document.write(isFinite("8"));//true
+            // document.write("<br>");
+
+            // var a3=10.98;
+
+            // document.write(parseInt(a3)); // 10
+            // document.write("<br>");
+
+            // var a4=10.3456;
+            
+            // document.write(parseFloat(a4)); // 10.3456
+            // document.write("<br>")
+
+            // var a3='233ghj';
+
+            // document.write(parseInt(a3)); // 233
+            // document.write("<br>");
+
+            // var a4='567.5678ghj';
+            
+            // document.write(parseFloat(a4)); // 567.5678
+            // document.write("<br>")
+
+
+            // var num = 36;
+            // console.log(Math.sqrt(num));
+
+            // console.log(Math.random());
+            // console.log(Math.ceil(4.5));
+            // console.log(Math.floor(6.9));
+
+
+            // var a = 81;
+            // console.log(Math.sqrt(a));
+
+            // var a = 83.3;
+            // console.log(Math.ceil(a));// nearest highest value
+
+            // var a = 45.980;
+            // console.log(Math.floor(a));
+
+            // var a  = Math.random() * 10;
+            // // 0.345 * 10 => 3.45
+            // console.log(a);
+            // console.log(Math.floor(a));
+
+            function Fun(){
+                var number = Math.floor(Math.random() * 500)
+                // console.log(number);
+                document.getElementById('num').innerHTML = `Random number ${number}`
+            }
+
+    </script>
+
+    <button onclick="Fun()">Click Here to generate random number</button>
+    <h1 id="num"></h1>
+
+</body>
+</html>

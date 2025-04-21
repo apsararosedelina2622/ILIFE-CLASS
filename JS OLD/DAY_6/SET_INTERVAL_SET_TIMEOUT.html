@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="tag"></h1>
+
+    <script>
+
+        // console.log("Start");
+
+        // setTimeout(() => {
+        //     console.log("Hello after 3 seconds!");
+        // }, 3000); // Executes after 3 seconds (3000 milliseconds)
+
+        // console.log("End");
+
+
+        // setTimeout(() => {
+        //     document.getElementById('tag').innerHTML = "Time's Up!";
+        // }, 2000);
+
+        // setTimeout(()=>{
+        //     window.location.href = 'https://www.youtube.com/'
+        // }, 3000)
+
+
+        // setInterval(() => {
+        //     console.log("Hello every 2 seconds!");
+        // }, 2000); // Runs every 2 seconds (2000ms)
+
+
+        // let count = 1;
+        // setInterval(() => {
+        //     console.log(`Count: ${count}`);
+        //     count++;
+        // }, 1000);
+
+        // let count = 1;
+        // let interval = setInterval(() => {
+        //     document.write(`Count: ${count}`);
+        //     count++;
+        //     if(count >= 5){
+        //         clearInterval(interval)
+        //     }
+        // }, 1000);
+
+        var count = 1 ;
+        let interval = setInterval(()=>{
+            document.write(`count : ${count}`)
+            count = count + 1;
+            if(count > 5){
+                clearInterval(interval)
+            }
+        }, 1000)
+
+    </script>
+</body>
+</html>

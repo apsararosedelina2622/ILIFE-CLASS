@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <!-- ALERTS, BREADCRUMB, CLOSE BUTTON, SPINNERS, POPOVER, TOOTTIP, TOASTS, PROGRESS, SCROLLSPY -->
+
+    <!-- ALERTS -->
+
+    <!-- <div class="alert alert-primary">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="alert alert-danger">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div> -->
+
+    <!-- BREADCRUMB -->
+
+    <!-- 
+    breadcrumb -> inline
+    breadcrumb-item -> / include
+    active -> grey 
+    -->
+    
+    <!-- <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="">HOME</a></li>
+        <li class="breadcrumb-item"><a href="">ABOUT</a></li>
+        <li class="breadcrumb-item active">PAGE</li>
+    </ol> -->
+
+    <!-- <ol class="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+        <li class="breadcrumb-item"><a href="">Home</a></li>
+        <li class="breadcrumb-item"><a href="">About</a></li>
+        <li class="breadcrumb-item active">Content</li>
+    </ol> -->
+
+    <!-- CLOSE BUTTON -->
+
+    <!-- <button class="btn-close"></button> -->
+    <!-- <button class="btn-close" disabled></button> -->
+
+    <!-- SPINNERS -->
+
+    <!-- <div class="spinner-border text-danger"></div>
+    <div class="spinner-border"></div>
+    <div class="spinner-border spinner-border-sm"></div>
+
+    <div class="spinner-grow"></div>
+    <div class="spinner-grow spinner-grow-sm"></div>
+
+    <button class="btn btn-primary"> <div class="spinner-border spinner-border-sm"></div> Loading...</button>
+    <button class="btn btn-primary"> <div class="spinner-grow spinner-grow-sm"></div> Loading...</button> -->
+
+    <!-- POPOVER -->
+
+    <!-- normal, placement, trigger-> focus, hover focus -->
+
+    <!-- <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  error placeat minus deleniti quo minima recusandae dolor explicabo?</span> -->
+
+    <!-- <button class="btn btn-primary" data-bs-placement="top" id="popoverBtn" data-bs-toggle="popover" data-bs-title="Heading" data-bs-content="Hello From Popover" >Clilck Popover</button> -->
+    <!-- <button class="btn btn-primary" data-bs-placement="right" id="popoverBtn" data-bs-toggle="popover" data-bs-title="Heading" data-bs-content="Hello From Popover" >Clilck Popover</button> -->
+    <!-- <button class="btn btn-primary" data-bs-placement="left" id="popoverBtn" data-bs-toggle="popover" data-bs-title="Heading" data-bs-content="Hello From Popover" >Clilck Popover</button> -->
+    <!-- <button class="btn btn-primary" data-bs-placement="bottom" id="popoverBtn" data-bs-toggle="popover" data-bs-title="Heading" data-bs-content="Hello From Popover" >Clilck Popover</button> -->
+
+    <!-- <script>
+        $(document).ready(function(){
+            $('#popoverBtn').popover();
+        })
+    </script> -->
+
+    <!-- <button class="btn btn-success" id="btn" data-bs-toggle="popover()" data-bs-title="Heading" data-bs-content="Hello World" data-bs-trigger="focus">Click</button> -->
+    <!-- <button class="btn btn-success" id="btn" data-bs-toggle="popover()" data-bs-title="Heading" data-bs-content="Hello World" data-bs-trigger="hover focus">Click</button> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').popover();
+        // })
+    </script>
+
+    <!-- ToolTip -->
+
+    <button id="btn" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        Tooltip on top
+    </button>
+    <!-- <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom" id="btn">
+        Tooltip on bottom
+    </button> -->
+    <!-- <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right" id="btn">
+        Tooltip on right
+    </button> -->
+
+    <!-- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolores eum iure vero voluptatum repellat ipsam! Corporis accusamus laborum facere illo cupiditate voluptas voluptate doloribus optio consequatur nemo dicta a labore mollitia dolore inventore alias, necessitatibus iure dolores repudiandae sit, nesciunt temporibus velit. Facilis unde sapiente ipsum beatae, a vero.</span> -->
+
+    <!-- <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left" id="btn">
+        Tooltip on left
+    </button> -->
+
+    <script>
+        $(document).ready(function(){
+            $('#btn').tooltip()
+        })
+    </script>
+
+    <!-- TOASTS -->
+
+    <!-- <div>
+        <button class="btn btn-primary" id="btn">Click Toast</button>
+
+        <div class="toast position-fixed bottom-0 end-0 m-3" id="myToast" data-bs-autohide="false">
+            <div class="toast-header">
+                <span class="me-auto">Notification</span>
+                <button class="btn btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <button class="btn btn-danger" id="btn">Click</button>
+
+    <div class="toast position-fixed bottom-0 m-3 end-0" id="toastid" data-bs-autohide="false">
+        <div class="toast-header">
+            <h3 class="me-auto">Notification</h3>
+            <button class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dignissimos.</p>
+        </div>
+    </div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('#toastid').toast('show')
+        //     })
+        // })
+    </script>
+
+    <!-- PROGRESS -->
+
+    <!-- <div class="progress my-3">
+        <div class="progress-bar"></div>
+    </div>
+    <div class="progress my-3">
+        <div class="progress-bar w-25"></div>
+    </div>
+    <div class="progress my-3">
+        <div class="progress-bar w-50"></div>
+    </div>
+    <div class="progress my-3">
+        <div class="progress-bar w-75"></div>
+    </div>
+    <div class="progress my-3">
+        <div class="progress-bar w-100"></div>
+    </div> -->
+
+    <!-- <div class="my-3 progress">
+        <div class="progress-bar bg-danger w-25">25%</div>
+    </div>
+    <div class="my-3 progress">
+        <div class="progress-bar w-50">50%</div>
+    </div>
+    <div class="my-3 progress">
+        <div class="progress-bar w-75">75%</div>
+    </div>
+    <div class="my-3 progress">
+        <div class="progress-bar w-100">100%</div>
+    </div> -->
+    
+    <!-- MULTIPLE  -->
+
+    <!-- <div class="progress">
+        <div class="progress-bar w-25 bg-danger">25%</div>
+        <div class="progress-bar w-50 bg-warning">50%</div>
+    </div> -->
+
+    <!-- STRIPED -->
+
+    <!-- <div class="progress my-3">
+        <div class="progress-bar progress-bar-striped w-25 bg-success">25%</div>
+    </div> -->
+
+    <!-- ANIMATED STRIPED -->
+
+    <!-- <div class="progress my-3">
+        <div class="progress-bar progress-bar-striped progress-bar-animated w-25 bg-dark">25%</div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated w-50" id="progressBar"></div>
+    </div>
+
+    <button class="btn btn-primary mt-3" id="toggleBtn">Toggle Animation</button> -->
+
+    <script>
+        // $(document).ready(function() {
+        //     $('#toggleBtn').click(function() {
+        //         $('#progressBar').toggleClass('progress-bar-animated');
+        //     });
+        // });
+    </script>
+
+    <!-- <nav class="d-flex p-3" id="idname" >
+        <a class="navbar-brand" href="#">Scrollspy</a>
+        <ul class="nav nav-pills">
+        <li>
+            <a class="nav-link" href="#section1">Section 1</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#section2">Section 2</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#section3">Section 3</a>
+        </li>
+        </ul>
+    </nav> -->
+  
+    <!-- <div data-bs-spy="scroll" data-bs-target="#idname" class="p-3 border"
+        style="height: 300px; overflow:scroll">
+        
+        <h4 id="section1">Section 1</h4>
+        <p>Content for Section 1. Scroll to see more. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia error quaerat totam optio nesciunt. Esse, sint rerum. Aspernatur nostrum sed consequuntur unde magnam quas provident illo soluta in ipsam voluptates ut quasi cumque, doloremque aut cupiditate nulla. Blanditiis alias omnis laudantium rem quam sunt eius eligendi cupiditate tempore reprehenderit provident dolorem quidem quas, voluptatibus maiores minus, necessitatibus aliquam aspernatur, distinctio nisi doloribus! Quos dicta voluptatibus beatae vitae magnam nesciunt iste, velit aspernatur reiciendis consectetur adipisci quaerat nisi quo repudiandae, quod, iusto minus? Pariatur explicabo adipisci recusandae laboriosam labore aperiam optio molestiae. Perferendis ut, magni culpa recusandae illum adipisci maxime nesciunt praesentium velit assumenda vero numquam rem tempora nemo amet sed natus repellendus, sunt in quia est. Veritatis qui aliquid, at nemo fugiat porro, placeat, voluptate pariatur quod vel officiis ea dicta libero reiciendis doloremque assumenda aut. Ex, obcaecati tempora ipsam voluptatem tempore similique voluptas pariatur aperiam quibusdam recusandae libero odio fuga et id quasi nobis nulla ratione corporis iste. Expedita dolores earum unde beatae debitis eveniet et minima, a quidem numquam fugiat, saepe amet officiis? Earum odio quaerat, nemo doloremque dicta quo aut obcaecati voluptates molestias pariatur veritatis beatae fuga. Ut error neque quisquam harum, voluptatem laboriosam facere voluptas magni quod. Possimus harum sapiente officia libero magni incidunt consequuntur aut rerum minus! Earum quam illo quibusdam maiores vero recusandae minus fuga aspernatur quas, tempora nostrum nulla! In iste dolorem sint mollitia quae labore cupiditate nemo totam laborum. Reprehenderit recusandae qui provident dignissimos aut veritatis deserunt sequi debitis obcaecati quam beatae, maiores eaque minus aliquam est, totam iure culpa ab doloremque magnam, numquam autem consequatur sit. Harum repudiandae sit repellendus saepe quaerat, beatae molestiae, quasi libero reiciendis cum aspernatur, nulla eaque ad! Eligendi expedita cum temporibus soluta suscipit quis magnam dolorem nesciunt, vero tenetur quos non dolorum sapiente maxime repudiandae saepe.</p>
+    
+        <h4 id="section2">Section 2</h4>
+        <p>Content for Section 1. Scroll to see more. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia error quaerat totam optio nesciunt. Esse, sint rerum. Aspernatur nostrum sed consequuntur unde magnam quas provident illo soluta in ipsam voluptates ut quasi cumque, doloremque aut cupiditate nulla. Blanditiis alias omnis laudantium rem quam sunt eius eligendi cupiditate tempore reprehenderit provident dolorem quidem quas, voluptatibus maiores minus, necessitatibus aliquam aspernatur, distinctio nisi doloribus! Quos dicta voluptatibus beatae vitae magnam nesciunt iste, velit aspernatur reiciendis consectetur adipisci quaerat nisi quo repudiandae, quod, iusto minus? Pariatur explicabo adipisci recusandae laboriosam labore aperiam optio molestiae. Perferendis ut, magni culpa recusandae illum adipisci maxime nesciunt praesentium velit assumenda vero numquam rem tempora nemo amet sed natus repellendus, sunt in quia est. Veritatis qui aliquid, at nemo fugiat porro, placeat, voluptate pariatur quod vel officiis ea dicta libero reiciendis doloremque assumenda aut. Ex, obcaecati tempora ipsam voluptatem tempore similique voluptas pariatur aperiam quibusdam recusandae libero odio fuga et id quasi nobis nulla ratione corporis iste. Expedita dolores earum unde beatae debitis eveniet et minima, a quidem numquam fugiat, saepe amet officiis? Earum odio quaerat, nemo doloremque dicta quo aut obcaecati voluptates molestias pariatur veritatis beatae fuga. Ut error neque quisquam harum, voluptatem laboriosam facere voluptas magni quod. Possimus harum sapiente officia libero magni incidunt consequuntur aut rerum minus! Earum quam illo quibusdam maiores vero recusandae minus fuga aspernatur quas, tempora nostrum nulla! In iste dolorem sint mollitia quae labore cupiditate nemo totam laborum. Reprehenderit recusandae qui provident dignissimos aut veritatis deserunt sequi debitis obcaecati quam beatae, maiores eaque minus aliquam est, totam iure culpa ab doloremque magnam, numquam autem consequatur sit. Harum repudiandae sit repellendus saepe quaerat, beatae molestiae, quasi libero reiciendis cum aspernatur, nulla eaque ad! Eligendi expedita cum temporibus soluta suscipit quis magnam dolorem nesciunt, vero tenetur quos non dolorum sapiente maxime repudiandae saepe.</p>
+    
+        <h4 id="section3">Section 3</h4>
+        <p>Content for Section 1. Scroll to see more. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia error quaerat totam optio nesciunt. Esse, sint rerum. Aspernatur nostrum sed consequuntur unde magnam quas provident illo soluta in ipsam voluptates ut quasi cumque, doloremque aut cupiditate nulla. Blanditiis alias omnis laudantium rem quam sunt eius eligendi cupiditate tempore reprehenderit provident dolorem quidem quas, voluptatibus maiores minus, necessitatibus aliquam aspernatur, distinctio nisi doloribus! Quos dicta voluptatibus beatae vitae magnam nesciunt iste, velit aspernatur reiciendis consectetur adipisci quaerat nisi quo repudiandae, quod, iusto minus? Pariatur explicabo adipisci recusandae laboriosam labore aperiam optio molestiae. Perferendis ut, magni culpa recusandae illum adipisci maxime nesciunt praesentium velit assumenda vero numquam rem tempora nemo amet sed natus repellendus, sunt in quia est. Veritatis qui aliquid, at nemo fugiat porro, placeat, voluptate pariatur quod vel officiis ea dicta libero reiciendis doloremque assumenda aut. Ex, obcaecati tempora ipsam voluptatem tempore similique voluptas pariatur aperiam quibusdam recusandae libero odio fuga et id quasi nobis nulla ratione corporis iste. Expedita dolores earum unde beatae debitis eveniet et minima, a quidem numquam fugiat, saepe amet officiis? Earum odio quaerat, nemo doloremque dicta quo aut obcaecati voluptates molestias pariatur veritatis beatae fuga. Ut error neque quisquam harum, voluptatem laboriosam facere voluptas magni quod. Possimus harum sapiente officia libero magni incidunt consequuntur aut rerum minus! Earum quam illo quibusdam maiores vero recusandae minus fuga aspernatur quas, tempora nostrum nulla! In iste dolorem sint mollitia quae labore cupiditate nemo totam laborum. Reprehenderit recusandae qui provident dignissimos aut veritatis deserunt sequi debitis obcaecati quam beatae, maiores eaque minus aliquam est, totam iure culpa ab doloremque magnam, numquam autem consequatur sit. Harum repudiandae sit repellendus saepe quaerat, beatae molestiae, quasi libero reiciendis cum aspernatur, nulla eaque ad! Eligendi expedita cum temporibus soluta suscipit quis magnam dolorem nesciunt, vero tenetur quos non dolorum sapiente maxime repudiandae saepe.</p>
+    </div> -->
+
+</body>
+</html

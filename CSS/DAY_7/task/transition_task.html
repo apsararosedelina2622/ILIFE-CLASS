@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* square to circle*/
+        .square{
+            background:linear-gradient(to left,skyblue,blue);
+            height: 200px;
+            width: 200px;
+            border-radius: 0px;
+        }
+        .square:hover{
+            transition-duration: 3s;
+            border-radius: 200px;
+            cursor: pointer;
+        }
+        /*circle to square*/
+        p{
+            background-color: rgb(103, 203, 249);
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+        }
+        p:hover{
+            border-radius: 0px;
+            transition-duration: 2s;
+            cursor: pointer;
+        }
+        /*circle to cylinder*/
+        h1{
+            background:radial-gradient(#87ceeb,#108ab9,#0202ff);
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+        }
+        h1:hover{
+            height: 200px;
+            width: 500px;
+            transition-duration: 2s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p class="square"></p>
+    <p></p>
+    <h1></h1>
+</body>
+</html>

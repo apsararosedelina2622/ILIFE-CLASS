@@ -1,0 +1,78 @@
+REACT 
+
+what is react ?
+what is library ?
+d/w library and framework ?
+why .jsx ?
+what is jsx ?
+what is strictmode ?
+
+Installation & Set up
+
+npm create vite@latest
+project-name folder_name (app_name) => Ex : my_app
+select react framework and javascript variant
+cd my_app
+npm install 
+npm run dev
+
+Cleaning Process
+
+Delete
+    public folder
+    App.css 
+    assets -> svg file
+
+Clear 
+    index.css
+    App.jsx
+
+for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
+
+DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
+
+DAY - 2 => JS in REACT ( VARIABLES, ARRAY, ARRAY USING MAP, OBJECT, JSON, JSON USING MAP, FUNCTION INSIDE ANOTHER FUNCTION, FETCHING DATA IN CONSOLE, CLASS COMPONENTS (3) )
+
+DAY - 3 => STYLE, PROPS
+DAY - 4 => EVENT
+DAY - 5 => USE STATE
+DAY - 6 => USE STATE
+DAY - 7 => USE EFFECT
+DAY - 8 => USE EFFECT
+DAY - 9 => USE REF
+DAY - 10 => USE REF
+DAY - 11 => USE CONTEXT
+DAY - 12 => USE CONTEXT
+DAY - 13 => USE REDUCER
+DAY - 14 => USE REDUCER
+DAY - 15 => BOOTSTRAP COMPONENTS
+DAY - 16 => ROUTING 
+DAY - 17 => CRUD 
+DAY - 18 => PACKAGES ( swiper, material ui, react components, daisy ui )
+
+PROJECT - COSTICA FROM THEME FOREST
+
+
+Codeium
+
+Use for: Autocompletion, code generation, bug fixes.
+
+Why: Fast, free, and supports all languages including React, Node.js, etc.
+
+Continue
+
+Use for: AI-powered coding help, bug fixes, explanations.
+
+Why: Open-source Copilot alternative that works with GPT-4, Claude, etc.
+
+Documatic (AI Doc Writer)
+
+Use for: Auto-generating documentation for your functions and components.
+
+Why: Saves time and helps you keep your code clean and understandable.
+
+Mintlify Doc Writer
+
+Use for: Auto-generating clear documentation for functions, classes, and components.
+
+Why: Speeds up writing docs, improves readability, and supports many languages like Python, JavaScript, C++, and more.

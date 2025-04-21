@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- LOOPING - FOR, FOR IN, FOR OF, WHILE, DO WHILE  -->
+
+    <!-- <form name="myform">
+      <input type="number" name="num">
+      <button onclick="fun()">Click</button>
+    </form> -->
+
+    <script>
+
+      // FOR LOOP
+
+          // for(initailize, condition, increment /  decrement){
+          // statments
+          // }
+
+          // for increment 
+
+          // for (let i = 1; i <= 10; i++) {
+          //   console.log(i);
+          // }
+
+          // var otp = "";
+
+          // for (let i = 0; i < 4; i++) {
+          //   i => 0
+          //   otp += Math.floor(Math.random() * 10); 
+          // }
+
+          // console.log("Your OTP is:", otp);
+
+          // let fruits = ["Apple", "Banana", "Cherry", "Mango"];
+          // for (let i = 0; i < fruits.length; i++) {
+          //     console.log(fruits[i]);
+          // }
+
+          // for decrement 
+          
+          // for (let i = 10; i >= 1; i--) {
+          //   console.log(i);
+          // }
+
+          // let word = "HELLO";
+          // console.log(word.length);
+          // console.log(word[3]);
+          
+          // let reversed = "";
+
+          // for (let i = word.length - 1; i >= 0; i--) {
+          //     reversed += word[i]; 
+          // }
+
+          // console.log("Reversed String:", reversed);
+
+      //FOR IN
+
+          // SYNTAX 
+
+          // for (let key in object/array) {
+            // Code to execute for each key
+          // }
+
+          // OBJECT 
+
+          // let person = {
+          //   name: "John",
+          //   age: 25,
+          //   city: "New York"
+          // };
+
+          // console.log(person["name"])
+
+          // for (let key in person) {
+          //   console.log(key + ": " + person[key]);
+          // }
+
+          // ARRAY
+
+          // const arr = ["Tamil", "English", "Maths"];
+
+          // for (let index in arr) {
+          //  console.log(`Index: ${index}, Value: ${arr[index]}`);
+          // }
+
+      // FOR OF 
+
+          // SYNTAX 
+
+          // for (let item of iterable) {
+            // Code to execute for each item
+          // }
+
+          // let numbers = [10, 20, 30, 40, 50];
+
+          // for (let num of numbers) {
+          //   console.log(num);
+          // }
+
+          // let users = [
+          //   { name: "Alice", age: 24 },
+          //   { name: "Bob", age: 30 },
+          //   { name: "Charlie", age: 28 }
+          // ];
+
+          // for (let user of users) {
+          //   console.log(`Name: ${user.name}, Age: ${user.age}`);
+          // }
+        
+      // WHILE 
+
+          // SYNTAX
+
+          // initialize
+          // while(condition){
+            //Statement
+            //Increment / Decrement
+          // }
+
+          // Increment
+
+          // var i = 0;
+          // while (i < 5) {
+          //   console.log("While loop:", i);
+          //   i++;
+          // }
+
+          // Decrement
+
+          // var i = 5;
+          // while (i > 0) {
+          //   console.log("While loop:", i);
+          //   i--;
+          // }
+
+          // let correctPassword = "1234";
+          // let userInput = "";
+
+          // while (userInput !== correctPassword) {
+          //   userInput = prompt("Enter password: "); 
+          // }
+
+          // console.log("Access Granted!");
+
+      // DO WHILE
+
+          // SYNTAX
+
+          // do {
+            // Code to execute
+          // } while (condition);
+
+          // let count = 1;
+
+          // do {
+          //   console.log(count);
+          //   count++; 
+          // } while (count <= 5);
+
+          // let number;
+
+          // do {
+          //   number = prompt("Enter a number greater than 10: ");
+          // } while (number <= 10);
+
+          // console.log("You entered:", number);
+
+          // let correctNumber = 7;
+          // let guess;
+
+          // do {
+          //   guess = Number(prompt("Guess a number between 1 and 10:"));
+          // } while (guess !== correctNumber); // 4 !== 7
+
+          // console.log("Congrats! You guessed the correct number:", correctNumber);
+
+      // NESTED FOR LOOP
+
+          // for (let i = 1; i <= 5; i++) {  
+          //   for (let j = 1; j <= 5; j++) {  
+          //     console.log(i + " + " + j + " = " + (i + j));  
+          //   }  
+          //   console.log("------------");
+          // }
+
+    </script>
+    
+  </body>
+</html>

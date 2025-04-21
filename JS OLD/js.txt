@@ -1,0 +1,13 @@
+JavaScript Syllabus
+
+* JavaScript is used in webpages for adding interactivity, dynamic content, and functionality ( Add to Cart, Authentication, Form Validation, Animations & Effects, Fetching Data from APIs ).
+
+Day - 1 Introduction, JS inline, internal, external,  Variables (let, var, const), String Concatenation
+
+Day - 2 Data Types, String Methods,
+
+DAY - 3  Number Methods, Operator
+
+DAY - 4 Functions
+
+DAY - 5 Conditional Statement

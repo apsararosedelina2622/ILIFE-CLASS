@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.head{
+    height: 150px;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    top: -150px;
+    left: 40px;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: -250px;
+    left: -300px;
+}
+.header button{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding:  10px 20px;
+    background: rgb(74, 161, 196);
+    border: none;
+}
+.header button a{
+    color: white;
+    text-decoration: none;
+}
+.header button:hover{
+    background-color: rgb(221, 10, 98);
+}
+.header{
+    background-color: rgb(214, 213, 213);
+    padding: 10px;
+    margin-top: -215px;
+}
+.content1 h2{
+    color: rgb(221, 10, 98); 
+    font-size: 28px;
+    font-weight: 100;
+}
+.content1{
+    width: 450px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.content2 h2{
+    color: rgb(74, 161, 196);
+    font-size: 28px;
+    font-weight: 100;
+}
+.content2{
+    line-height: 30px;
+    margin-left: 100px;
+}
+.content{
+    display: flex;
+}
+footer p{
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(98, 80, 75);
+    padding: 15px;
+    padding-left: 30px;
+}
+.header .home,.header .about,.header .service,.header .portfolio,.header .contact{
+    background-color: rgb(221, 10, 98); 
+}
+/* About Us Page */
+
+.aboutcontent h2{
+    color: rgb(221, 10, 98); 
+    font-size: 28px;
+    font-weight: 100;
+}
+.aboutcontent h3{
+    color: rgb(74, 161, 196);
+    font-size: 20px;
+    font-weight: 100;
+}
+.aboutcontent{
+    width: 1000PX;
+    padding: 30PX;
+}
+
+/* Services Page */
+
+.servicebody .boxl1{
+    display: flex;
+}
+.servicebody h2{ 
+    color: rgb(221, 10, 98); 
+    font-size: 28px;
+    font-weight: 300;
+}
+.box1 h2{
+    color: rgb(74, 161, 196);
+    font-size: 28px;
+    font-weight: 100;
+}
+.servicebody{
+    margin:0 30px 0px 30px;
+}
+.box1 button{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    background-color: rgb(221, 10, 98);
+    border: none;
+    margin-left: 550px;
+}
+.box1{
+    background-color: rgb(223, 220, 220);
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 30PX;
+    margin-right: 10px;
+}
+
+/* Portfolio Page */
+
+.portfoliocontent h2{
+    color: rgb(221, 10, 98); 
+    margin-left: 30px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.img{
+    margin: 0 50px 30px 50px;
+    overflow: hidden;
+    display: inline-block;
+}
+.img img{ 
+    transition-duration: 1s;
+}
+.img:hover img{
+    transform: scale(1.2,1.2);
+}
+
+/* Contact Page */
+
+.contactcontent{
+    padding: 20px;
+}
+.contactcontent h2{
+    color: rgb(221, 10, 98); 
+    font-size: 28px;
+    font-weight: 100;
+}
+table{
+    margin-left: 30px;
+}
+td{
+    padding-bottom: 20px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    height: 50px;
+    width: 460px;
+    margin-left: 30px;
+    background-color: rgba(128,128,128,0.3);
+    border: none;
+}
+textarea{
+    height: 100px;
+    width: 460px;
+    background-color: rgb(223, 220, 220);
+    margin-left: 30px;
+    border: none;
+}
+.contactcontent button{
+    height: 50px;
+    width: 460px;
+    border: none;
+    background: rgb(74, 161, 196);
+    margin-left: 145px;
+}
+.contactcontent button h2{
+    color: white;
+}
+.contactbody{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+}
+.contactgmap{
+    margin-top: 30px;
+}

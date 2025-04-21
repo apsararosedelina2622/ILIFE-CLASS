@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-selectors Example</title>
+    <style>
+        /* Styling a button on hover */
+        button:hover {
+            background-color: blue;
+            color: white;   
+            cursor: pointer;
+        }
+
+        /* Input field focus */
+        input:focus {
+            border: 2px solid orange;
+            outline: none;
+        }
+        /* Adding content before and after a paragraph */
+        p::before {
+            content: "★ ";
+            color: gold;
+        }
+
+        p::after {
+            content: "✿";
+            color: pink;
+        }
+
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Pseudo-Selectors Example</h2>
+
+    <p>This is the first paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p>This is the last paragraph.</p>
+
+    <input type="text" placeholder="Click to see focus effect">
+
+    <br><br>
+
+    <button>Hover over me</button>
+
+</body>
+</html>

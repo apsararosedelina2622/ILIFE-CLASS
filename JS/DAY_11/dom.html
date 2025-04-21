@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="id1"></h1>
+    <h1 class="classname1"></h1>
+    <h1 class="classname1"></h1>
+    <h1 class="classname2"></h1>
+    <h1 id="query"></h1>
+    <h1 class="query"></h1>
+
+    <script>
+
+        document.getElementById("id1").innerHTML = "Id Name"
+        document.getElementsByClassName("classname1")[0].innerHTML = "Class Name 1"
+        document.getElementsByClassName("classname1")[1].innerHTML = "Class Name 1"
+        document.getElementsByClassName("classname2")[0].innerHTML = "Class Name 2"
+        document.querySelector("#query").innerHTML = "Query Selector"
+        document.querySelector(".query").innerHTML = "Query Selector"
+
+        document.getElementById("id1").style.color = "purple"
+        document.getElementById("id1").style.backgroundColor = "plum"
+        document.getElementById("id1").style.textAlign = "center"
+
+        // DOM
+
+        // h1 , h2 , h3 , h4 , h5 , h6 , p , span , mark , marquee , hr , button
+
+        let h1tag = document.createElement("h1")
+        h1tag.innerHTML = "H1 Tag"
+        document.body.appendChild(h1tag)
+
+
+        // img
+
+        let img = document.createElement("img")
+        img.src = "https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+        img.height = "200"
+        img.width = "300"
+        document.body.appendChild(img)
+
+        // a
+
+        let atag = document.createElement("a")
+        atag.href = "#"
+        atag.innerHTML = "Link"
+        document.body.appendChild(atag)
+
+        // center
+
+        let tag = document.createElement("h1")
+        tag.innerHTML = "Title"
+        let center = document.createElement("center")
+        center.appendChild(tag)
+        document.body.appendChild(center)
+
+        // list - ul , ol
+
+        let ul = document.createElement("ul")
+        let li1 = document.createElement("li")
+        let li2 = document.createElement("li")
+        li1.innerHTML = "Item 1"
+        li2.innerHTML = "Item 2"
+        ul.appendChild(li1)
+        ul.appendChild(li2)
+        document.body.appendChild(ul)
+
+        // Id 
+
+        let element = document.createElement("h1")
+        // element.setAttribute("id" , "idname")
+        element.id = "idname"
+        document.body.appendChild(element)
+        document.getElementById("idname").innerHTML = "Id Name"
+
+        // Class
+
+        let item = document.createElement("h1")
+        item.setAttribute("class" , "classname")
+        document.body.appendChild(item)
+        document.getElementsByClassName("classname")[0].innerHTML = "Class Name"
+
+    </script>
+    
+</body>
+</html>

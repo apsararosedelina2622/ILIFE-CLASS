@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            /* transition: width 2s ease-in 1s; */
+            /* transition-property: height , width , background-color , opacity; */
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in;
+        }
+        div:hover{
+            height: 600px;
+            width: 600px;
+            background-color: purple;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradients Example</title>
+    <style>
+        /* Linear Gradient */
+        .linear-gradient {
+            height: 200px;
+            background: linear-gradient(45deg, red, yellow, green);
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 200px;
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Radial Gradient */
+        .radial-gradient {
+            height: 200px;
+            background: radial-gradient(circle, red, yellow, green);
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 200px;
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Linear Gradient with Opacity */
+        .linear-opacity {
+            height: 200px;
+            background: linear-gradient(to left, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 200px;
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Radial Gradient with Multiple Colors */
+        .radial-multi-colors {
+            height: 200px;
+            background: radial-gradient(ellipse, red, blue, green, yellow);
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 200px;
+            color: white;
+            font-size: 24px;
+        }
+
+        h1{
+            background: linear-gradient(to right , red , blue);
+            color: transparent;
+            background-clip: text;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BACKGROUND COLORS</h1>
+
+    <div class="linear-gradient">
+        Linear Gradient (45deg)
+    </div>
+
+    <div class="radial-gradient">
+        Radial Gradient
+    </div>
+
+    <div class="linear-opacity">
+        Linear Gradient with Opacity
+    </div>
+
+    <div class="radial-multi-colors">
+        Radial Gradient with Multiple Colors
+    </div>
+
+
+</body>
+</html>
+
+
+
+<!-- /* background-color: red; */
+
+/* background: linear-gradient(red ,blue , green); */
+/* background: linear-gradient(30deg, purple, plum); */
+/* background: linear-gradient(to right, purple, plum); */
+/* background: linear-gradient(to left, purple, plum); */
+/* background: linear-gradient(to top, purple, plum); */
+/* background: linear-gradient(to bottom, purple, plum); */
+
+/* background: radial-gradient(purple , plum); */
+/* background: radial-gradient(circle, purple , plum); */
+background: radial-gradient(ellipse, purple , plum);
+}
+
+h1{
+background: linear-gradient(to right , purple, plum);
+color: transparent;
+background-clip: text;
+width: fit-content;
+cursor: pointer;
+} -->

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 10px;
+        }
+        .container > div{
+            height: 40px;
+            width: 40px;
+            background-color: purple;
+            border-radius: 100%;
+            animation-name: animate;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: alternate;
+            /* animation: name duration timing-function delay iteration-count direction; */
+        }
+        .dot2{
+            animation-delay: 0.4s;
+        }
+        .dot3{
+            animation-delay: 0.6s;
+        }
+        @keyframes animate{
+            0%{
+                transform: translateY(0)
+            }
+            50%{
+                transform: translateY(50px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+        <div class="dot3"></div>
+    </div>
+    
+</body>
+</html>

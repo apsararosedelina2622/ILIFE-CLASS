@@ -1,0 +1,13 @@
+HTML SYLLABUS
+
+* HTML ( HyperText Markup Language ) is the standard language used to create and structure web content on the web using elements like headings, paragraphs, images, links, and forms. 
+
+* HTML tags are not case sensitive.
+
+DAY 1.	Introduction, Structure,
+DAY 2.	Elements, Block, Inline, List
+DAY 3.	Marquee, Audio, Video, Image, Links
+DAY 4.	Tables
+DAY 5.	Form
+
+PROJECT - Landing Page

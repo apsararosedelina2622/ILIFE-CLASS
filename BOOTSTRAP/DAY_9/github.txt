@@ -1,0 +1,62 @@
+Install GIT
+Check git -v in cmd 
+Set username-> git config --global user.name 'your username in github'
+Set email -> git config --global user.email 'your email in github'
+
+GITHUB
+
+==> Login and Setup your profile
+
+==> Create one repository with readme file as a same username 
+
+==> Template  to Create Profile 
+
+    ## 👋 Hello! I'm your name
+
+    I am a *Full Stack Developer* with a passion for building interactive and scalable web applications. I specialize in both *frontend* and *backend* technologies, creating seamless user experiences and robust server-side logic.
+
+    ## 💻 Technologies & Tools
+
+    ## Frontend Technologies:
+    - *HTML* | *CSS* | *Bootstrap* 
+    - *JavaScript* | *React.js*
+
+    ## Backend Technologies:
+    - *Node.js* | *Express.js*  
+    - *MongoDB* | *Mongoose*
+
+    ## Tools:
+    - *VS Code* 
+
+    ## 📬 Contact Information
+    - *Email*: [youremail@gmail.com](mailto:youremail@gmail.com)
+    - *LinkedIn*: [your name](https://www.linkedin.com/in/yourname/)
+    - *Portfolio*: [yourname-portfolio.netlify.app](https://yourname-portfolio.netlify.app)
+
+    ## 🚀 Let's Build Something Amazing Together!
+    Feel free to reach out to me for collaboration or any exciting opportunities in web development. I'm always eager to learn and grow in the world of technology!
+
+    ---
+
+    Thanks for checking out my profile! 😊
+
+==> Cloning Files from github to local
+
+==> Commands
+
+    ~ git clone "link"
+    ~ cd demo 
+    ~ git add filename (git add index.txt, git add .)
+    ~ git commit -m 'commit'
+    ~ git push
+    ~ git pull 
+
+===> Cloning files from local to github
+
+    Create Folder and Files
+    Go to Source Control -> Then Commit -> Publish Branch -> Set Repository Name -> Select Public or Private 
+
+===> Hosting an website using github
+
+    Open your repository -> Settings -> Pages -> Branch (main , /root) -> Click Save 
+    After few seconds, hosted link will be shown

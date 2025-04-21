@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- 
+    
+    dropdown 
+    dropdown-item -> remove styles of anchor tag
+    dropdown-menu -> hide text
+    dropdown-menu-dark -> dark theme
+    dropdown-menu-end, start -> align
+    data-bs-toggle="dropdown" -> for toggle effect
+    dropdown-toggle -> for icon
+    dropdown-divider -> for horizontal line
+
+    dropdown-toggle-split -> for menu open
+    data-bs-offset="10,20" -> left, top
+
+    -->
+
+    <!-- Dropdown ( down, top, end, start ) -->
+    <!-- Dropdown Split ( down, top, end, start ) -->
+    <!-- active  -->
+
+    <br><br><br><br><br>
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">DropDown Menu Lorem ipsum dolor sit amet.</button>
+        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+            <li><a class="dropdown-item active" href="">Home</a></li>
+            <li><a class="dropdown-item" href="">About</a></li>
+            <li><p class="dropdown-divider bg-light"></p></li>
+            <li><a class="dropdown-item" href="">Service</a></li>
+            <li><a class="dropdown-item" href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="dropup">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">DropUp Menu</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">Home</a></li>
+            <li><a class="dropdown-item" href="">About</a></li>
+            <li><a class="dropdown-item" href="">Service</a></li>
+            <li><a class="dropdown-item" href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="dropend">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropend Menu</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">Home</a></li>
+            <li><a class="dropdown-item" href="">About</a></li>
+            <li><a class="dropdown-item" href="">Service</a></li>
+            <li><a class="dropdown-item" href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="dropstart text-center">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropstart Menu</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">Home</a></li>
+            <li><a class="dropdown-item" href="">About</a></li>
+            <li><a class="dropdown-item" href="">Service</a></li>
+            <li><a class="dropdown-item" href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Split Dropdown -->
+
+    <div class="dropdown btn-group">
+        <button class="btn btn-warning">Split Dropdown</button>
+        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"></button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">Home</a></li>
+            <li><a class="dropdown-item" href="">About</a></li>
+            <li><a class="dropdown-item" href="">Service</a></li>
+            <li><a class="dropdown-item" href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Split DropUp -->
+
+    <div class="dropup btn-group">
+        <button class="btn btn-warning" data-bs-toggle="dropdown">Split DropUp</button>
+        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item"><a href=""></a>Home</li>
+            <li class="dropdown-item"><a href=""></a>About</li>
+            <li class="dropdown-item"><a href=""></a>Service</li>
+            <li class="dropdown-item"><a href=""></a>Contact</li>
+        </ul>
+    </div>
+
+    <!-- Split Dropend -->
+
+    <div class="dropend btn-group">
+        <button class="btn btn-warning" data-bs-toggle="dropdown">Split DropEnd</button>
+        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item"><a href=""></a>Home</li>
+            <li class="dropdown-item"><a href=""></a>About</li>
+            <li class="dropdown-item"><a href=""></a>Service</li>
+            <li class="dropdown-item"><a href=""></a>Contact</li>
+        </ul>
+    </div>
+
+    <!-- Split Dropstart -->
+
+    <div class="dropstart btn-group">
+        <button class="btn btn-warning" data-bs-toggle="dropdown">Split DropStart</button>
+        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item"><a href=""></a>Home</li>
+            <li class="dropdown-item"><a href=""></a>About</li>
+            <li class="dropdown-item"><a href=""></a>Service</li>
+            <li class="dropdown-item"><a href=""></a>Contact</li>
+        </ul>
+    </div>
+
+    <!-- Offset -->
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="10,20">Offset Dropdown</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">Home</a></li>
+            <li><a class="dropdown-item" href="">About</a></li>
+            <li><a class="dropdown-item" href="">Service</a></li>
+            <li><a class="dropdown-item" href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Close Behaviour -->
+
+    <!-- Default -> button, inside, outside close -->
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Default</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Home</a></li>
+            <li><a href="#" class="dropdown-item">About</a></li>
+            <li><a href="#" class="dropdown-item">Contact</a></li>
+            <li><a href="#" class="dropdown-item">Service</a></li>
+        </ul>
+    </div>
+
+    <!-- data-bs-auto-close -> inside close  -->
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="inside">Inside</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Home</a></li>
+            <li><a href="#" class="dropdown-item">About</a></li>
+            <li><a href="#" class="dropdown-item">Contact</a></li>
+            <li><a href="#" class="dropdown-item">Service</a></li>
+        </ul>
+    </div>
+
+    <!-- data-bs-auto-close -> outside close  -->
+
+    <!-- <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Outside</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Home</a></li>
+            <li><a href="#" class="dropdown-item">About</a></li>
+            <li><a href="#" class="dropdown-item">Contact</a></li>
+            <li><a href="#" class="dropdown-item">Service</a></li>
+        </ul>
+    </div> -->
+
+    <!-- data-bs-auto-close -> false ( manual close )  -->
+
+    <!-- <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false">Manual Close</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Home</a></li>
+            <li><a href="#" class="dropdown-item">About</a></li>
+            <li><a href="#" class="dropdown-item">Contact</a></li>
+            <li><a href="#" class="dropdown-item">Service</a></li>
+        </ul>
+    </div> -->
+
+</body>
+</html>

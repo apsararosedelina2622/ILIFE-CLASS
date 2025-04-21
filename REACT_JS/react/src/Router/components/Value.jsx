@@ -1,0 +1,1 @@
+export const arr = [ "home","about","contact" ];

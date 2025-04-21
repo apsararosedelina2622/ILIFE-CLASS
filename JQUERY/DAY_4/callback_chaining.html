@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <button>Action</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere tenetur atque nisi nemo enim porro ducimus itaque eligendi suscipit quam, commodi, ullam nam non, a voluptates? Hic tempore delectus nam velit atque. Nisi ipsum quo, placeat facere, porro itaque ab maxime autem in quae qui harum! Illum tenetur illo quidem qui saepe ab veniam incidunt eos explicabo facilis minus delectus error, consequatur dolores sed eligendi minima aperiam. Sequi labore soluta sit deserunt repellendus voluptates consequatur autem magnam, neque magni obcaecati adipisci nobis assumenda ipsa ad quaerat! Inventore, soluta cupiditate porro nulla commodi omnis vero, temporibus maiores autem, quis fuga.</p>
+
+  <script>
+
+    $(document).ready(function(){
+        // callback 
+
+        // $("button").click(function Bounce(){
+        //   $("div").animate({"top" : "-100px"})
+        //   $("div").animate({"top" : "0"})
+        //   $("div").animate({"top" : "-50px"})
+        //   $("div").animate({"top" : "0"} , Bounce)
+        // })
+
+        // $("p").css({"background-color" : "plum" , "color" : "purple" , "padding" : "30px"})
+        // $("button").click(function(){
+        //   $("p").slideUp(3000 , function(){
+        //     $("p").slideDown(3000 , function(){
+        //       $("p").fadeOut(3000 , function(){
+        //         $("p").fadeIn(3000)
+        //       })
+        //     })
+        //   })
+        // })
+
+        // Chaining
+
+        $("button").click(function(){
+            $("p")
+            .css({backgroundColor : "plum"})
+            .slideUp(2000)
+            .slideDown(2000)
+            .css({padding : "30px"})
+            .fadeOut(2000)
+            .fadeIn(2000)
+        })
+    })
+
+  </script>
+    
+</body>
+</html>

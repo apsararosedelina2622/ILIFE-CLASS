@@ -1,0 +1,14 @@
+FRONTEND - HTML , CSS , BOOTSTRAP , JAVA SCRIPT , JQUERY , REACT
+
+HTML
+
+DAY - 1 => Introduction , Structure 
+DAY - 2 => Elements , Block , InlineLinks , List 
+DAY - 3 => Marquee , Image , Iframe , Audio , Video [input]
+DAY - 4 => Tables , Form
+
+CSS 
+
+DAY - 1 => Introduction , Types , Selectors , Combinators
+DAY - 2 => Text Properties , Margin , Padding , Border , Display
+Day - 3 => 

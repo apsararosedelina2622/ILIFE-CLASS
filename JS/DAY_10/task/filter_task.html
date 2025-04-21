@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <form onsubmit="Submit(event)" class="d-flex gap-5 justify-content-between my-5">
+
+            <input type="search" id="searchBox" placeholder="Search Here..." class="w-75 form-control">
+            <button class="btn btn-primary w-25" type="submit">Search</button>
+
+        </form>
+
+        <div class="row" id="cardRow">
+            
+        </div>
+
+    </div>
+
+    <script>
+
+        const users = [
+            { 
+                id : 1,
+                img : "https://static.vecteezy.com/system/resources/thumbnails/035/314/037/small/ai-generated-professional-man-in-suit-standing-confidently-in-office-generative-ai-free-photo.jpg",
+                name: "John Doe",
+                email: "john@example.com"
+            },
+            { 
+                id : 2,
+                img : "https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=",
+                name: "Jane Smith",
+                email: "jane@example.com"
+            },
+            { 
+                id : 3,
+                img : "https://t4.ftcdn.net/jpg/01/42/20/17/360_F_142201762_qMCuIAolgpz4NbF5T5m66KQJzYzrEbUv.jpg",
+                name: "Alice Johnson",
+                email: "alice@example.com"
+            },
+            { 
+                id : 4,
+                img : "https://img.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg",
+                name: "Bob Brown",
+                email: "bab@example.com"
+            }
+        ];
+
+        const cardFun = (data) => {
+            content = ""
+            data.map((value) => {
+                content += `
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="${value.img}" alt="" height="200">
+                            <div class="card-body">
+                                <h4>${value.name}</h4>
+                                <p>Email : ${value.email}</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            })
+            document.getElementById("cardRow").innerHTML = content;
+        }
+
+        cardFun(users)
+
+        const Submit = (event) => {
+            event.preventDefault()
+            var searchInput = document.getElementById('searchBox').value.toLowerCase();
+            // console.log(searchInput);
+            var filteredUsers = users.filter(value => value.name.toLowerCase().includes(searchInput) || value.email.toLowerCase().includes(searchInput))
+            cardFun(filteredUsers)
+        }
+
+    </script>
+    
+</body>
+</html>

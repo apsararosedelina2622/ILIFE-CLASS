@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button onclick="Add()">+</button>
+    <span id="span">0</span>
+    <button onclick="Remove()">-</button>
+    
+    <script>
+        
+        var tag = document.getElementById('span').innerHTML;
+
+        function Add(){
+            if(tag < 10){
+                tag = Number(tag) + 1;
+                document.getElementById('span').innerHTML = tag;
+            }
+        }
+
+        function Remove(){
+            if(tag > 0){
+                tag = Number(tag) - 1;
+                document.getElementById('span').innerHTML = tag;
+            }
+        }
+
+    </script> -->
+
+
+
+    <button onclick="add()">Add</button>
+    <span id="num">0</span>
+    <button onclick="remove()">Remove</button>
+    <p id="limit"></p>
+
+    <script>
+        
+
+        var count = document.getElementById('num').innerHTML;
+
+        function add(){
+            if(count < 10){  // 
+                count = Number(++count); // 0 + 1 = 1
+                document.getElementById('num').innerHTML = count;
+                document.getElementById('limit').innerHTML = ''
+            }
+            else{
+                document.getElementById('limit').innerHTML = 'You reached maximum limit'
+            }
+        }
+
+        function remove(){
+            if(count > 0){  // 4 > 0
+                count = Number(count - 1);
+                document.getElementById('num').innerHTML = count;
+                document.getElementById('limit').innerHTML = ''
+            }
+            else{
+                document.getElementById('limit').innerHTML = 'You reached minimum limit'
+            }
+        }
+
+    </script>
+
+</body>
+</html>
