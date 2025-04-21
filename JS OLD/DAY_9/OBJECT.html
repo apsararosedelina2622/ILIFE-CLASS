@@ -11,7 +11,7 @@
         // Object 
 
             // var obj = {
-            //     name : "Rhythm",
+            //     name : "User",
             //     age : 20
             // }
 
@@ -22,7 +22,7 @@
         // Nested
 
             // var obj = {
-            //     name : "Rhythm",
+            //     name : "User",
             //     age : 20,
             //     address : {
             //         no : 12,
@@ -38,55 +38,56 @@
 
         // Using Inside Function
         
-            // const user = {
-            //     name: "Rhythm",
-            //     age: 21,
-            //     greet: function() {
-            //         return `Hello, my name is ${this.name}.`;
+            // var obj = {
+            //     name : "User",
+            //     age : 20,
+            //     message : function(){
+            //         return "Hello"
             //     }
-            // };
+            // }
 
-            // console.log(user.greet()); // Output: Hello, my name is Rhythm.
+            // console.log(obj.message())
 
 
         // Using (this) => for direct child
 
-            // const data = {
-            //     name: "Rhythm",
-            //     age: 20,
-            //     getInfo: function() {
-            //         return `This is ${this.name}, age ${this.age}.`;
+            // var obj = {
+            //     name : "User",
+            //     age : 20,
+            //     message : function(){
+            //         return `Hello ${this.name}`
             //     }
-            // };
+            // }
 
-            // console.log(data.getInfo()); 
+            // console.log(obj.message())
 
-            // const data = {
+            // var obj = {
             //     subname : {
-            //         name: "Rhythm"
+            //         name : "User"
             //     },
-            //     age: 20,
-            //     getInfo: function() {
-            //         return `This is ${this.name}, age ${this.age}.`;
+            //     age : 20,
+            //     message : function(){
+            //         return `Hello ${this.subname.name}`
             //     }
-            // };
+            // }
 
-            // console.log(data.getInfo()); 
+            // console.log(obj.message())
 
             
         // set method
 
             // var obj = new Map();
-            // obj.set("name", "Rhythm");
+            // obj.set("name", "User");
             // obj.set("age", 20);
             // obj.set("address", "Trichy");
 
 
         // get method
 
-            // console.log(obj.get("name")); // Output: Rhythm
+            // console.log(obj.get("name")); // Output: User
             // console.log(obj.get("address")); // Output: Trichy
 
+            
         // size
 
             // console.log(obj.size); // Output: 3
@@ -95,7 +96,7 @@
         // delete method => delete single key
 
             // var obj = new Map();
-            // obj.set("name", "Rhythm");
+            // obj.set("name", "User");
             // obj.set("age", 20);
             // obj.set("address", "Trichy");
 
@@ -108,7 +109,7 @@
         // clear method => clears the whole object
 
             // var obj = new Map();
-            // obj.set("name", "Rhythm");
+            // obj.set("name", "User");
             // obj.set("age", 20);
             // obj.set("address", "Trichy");
 
@@ -121,7 +122,7 @@
         // has method
 
             // let user = new Map();
-            // user.set("name", "Rhythm");
+            // user.set("name", "User");
             // user.set("age", 21);
 
             // console.log(user.has("name")); // Output: true

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // Object
+
+            // var obj = {
+            //     name : "User",
+            //     age : 20
+            // }
+
+            // console.log(obj.name)
+            // console.log(obj.age)
+
+        // Nested Object
+
+            // var obj = {
+            //     name : "User",
+            //     age : 20,
+            //     address : {
+            //         no : 202,
+            //         city : "Trichy"
+            //     }
+            // }
+
+            // console.log(obj.name)
+            // console.log(obj.age)
+            // console.log(obj.address.no)
+            // console.log(obj.address.city)
+
+        // Using Inside Function
+
+            // var obj = {
+            //     name : "User",
+            //     age : 20,
+            //     message : function(){
+            //         return "Hello"
+            //     }
+            // }
+
+            // console.log(obj.message())
+
+        // Using (this) => For Direct Child
+
+            // var obj = {
+            //     name : "User",
+            //     age : 20,
+            //     message : function(){
+            //         return `Hello ${this.name}`
+            //     }
+            // }
+
+            // console.log(obj.message())
+
+            // var obj = {
+            //     subname : {
+            //         name : "User"
+            //     },
+            //     age : 20,
+            //     message : function(){
+            //         return `Hello ${this.subname.name}`
+            //     }
+            // }
+
+            // console.log(obj.message())
+
+        // Set Method
+
+            var obj = new Map();
+            obj.set("name" , "User")
+            obj.set("age" , "20")
+
+            // console.log(obj)
+        
+        // Get Method
+
+            console.log(obj.get("name"))
+            console.log(obj.get("age"))
+
+        // Size
+
+            // console.log(obj.size)
+
+        // Delete Method
+
+            console.log(obj.delete("name"))
+            console.log(obj.get("name"))
+            console.log(obj.get("age"))
+
+        // Clear Method
+
+            console.log(obj.clear())
+            console.log(obj.get("name"))
+            console.log(obj.get("age"))
+
+        // Has Method
+
+            console.log(obj.has("name"))
+            console.log(obj.has("age"))
+            console.log(obj.has("city"))
+
+    </script>
+    
+</body>
+</html>
