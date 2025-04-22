@@ -2,7 +2,7 @@
 
     // import React, { useState } from 'react';
 
-    // const Day5_State_2 = () => {
+    // const Day5_State = () => {
     //   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
     //   const updateTime = () => {
@@ -18,13 +18,13 @@
     //   );
     // };
 
-    // export default Day5_State_2;
+    // export default Day5_State;
 
 // QR CODE GENERATOR
 
     import React, { useState } from 'react'
 
-    const Day5_State_2 = () => {
+    const Day5_State = () => {
         const [text, setText] = useState('');
         const [qr, setQr] = useState('');
     
@@ -43,13 +43,13 @@
         );
     }
 
-    export default Day5_State_2
+    export default Day5_State
 
 // SIMPLE CALCULATOR 
 
     // import React, { useState } from 'react';
 
-    // const Day5_State_2 = () => {
+    // const Day5_State = () => {
 
     //   const [value, setValue] = useState("")
 
@@ -120,4 +120,4 @@
     //   )
     // }
 
-    // export default Day5_State_2;
+    // export default Day5_State;

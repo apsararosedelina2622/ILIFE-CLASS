@@ -79,7 +79,7 @@ Total 2 Classes
 
 15 / 04 - TUESDAY
 
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Navbar , Dropdown , Pagination]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Cards , Carousel]
 
 03 - 04 => Satya Roslin [React Day3 - Props Balance , Assets]
 04 - 05 => Kaviyarasan , Murugan
@@ -107,7 +107,7 @@ Total 2 Classes
 
 18 / 04 - FRIDAY => Afternoon Leave For Good Friday
 
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Modal , Form]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [Modal , Accordion , Collapse , Form]
 
 03 - 04 => Satya Roslin
 06 - 07 => Sundaresh 
@@ -122,9 +122,27 @@ Total 2 Classes
 
 10 - 11 => Satya Roslin [React Bootstrap]
 11 - 12 => Thamodharan [HTML Day - 2]
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [No Class]
 
-06 - 07 => Sundaresh [DOM]
+06 - 07 => Sundaresh [DOM , Object Methods]
+
+
+22 / 04 - TUESDAY
+
+10 - 11 => Satya Roslin [Use Effect]
+11 - 12 => Thamodharan [HTML Link , List , Image , Marquee]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [No Class]
+
+06 - 07 => Sundaresh [Events , AddEventListener]
+
+
+23 / 04 - WEDNESSDAY
+
+10 - 11 => Satya Roslin [Weather Application]
+11 - 12 => Thamodharan [Audio , Video , Iframe , Table]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [JavaScript Introduction]
+
+06 - 07 => Sundaresh [Fetching Data from API]
 
 
 
@@ -191,6 +209,11 @@ ATTENDANCE - Only Leave
 21 / 04 - MONDAY
 
 11 - 12 => Ramakrishnan , Deepak , Kirija , Vaishnavi
+
+
+22 / 04 - TUESDAY
+
+11 - 12 => Deepak , Kirija 
 06 - 07 => Sundaresh
 
 

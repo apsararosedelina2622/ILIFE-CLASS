@@ -8,7 +8,7 @@
 
     // import React from 'react'
 
-    // const Day4_State_1 = () => {
+    // const Day4 = () => {
     //     var num = 1;
 
     //     const addFun = () => {
@@ -24,13 +24,13 @@
     //     )
     // }
 
-    // export default Day4_State_1
+    // export default Day4
 
 // ADD & REMOVE COUNTER WITH USE STATE
 
     // import React, { useState } from 'react'
 
-    // const Day4_State_1 = () => {
+    // const Day4 = () => {
 
     //   var [num, setNum] = useState(1)
 
@@ -51,13 +51,13 @@
     //   )
     // }
 
-    // export default Day4_State_1
+    // export default Day4
 
 // TASK ( COUNTER WITH LIMIT )
 
     // import React, { useState } from 'react'
 
-    // const Day4_State_1 = () => {
+    // const Day4 = () => {
 
     //   var [num, setNum] = useState(0);
     //   var [error, setError ] = useState('');
@@ -92,13 +92,13 @@
     //   )
     // }
 
-    // export default Day4_State_1
+    // export default Day4
 
 // HIDE SHOW TEXT
 
     // import React, { useState } from 'react';
 
-    // const Day4_State_1 = () => {
+    // const Day4 = () => {
     //   const [isVisible, setIsVisible] = useState(true); 
     
     //   const toggleVisibility = () => {
@@ -115,13 +115,13 @@
     //   );
     // };
     
-    // export default Day4_State_1;
+    // export default Day4;
 
 // HIDE SHOW PASSWORD
 
     // import React, { useState } from 'react'
     
-    // const Day4_State_1 = () => {
+    // const Day4 = () => {
 
     //     var [show, setShow] = useState(false)
 
@@ -138,13 +138,13 @@
     //     )
     // }
     
-    // export default Day4_State_1
+    // export default Day4
 
 // TOGGLE THEME
 
     // import React, { useState } from 'react'
     
-    // const Day4_State_1 = () => {
+    // const Day4 = () => {
 
     //     var [darkMode, setDarkMode] = useState(true)
 
@@ -170,4 +170,4 @@
     //     )
     // }
     
-    // export default Day4_State_1
+    // export default Day4

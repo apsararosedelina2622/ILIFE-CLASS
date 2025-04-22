@@ -3,10 +3,12 @@ import React from 'react'
 // import Day1 from './Day1'
 // import Day2 from './Day2'
 // import Day3 from './Day3'
-// import Day4_State_1 from './Day4_State_1'
-// import Day5_State_2 from './Day5_State_2'
-// import Day_6_Bootstrap from './Day_6_Bootstrap'
-import Day7_Effect from './Day7_Effect'
+// import Day4 from './Day4'
+// import Day5_State from './Day5_State'
+// import Day6 from './Day6'
+// import Day7 from './Day7'
+// import Day8 from './Day8'
+import Day9 from './Day9'
 
 const App = () => {
   return (
@@ -14,10 +16,12 @@ const App = () => {
         {/* <Day1 /> */}
         {/* <Day2 /> */}
         {/* <Day3 /> */}
-        {/* <Day4_State_1 /> */}
-        {/* <Day5_State_2 /> */}
-        {/* <Day_6_Bootstrap /> */}
-        <Day7_Effect />
+        {/* <Day4 /> */}
+        {/* <Day5_State /> */}
+        {/* <Day6 /> */}
+        {/* <Day7 /> */}
+        {/* <Day8 />  */}
+        <Day9 />
     </>
   )
 }
