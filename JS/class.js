@@ -1,3 +1,5 @@
+// Day 1
+
 // function Display(){
 //     alert("External Js")
 // } 
@@ -55,10 +57,10 @@
 //     key : value
 // }
 
-var a = {
-    name : "Abi",
-    age : 21
-}
+// var a = {
+//     name : "Abi",
+//     age : 21
+// }
 
 // console.log(a)
-console.log(typeof(a))
+// console.log(typeof(a))

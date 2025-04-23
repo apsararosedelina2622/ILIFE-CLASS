@@ -1,0 +1,59 @@
+BATCH
+
+10 - 11 => Satya Roslin
+11 - 12 => Thamodharan (Joining Date - 17 / 04)
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan
+
+LUNCH
+
+02 - 03 => Shalini ( Joining Date - 24 / 04 )
+03 - 04 => Satya Roslin
+05 - 06 => Thamodharan
+06 - 07 => Sundaresh
+
+SATURDAY BATCH
+
+Total 3 Classes => Yusuf
+
+
+
+STUDENTS FROM ILFE
+
+Satya Roslin , Vaishnavi , Kannan , Sundaresh , Thamodharan , Shalini
+
+
+STUDENTS FROM EPIX
+
+Kirija , Ramakrishnan , Deepak , Dhinakaran
+
+
+
+04 - 05 => Kaviyarasan , Murugan => ( 19 / 04 ) => Batch Combined with Anish
+
+
+
+
+
+
+STUDENTS WORK
+
+Satya Roslin 
+
+Bootstrap Project  => From Scratch           => https://flexstart1.netlify.app/
+Bootstrap Project  => Content Change         => https://sacredheartsrsecschool.netlify.app/
+JavaScript Project => Add To Cart , Wishlist => https://fragrantworld.netlify.app/
+
+
+Kirija 
+
+Ramakrishnan
+
+Deepak
+
+Vaishnavi
+
+Kannan
+
+Dhinakaran
+
+Sundaresh

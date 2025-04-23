@@ -51,7 +51,7 @@
                 event.preventDefault();
                 var searchInput = document.getElementById('inputBox').value;
                 var filterData = all_data.filter((value) => value.name.includes(searchInput) || value.email.includes(searchInput));
-                console.log(filterData);
+                display_data(filterData);
             }
 
         </script>
