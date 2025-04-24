@@ -60,45 +60,74 @@
 // export default Day9
 
 
-import React, { useReducer } from 'react';
+// import React, { useReducer } from 'react';
 
-// Step 1: Reducer function
-const reducer = (state, action) => {
-  switch (action.type) {
-    case "SET_NAME":
-      return { ...state, name: action.payload };
-    case "SET_EMAIL":
-      return { ...state, email: action.payload };
-    default:
-      return state;
-  }
-};
+// // Step 1: Reducer function
+// const reducer = (state, action) => {
+//   switch (action.type) {
+//     case "SET_NAME":
+//       return { ...state, name: action.payload };
+//     case "SET_EMAIL":
+//       return { ...state, email: action.payload };
+//     default:
+//       return state;
+//   }
+// };
+
+// const Day9 = () => {
+//   // Step 2: useReducer hook
+//   const [state, dispatch] = useReducer(reducer, {
+//     name: "",
+//     email: ""
+//   });
+
+//   return (
+//     <>
+//       <input
+//         type="text"
+//         placeholder="Name"
+//         value={state.name}
+//         onChange={(e) => dispatch({ type: "SET_NAME", payload: e.target.value })}
+//       />
+//       <input
+//         type="email"
+//         placeholder="Email"
+//         value={state.email}
+//         onChange={(e) => dispatch({ type: "SET_EMAIL", payload: e.target.value })}
+//       />
+//       <p>Name: {state.name}</p>
+//       <p>Email: {state.email}</p>
+//     </>
+//   );
+// };
+
+// export default Day9;
+
+
+import React from 'react'
+import { useReducer } from 'react'
 
 const Day9 = () => {
-  // Step 2: useReducer hook
-  const [state, dispatch] = useReducer(reducer, {
-    name: "",
-    email: ""
-  });
+
+  const reducerFun = (state , action) => {
+    // return "Hello"
+    // console.log("Hello")
+    return {count : state.count + 1}
+  }
+
+  const [state, dispatch] = useReducer(reducerFun , {count : 1})
+
+  const AddFun = () => {
+    dispatch()
+  }
 
   return (
     <>
-      <input
-        type="text"
-        placeholder="Name"
-        value={state.name}
-        onChange={(e) => dispatch({ type: "SET_NAME", payload: e.target.value })}
-      />
-      <input
-        type="email"
-        placeholder="Email"
-        value={state.email}
-        onChange={(e) => dispatch({ type: "SET_EMAIL", payload: e.target.value })}
-      />
-      <p>Name: {state.name}</p>
-      <p>Email: {state.email}</p>
+      <button onClick={AddFun}>Add</button>
+      <button>Remove</button>
+      <h1>{}</h1>
     </>
-  );
-};
+  )
+}
 
-export default Day9;
+export default Day9

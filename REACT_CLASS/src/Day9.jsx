@@ -40,37 +40,3 @@
 
 // use Reducer
 
-import React, { useReducer, useState } from 'react'
-
-const Day9 = () => {
-
-    // const [count , setCount] = useState(0)
-
-    function reducerFun(){
-        return "reducer Function"
-    }
-
-    const [state , dispatch] = useReducer(reducerFun , {count : 1})
-
-    // console.log(state)
-    // console.log(state.count)
-
-    const Inc = () => {
-        // setCount(count + 1)
-        dispatch()
-    }
-
-    const Dec = () => {
-        // setCount(count - 1)
-    }
-
-  return (
-    <>
-        <button onClick={Inc}>Add</button>
-        <button onClick={Dec}>Remove</button>
-        <h1></h1>
-    </>
-  )
-}
-
-export default Day9
