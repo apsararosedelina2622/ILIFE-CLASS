@@ -55,10 +55,17 @@
 //     key : value
 // }
 
-var a = {
-    name : "Abi",
-    age : 21
-}
+// var a = {
+//     name : "Abi",
+//     age : 21
+// }
+
+// var a = new Date()
 
 // console.log(a)
-console.log(typeof(a))
+// console.log(a.getDate())
+// console.log(a.getMonth())
+// console.log(a.getDay())
+// console.log(a.getFullYear())
+// console.log(a.toLocaleTimeString())
+// console.log(typeof(a))

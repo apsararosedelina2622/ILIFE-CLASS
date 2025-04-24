@@ -117,7 +117,7 @@ Total 2 Classes
 24 / 04 - THURSDAY
 
 10 - 11 => Satya Roslin [Use Reducer]
-11 - 12 => Thamodharan [Form , HTML Project]
+11 - 12 => Thamodharan
 11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods]
 
-06 - 07 => Sundaresh [Form Validation]
+06 - 07 => Sundaresh => ( One Hour Permission[Me] )

@@ -59,18 +59,29 @@ ATTENDANCE - Only Leave
 
 21 / 04 - MONDAY
 
-11 - 12 => Ramakrishnan , Deepak , Kirija , Vaishnavi
+12 - 01 => Ramakrishnan , Deepak , Kirija , Vaishnavi
 
 
 22 / 04 - TUESDAY
 
-11 - 12 => Deepak , Kirija 
+12 - 01 => Deepak , Kirija 
 
 
-23 / 04 -WEDNESSDAY
+23 / 04 - WEDNESSDAY
 
-11 - 12 => Ramakrishnan , Deepak , Dhinakaran
+12 - 01 => Ramakrishnan , Deepak , Dhinakaran
 
+
+23 / 04 - THURSDAY
+
+11 - 12 => Thamodharan
+12 - 01 => Ramakrishnan , Deepak , Dhinakaran
+
+
+
+
+
+Sundaresh
 
 29 / 04 to 08 / 04
 15 / 04 to 28 / 04

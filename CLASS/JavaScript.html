@@ -3,43 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>String Methods</title>
+    <title>Document</title>
 </head>
 <body>
 
-    <!-- String Methods -->
+    <!-- <button id="tag" onclick="Fun()">Click</button> -->
 
-    <!-- length , position , indexOf , charAt , includes , toUpperCase , toLowerCase , substr , replace , trim , push , pop , shift , unshift -->
-    
+    <button onclick="HideFun()">Hide</button>
+    <button onclick="ShowFun()">Show</button>
+
+    <img src="image.png" alt="">
+
+    <p id="content"></p>
+
     <script>
 
-        let data = "Hello World"
-        let str = "   Hello World    "
+        // function Fun(){
+        //     document.getElementById("tag").innerHTML = "clicked"
+        // }
 
-        console.log(data.length)  // length => 11
-        console.log(data[1]) // position => e
-        console.log(data.indexOf("e")) // index => 1
-        console.log(data.charAt(4)) // position => o
-        console.log(data.includes("W")) // true
-        console.log(data.includes("X")) // false
-        console.log(data.toLowerCase()) // hello world
-        console.log(data.toUpperCase()) // HELLO WORLD
-        console.log(data.substr(0 , 5)) // Hello
-        console.log(data.replace("World" , "Js")) // Hello Js
-        console.log(str.trim()) // Hello World
+        function HideFun(){
+            document.getElementById("content").innerHTML = ""
+        }
 
-        let arr = ["HTML" , "CSS" , "BOOTSTRAP" , "JS"]
+        function ShowFun(){
+            document.getElementById("content").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam nesciunt velit assumenda cupiditate, doloribus delectus reiciendis impedit nisi consequuntur omnis nam natus, nemo est! In numquam amet modi sed?"
+        }
 
-        console.log(arr.length) // length => 4
-        console.log(arr.includes("CSS")) // true
-        console.log(arr.push("Hello"))
-        console.log(arr.pop())
-        console.log(arr.unshift("Hello"))
-        console.log(arr.shift())
+        // String Concatenation
 
-        console.log(arr)
+        // var message = "Welcome To Java script"
+
+        // document.write("<h1>Hello</h1>")
+        // document.write("<h1>Hello</h1>" , message)
+        // document.write("<h1>Hello</h1>" + message)
+
+        // document.write(`<h1>Hello ${message}</h1>`)
+
+        // console.log("Hello World!" , message)
+        // console.log("Hello World! " + message)
+        // console.log(`Hello World! ${message}`)
+
+        // Array
+
+        // arrayName[position]
+
+        // var arr = ["HTML" , "CSS" , "BOOTSTRAP" , "JS"]
+
+        // console.log(arr)
+        // console.log(arr[0])
+        // console.log(arr[1])
+        // console.log(arr[2])
+        // console.log(arr[3])
+
+        // var element = ["is" , " my" , "Banu" , "name"]
+
+        // console.log(`${element[1]} ${element[3]} ${element[0]} ${element[2]}`)
+
+        // Object
+
+        // objectName.key
+
+        // var data = {
+        //     name : "Banu",
+        //     age : 21,
+        //     address : {
+        //         doorno : 202,
+        //         street : "3rd Street",
+        //         city : "Trichy"
+        //     }
+        // }
+
+        // console.log(data)
+        // console.log(data.name)
+        // console.log(data.age)
+        // console.log(data.place)
+
+        // console.log(data.name)
+        // console.log(data.age)
+        // console.log(data.address)
+        // console.log(data.address.doorno)
+        // console.log(data.address.street)
+        // console.log(data.address.city)
+
+        // String Methods
+
+        // var data = "Hello World!"
+        // var value = "    Hello    "
+
+        // console.log(data.length) // 12
+        // console.log(data[4]) // o
+        // console.log(data.charAt(6)) // W
+        // console.log(data.indexOf("r")) // 8
+        // console.log(data.toUpperCase()) // HELLO WORLD!
+        // console.log(data.toLowerCase()) // hello world!
+        // console.log(data.includes("o")) // true
+        // console.log(data.includes("O")) // false
+        // console.log(data.substr(0 , 5)) // Hello
+        // console.log(data.substr(6 , 5)) // World
+        // console.log(data.replace("World" , "Js")) // Hello Js!
+        // console.log(value)
+        // console.log(value.trim())
+
+        // console.log(typeof(data))
 
     </script>
 
+    <!-- <script src="app.js"></script> -->
+    
 </body>
 </html>

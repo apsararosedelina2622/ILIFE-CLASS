@@ -1,0 +1,6 @@
+Jquery - Library for the Java Script
+
+DAY - 1 => Id , Class , Text , Selector
+DAY - 2 => Hide & Show , Slide , Fade
+DAY - 3 => Events , Tooltip , Popover , Class Methods
+DAY - 4 => Animation , Callback , Chaining 
