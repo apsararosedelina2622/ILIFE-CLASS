@@ -121,3 +121,12 @@ Total 2 Classes
 11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods]
 
 06 - 07 => Sundaresh => ( One Hour Permission[Me] )
+
+
+25 / 04 - FRIDAY
+
+10 - 11 => Satya Roslin [Use Reducer]
+11 - 12 => Thamodharan [Form]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods , Doubts]
+
+06 - 07 => Sundaresh 

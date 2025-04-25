@@ -1,13 +1,23 @@
 JavaScript Syllabus
 
-* JavaScript is used in webpages for adding interactivity, dynamic content, and functionality ( Add to Cart, Authentication, Form Validation, Animations & Effects, Fetching Data from APIs ).
+* JavaScript is used in webpages for adding interactivity, dynamic content, and functionality ( Authentication, Form Validation, Fetching Data from APIs, Add to Cart ).
 
-Day - 1 => Introduction, JS inline, internal, external,  Variables (let, var, const), String Concatenation , Comment line , Data Types
+Day - 1 => Introduction, Outputs in JavaScript, JS Inline, Internal, External (NODE), Comment Line in JS, String, Concatenation
+Day - 2 => Variables, Data Types
+Day - 3 => String Methods 
+Day - 4 => Number Methods 
+Day - 5 => Operators
+Day - 6 => Function and its methods
+Day - 7 => Conditional Statements
+Day - 8 => Set Interval, Set Timeout
+Day - 9 => Loops
+Day - 10 => Array Methods (Methods)
+Day - 11 => Array Methods (Foreach , Map)
+Day - 12 => Array Methods (Find and Filter)
+Day - 13 => Fetching Data from API with filter, Object Methods 
+Day - 14 => DOM, BOM 
+Day - 15 => Events, Event listener 
+Day - 16 => Form Validation, Password Validation, 
+Day - 17 => Try, Catch, Finally, Throw, Then, Promises
 
-Day - 2 => String Methods
-
-DAY - 3 => Number Methods
-
-DAY - 4 => Operator
-
-DAY - 5 => Functions
+PROJECT - E COMMERCE with Add to Cart and Wishlist Functionality

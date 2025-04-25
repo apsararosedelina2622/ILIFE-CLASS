@@ -6,7 +6,7 @@ BATCH
 
 LUNCH
 
-02 - 03 => Shalini ( Joining Date - 24 / 04 )
+02 - 03 => Shalini ( Joining Date - 24 / 04 ) Not yet
 03 - 04 => Satya Roslin
 05 - 06 => Thamodharan
 06 - 07 => Sundaresh
