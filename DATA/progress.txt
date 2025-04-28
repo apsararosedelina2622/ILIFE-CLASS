@@ -130,3 +130,24 @@ Total 2 Classes
 11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods , Doubts]
 
 06 - 07 => Sundaresh 
+
+
+26 / 04 - SATURDAY ( Casual Leave )
+
+
+28 / 04 - MONDAY
+
+11 - 12 => Thamodharan [CSS Introduction]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [Number Methods]
+
+03 - 04 => Satya Roslin [Use Ref]
+06 - 07 => Sundaresh
+
+
+29 / 04 - TUESDAY
+
+11 - 12 => Thamodharan [CSS Day - 2]
+11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Introduction] 
+
+03 - 04 => Satya Roslin [Use Context]
+06 - 07 => Sundaresh

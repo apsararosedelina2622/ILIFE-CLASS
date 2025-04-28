@@ -1,0 +1,53 @@
+/* Element Selector - Element name */
+
+/* h1{
+    color: purple;
+    background-color: plum;
+    text-align: center;
+} */
+
+/* Id Selector - # */
+
+/* #content{
+    color: darkblue;
+    background-color: lightblue;
+} */
+
+/* Class Selector - . */
+
+/* .message{
+    color: darkgreen;
+    background-color: lightgreen;
+} */
+
+h1{
+    /* background-color: red; */
+    /* background-color: blue; */
+    background: linear-gradient(to right , darkgreen , lightgreen);
+    color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+div{
+    height: 200px;
+    width: 100%;
+    /* background-color: blue; */
+
+    /* background: linear-gradient(darkgreen , lightgreen); */
+    /* background: linear-gradient(30deg , darkgreen , lightgreen); */
+    background: linear-gradient(to right , darkgreen , lightgreen);
+    /* background: linear-gradient(to left , darkgreen , lightgreen); */
+    /* background: linear-gradient(to top , darkgreen , lightgreen); */
+    /* background: linear-gradient(to bottom , darkgreen , lightgreen); */
+
+    /* background: radial-gradient(darkgreen , lightgreen); */
+    /* background: radial-gradient(circle , darkgreen , lightgreen); */
+    /* background: radial-gradient(ellipse , darkgreen , lightgreen); */
+}
+
+span{
+    background: linear-gradient(to right , purple , plum);
+    color: transparent;
+    background-clip: text;
+}

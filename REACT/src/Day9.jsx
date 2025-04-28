@@ -102,32 +102,3 @@
 // };
 
 // export default Day9;
-
-
-import React from 'react'
-import { useReducer } from 'react'
-
-const Day9 = () => {
-
-  const reducerFun = (state , action) => {
-    // return "Hello"
-    // console.log("Hello")
-    return {count : state.count + 1}
-  }
-
-  const [state, dispatch] = useReducer(reducerFun , {count : 1})
-
-  const AddFun = () => {
-    dispatch()
-  }
-
-  return (
-    <>
-      <button onClick={AddFun}>Add</button>
-      <button>Remove</button>
-      <h1>{}</h1>
-    </>
-  )
-}
-
-export default Day9

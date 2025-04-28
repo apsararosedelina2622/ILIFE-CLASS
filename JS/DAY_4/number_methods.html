@@ -3,90 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Method</title>
+    <title>Number Methods</title>
 </head>
 <body>
+
+    <!-- Number methods -->
+
+    <!-- toFixed() , Number() , isNaN() , isFinite() , parseInt() , parseFloat() , Math.sqrt() , Math.ceil() , Math.floor() , Math.random() -->
+
     <script>
-        // //number methods
 
-            // var a1=100.60;
+        // toFixed()
 
-            // document.write(a1.toFixed());
-            // document.write("<br>");
+        // var num = 30.56;
 
-            // var a2=10000000;
+        // console.log(num.toFixed()) // 31
 
-            // document.write(a2.toExponential(4));
-            // document.write("<br>");
-            
-            // document.write(Number('1')+Number('4'));
-            // document.write("<br>");
+        // Number()
 
-            // document.write(isNaN("100"));//false  It checks value only not Data Type
-            // document.write("<br>");
+        // var num = "375"
 
-            // document.write(isNaN(1));//false
-            // document.write("<br>");
+        // console.log(typeof(num)) // string
+        // console.log(typeof(Number(num))) // number
 
-            // document.write(isFinite(8));// true It checks value only not Data Type
-            // document.write("<br>");
-            
-            // document.write(isFinite("8"));//true
-            // document.write("<br>");
+        // console.log(num + num) // 375375
+        // console.log(Number(num) + Number(num)) // 750
 
-            // var a3=10.98;
+        // isNaN()
 
-            // document.write(parseInt(a3)); // 10
-            // document.write("<br>");
+        // var num = 658;
+        // var num1 = "Hello";
 
-            // var a4=10.3456;
-            
-            // document.write(parseFloat(a4)); // 10.3456
-            // document.write("<br>")
+        // console.log(isNaN(num)) // false
+        // console.log(isNaN(num1)) // true
 
-            // var a3='233ghj';
+        // isFinite()
 
-            // document.write(parseInt(a3)); // 233
-            // document.write("<br>");
+        // var num = 658;
+        // var num1 = "Hello";
 
-            // var a4='567.5678ghj';
-            
-            // document.write(parseFloat(a4)); // 567.5678
-            // document.write("<br>")
+        // console.log(isFinite(num)) // true
+        // console.log(isFinite(num1)) // false
 
+        // parseInt()
 
-            // var num = 36;
-            // console.log(Math.sqrt(num));
+        // var num = 567.78;
+        // var num1 = "567.78gh";
 
-            // console.log(Math.random());
-            // console.log(Math.ceil(4.5));
-            // console.log(Math.floor(6.9));
+        // console.log(parseInt(num)) // 567
+        // console.log(typeof(parseInt(num1))) // number
+        // console.log(parseInt(num1)) // 567
 
+        // parseFloat()
 
-            // var a = 81;
-            // console.log(Math.sqrt(a));
+        // var num = 567.78;
+        // var num1 = "567.78gh";
 
-            // var a = 83.3;
-            // console.log(Math.ceil(a));// nearest highest value
+        // console.log(parseFloat(num)) // 567.78
+        // console.log(typeof(parseFloat(num1))) // number
+        // console.log(parseFloat(num1)) // 567.78
 
-            // var a = 45.980;
-            // console.log(Math.floor(a));
+        // Math.sqrt()
 
-            // var a  = Math.random() * 10;
-            // // 0.345 * 10 => 3.45
-            // console.log(a);
-            // console.log(Math.floor(a));
+        // var num = 36;
 
-            function Fun(){
-                var number = Math.floor(Math.random() * 500)
-                // console.log(number);
-                document.getElementById('num').innerHTML = `Random number ${number}`
-            }
+        // console.log(Math.sqrt(num)) // 6
+
+        // Math.floor()
+
+        // var num = 78.65;
+
+        // console.log(Math.floor(num)) // 78
+
+        // Math.ceil()
+
+        // var num = 64.2;
+
+        // console.log(Math.ceil(num)) // 65
+
+        // Math.random()
+
+        // console.log(Math.random())
+        // console.log(Math.random() * 10)
+        // console.log(Math.floor(Math.random() * 10))
 
     </script>
-
-    <button onclick="Fun()">Click Here to generate random number</button>
-    <h1 id="num"></h1>
-
+    
 </body>
 </html>
