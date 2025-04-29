@@ -30,44 +30,19 @@ Clear
 for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
 
 DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
-DAY - 2 => JS in REACT ( VARIABLES, ARRAY, ARRAY USING MAP, OBJECT, JSON, JSON USING MAP, FUNCTION INSIDE ANOTHER FUNCTION, FETCHING DATA IN CONSOLE, CLASS COMPONENTS (3) )
+DAY - 2 => JS in REACT ( VARIABLES, ARRAY, ARRAY USING MAP, OBJECT, JSON, JSON USING MAP, FUNCTION INSIDE ANOTHER FUNCTION, FETCHING DATA IN CONSOLE, CLASS COMPONENTS (3) ) , EVENTS
 DAY - 3 => STYLE, PROPS
-DAY - 4 => EVENT
+DAY - 4 => USE STATE
 DAY - 5 => USE STATE
-DAY - 6 => USE STATE
-DAY - 7 => BOOTSTRAP COMPONENTS , ASSETS
-DAY - 8 => USE EFFECT
-DAY - 9 => USE EFFECT , RUN BUILD
-DAY - 10 => USE REDUCER
-DAY - 11 => USE REF
-DAY - 12 => USE CONTEXT
-DAY - 13 => ROUTING 
-DAY - 14 => CRUD 
+DAY - 6 => BOOTSTRAP COMPONENTS , ASSETS
+DAY - 7 => USE EFFECT
+DAY - 8 => USE EFFECT , RUN BUILD
+DAY - 9 => USE REDUCER
+DAY - 10 => USE REF
+DAY - 11 => USE CONTEXT
+DAY - 12 => ROUTING 
+DAY - 13 => CRUD 
+DAY - 14 => FORM VALIDATION 
 DAY - 15 => PACKAGES ( swiper, material ui, react components, daisy ui )  , RENDER
 
 PROJECT - COSTICA FROM THEME FOREST
-
-
-Codeium
-
-Use for: Autocompletion, code generation, bug fixes.
-
-Why: Fast, free, and supports all languages including React, Node.js, etc.
-
-Continue
-
-Use for: AI-powered coding help, bug fixes, explanations.
-
-Why: Open-source Copilot alternative that works with GPT-4, Claude, etc.
-
-Documatic (AI Doc Writer)
-
-Use for: Auto-generating documentation for your functions and components.
-
-Why: Saves time and helps you keep your code clean and understandable.
-
-Mintlify Doc Writer
-
-Use for: Auto-generating clear documentation for functions, classes, and components.
-
-Why: Speeds up writing docs, improves readability, and supports many languages like Python, JavaScript, C++, and more.

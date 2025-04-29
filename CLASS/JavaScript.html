@@ -7,142 +7,56 @@
 </head>
 <body>
 
-    <!-- <button id="tag" onclick="Fun()">Click</button> -->
+    <!-- Types -->
 
-    <button onclick="HideFun()">Hide</button>
-    <button onclick="ShowFun()">Show</button>
+    <!-- Inline , Internal , External -->
 
-    <img src="image.png" alt="">
+    <!-- Inline -->
 
-    <p id="content"></p>
+    <!-- <button onclick="alert('This is Alert box')">Click</button>
+    <button onclick="prompt('Enter your message :')">Click</button>
+    <button onclick="confirm('Are you sure want to delete?')">Click</button>
+    <button onclick="document.write('This is New Document')">Click</button>
+    <button onclick="console.log('This is Console')">Click</button>
+    <button onclick="console.error('This is Error Message')">Click</button> -->
+
+    <!-- Internal -->
+
+    <!-- <button onclick="Fun()">Click</button> -->
 
     <script>
 
-        // function Fun(){
-        //     document.getElementById("tag").innerHTML = "clicked"
+        // Function
+
+        // Syntax
+
+        // function FunctionName(){
+
         // }
 
-        function HideFun(){
-            document.getElementById("content").innerHTML = ""
-        }
+        // FunctionName()
 
-        function ShowFun(){
-            document.getElementById("content").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam nesciunt velit assumenda cupiditate, doloribus delectus reiciendis impedit nisi consequuntur omnis nam natus, nemo est! In numquam amet modi sed?"
-        }
+        // function Fun(){
+        //     alert("This is Internal JS")
+        // }
 
         // String Concatenation
 
-        // var message = "Welcome To Java script"
+        var name = "User"
 
-        // document.write("<h1>Hello</h1>")
-        // document.write("<h1>Hello</h1>" , message)
-        // document.write("<h1>Hello</h1>" + message)
-
-        // document.write(`<h1>Hello ${message}</h1>`)
-
-        // console.log("Hello World!" , message)
-        // console.log("Hello World! " + message)
-        // console.log(`Hello World! ${message}`)
-
-        // Array
-
-        // arrayName[position]
-
-        // var arr = ["HTML" , "CSS" , "BOOTSTRAP" , "JS"]
-
-        // console.log(arr)
-        // console.log(arr[0])
-        // console.log(arr[1])
-        // console.log(arr[2])
-        // console.log(arr[3])
-
-        // var element = ["is" , " my" , "Banu" , "name"]
-
-        // console.log(`${element[1]} ${element[3]} ${element[0]} ${element[2]}`)
-
-        // Object
-
-        // objectName.key
-
-        // var data = {
-        //     name : "Banu",
-        //     age : 21,
-        //     address : {
-        //         doorno : 202,
-        //         street : "3rd Street",
-        //         city : "Trichy"
-        //     }
-        // }
-
-        // console.log(data)
-        // console.log(data.name)
-        // console.log(data.age)
-        // console.log(data.place)
-
-        // console.log(data.name)
-        // console.log(data.age)
-        // console.log(data.address)
-        // console.log(data.address.doorno)
-        // console.log(data.address.street)
-        // console.log(data.address.city)
-
-        // String Methods
-
-        // var data = "Hello World!"
-        // var value = "    Hello    "
-
-        // console.log(data.length) // 12
-        // console.log(data[4]) // o
-        // console.log(data.charAt(6)) // W
-        // console.log(data.indexOf("r")) // 8
-        // console.log(data.toUpperCase()) // HELLO WORLD!
-        // console.log(data.toLowerCase()) // hello world!
-        // console.log(data.includes("o")) // true
-        // console.log(data.includes("O")) // false
-        // console.log(data.substr(0 , 5)) // Hello
-        // console.log(data.substr(6 , 5)) // World
-        // console.log(data.replace("World" , "Js")) // Hello Js!
-        // console.log(value)
-        // console.log(value.trim())
-
-        // var data = ["HTML" , "CSS" , "BOOTSTRAP" , "JAVA SCRIPT"]
-
-        // console.log(data[3])
-
-        // push 
-
-        // console.log(data)
-        // data.push("REACT")
-        // console.log(data)
-        // data.push("JQUERY") 
-        // console.log(data)
-
-        // pop
-
-        // data.pop()
-        // console.log(data)
-        // data.pop()
-        // console.log(data)
-
-        // shift
-
-        // data.shift()
-        // console.log(data)
-
-        // unshift
-
-        // data.unshift("HTML")
-        // console.log(data)
-
-        // console.log(data.length)
-
-        // console.log(data.includes("BOOTSTRAP"))
-
-        // console.log(typeof(data))
+        console.log("Name : " , name)
+        console.log("Name : " + name)
+        document.write("Name : " , name)
+        document.write(`<h1>Name ${name}</h1>`)
+        document.write(`name : ${name}`)
 
     </script>
 
-    <!-- <script src="app.js"></script> -->
+    <!-- External -->
+
+    <!-- <button onclick="Fun()">Click</button> -->
+
+    <script src="app.js"></script>
     
 </body>
 </html>

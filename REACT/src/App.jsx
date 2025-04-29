@@ -7,9 +7,11 @@ import React from 'react'
 // import Day5_State from './Day5_State'
 // import Day6 from './Day6'
 // import Day7 from './Day7'
-// import Day8 from './Day8'
+import Day8 from './Day8'
 // import Day9 from './Day9'
-import Day10 from './Day10'
+// import Day10 from './Day10'
+// import Day11 from './Day11'
+// import Day11_context from './Day11_context'
 
 const App = () => {
   return (
@@ -21,9 +23,12 @@ const App = () => {
         {/* <Day5_State /> */}
         {/* <Day6 /> */}
         {/* <Day7 /> */}
-        {/* <Day8 />  */}
+        <Day8 /> 
         {/* <Day9 /> */}
-        <Day10 />
+        {/* <Day10 /> */}
+        {/* <Day11>
+          <Day11_context />
+        </Day11> */}
     </>
   )
 }

@@ -107,8 +107,8 @@ const Day10 = () => {
 
   return (
     <>
-        <input type="text" ref={reference} />
-        <input type="text" />
+      <input type="text" ref={reference} />
+      <input type="text" />
     </>
   )
 }
