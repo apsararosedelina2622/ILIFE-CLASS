@@ -10,9 +10,10 @@ import React from 'react'
 // import Day8 from './Day8'
 // import Day9 from './Day9'
 // import Day10 from './Day10'
-import Day11 from './Day11'
-import Day11Cons_1 from './Day11Cons_1'
-import Day11Cons_2 from './Day11Cons_2'
+// import Day11 from './Day11'
+// import Day11Cons_1 from './Day11Cons_1'
+// import Day11Cons_2 from './Day11Cons_2'
+import Routers from './Routes/Routers'
 
 const App = () => {
   return (
@@ -27,10 +28,11 @@ const App = () => {
       {/* <Day8 /> */}
       {/* <Day9 /> */}
       {/* <Day10 /> */}
-      <Day11>
+      {/* <Day11>
         <Day11Cons_1 />
         <Day11Cons_2 />
-      </Day11>
+      </Day11> */}
+      <Routers />
     </>
   )
 }

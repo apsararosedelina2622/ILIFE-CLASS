@@ -91,7 +91,7 @@ Total 2 Classes
 
 10 - 11 => Satya Roslin [React Bootstrap]
 11 - 12 => Thamodharan [HTML Day - 2]
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [No Class]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [No Class]
 
 06 - 07 => Sundaresh [DOM , Object Methods]
 
@@ -100,7 +100,7 @@ Total 2 Classes
 
 10 - 11 => Satya Roslin [Use Effect]
 11 - 12 => Thamodharan [HTML Link , List , Image , Marquee]
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [No Class]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [No Class]
 
 06 - 07 => Sundaresh [Events , AddEventListener]
 
@@ -109,7 +109,7 @@ Total 2 Classes
 
 10 - 11 => Satya Roslin [Weather Application , Fetching Data From API]
 11 - 12 => Thamodharan [Audio , Video , Iframe , Table]
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [JavaScript Introduction]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [JavaScript Introduction]
 
 06 - 07 => Sundaresh [Fetching Data from API]
 
@@ -118,7 +118,7 @@ Total 2 Classes
 
 10 - 11 => Satya Roslin [Use Reducer]
 11 - 12 => Thamodharan
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods]
 
 06 - 07 => Sundaresh => ( One Hour Permission[Me] )
 
@@ -127,7 +127,7 @@ Total 2 Classes
 
 10 - 11 => Satya Roslin [Use Reducer]
 11 - 12 => Thamodharan [Form]
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods , Doubts]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods , Doubts]
 
 06 - 07 => Sundaresh 
 
@@ -137,7 +137,7 @@ Total 2 Classes
 
 28 / 04 - MONDAY
 
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [Number Methods]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [Number Methods]
 
 03 - 04 => Satya Roslin [Use Ref]
 05 - 06 => Thamodharan [CSS Introduction]
@@ -146,7 +146,7 @@ Total 2 Classes
 
 29 / 04 - TUESDAY
 
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Introduction] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Introduction , Day - 1 , 2] 
 
 03 - 04 => Satya Roslin [Use Context]
 05 - 06 => Thamodharan [CSS Day - 2]
@@ -155,11 +155,21 @@ Total 2 Classes
 
 30 / 04 - WEDNESSDAY
 
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Day - 3 , 4] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Day - 3 , 4] 
 
-03 - 04 => Satya Roslin [Rounting]
-05 - 06 => Thamodharan [CSS Day - 3]
+03 - 04 => Satya Roslin [Routing]
+05 - 06 => Thamodharan 
+06 - 07 => Sundaresh
+
+
+01 / 05 - THURSDAY
+
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Day - 5] 
+
+03 - 04 => Satya Roslin [Crud]
+05 - 06 => Thamodharan [CSS Day - 4]
 06 - 07 => Sundaresh [Form validation]
 
 
-Hari Babu => Inline , Internal , External , String Concatenation , Variables , Data Types , String Methods , Number Methods
+
+Hari Babu => Data Types , String Methods , Number Methods

@@ -6,6 +6,7 @@ BATCH
 
 LUNCH
 
+02 - 03 => Shalini ( Joining Date - 30 / 04 )
 03 - 04 => Satya Roslin
 05 - 06 => Thamodharan
 06 - 07 => Sundaresh
@@ -26,7 +27,6 @@ STUDENTS FROM EPIX
 Kirija , Ramakrishnan , Deepak , Dhinakaran
 
 
-02 - 03 => Shalini ( Joining Date - 24 / 04 ) Not yet
 04 - 05 => Kaviyarasan , Murugan => ( 19 / 04 ) => Batch Combined with Anish
 
 
