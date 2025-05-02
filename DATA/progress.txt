@@ -182,7 +182,3 @@ MAY MONTH
 03 - 04 => Satya Roslin [Crud]
 05 - 06 => Thamodharan [CSS Day - 3]
 06 - 07 => Sundaresh [Form validation]
-
-
-
-Hari Babu => Data Types , String Methods , Number Methods
