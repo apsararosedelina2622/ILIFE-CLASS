@@ -12,7 +12,8 @@ import React from 'react'
 // import Day10 from './Day10'
 // import Day11 from './Day11'
 // import Day11_context from './Day11_context'
-import Day12 from './Day12'
+// import Day12 from './Day12'
+import Day13 from './Day13'
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
         {/* <Day11>
           <Day11_context />
         </Day11> */}
-        <Day12 />
+        {/* <Day12 /> */}
+        <Day13 />
     </>
   )
 }

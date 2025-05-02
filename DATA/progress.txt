@@ -1,6 +1,8 @@
 PROGRESS
 
-APRIL
+================================================================================================
+APRIL MONTH
+================================================================================================
 
 09 / 04 - WEDNESSDAY
 
@@ -146,7 +148,7 @@ Total 2 Classes
 
 29 / 04 - TUESDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Introduction , Day - 1 , 2] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Introduction , Day - 1 , 2] 
 
 03 - 04 => Satya Roslin [Use Context]
 05 - 06 => Thamodharan [CSS Day - 2]
@@ -155,19 +157,30 @@ Total 2 Classes
 
 30 / 04 - WEDNESSDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Day - 3 , 4] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Day - 2] 
 
 03 - 04 => Satya Roslin [Routing]
 05 - 06 => Thamodharan 
 06 - 07 => Sundaresh
 
 
-01 / 05 - THURSDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu [JavaScript Day - 5] 
+
+
+================================================================================================
+MAY MONTH
+================================================================================================
+
+01 / 05  - THURSDAY [ Office Leave due to Labour's Day ]
+
+
+02 / 05 - FRIDAY
+
+11 - 12 => Shalini (CSS Flex)
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Day - 3 , 4] 
 
 03 - 04 => Satya Roslin [Crud]
-05 - 06 => Thamodharan [CSS Day - 4]
+05 - 06 => Thamodharan [CSS Day - 3]
 06 - 07 => Sundaresh [Form validation]
 
 

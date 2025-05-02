@@ -1,6 +1,6 @@
 import React from 'react';
-import Routers from './Form/Routers';
-// import CrudApp from './Crud/Crud';
+// import Routers from './Form/Routers';
+import CrudApp from './Crud/Crud';
 // import Cls from './Cls';
 // import UseContext from './UseContext/UseContext';
 // import Cons1 from './UseContext/Cons1';
@@ -18,7 +18,7 @@ import Routers from './Form/Routers';
 const App = () => {
   return(
     <>
-    {/* <CrudApp /> */}
+    <CrudApp />
     {/* <Cls /> */}
       {/* <Incdec />  */}
       {/* <Practice /> */}
@@ -33,7 +33,7 @@ const App = () => {
         <Cons2 />
         <Cons3 />
       </UseContext> */}
-      <Routers />
+      {/* <Routers /> */}
     </>
   )
 }

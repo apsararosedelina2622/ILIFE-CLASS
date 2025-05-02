@@ -1,27 +1,31 @@
 // function Fun(){
-//     alert("This is External JS")
+//     alert("External JS")
 // }
 
-// console.log("Node Intalled")
+// console.log("Node Js Installed")
 
-// variable
+
+// variables
 
 // let , var , const
 
-// let - cannot redeclare , can update
+// let - cannot redeclare , can update 
 
-// let a = "user"
-// a = "USER"
-// console.log(a)
+// let data = "Hello"
+// data = "Hii"
+
+// console.log(data)
 
 // var - can redeclare , can update
 
-// var a = "Hello"
-// a = "Hii"
+// var a = "Abi"
+// a = "Banu"
+
 // console.log(a)
 
-// const - cannot redeclare , cannot update
+// const- cannot redeclare , cannot update
 
-// const a = "Hello"
-// a = "Hii"
+// const a = "banu"
+// a = "begum"
+
 // console.log(a)

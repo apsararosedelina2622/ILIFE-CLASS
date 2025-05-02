@@ -1,53 +1,94 @@
-/* Element Selector - Element name */
+#btn{
+    /* margin: 20px; */
+    /* margin-top: 20px; */
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin: 20px 100px 40px; */
+    /* margin: 20px 30px 40px 50px; */
+    /* padding: 20px; */
+    /* padding: 20px 40px; */
+    /* padding: 20px 100px 10px; */
+    /* padding: 10px 20px 30px 40px; */
+}
 
-/* h1{
-    color: purple;
-    background-color: plum;
-    text-align: center;
-} */
+/* margin : 4s */
+/* margin : t/b r/l */
+/* margin : t r/l  b*/
+/* margin : t b r l*/
 
-/* Id Selector - # */
+/* padding : 4s */
+/* padding : t/b r/l */
+/* padding : t r/l  b*/
+/* padding : t b r l*/
 
-/* #content{
-    color: darkblue;
-    background-color: lightblue;
-} */
-
-/* Class Selector - . */
-
-/* .message{
+p{
     color: darkgreen;
     background-color: lightgreen;
-} */
+    padding: 20px;
+    margin: 0 30px;
+    /* border: thickness type color; */
+    /* border: 3px solid darkgreen;
+    border: 3px dotted darkgreen;
+    border: 3px dashed darkgreen;
+    border: 3px double darkgreen;
+    border: 3px inset darkgreen;
+    border: 3px outset darkgreen;
+    border: 10px ridge darkgreen;
+    border: 10px groove darkgreen; */
+    /* border-top: 5px solid green; */
+    /* border-right: 5px solid green; */
+    /* border-bottom: 5px solid green; */
+    /* border-left: 5px solid green; */
+    border: 5px solid green;
+    /* border-radius: 50%; */
+    /* border-radius: 10px; */
+    /* border-radius: 0px 50px; */
+    border-radius: 20px 40px 5px;
+}
+
+img{
+    height: 300px;
+    width: 600px;
+    margin-top: 30px;
+    /* border-radius: 0 30px; */
+    /* border-radius: 30px 0; */
+}
 
 h1{
-    /* background-color: red; */
-    /* background-color: blue; */
-    background: linear-gradient(to right , darkgreen , lightgreen);
-    color: transparent;
-    background-clip: text;
-    width: fit-content;
+    color: darkgreen;
+    /* text-shadow: 20px 40px 30px green; */
+    text-shadow: 1px 1px 5px green;
 }
-
 div{
     height: 200px;
-    width: 100%;
-    /* background-color: blue; */
-
-    /* background: linear-gradient(darkgreen , lightgreen); */
-    /* background: linear-gradient(30deg , darkgreen , lightgreen); */
-    background: linear-gradient(to right , darkgreen , lightgreen);
-    /* background: linear-gradient(to left , darkgreen , lightgreen); */
-    /* background: linear-gradient(to top , darkgreen , lightgreen); */
-    /* background: linear-gradient(to bottom , darkgreen , lightgreen); */
-
-    /* background: radial-gradient(darkgreen , lightgreen); */
-    /* background: radial-gradient(circle , darkgreen , lightgreen); */
-    /* background: radial-gradient(ellipse , darkgreen , lightgreen); */
+    width: 200px;
+    background-color: plum;
+    /* box-shadow: 20px 40px 30px purple; */
+    box-shadow: 1px 1px 10px purple;
+    border-radius: 100%;
 }
 
-span{
-    background: linear-gradient(to right , purple , plum);
-    color: transparent;
-    background-clip: text;
+input:focus{
+    border: 2px solid red;
+    outline: none;
+}
+
+body{
+    /* background-image: url("img/example_img.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: 300px 200px; */
+    /* background-attachment: fixed; */
+    /* background-position: top right; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left; */
+    /* background-position: top left; */
+    /* background-position: center; */
+    /* background-position: top center; */
+    /* background-position: bottom center; */
+    /* background-position: right center; */
+    /* background-position: left center; */
+    /* background: url("Image URL") repeat position / size attachment; */
+    background: url("img/example_img.png") no-repeat right top / 300px 200px fixed;
 }

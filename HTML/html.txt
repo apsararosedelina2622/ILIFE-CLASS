@@ -4,10 +4,9 @@ HTML SYLLABUS
 
 * HTML tags are not case sensitive.
 
-DAY 1.	Introduction, Structure,
-DAY 2.	Elements, Block, Inline, List
-DAY 3.	Marquee, Audio, Video, Image, Links
-DAY 4.	Tables
-DAY 5.	Form
+DAY 1.	Introduction, Structure, Entities, Icons, Elements, Block, Inline,
+DAY 2.	List, Links
+DAY 3.	Marquee, Audio, Video, Image, Iframe, Tables
+DAY 4.	Form, Form-Inputs
 
 PROJECT - Landing Page

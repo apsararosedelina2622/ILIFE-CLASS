@@ -2,10 +2,10 @@ CSS SYLLABUS
 
 CSS (Cascading Style Sheet)
 
-DAY 1.	Inline, Internal, External, Selectors (element , id , class , universal , Pseudo)
+DAY 1.	Inline, Internal, External, Selectors (element , id , class , universal , Pseudo) , Background colors
 DAY 2.	Pseudo Selectors, Combinators, Text Properties
 DAY 3.	Margin, Padding, Display, Border
-DAY 4.	Background Image, Opacity, Float, Background colors
+DAY 4.	Background Image, Opacity, Float
 DAY 5.	Position, Z-Index, Text-shadow, Box-shadow
 DAY 6.	Flex, Grid, Table
 DAY 7.	Animations ( Transform, Transition )

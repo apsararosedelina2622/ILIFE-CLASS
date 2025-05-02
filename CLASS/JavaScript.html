@@ -7,56 +7,37 @@
 </head>
 <body>
 
-    <!-- Types -->
-
-    <!-- Inline , Internal , External -->
-
-    <!-- Inline -->
-
-    <!-- <button onclick="alert('This is Alert box')">Click</button>
-    <button onclick="prompt('Enter your message :')">Click</button>
-    <button onclick="confirm('Are you sure want to delete?')">Click</button>
-    <button onclick="document.write('This is New Document')">Click</button>
-    <button onclick="console.log('This is Console')">Click</button>
-    <button onclick="console.error('This is Error Message')">Click</button> -->
-
-    <!-- Internal -->
-
-    <!-- <button onclick="Fun()">Click</button> -->
+    <!-- <button id="tag" onclick="Fun()">Click</button>
 
     <script>
 
-        // Function
+        function Fun(){
+            document.getElementById("tag").innerHTML = "Clicked"
+        }
 
-        // Syntax
+    </script> -->
 
-        // function FunctionName(){
 
-        // }
+    <button onclick="HideFun()">Hide</button>
+    <button onclick="ShowFun()">Show</button>
 
-        // FunctionName()
+    <img src="" alt="">
 
-        // function Fun(){
-        //     alert("This is Internal JS")
-        // }
+    <p id="content"></p>
 
-        // String Concatenation
+    <script>
 
-        var name = "User"
+        function HideFun(){
+            document.getElementById("content").innerHTML = ""
+        }
 
-        console.log("Name : " , name)
-        console.log("Name : " + name)
-        document.write("Name : " , name)
-        document.write(`<h1>Name ${name}</h1>`)
-        document.write(`name : ${name}`)
+        function ShowFun(){
+            var data =  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident fugit. Veritatis quod placeat fugiat at similique non. Voluptates similique labore incidunt consequatur quisquam dolor perferendis hic deleniti fugit magnam."
+
+            document.getElementById("content").innerHTML = data
+        }
 
     </script>
-
-    <!-- External -->
-
-    <!-- <button onclick="Fun()">Click</button> -->
-
-    <script src="app.js"></script>
     
 </body>
 </html>
