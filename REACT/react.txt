@@ -42,4 +42,18 @@ DAY - 10 => CRUD
 DAY - 11 => FORM VALIDATION
 DAY - 12 => PACKAGES ( swiper, material ui, react components, daisy ui ), Render
 
+DAY - 1 => Set up Introduction, Functional & Class Components
+DAY - 2 => Java Script in React, Event
+DAY - 3 => Styles, Props
+DAY - 4 => Use State
+DAY - 5 => Bootstrap Components, Assets
+DAY - 6 => Use Effect, Run Build
+DAY - 7 => Use Reducer, Use Ref
+DAY - 8 => Use Context
+DAY - 9 => Router
+DAY - 10 => CRUD
+DAY - 11 => Form Validation
+DAY - 12 => Packages ( Swiper, Material UI, React Components )
+DAY - 13 => Render
+
 PROJECT - COSTICA FROM THEME FOREST

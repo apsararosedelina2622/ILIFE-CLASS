@@ -11,15 +11,12 @@ CDN LINK
 
 BOOTSTRAP SYLLABUS
 
-DAY - 1 => INTRODUCTION, BOOTSTRAP 5 CDN LINK, COLORS, BUTTONS, PADDING, MARGIN, WIDTH, TYPOGRAPHY
-DAY - 2 => BADGE, TABLES, ROUNDED , BORDERS, BOOTSTRAP ICONS, SHADOW
-DAY - 3 => DISPLAY - NONE, FLEX, COLUMN RESPONSIVESNESS,
-DAY - 4 => CAROUSEL, CARDS
-DAY - 5 => DROPDOWN, PAGINATION, NAVBAR
-DAY - 6 => MODAL, FORM , OFFCANVAS 
-DAY - 7 => ACCORDIAN, COLLAPSE 
-DAY - 8 => BOOTSTRAP REMAINING COMPONENTS, PROJECT
-DAY - 9 => NETLIFY, GITHUB
+DAY - 1 => Introduction Bootstrap 5, CDN Links, Colors, Buttons, Margin, Padding, Width, Icons
+DAY - 2 => Badge, Rounded, Shadow, Tables, Container, Column Responsiveness
+DAY - 3 => Dropdown, Pagination, Card, Modal
+DAY - 4 => Navbar, Collapse, Off Canvas
+DAY - 5 => Carousel, Form, Form-Inputs
+
 
 PROJECT BOOTSTRAP MADE,  TEMPLATE
 

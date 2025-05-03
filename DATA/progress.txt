@@ -134,7 +134,9 @@ Total 2 Classes
 06 - 07 => Sundaresh 
 
 
-26 / 04 - SATURDAY ( Casual Leave )
+26 / 04 - SATURDAY ( Casual Leave ) 
+
+Yusuf => Cards , Borders , Tables , Column Responsive , Modal ( Anish )
 
 
 28 / 04 - MONDAY
@@ -176,9 +178,16 @@ MAY MONTH
 
 02 / 05 - FRIDAY
 
-11 - 12 => Shalini (CSS Flex)
+11 - 12 => Shalini [CSS Flex]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Day - 3 , 4] 
 
 03 - 04 => Satya Roslin [Crud]
 05 - 06 => Thamodharan [CSS Day - 3]
 06 - 07 => Sundaresh [Form validation]
+
+
+03 / 05 - SATURDAY
+
+10:30 - 11:30 => Yusuf [Carousel , Dropdown , Navbar , Form]
+12:00 - 01:00 => Yusuf [Offcanvas , Collapse , Accordion , Tooltip , Popover]
+02:30 - 03:30 => Yusuf [AOS Animation , Netlify , GitHub]

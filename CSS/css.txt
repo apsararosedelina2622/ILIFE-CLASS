@@ -2,14 +2,12 @@ CSS SYLLABUS
 
 CSS (Cascading Style Sheet)
 
-DAY 1.	Inline, Internal, External, Selectors (element , id , class , universal , Pseudo) , Background colors
-DAY 2.	Pseudo Selectors, Combinators, Text Properties
-DAY 3.	Margin, Padding, Display, Border
-DAY 4.	Background Image, Opacity, Float
-DAY 5.	Position, Z-Index, Text-shadow, Box-shadow
-DAY 6.	Flex, Grid, Table
-DAY 7.	Animations ( Transform, Transition )
-DAY 8.	Media Query, Root Variables
+DAY - 1 => Introduction, Types of CSS, Selectors, Pseudo Selectors, Colors Background colors
+DAY - 2 => Combinators, Margin, Padding, Border, Display
+DAY - 3 => Text Properties, Background Image, Text-shadow, Box-shadow
+DAY - 4 => Position, Z-Index, Overflow, Opacity, Float
+DAY - 5 => Flex, Grid, Media Query
+DAY - 6 => Animations ( Transform, Transition ), Root Variables
 
 PROJECT - http://medicio-ard.netlify.app/
 

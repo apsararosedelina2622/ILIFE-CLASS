@@ -1,12 +1,11 @@
 BATCH
 
 10 - 11 => Satya Roslin
-11 - 12 => Thamodharan ( Joining Date - 17 / 04 )
+11 - 12 => Thamodharan ( Joining Date - 17 / 04 ) , Shalini ( Joining Date - 30 / 04 )
 11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu ( Combine Date- 29 / 04 )
 
 LUNCH
 
-02 - 03 => Shalini ( Joining Date - 30 / 04 )
 03 - 04 => Satya Roslin
 05 - 06 => Thamodharan
 06 - 07 => Sundaresh
