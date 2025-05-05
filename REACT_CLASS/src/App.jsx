@@ -13,7 +13,8 @@ import React from 'react'
 // import Day11 from './Day11'
 // import Day11Cons_1 from './Day11Cons_1'
 // import Day11Cons_2 from './Day11Cons_2'
-import Routers from './Routes/Routers'
+// import Routers from './Routes/Routers'
+import Day12 from './Day12'
 
 const App = () => {
   return (
@@ -32,7 +33,8 @@ const App = () => {
         <Day11Cons_1 />
         <Day11Cons_2 />
       </Day11> */}
-      <Routers />
+      {/* <Routers /> */}
+      <Day12 />
     </>
   )
 }

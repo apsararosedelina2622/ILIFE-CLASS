@@ -72,7 +72,7 @@ Total 2 Classes
 
 03 - 04 => Satya Roslin [React Day4_State_1 - useState Balance , Day4_State_2]
 04 - 05 => Kaviyarasan , Murugan [Conditional statement]
-05 - 06 => Thamodharan [Introduction Class]
+05 - 06 => Dhamodharan [Introduction Class]
 06 - 07 => Sundaresh [DOM]
 
 
@@ -92,7 +92,7 @@ Total 2 Classes
 21 / 04 - MONDAY
 
 10 - 11 => Satya Roslin [React Bootstrap]
-11 - 12 => Thamodharan [HTML Day - 2]
+11 - 12 => Dhamodharan [HTML Day - 2]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran [No Class]
 
 06 - 07 => Sundaresh [DOM , Object Methods]
@@ -101,7 +101,7 @@ Total 2 Classes
 22 / 04 - TUESDAY
 
 10 - 11 => Satya Roslin [Use Effect]
-11 - 12 => Thamodharan [HTML Link , List , Image , Marquee]
+11 - 12 => Dhamodharan [HTML Link , List , Image , Marquee]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [No Class]
 
 06 - 07 => Sundaresh [Events , AddEventListener]
@@ -110,7 +110,7 @@ Total 2 Classes
 23 / 04 - WEDNESSDAY
 
 10 - 11 => Satya Roslin [Weather Application , Fetching Data From API]
-11 - 12 => Thamodharan [Audio , Video , Iframe , Table]
+11 - 12 => Dhamodharan [Audio , Video , Iframe , Table]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [JavaScript Introduction]
 
 06 - 07 => Sundaresh [Fetching Data from API]
@@ -119,7 +119,7 @@ Total 2 Classes
 24 / 04 - THURSDAY
 
 10 - 11 => Satya Roslin [Use Reducer]
-11 - 12 => Thamodharan
+11 - 12 => Dhamodharan
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods]
 
 06 - 07 => Sundaresh => ( One Hour Permission[Me] )
@@ -128,7 +128,7 @@ Total 2 Classes
 25 / 04 - FRIDAY
 
 10 - 11 => Satya Roslin [Use Reducer]
-11 - 12 => Thamodharan [Form]
+11 - 12 => Dhamodharan [Form]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [String Methods , Doubts]
 
 06 - 07 => Sundaresh 
@@ -144,7 +144,7 @@ Yusuf => Cards , Borders , Tables , Column Responsive , Modal ( Anish )
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan [Number Methods]
 
 03 - 04 => Satya Roslin [Use Ref]
-05 - 06 => Thamodharan [CSS Introduction]
+05 - 06 => Dhamodharan [CSS Introduction]
 06 - 07 => Sundaresh
 
 
@@ -153,7 +153,7 @@ Yusuf => Cards , Borders , Tables , Column Responsive , Modal ( Anish )
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Introduction , Day - 1 , 2] 
 
 03 - 04 => Satya Roslin [Use Context]
-05 - 06 => Thamodharan [CSS Day - 2]
+05 - 06 => Dhamodharan [CSS Day - 2]
 06 - 07 => Sundaresh
 
 
@@ -162,7 +162,7 @@ Yusuf => Cards , Borders , Tables , Column Responsive , Modal ( Anish )
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Day - 2] 
 
 03 - 04 => Satya Roslin [Routing]
-05 - 06 => Thamodharan 
+05 - 06 => Dhamodharan 
 06 - 07 => Sundaresh
 
 
@@ -179,15 +179,32 @@ MAY MONTH
 02 / 05 - FRIDAY
 
 11 - 12 => Shalini [CSS Flex]
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Day - 3 , 4] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Day - 2] 
 
 03 - 04 => Satya Roslin [Crud]
-05 - 06 => Thamodharan [CSS Day - 3]
-06 - 07 => Sundaresh [Form validation]
-
+05 - 06 => Dhamodharan [CSS Day - 3]
+06 - 07 => Sundaresh 
 
 03 / 05 - SATURDAY
 
 10:30 - 11:30 => Yusuf [Carousel , Dropdown , Navbar , Form]
 12:00 - 01:00 => Yusuf [Offcanvas , Collapse , Accordion , Tooltip , Popover]
 02:30 - 03:30 => Yusuf [AOS Animation , Netlify , GitHub]
+
+
+05 / 05 - MONDAY
+
+10 - 11 => Satya Roslin [Crud]
+11 - 12 => Dhamodharan , Shalini [CSS Day - 4]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript String Methods] 
+
+06 - 07 => Sundaresh [Form validation]
+
+
+06 / 05 - TUESDAY
+
+10 - 11 => Satya Roslin [Crud]
+11 - 12 => Dhamodharan , Shalini [CSS Day - 5]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Number Methods , Operators] 
+
+06 - 07 => Sundaresh [Form validation]
