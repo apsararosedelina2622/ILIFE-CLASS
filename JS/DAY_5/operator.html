@@ -7,202 +7,89 @@
 </head>
 <body>
 
+    <!-- Operator - Arithmatic , Asignment , Comparison , Logical , Ternary , Unary -->
+
     <script>
 
-        // Arithmetic Operators
-        // let a = 10;
-        // let b = 5;
-        // console.log(a + b); // Addition: 15
-        // console.log(a - b); // Subtraction: 5
-        // console.log(a * b); // Multiplication: 50
-        // console.log(a / b); // Division: 2
-        // console.log(a % b); // Modulus: 0
+        // Arithmatic Operator
+
+        // var a = 5;
+        // var b  = 10;
+
+        // console.log(a + b)
+        // console.log(a - b)
+        // console.log(a * b)
+        // console.log(a / b)
+        // console.log(a % b)
 
 
-        // // Assignment Operators
-        // let num = 20;
-        // num += 10; // num = num + 10
-        // console.log(num); // 30
+        // Asignment Operator
+
+        // var num = 10;
+
+        // num += 1;
+        // num -= 1;
+
+        // console.log(num)
 
 
-        // // Comparison Operators
-        // console.log(a > b);  // true
-        // console.log(a < b);  // false
-        // console.log(a == 10); // true
-        // console.log(a === "10"); // false (strict equality)
+        // Comparison Operator
+
+        // var a = 20;
+        // var b = 40;
+
+        // console.log(a > b)
+        // console.log(a < b)
+        // console.log(a <= 20)
+        // console.log(a >= 20)
+
+        // console.log(a == 20)
+        // console.log(a === 20)
+        // console.log(a != 20)
+        // console.log(a !== 20)
 
 
-        // // let a = 10;
-        // // let b =  5;
-        // // let c = "10";
+        // Logical Operator
 
-        // console.log(a > b); // true
-        // console.log(b > a); // false
+        // console.log(true && true)
+        // console.log(true && false)
+        // console.log(false && true)
+        // console.log(false && false)
 
-        // console.log(a < b); // false
-        // console.log(b < a); // true
+        // console.log(true || true)
+        // console.log(true || false)
+        // console.log(false || true)
+        // console.log(false || false)
 
-        // console.log(a >= 10); // true
-        // console.log(b >= 10); // false
+        // console.log(!true)
+        // console.log(!false)
 
-        // console.log(a <= 10); // true
-        // console.log(b <= 10); // true
 
-        // console.log(a == c); // true (because "10" is converted to a number)
+        // Ternary Operator
 
-        // console.log(a === c); // false (because one is a number, the other is a string)
+        // var age = 10;
 
-        // // Inequality (!=) - compares values but not types
-        // console.log(a != c); // false (because "10" is converted to a number)
+        // console.log(age >= 18 ? "You are adult" : "You are minor")
 
-        // // Strict inequality (!==) - compares both values and types
-        // console.log(a !== c); // true (because their types are different)
-
-        // // Logical Operators
-        // let x = true;
-        // let y = false;
-        // console.log(x && y); // AND: false
-        // console.log(x || y); // OR: true
-        // console.log(!x);  // NOT: false
-
-        // // let a = 10;
-        // // let b = 20;
-        // // let c = 30;
-
-        // // Logical AND (&&) - Returns true if both conditions are true
-
-        // document.write(`${true && true}<br>`); //both side equal true
-        // document.write(`${true && false}<br>`); //false
-        // document.write(`${false && true}<br>`); //false
-        // document.write(`${false && false}<br>`); //false
-
-        // console.log(a < b && b < c); // true (10 < 20 AND 20 < 30)
-        // console.log(a > b && b < c); // false (10 > 20 is false)
-
-        // // Logical OR (||) - Returns true if at least one condition is true
-
-        // document.write(true || true,"<br>"); // if both side or one side true, output will be true
-        // document.write(true || false,"<br>"); //true
-        // document.write(false || true,"<br>"); //true
-        // document.write(false || false,"<br>"); //false
-
-        // console.log(a > b || b < c); // true (20 < 30 is true)
-        // console.log(a > b || b > c); // false (both conditions are false)
-
-        // // Logical NOT (!) - Reverses the boolean value
-        // console.log(!(a > b)); // true (10 > 20 is false, so !false becomes true)
-        // console.log(!(b < c)); // false (20 < 30 is true, so !true becomes false)
-
-        // let a = 50;
-        // let b = 70;
-        // let c = 30;
-
-        // document.write(a>b && a<b) // False
-        // document.write(a<b && a<b) // True
-        // document.write(a>b && a>b) // False
-        // document.write(4<3 && 8>4) // False
-
-        // document.write(a<=b || b>=a) // True
-        // document.write(35<=45 || 43>25) // True
-        // document.write(35<=55 || 73>90) // True
         
-        // document.write(! (a>b)) // True
-        // document.write(! (a<b)) // False
+        // Unary Operator
 
-        // document.write(a > b && b < c); // False
+        // var a = "20"
 
+        // console.log(typeof(a))
+        // console.log(typeof(+ a))
+        // console.log(typeof(- a))
+        // console.log(- a)
 
-        // document.write(a > b || b < c); // False
-        // document.write(a > b || b > c);  // True
+        // var a = 10;
 
-        // document.write(!(a > b)); // True
-        // document.write(!(b < c)); // True
-
-       
-        // // Ternary Operator
-        // let age = 18;
-        // let status = age >= 18 ? "Adult" : "Minor";
-        // console.log(status); // "Adult"
-
-        // Unary Operators
-
-        // Unary +(plus) => Converts the operand to a number (if it isn’t one already).
-        // console.log(+ "42");  // 42 (string to number)
-        // console.log(+ "3.14"); // 3.14 (string to float)
-        // console.log(+ "hello"); // NaN (invalid string)
-
-        // Unary -(minus) => Converts the operand to a negative number (if it’s not already a number).
-        // console.log(- "42");   // -42 (string to negative number)
-        // console.log(- 3.14);    // -3.14 (negative float)
-        // console.log(- "hello"); // NaN (invalid string)
-        
-        // Increment
-        // let x = 5;
-        // console.log(x++); // 5 (postfix, value is incremented after logging) => x + 1 = x
-        // console.log(x);   // 6 (value after increment)
-
-        // let y = 5;
-        // console.log(++y); // 6 (prefix, value is incremented before logging)
-
-        // // Decrement
-        // let a = 5;
-        // console.log(a--); // 5 (postfix, value is decremented after logging) a - 1 = a
-        // console.log(a);   // 4 (value after decrement)
-
-        // let b = 5;
-        // console.log(--b); // 4 (prefix, value is decremented before logging)
-
-
-         // Unary + 
-
-        // document.write(+ '43')
-        // document.write(+ '43.8996')
-        // document.write(+ 'Hello')
-
-        // Unary -
-
-        // document.write(- "45")
-        // document.write(- "45.45678")
-        // document.write(- "Hello")
-
-        // Unary ++
-
-        // let a = 5;
-
-        // document.write(a++) // a + 1
-        // document.write(`<br>`)
-        // document.write(a)
-
-        // document.write(--a);
-        // document.write(`<br>`)
-        // document.write(a)
-        // document.write(`<br>`)
-        // document.write(a++)
-
-        // let b = 80;
-
-        // document.write(b)
-        // document.write(`<br>`)
-        // document.write(b++) // b + 1
-        // document.write(`<br>`)
-        // document.write(b)
-
-        // document.write(b++) // 80
-        // document.write(`<br>`)
-        // document.write(b) // 81
-        // document.write(`<br>`)
-        // document.write(--b) // 80
-        // document.write(`<br>`)
-        // document.write(++b) // 81
-        // document.write(`<br>`)
-        // document.write(b) // 81
-
-        // let c = 75;
-
-        // document.write(c)
-        // document.write(`<br>`)
-        // document.write(++c)
-
+        // console.log(a) // 10
+        // console.log(a++) // 10
+        // console.log(a) // 11
+        // console.log(++a) // 12
+        // console.log(a--) // 12
+        // console.log(a) // 11
+        // console.log(--a) // 10
 
     </script>
     

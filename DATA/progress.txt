@@ -207,4 +207,13 @@ MAY MONTH
 11 - 12 => Dhamodharan , Shalini [CSS Day - 5]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [JavaScript Number Methods , Operators] 
 
+06 - 07 => Sundaresh
+
+
+07 / 05 - WEDNESSDAY
+
+10 - 11 => Satya Roslin [Form Validation]
+11 - 12 => Dhamodharan , Shalini [CSS Day - 5 (Media Query)]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [Operators , Functions] 
+
 06 - 07 => Sundaresh [Form validation]

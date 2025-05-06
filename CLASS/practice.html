@@ -3,95 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Functions</title>
 </head>
 <body>
+
+    <!-- Functions - Function (log) , With return , With Parameter , With Default Parameter , Arrow Funtion (log) , Arrow Function with return , Arrow Function with Parameter , Arrow Function with Default Parameter , Consice Function , Anonymous Function  , IIFE (Immediately Invoked Function Expression) , Async Function -->
+
+    <!-- Local variables , Global Variables -->
+
+    <script>
+
+        // Function
+
+        // syntax 
+
+            // function FunctionName(){
+
+            // }
+
+            // FunctionName()
+
+        // Function
+
+            // function Fun(){
+            //     console.log("Function working!")
+            // }
+            
+            // Fun()
+
+        // Function with return
+
+            // function Fun(){
+            //     return "Function working!"
+            // }
+
+            // console.log(Fun())
+
+        // With Parameter
+
+            // function Fun(username){
+            //     return `Name : ${username}`
+            // }
+
+            // console.log(Fun("User"))
+
+            // function Fun(a , b){
+            //     return `Addition ${a + b}`
+            // }
+
+            // console.log(Fun(5 , 3))
+
+        // Function with Default Parameter
+
+            // function Fun(name = "User"){
+            //     return  `Username : ${name}`
+            // }
+
+            // console.log(Fun())
+            // console.log(Fun("Banu"))
+
+        // Arror Function
+
+            // const Fun = () => {
+            //     console.log("Arrow Function Working!")
+            // }
+
+            // Fun()
+
+            // const Fun = () => {
+            //     return `Arrow Function Working!`
+            // }
+
+            // console.log(Fun())
+
+        // Arrow Function with parameter
+
+            // const Fun = (username) => {
+            //     return `Username : ${username}`
+            // }
+
+            // console.log(Fun("User"))
+
+        // Arrow Function with default parameter
+
+            // const Fun = (username = "User") => {
+            //     return `Username : ${username}`
+            // }
+
+            // console.log(Fun())
+            // console.log(Fun("Banu"))
+
+        // Consice Function
+
+            // const Fun = () => "Consice Function"
+
+            // console.log(Fun())
+
+        // Annoymous Function
+
+            // var num = [1 , 2 , 3 , 4]
+
+            // num.forEach(a => console.log(a))
+
+        // IIFE
+
+            // (function(){
+
+            // })
+
+            // (function(){
+            //     console.log("IIFE Function")
+            // })()
+
+        // Async Function
+
+            // const Fun = async () => {
+            //     const url = await fetch("https://jsonplaceholder.typicode.com/users")
+            //     const data = await url.json()
+
+            //     console.log(data)
+            // }
+
+            // Fun()
+
+        // Local variable
+
+            // const Fun = () => {
+            //     var name = "Banu"
+
+            //     console.log(name)
+            // }
+
+            // Fun()
+            // console.log(name)
+
+        // Global Variables
+
+            // var name = "Banu"
+
+            // const Fun = () => {
+            //     console.log(name)
+            // }
+
+            // Fun()
+            // console.log(name)
+
+    </script>
     
-    <!-- <div class="carousel slide carousel-fade" id="carousel" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/example_img.png" class="w-100" alt="">
-                <div class="carousel-caption">
-                    <h1>Caption 1</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita?</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/sample_img.jpg" class="w-100" alt="">
-                <div class="carousel-caption">
-                    <h1>Caption 2</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita?</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/example_img.png" class="w-100" alt="">
-                <div class="carousel-caption">
-                    <h1>Caption 3</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita?</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/sample_img.jpg" class="w-100" alt="">
-                <div class="carousel-caption">
-                    <h1>Caption 4</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita?</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-
-        <div class="carousel-indicators">
-            <button class="active" data-bs-slide-to="0" data-bs-target="#carousel"></button>
-            <button data-bs-slide-to="1" data-bs-target="#carousel"></button>
-            <button data-bs-slide-to="2" data-bs-target="#carousel"></button>
-            <button data-bs-slide-to="3" data-bs-target="#carousel"></button>
-        </div>
-    </div> -->
-
-    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint voluptatibus, provident pariatur a, sapiente dolorum id, saepe laboriosam perferendis beatae? Velit quod quia aliquam sit asperiores vero voluptates? Repellendus consequatur hic nihil culpa saepe id, beatae odit? Autem ipsa nam dolorem praesentium atque ab quia tenetur! Sunt nisi, incidunt quisquam similique expedita aliquam explicabo modi eaque dolor, dolorum necessitatibus earum culpa deserunt libero voluptatibus corrupti! Unde praesentium expedita officiis porro perspiciatis doloremque fuga voluptatibus eum libero, minus velit illum at. Ducimus placeat vel laborum repellendus aspernatur maxime laboriosam aliquid modi omnis alias provident consequatur sequi eum qui nemo praesentium earum, pariatur eos amet nobis voluptatibus laudantium ab voluptates. Repellendus doloribus reiciendis, a asperiores quod quas ducimus repudiandae molestias odit ea temporibus consectetur quaerat quis. Quibusdam quo dolorem labore harum? Animi officiis odio nulla nesciunt nisi rem labore quisquam ipsa quam minima exercitationem est, placeat mollitia possimus sequi culpa fugit? -->
-
-    <!-- <div class="dropstart btn-group text-center">
-        <button class="btn btn-danger">Dropdown</button>
-        <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"></button>
-        <div class="dropdown-menu dropdown-menu-dark">
-            <p class="dropdown-item">Hello</p>
-            <div class="dropdown-divider"></div>
-            <p class="dropdown-item">Hello</p>
-            <p class="dropdown-item">Hello</p>
-        </div>
-    </div> -->
-
-    <!-- <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">Navbar</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav">
-                <div class="navbar-nav ms-auto">
-                    <div class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="#" class="nav-link">Help</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    -->
-
 </body>
 </html>
