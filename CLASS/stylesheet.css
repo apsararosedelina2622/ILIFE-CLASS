@@ -1,94 +1,178 @@
-#btn{
-    /* margin: 20px; */
-    /* margin-top: 20px; */
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
-    /* margin-bottom: 20px; */
-    /* margin: 20px 100px 40px; */
-    /* margin: 20px 30px 40px 50px; */
-    /* padding: 20px; */
-    /* padding: 20px 40px; */
-    /* padding: 20px 100px 10px; */
-    /* padding: 10px 20px 30px 40px; */
+/* body{
+    background-color: red;
 }
 
-/* margin : 4s */
-/* margin : t/b r/l */
-/* margin : t r/l  b*/
-/* margin : t b r l*/
-
-/* padding : 4s */
-/* padding : t/b r/l */
-/* padding : t r/l  b*/
-/* padding : t b r l*/
-
-p{
-    color: darkgreen;
-    background-color: lightgreen;
-    padding: 20px;
-    margin: 0 30px;
-    /* border: thickness type color; */
-    /* border: 3px solid darkgreen;
-    border: 3px dotted darkgreen;
-    border: 3px dashed darkgreen;
-    border: 3px double darkgreen;
-    border: 3px inset darkgreen;
-    border: 3px outset darkgreen;
-    border: 10px ridge darkgreen;
-    border: 10px groove darkgreen; */
-    /* border-top: 5px solid green; */
-    /* border-right: 5px solid green; */
-    /* border-bottom: 5px solid green; */
-    /* border-left: 5px solid green; */
-    border: 5px solid green;
-    /* border-radius: 50%; */
-    /* border-radius: 10px; */
-    /* border-radius: 0px 50px; */
-    border-radius: 20px 40px 5px;
+@media screen and (max-width: 768px) {
+    body{
+        background-color: green;
+    }
 }
 
-img{
-    height: 300px;
-    width: 600px;
-    margin-top: 30px;
-    /* border-radius: 0 30px; */
-    /* border-radius: 30px 0; */
+@media screen and (max-width: 320px) {
+    body{
+        background-color: blue;
+    }   
+} */
+/* 
+@media screen and (min-width: 768px) {
+    body{
+        background-color: green;
+    }
 }
 
-h1{
-    color: darkgreen;
-    /* text-shadow: 20px 40px 30px green; */
-    text-shadow: 1px 1px 5px green;
+@media screen and (min-width: 320px) {
+    body{
+        background-color: blue;
+    }
+} */
+
+/* h1{
+    color: red;
 }
-div{
-    height: 200px;
-    width: 200px;
+
+@media screen and (max-width: 768px) {
+    h1{
+        color: green;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1{
+        color: blue;
+    }
+} */
+
+/* .container{
     background-color: plum;
-    /* box-shadow: 20px 40px 30px purple; */
-    box-shadow: 1px 1px 10px purple;
-    border-radius: 100%;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3 , 1fr);
 }
 
-input:focus{
-    border: 2px solid red;
-    outline: none;
+.container > div{
+    background-color: purple;
+    padding: 20px;
+    color: white;
 }
 
-body{
-    /* background-image: url("img/example_img.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-size: 300px 200px; */
-    /* background-attachment: fixed; */
-    /* background-position: top right; */
-    /* background-position: bottom right; */
-    /* background-position: bottom left; */
-    /* background-position: top left; */
-    /* background-position: center; */
-    /* background-position: top center; */
-    /* background-position: bottom center; */
-    /* background-position: right center; */
-    /* background-position: left center; */
-    /* background: url("Image URL") repeat position / size attachment; */
-    background: url("img/example_img.png") no-repeat right top / 300px 200px fixed;
+@media screen and (max-width: 768px) {
+    .container{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+} */
+
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div{
+    height: 200px;
+    flex-grow: 1; */
+    /* flex: 1 50%; */
+    /* flex: 1  30%; */
+/* }
+
+.container .Section_1{
+    background-color: red;
+    color: white;
+}
+
+.container .Section_2{
+    background-color: green;
+    color: white;
+}
+.container .Section_3{
+    background-color: blue;
+    color: white;
+}
+.container .Section_4{
+    background-color: orangered;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .container > div{
+        flex: 1 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container > div{
+        flex: 1 100%;
+    }
+} */
+
+/* .container{
+    display: flex;
+}
+
+.container > div{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+} */
+
+/* input:checked + label{
+    color: red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.container .menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.container #menu-toggle , .container #icon{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container .menu{
+        display: none;
+    }
+
+    .container #icon{
+        display: inline;
+    }
+
+    .container #menu-toggle:checked ~ .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 66px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        padding: 25px 0;
+    }
 }

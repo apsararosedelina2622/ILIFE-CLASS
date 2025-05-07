@@ -14,7 +14,10 @@ import React from 'react'
 // import Day11Cons_1 from './Day11Cons_1'
 // import Day11Cons_2 from './Day11Cons_2'
 // import Routers from './Routes/Routers'
-import Day12 from './Day12'
+// import Day12 from './Day12'
+import Routers from './Form/Routers'
+import Context from './Form/Context'
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -34,7 +37,12 @@ const App = () => {
         <Day11Cons_2 />
       </Day11> */}
       {/* <Routers /> */}
-      <Day12 />
+      {/* <Day12 /> */}
+      <BrowserRouter>
+        <Context>
+          <Routers />
+        </Context>
+      </BrowserRouter>
     </>
   )
 }
