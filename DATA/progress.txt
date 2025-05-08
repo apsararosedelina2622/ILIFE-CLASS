@@ -221,8 +221,17 @@ MAY MONTH
 
 08 / 05 - THURSDAY
 
-10 - 11 => Satya Roslin [Swiper]
+10 - 11 => Satya Roslin 
 11 - 12 => Dhamodharan , Shalini [Transition , Transform , Animation]
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [Functions , DOM] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [Functions] 
+
+06 - 07 => Sundaresh
+
+
+09 / 05 - FRIDAY
+
+10 - 11 => Satya Roslin [AOS Animation , Swiper]
+11 - 12 => Dhamodharan , Shalini [Animation , Project]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [DOM] 
 
 06 - 07 => Sundaresh [Form validation]

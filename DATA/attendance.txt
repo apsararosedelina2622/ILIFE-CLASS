@@ -152,7 +152,15 @@ MAY MONTH
 07 / 05 - WEDNESSDAY
 
 11 - 12 => Shalini
-12 - 01 => Kannan
+12 - 01 => Kannan , Ramakrishnan
+
+06 - 07 => Sundaresh 
+
+
+08 / 05 - THURSDAY
+
+10 - 11 => Satya
+11 - 12 => Shalini
 
 06 - 07 => Sundaresh 
  

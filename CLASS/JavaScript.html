@@ -7,107 +7,182 @@
 </head>
 <body>
 
-    <!-- Ternary , Logical , Unary -->
-
-    <form name="myform">
-        <input type="number" name="input1" placeholder="Enter First Number">
-        <input type="number" name="input2" placeholder="Enter Second Number">
-        <button type="button" onclick="AddFun()">Add</button>
-
-        <h3 id="result"></h3>
-    </form>
+    <!-- Functions & It's methods -->
 
     <script>
 
-        function AddFun(){
-            var num1 = document.myform.input1.value;
-            // alert(num1)
-            // console.log(typeof(num1))
-            var num2 = document.myform.input2.value;
-            // alert(num2)
-            document.getElementById("result").innerHTML = `Result : ${ Number(num1) + Number(num2) }`
-        }
+        // Function
 
-        // Logical - AND , OR , NOT
+        // syntax
 
-        // AND
+        // function FunctionName(){
 
-        // true + true = true
-        // true + false = false
-        // false + true = false
-        // false + false = false
+        // }
 
-        // console.log(true && true)
-        // console.log(true && false)
-        // console.log(false && false)
+        // FunctionName()
 
-        // console.log((4 > 3) && (78 > 88)) // true && true => true
+        // function Fun(){
+        //     console.log("Function Working!")
+        // }
 
-        // OR
+        // Fun()
 
-        // true + true = true
-        // true + false = true
-        // false + true = true
-        // false + false = false
+        // function Fun(){
+        //     return "Hello"
+        // }
 
-        // console.log(true || true)
-        // console.log(true || false)
-        // console.log(false || false)
+        // console.log(Fun())
 
-        // console.log((43 > 23) || (54 < 32)) // true || false => true
+        // function Fun(name){
+        //     console.log(name)
+        //     console.log(`Name: ${name}`)
+        // }
 
-        // console.log((32 < 12) && (34 > 12) && (76 < 78)) // false && true && true => false
-        // console.log((32 < 12) || (34 > 12) || (76 < 78)) // false || true || true => true
+        // Fun("Banu")
 
-        // NOT
+        // function Fun(a , b){
+        //     console.log(`Addition : ${a + b}`)
+        // }
 
-        // true = false
-        // false = true
+        // Fun(2 , 5)
 
-        // console.log(!true)
-        // console.log(!false)
+        // function Fun(name = "User"){
+        //     console.log(`Name : ${name}`)
+        // }
 
-        // console.log(!(43 > 21)) // !(true) => false
-        // console.log(!((32 > 12) && (34 < 45))) // !((true && true)) => !(true) => false
+        // Fun("Banu")
+        // Fun()
 
-        // Ternary
+        // Arrow Function
 
-        // condition ? true : false
+        // syntax
 
-        // var age = 12;
+        // var FunctionName = () => {
 
-        // console.log((age >= 18 ? "You can vote" : "you can not vote"))
+        // }
 
-        // Unary 
+        // FunctionName()
 
-        // console.log(typeof("76"))
-        // console.log( + (typeof("76")))
+        // const Fun = () => {
+        //     console.log("Arrow Function Working!")
+        // }
 
-        // console.log(typeof("76"))
-        // console.log( - "76")
+        // Fun()
 
-        // var a = 90;
+        // const Fun = () => {
+        //     return "Arrow Function Working!"
+        // }
 
-        // console.log(a)
-        // console.log(++a)
-        // console.log(a)
-        // console.log(a++)
-        // console.log(a)
+        // console.log(Fun())
 
-        // var a = 90;
+        // const Data = (a = "user") => {
+        //     console.log(`name : ${a}`)
+        // }
 
-        // console.log(a)
-        // console.log(--a)
-        // console.log(a)
-        // console.log(a--)
-        // console.log(a)
+        // Data("Banu")
+        // Data()
 
-        // var num = 7
+        // Fun()
 
-        // console.log(num++) 
-        // console.log(--num) 
-        // console.log(num--) 
-        // console.log(num) 
+        // function Fun(){
+        //     console.log("Hello")
+        // }
+
+        // Fun()
+
+        // const Fun = () => {
+        //     console.log("Hello")
+        // }
+
+        // Fun()
+
+        // const Data = () => console.log("hello")
+
+        // Data()
+
+        // IIFE - Immediate Invoked Function Expression
+
+        // (function() => {
+
+        // })()
+
+        // (function(){
+        //     console.log("Hello")
+        // })()
+
+        // async function Function(){
+        // }
+
+        // FunctionName()
+
+        // async function Fun(){
+        //     const url = await fetch("https://jsonplaceholder.typicode.com/users")
+            // console.log(await url.json())
+        //     const data = await url.json()
+
+        //     console.log(data[0])
+        //     console.log(data[0].name)
+        //     console.log(`Comapny Name : ${data[0].company.name}`)
+        // }
+
+        // Fun()
+
+        // async function Fun(){
+        //     const url = await fetch("https://jsonplaceholder.typicode.com/posts")
+
+        //     // console.log(url)
+
+        //     const data = await url.json()
+
+        //     console.log(data)
+
+
+        // }
+
+        // Fun()
+
+
+        // JSON
+
+        // var data = [
+        //     {
+
+        //     }, 
+        //     {
+
+        //     }, 
+        //     {
+
+        //     }
+        // ]
+
+        // var data = [
+        //     {
+        //         name: "Abi",
+        //         age : 21
+        //     }, 
+        //     {
+        //         name : "banu", 
+        //         age : 20
+        //     }
+        // ]
+
+        // console.log(data)
+        // console.log(data[0])
+        // console.log(data[1])
+        // console.log(data[0].name)
+        // console.log(data[1].age)
+
+        // var obj = {
+        //     name : "user", 
+        //     age : 20, 
+        //     address : {
+        //         doorno : 202, 
+        //         city : "trichy"
+        //     }
+        // }
+
+        // console.log(obj.address.city)
 
     </script>
     
