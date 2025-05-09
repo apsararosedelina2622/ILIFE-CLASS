@@ -1,20 +1,26 @@
-import img from "./img/image.png"
-import img1 from "./img/image1.png"
+import Img1 from "./img/image.png"
+import Img2 from "./img/image1.png"
 
-export const asset = {
-    img,
-    img1
+export const my_asset = {
+    Img1 , 
+    Img2
 }
 
-export const data = [
+const data = [
     {
-        profile : img,
-        name : "Abi",
-        age : 21
+        id : 1 , 
+        category : "new arrival" , 
+        img : "", 
+        type : "" ,
+        desc : "" , 
+        price : "" , 
     },
     {
-        profile : img1,
-        name : "Banu",
-        age : 22
-    },
+        id : 2 , 
+        category : "shop" , 
+        img : "", 
+        type : "" ,
+        desc : "" , 
+        price : "" , 
+    }
 ]

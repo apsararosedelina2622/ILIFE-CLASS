@@ -7,184 +7,65 @@
 </head>
 <body>
 
-    <!-- Functions & It's methods -->
+    <!-- DOM -->
 
-    <script>
+    <!-- <h1 id="tag"></h1>
+    <h1 class="content"></h1> -->
 
-        // Function
+   <script>
 
-        // syntax
+        // document.getElementsByTagName("h1")[0].innerHTML = "Hello"
+        // document.getElementsByTagName("h1")[1].innerHTML = "Hello 1"
 
-        // function FunctionName(){
+        // document.getElementById("tag").innerHTML = "hello"
+        // document.getElementById("tag").style.color = "red"
 
-        // }
+        // document.getElementsByClassName("content")[0].innerHTML = "Class Name"
+        // document.getElementsByClassName("content")[0].style.color = "green"
+        // document.getElementsByClassName("content")[0].style.backgroundColor = "lightgreen"
 
-        // FunctionName()
+        // document.querySelector("#tag").innerHTML = "Hello"
+        // document.querySelector(".content").innerHTML = "Hello"
 
-        // function Fun(){
-        //     console.log("Function Working!")
-        // }
+        var tag = document.createElement("h1")
+        // tag.id = "tag"
+        // tag.setAttribute("id" , "tag")
+        tag.setAttribute("class" , "name")
+        document.body.appendChild(tag)
+        // document.getElementById("tag").innerHTML = "Hello"
+        document.getElementsByClassName("name")[0].innerHTML = "hello"
 
-        // Fun()
+        // var h1 = document.createElement("h1")
+        // h1.innerHTML = "H1 tag hello"
+        // document.body.appendChild(h1)
 
-        // function Fun(){
-        //     return "Hello"
-        // }
+        // var tag = document.createElement("a")
+        // tag.innerHTML = "Paragraph Tag"
+        // tag.href = "#"
+        // document.body.appendChild(tag)
 
-        // console.log(Fun())
+        // var img = document.createElement("img")
+        // img.src =  "https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+        // img.height = "200"
+        // img.width = "300"
+        // document.body.appendChild(img)
 
-        // function Fun(name){
-        //     console.log(name)
-        //     console.log(`Name: ${name}`)
-        // }
+        // var ol = document.createElement("ul")
+        // var li = document.createElement("li")
+        // var li1 = document.createElement("li")
+        // li.innerHTML = "Item 1"
+        // li1.innerHTML = "Item 2"
+        // ol.appendChild(li)
+        // ol.appendChild(li1)
+        // document.body.appendChild(ol)
 
-        // Fun("Banu")
+        // var center = document.createElement("center")
+        // var h1 = document.createElement("h1")
+        // h1.innerHTML = "Hello"
+        // center.appendChild(h1)
+        // document.body.appendChild(center)
 
-        // function Fun(a , b){
-        //     console.log(`Addition : ${a + b}`)
-        // }
-
-        // Fun(2 , 5)
-
-        // function Fun(name = "User"){
-        //     console.log(`Name : ${name}`)
-        // }
-
-        // Fun("Banu")
-        // Fun()
-
-        // Arrow Function
-
-        // syntax
-
-        // var FunctionName = () => {
-
-        // }
-
-        // FunctionName()
-
-        // const Fun = () => {
-        //     console.log("Arrow Function Working!")
-        // }
-
-        // Fun()
-
-        // const Fun = () => {
-        //     return "Arrow Function Working!"
-        // }
-
-        // console.log(Fun())
-
-        // const Data = (a = "user") => {
-        //     console.log(`name : ${a}`)
-        // }
-
-        // Data("Banu")
-        // Data()
-
-        // Fun()
-
-        // function Fun(){
-        //     console.log("Hello")
-        // }
-
-        // Fun()
-
-        // const Fun = () => {
-        //     console.log("Hello")
-        // }
-
-        // Fun()
-
-        // const Data = () => console.log("hello")
-
-        // Data()
-
-        // IIFE - Immediate Invoked Function Expression
-
-        // (function() => {
-
-        // })()
-
-        // (function(){
-        //     console.log("Hello")
-        // })()
-
-        // async function Function(){
-        // }
-
-        // FunctionName()
-
-        // async function Fun(){
-        //     const url = await fetch("https://jsonplaceholder.typicode.com/users")
-            // console.log(await url.json())
-        //     const data = await url.json()
-
-        //     console.log(data[0])
-        //     console.log(data[0].name)
-        //     console.log(`Comapny Name : ${data[0].company.name}`)
-        // }
-
-        // Fun()
-
-        // async function Fun(){
-        //     const url = await fetch("https://jsonplaceholder.typicode.com/posts")
-
-        //     // console.log(url)
-
-        //     const data = await url.json()
-
-        //     console.log(data)
-
-
-        // }
-
-        // Fun()
-
-
-        // JSON
-
-        // var data = [
-        //     {
-
-        //     }, 
-        //     {
-
-        //     }, 
-        //     {
-
-        //     }
-        // ]
-
-        // var data = [
-        //     {
-        //         name: "Abi",
-        //         age : 21
-        //     }, 
-        //     {
-        //         name : "banu", 
-        //         age : 20
-        //     }
-        // ]
-
-        // console.log(data)
-        // console.log(data[0])
-        // console.log(data[1])
-        // console.log(data[0].name)
-        // console.log(data[1].age)
-
-        // var obj = {
-        //     name : "user", 
-        //     age : 20, 
-        //     address : {
-        //         doorno : 202, 
-        //         city : "trichy"
-        //     }
-        // }
-
-        // console.log(obj.address.city)
-
-    </script>
+   </script>
     
 </body>
 </html>

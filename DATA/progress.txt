@@ -230,8 +230,8 @@ MAY MONTH
 
 09 / 05 - FRIDAY
 
-10 - 11 => Satya Roslin [AOS Animation , Swiper]
+10 - 11 => Satya Roslin [AOS Animation , Swiper , Project Explanation]
 11 - 12 => Dhamodharan , Shalini [Animation , Project]
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [DOM] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [DOM , Events] 
 
 06 - 07 => Sundaresh [Form validation]
