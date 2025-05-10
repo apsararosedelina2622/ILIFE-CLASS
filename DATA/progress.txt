@@ -187,9 +187,7 @@ MAY MONTH
 
 03 / 05 - SATURDAY
 
-10:30 - 11:30 => Yusuf [Carousel , Dropdown , Navbar , Form]
-12:00 - 01:00 => Yusuf [Offcanvas , Collapse , Accordion , Tooltip , Popover]
-02:30 - 03:30 => Yusuf [AOS Animation , Netlify , GitHub]
+Total 3 Class => Yusuf
 
 
 05 / 05 - MONDAY
@@ -235,3 +233,10 @@ MAY MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [DOM , Events] 
 
 06 - 07 => Sundaresh [Form validation]
+
+
+10 / 05 - SATURDAY
+
+10:30 - 12:00 => Yusuf [Carousel , Dropdown , Navbar , Pagination]
+02:30 - 03:30 => Yusuf [Offcanvas , Collapse , Accordion , Tooltip , Popover]
+02:30 - 03:30 => Yusuf [Form , AOS Animation , Netlify , GitHub] 
