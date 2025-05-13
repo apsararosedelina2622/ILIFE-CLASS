@@ -5,67 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-
-    <!-- DOM -->
-
-    <!-- <h1 id="tag"></h1>
-    <h1 class="content"></h1> -->
-
-   <script>
-
-        // document.getElementsByTagName("h1")[0].innerHTML = "Hello"
-        // document.getElementsByTagName("h1")[1].innerHTML = "Hello 1"
-
-        // document.getElementById("tag").innerHTML = "hello"
-        // document.getElementById("tag").style.color = "red"
-
-        // document.getElementsByClassName("content")[0].innerHTML = "Class Name"
-        // document.getElementsByClassName("content")[0].style.color = "green"
-        // document.getElementsByClassName("content")[0].style.backgroundColor = "lightgreen"
-
-        // document.querySelector("#tag").innerHTML = "Hello"
-        // document.querySelector(".content").innerHTML = "Hello"
-
-        var tag = document.createElement("h1")
-        // tag.id = "tag"
-        // tag.setAttribute("id" , "tag")
-        tag.setAttribute("class" , "name")
-        document.body.appendChild(tag)
-        // document.getElementById("tag").innerHTML = "Hello"
-        document.getElementsByClassName("name")[0].innerHTML = "hello"
-
-        // var h1 = document.createElement("h1")
-        // h1.innerHTML = "H1 tag hello"
-        // document.body.appendChild(h1)
-
-        // var tag = document.createElement("a")
-        // tag.innerHTML = "Paragraph Tag"
-        // tag.href = "#"
-        // document.body.appendChild(tag)
-
-        // var img = document.createElement("img")
-        // img.src =  "https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
-        // img.height = "200"
-        // img.width = "300"
-        // document.body.appendChild(img)
-
-        // var ol = document.createElement("ul")
-        // var li = document.createElement("li")
-        // var li1 = document.createElement("li")
-        // li.innerHTML = "Item 1"
-        // li1.innerHTML = "Item 2"
-        // ol.appendChild(li)
-        // ol.appendChild(li1)
-        // document.body.appendChild(ol)
-
-        // var center = document.createElement("center")
-        // var h1 = document.createElement("h1")
-        // h1.innerHTML = "Hello"
-        // center.appendChild(h1)
-        // document.body.appendChild(center)
-
-   </script>
+<!-- <body> -->
     
+    <!-- Events , AddEventListenner , RemoveEventListener -->
+
+    <!-- Onload -->
+
+    <!-- <body onload="alert('Page loaded')"> -->
+
+    <!-- Onclick -->
+
+    <!-- <button onclick="Fun()">Click</button>
+
+    <script>
+
+        function Fun(){
+            alert("Clicked")
+        }
+
+    </script> -->
+
+    <!-- ondblclick -->
+
+    <!-- <button ondblclick="Fun()">Click</button>
+
+    <script>
+
+        function Fun(){
+            alert("Button Double Click")
+        }
+
+    </script> -->
+
+    <!-- onsubmit -->
+
+    <!-- <form action="" onsubmit="Fun()">
+        <input type="text">
+        <input type="submit">
+    </form>
+
+    <script>
+
+        function Fun(){
+            alert("Form submitted")
+        }
+
+    </script> -->
+
+    <!-- onmouseover , onmouseenter -->
+
+    <!-- <h1 onmouseenter="Fun()">Hello</h1>
+
+    <script>
+
+        function Fun(){
+            document.getElementsByTagName("h1")[0].style.color = "red"
+        }
+
+    </script> -->
+
+    <!-- onmouseleave , onmouseout -->
+
+    <!-- <h1 onmouseout="Fun()">Hello</h1>
+
+    <script>
+
+        function Fun(){
+            document.getElementsByTagName("h1")[0].style.color = "red"
+        }
+
+    </script> -->
+
+    <!-- <h1 onmouseenter="Fun()" onmouseleave="Fun1()">Hello</h1>
+
+    <script>
+
+        function Fun(){
+            document.getElementsByTagName("h1")[0].style.color = "white"
+            document.getElementsByTagName("h1")[0].style.backgroundColor = "red"
+        }
+
+        function Fun1(){
+            document.getElementsByTagName("h1")[0].style.color = "white"
+            document.getElementsByTagName("h1")[0].style.backgroundColor = "blue"
+        }
+
+    </script> -->
+
+    <!-- <marquee behavior="smooth" direction="" onmouseover="stop()" onmouseleave="start()">Hello</marquee> -->
+
+    <!-- onmouseup , onmousedown -->
+
+    <!-- <button onmouseup="Fun()" onmousedown="Fun1()">Click</button>
+
+    <script>
+
+        function Fun(){
+            document.getElementsByTagName("button")[0].innerHTML = "Clicked"
+        }
+
+        function Fun1(){
+            document.getElementsByTagName("button")[0].innerHTML = "Button holded"
+        }
+
+    </script> -->
+
+    <!-- onchange -->
+
+    <!-- <select name="" id="" onchange="Fun()">
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">BOOTSTRAP</option>
+        <option value="">JS</option>
+    </select>
+
+    <script>
+
+        function Fun(){
+            alert("Option changed")
+        }
+
+    </script> -->
+
+    <!-- <input type="text" onchange="Fun(event)">
+
+    <script>
+
+        function Fun(event){
+            console.log(event)
+            console.log(event.target.value)
+        }
+
+    </script> -->
+
+    <!-- onkeyup -->
+
+    <!-- <input type="text" onkeyup="Fun(event)">
+
+    <script>
+
+        function Fun(event){
+            console.log(event.target.value)
+        }
+
+    </script> -->
+
+    <!-- onfocus -->
+
+    <!-- <input type="text" id="box" onfocus="Fun()">
+
+    <script>
+
+        function Fun(){
+            document.getElementById("box").style.backgroundColor = "purple"
+        }
+
+    </script> -->
+
+    <!-- onblur -->
+
+    <!-- <input type="text" class="input" onblur="Fun()">
+
+    <script>
+
+        function Fun(){
+            document.querySelector(".input").style.backgroundColor = "purple"
+        }
+
+    </script> -->
+
+    <!-- <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
+    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
+    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
+    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
+    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
+
+    <script>
+
+        function Fun(a){
+            a.style.backgroundColor = "purple"
+        }
+
+        function Fun1(b){
+            b.style.backgroundColor = "plum"
+        }
+
+    </script> -->
+
+    <!-- onresize -->
+
+    <!-- <script>
+
+        window.onresize = function(){
+            console.log("Window Size Changed")
+        }
+
+    </script> -->
+
 </body>
 </html>
+
+<!-- Deepak , Vishnavi , Dhinakaran -->

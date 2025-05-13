@@ -229,10 +229,10 @@ Total 3 Class => Yusuf
 09 / 05 - FRIDAY
 
 10 - 11 => Satya Roslin [AOS Animation , Swiper , Project Explanation]
-11 - 12 => Dhamodharan , Shalini [Animation , Project]
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [DOM , Events] 
+11 - 12 => Dhamodharan , Shalini 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [DOM] 
 
-06 - 07 => Sundaresh [Form validation]
+06 - 07 => Sundaresh
 
 
 10 / 05 - SATURDAY
@@ -240,3 +240,24 @@ Total 3 Class => Yusuf
 10:30 - 12:00 => Yusuf [Carousel , Dropdown , Navbar , Pagination]
 02:30 - 03:30 => Yusuf [Offcanvas , Collapse , Accordion , Tooltip , Popover]
 02:30 - 03:30 => Yusuf [Form , AOS Animation , Netlify , GitHub] 
+
+
+12 / 05 - MONDAY => I'm Leave [ No Classes ]
+
+
+13 / 05 - TUESDAY
+
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [Events , AddEventListener , RemoveEventListener] 
+
+03 - 04 => Satya Roslin [Project Explanation]
+05 - 06 => Dhamodharan , Shalini [Animation , Project]
+06 - 07 => Sundaresh [Form validation]
+
+
+14 / 05 - WEDNESSDAY
+
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [AddEventListener , RemoveEventListener , Array Methods] 
+
+03 - 04 => Satya Roslin [Node Js]
+05 - 06 => Dhamodharan , Shalini [Bootstrap Day 1]
+06 - 07 => Sundaresh [Form validation]

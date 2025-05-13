@@ -4,7 +4,7 @@ HTML SYLLABUS
 
 * HTML tags are not case sensitive.
 
-DAY - 1 => Introduction, Structure, Entities, Icons, Elements, Block, Inline, Comment, LOrem
+DAY - 1 => Introduction, Structure, Entities, Icons, Elements, Block, Inline, Comment, Lorem
 DAY - 2 => List, Links
 DAY - 3 => Marquee, Image, Audio, Video, Iframe, Tables
 DAY - 4 => Form, Form-Inputs

@@ -4,34 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+
+    .container{
+      padding: 20px;
+      background-color: plum;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .container > div{
+      color: white;
+      background-color: purple;
+      padding: 20px;
+    }
+
+    .box-1{
+      display: grid;
+      gap: 20px;
+    }
+
+    .container .box-1 .section-1{
+      grid-column: 1 / span 2;
+    }
+
+  </style>
+
 </head>
 <body>
 
-  <!-- <div class="container">
-    <div class="Section_1">Section 1</div>
-    <div class="Section_2">Section 2</div>
-  </div> -->
-<!-- 
-  <input type="checkbox" id="toggle">
-
-  <label for="toggle">Hello</label> -->
-
   <div class="container">
-    <h1>Navbar</h1>
-
-    <input type="checkbox" id="menu-toggle">
-
-    <label for="menu-toggle" id="icon">
-      <i class="fa-solid fa-bars fa-2x"></i>
-    </label>
-
-    <div class="menu">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-      <a href="#">Help</a>
+    <div class="box-1">
+      <div class="section-1">Section 1</div>
+      <div class="section-2">Section 2</div>
+      <div class="section-3">Section 3</div>
+    </div>
+    <div class="box-2">
+      <div class="section-4">Section 4</div>
     </div>
   </div>
   
