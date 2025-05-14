@@ -1,8 +1,8 @@
 BATCH
 
 10 - 11 => Satya Roslin
-11 - 12 => Thamodharan ( Joining Date - 17 / 04 ) , Shalini ( Joining Date - 30 / 04 )
-11 - 12 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu ( Combine Date- 29 / 04 )
+11 - 12 => Thamodharan , Shalini 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Banu , Sai Naresh , Lansuri , Swathisri
 
 LUNCH
 
@@ -18,7 +18,7 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sundaresh , Thamodharan , Shalini , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Shalini , Yusuf
 
 
 STUDENTS FROM EPIX
@@ -26,7 +26,21 @@ STUDENTS FROM EPIX
 Kirija , Ramakrishnan , Deepak , Dhinakaran , Hari Babu
 
 
+April
+
+11 - 12 => Thamodharan ( Joining Date - 17 / 04 )
+11 - 12 => Shalini ( Joining Date - 30 / 04 )
+
+12 - 01 => Hari Banu ( Combine Date- 29 / 04 )
+
 04 - 05 => Kaviyarasan , Murugan => ( 19 / 04 ) => Batch Combined with Anish
+
+
+May
+
+12 - 01 => Sai Naresh , Lansuri , Swathisri ( Combine Date- 13 / 05 )
+
+
 
 
 

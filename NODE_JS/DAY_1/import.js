@@ -7,31 +7,33 @@
 
 // Example - 2
 
-// var { a , b } = require("./export.js")
+// var data = require("./export.js")
 
-// console.log(a)
-// console.log(b)
+// console.log(data)
+// console.log(data.a)
+// console.log(data.b)
 
 
 // Example - 3
 
 // var data = require("./export.js")
 
-// console.log(data)
+// var { a , b } = data;
 
-// console.log(data.a)
-// console.log(data.b)
+// console.log(a)
+// console.log(b)
+// console.log(a + b)
 
 
 // Example - 4
 
-// var Add = require("./export.js")
+// var data = require("./export.js")
 
-// console.log(Add(5 , 10))
+// data()
 
 
 // Example - 5
 
-// var Add = require("./export.js")
+// var data = require("./export.js")
 
-// console.log(Add(5 , 10))
+// data("User")

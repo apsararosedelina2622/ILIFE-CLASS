@@ -247,17 +247,26 @@ Total 3 Class => Yusuf
 
 13 / 05 - TUESDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [Events , AddEventListener , RemoveEventListener] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Events , AddEventListener , RemoveEventListener] 
 
 03 - 04 => Satya Roslin [Project Explanation]
 05 - 06 => Dhamodharan , Shalini [Animation , Project]
-06 - 07 => Sundaresh [Form validation]
+06 - 07 => Sundaresh
 
 
 14 / 05 - WEDNESSDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu [AddEventListener , RemoveEventListener , Array Methods] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [AddEventListener , RemoveEventListener , Array Methods] 
 
-03 - 04 => Satya Roslin [Node Js]
+03 - 04 => Satya Roslin [Node Js Day - 1]
 05 - 06 => Dhamodharan , Shalini [Bootstrap Day 1]
+06 - 07 => Sundaresh
+
+
+15 / 05 - THURSDAY
+
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Array Methods Map , Foreach , Find , Filter , Some , Every] 
+
+03 - 04 => Satya Roslin [Node Js Day - 2]
+05 - 06 => Dhamodharan , Shalini [Bootstrap Day 2]
 06 - 07 => Sundaresh [Form validation]

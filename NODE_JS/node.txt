@@ -1,5 +1,16 @@
 NODE JS
 
+
+
+Installation of Nodemon
+
+Step - 1 => npm install -g nodemon
+Step - 2 => nodemon -v
+Step - 3 => Change Directory (Optional)
+Step - 4 => nodemon ./app.js (file name)
+
+
+
 DAY - 1 => Node Js Installation , Import Export in Node Js , Run , Nodemon Package
 DAY - 2 => Creating HTML file system , Path , OS
 DAY - 3 => Query Sting , Try Catch , Then Catch Finnaly

@@ -1,37 +1,39 @@
 // Example - 1
 
-// var a = 20;
+// var a = 10;
 
-// module.exports = a;
+// module.exports = a
 
 
 // Example - 2
 
-// var a = 20;
-// var b = 30;
+// var a = 10;
+// var b = 20;
 
 // module.exports = { a , b }
 
 
 // Example - 3
 
-// var a = 20;
-// var b = 30;
+// var a = 10;
+// var b = 20;
 
 // module.exports = { a , b }
 
 
 // Example - 4
 
-// var Add = (a , b) => {
-//     return a + b
+// const Fun = () => {
+//     console.log("Hello!")
 // }
 
-// module.exports = Add
+// module.exports = Fun
 
 
 // Example - 5
 
-// module.exports = (a , b) => {
-//     return a + b
+// const Fun = (user) => {
+//     console.log("Hello! " + user)
 // }
+
+// module.exports = Fun

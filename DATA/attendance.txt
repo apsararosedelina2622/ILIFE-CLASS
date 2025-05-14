@@ -165,7 +165,7 @@ MAY MONTH
 06 - 07 => Sundaresh 
 
 
-08 / 05 - FRIDAY
+09 / 05 - FRIDAY
 
 11 - 12 => Dhamodharan , Shalini
 12 - 01 => Ramakrishnan , Hari Babu , Dhinakaran 
@@ -173,7 +173,7 @@ MAY MONTH
 06 - 07 => Sundaresh 
 
 
-09 / 05 - SATURDAY [No Leave]
+10 / 05 - SATURDAY [No Leave]
 
 
 12 / 05 - MONDAY [I'm Leave]
@@ -184,6 +184,12 @@ MAY MONTH
 12 - 01 => Dhinakaran , Deepak , Vaishnavi 
 
 06 - 07 => Sundaresh 
+
+
+14 / 05 - WEDNESSDAY 
+
+06 - 07 => Sundaresh 
+
 
 
 

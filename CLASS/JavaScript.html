@@ -5,204 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<!-- <body> -->
+<body>
     
-    <!-- Events , AddEventListenner , RemoveEventListener -->
-
-    <!-- Onload -->
-
-    <!-- <body onload="alert('Page loaded')"> -->
-
-    <!-- Onclick -->
-
-    <!-- <button onclick="Fun()">Click</button>
+    <button id="add">Add</button>
+    <button id="remove">Remove</button>
 
     <script>
 
-        function Fun(){
-            alert("Clicked")
-        }
+        // Syntax
 
-    </script> -->
+        // addEventListener(Event , Function)
 
-    <!-- ondblclick -->
+        // const AddEvent = () => {
+        //     alert("Event Added!")
+        // }
 
-    <!-- <button ondblclick="Fun()">Click</button>
+        // document.getElementById("add").addEventListener("click" , AddEvent)
 
-    <script>
+        // const RemoveEvent = () => {
+        //     alert("Event Removed!")
+        //     document.getElementById("add").removeEventListener("click" , AddEvent)
+        // }
 
-        function Fun(){
-            alert("Button Double Click")
-        }
+        // document.getElementById("remove").addEventListener("click" , RemoveEvent)
 
-    </script> -->
 
-    <!-- onsubmit -->
+        // Array
 
-    <!-- <form action="" onsubmit="Fun()">
-        <input type="text">
-        <input type="submit">
-    </form>
+        // let arr = [1 , 2 , 3 , 4]
 
-    <script>
+        // console.log(arr)
+        // console.log(arr[1])
 
-        function Fun(){
-            alert("Form submitted")
-        }
+        // let data = [ "HTML" , "CSS" , "BOOTSTRAP" , "JS" ]
 
-    </script> -->
+        // data.push("REACT")
+        // data.pop()
+        // data.shift()
+        // data.unshift("MERN")
 
-    <!-- onmouseover , onmouseenter -->
+        // console.log(data)
+        // console.log(data.join())
+        // console.log(data.join("-"))
+        // console.log(data.join(" "))
 
-    <!-- <h1 onmouseenter="Fun()">Hello</h1>
+        // console.log(data.reverse())
 
-    <script>
+        // console.log(arr.reverse())
 
-        function Fun(){
-            document.getElementsByTagName("h1")[0].style.color = "red"
-        }
+        // let data = [50 , 100 , 30 , 10]
 
-    </script> -->
+        // console.log(data.sort((a , b) => a - b))
 
-    <!-- onmouseleave , onmouseout -->
+        // console.log(data.sort((a , b) => b - a))
 
-    <!-- <h1 onmouseout="Fun()">Hello</h1>
+        // splice(startingposition , deletecount , newvalue)
 
-    <script>
+        // console.log(data)
+        // data.splice(0 , 0 , 20)
+        // data.splice(2 , 0 , 20)
 
-        function Fun(){
-            document.getElementsByTagName("h1")[0].style.color = "red"
-        }
+        // data.splice(0 , 2)
+        // data.splice(1 , 2)
 
-    </script> -->
+        // data.splice(1 , 1 , 20)
 
-    <!-- <h1 onmouseenter="Fun()" onmouseleave="Fun1()">Hello</h1>
+        // console.log(data.splice(1 , 1 , 20))
 
-    <script>
+        // slice(startingposition , count)
 
-        function Fun(){
-            document.getElementsByTagName("h1")[0].style.color = "white"
-            document.getElementsByTagName("h1")[0].style.backgroundColor = "red"
-        }
+        // let data = [50 , 100 , 30 , 10]
 
-        function Fun1(){
-            document.getElementsByTagName("h1")[0].style.color = "white"
-            document.getElementsByTagName("h1")[0].style.backgroundColor = "blue"
-        }
+        // let data = "Hello! World"
 
-    </script> -->
+        // console.log(data.slice(1 , 2))
+        // console.log(data.slice(0 , 6) + "...")
 
-    <!-- <marquee behavior="smooth" direction="" onmouseover="stop()" onmouseleave="start()">Hello</marquee> -->
+        // let data = [50 , 100 , 30 , 10]
+        // let arr = [1, 2  ,3 ,4]
+        // let arr1 = [5, 6, 7 ,8]
 
-    <!-- onmouseup , onmousedown -->
+        // console.log(data)
+        // console.log(data.concat(60))
+        // console.log(data.concat(arr))
+        // console.log(arr.concat(data))
+        // console.log(data.concat(arr , arr1))
 
-    <!-- <button onmouseup="Fun()" onmousedown="Fun1()">Click</button>
-
-    <script>
-
-        function Fun(){
-            document.getElementsByTagName("button")[0].innerHTML = "Clicked"
-        }
-
-        function Fun1(){
-            document.getElementsByTagName("button")[0].innerHTML = "Button holded"
-        }
-
-    </script> -->
-
-    <!-- onchange -->
-
-    <!-- <select name="" id="" onchange="Fun()">
-        <option value="">HTML</option>
-        <option value="">CSS</option>
-        <option value="">BOOTSTRAP</option>
-        <option value="">JS</option>
-    </select>
-
-    <script>
-
-        function Fun(){
-            alert("Option changed")
-        }
-
-    </script> -->
-
-    <!-- <input type="text" onchange="Fun(event)">
-
-    <script>
-
-        function Fun(event){
-            console.log(event)
-            console.log(event.target.value)
-        }
-
-    </script> -->
-
-    <!-- onkeyup -->
-
-    <!-- <input type="text" onkeyup="Fun(event)">
-
-    <script>
-
-        function Fun(event){
-            console.log(event.target.value)
-        }
-
-    </script> -->
-
-    <!-- onfocus -->
-
-    <!-- <input type="text" id="box" onfocus="Fun()">
-
-    <script>
-
-        function Fun(){
-            document.getElementById("box").style.backgroundColor = "purple"
-        }
-
-    </script> -->
-
-    <!-- onblur -->
-
-    <!-- <input type="text" class="input" onblur="Fun()">
-
-    <script>
-
-        function Fun(){
-            document.querySelector(".input").style.backgroundColor = "purple"
-        }
-
-    </script> -->
-
-    <!-- <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
-    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
-    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
-    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
-    <input type="text" onfocus="Fun(this)" onblur="Fun1(this)">
-
-    <script>
-
-        function Fun(a){
-            a.style.backgroundColor = "purple"
-        }
-
-        function Fun1(b){
-            b.style.backgroundColor = "plum"
-        }
-
-    </script> -->
-
-    <!-- onresize -->
-
-    <!-- <script>
-
-        window.onresize = function(){
-            console.log("Window Size Changed")
-        }
-
-    </script> -->
+    </script>
 
 </body>
 </html>
-
-<!-- Deepak , Vishnavi , Dhinakaran -->
