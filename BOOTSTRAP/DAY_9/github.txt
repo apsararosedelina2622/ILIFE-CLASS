@@ -1,7 +1,7 @@
 Install GIT
 Check git -v in cmd 
-Set username-> git config --global user.name 'your username in github'
 Set email -> git config --global user.email 'your email in github'
+Set username-> git config --global user.name 'your username in github'
 
 GITHUB
 

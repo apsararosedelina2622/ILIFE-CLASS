@@ -29,3 +29,15 @@
 // a = "begum"
 
 // console.log(a)
+
+{/* <script>
+
+    let arr = [1 , 6 ,3  , 4]
+
+    var result = arr.every(a => {
+        return (a % 2 == 0)
+    })
+
+    console.log(result)
+
+</script> */}

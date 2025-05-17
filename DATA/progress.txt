@@ -239,7 +239,6 @@ Total 3 Class => Yusuf
 
 10:30 - 12:00 => Yusuf [Carousel , Dropdown , Navbar , Pagination]
 02:30 - 03:30 => Yusuf [Offcanvas , Collapse , Accordion , Tooltip , Popover]
-02:30 - 03:30 => Yusuf [Form , AOS Animation , Netlify , GitHub] 
 
 
 12 / 05 - MONDAY => I'm Leave [ No Classes ]
@@ -247,7 +246,7 @@ Total 3 Class => Yusuf
 
 13 / 05 - TUESDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Events , AddEventListener , RemoveEventListener] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Events] 
 
 03 - 04 => Satya Roslin [Project Explanation]
 05 - 06 => Dhamodharan , Shalini [Animation , Project]
@@ -265,8 +264,34 @@ Total 3 Class => Yusuf
 
 15 / 05 - THURSDAY
 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Array Methods Map , Foreach , Find , Filter , Some , Every] 
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Array Methods Map , Foreach] 
 
 03 - 04 => Satya Roslin [Node Js Day - 2]
 05 - 06 => Dhamodharan , Shalini [Bootstrap Day 2]
+06 - 07 => Sundaresh
+
+
+16 / 05 - FRIDAY
+
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [GitHub] 
+
+03 - 04 => Satya Roslin
+05 - 06 => Dhamodharan , Shalini [Bootstrap Day 2]
+06 - 07 => Sundaresh
+
+
+17 / 05 - SATURDAY
+
+10:30 - 11:30 => Yusuf [Form , AOS Animation , GitHub] 
+12:00 - 01:00 => Yusuf [GitHub , Netlify , JavaScript Introduction] 
+
+02:30 - 03:30 => Yusuf [Types of JS , Comments , Variables , String Concatenation , Data Types] 
+
+
+16 / 05 - MONDAY
+
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Find , Filter , Some , Every] 
+
+03 - 04 => Satya Roslin [Node Js Day - 2]
+05 - 06 => Dhamodharan , Shalini [Bootstrap Day 3]
 06 - 07 => Sundaresh [Form validation]
