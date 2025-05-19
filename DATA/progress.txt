@@ -290,8 +290,9 @@ Total 3 Class => Yusuf
 
 16 / 05 - MONDAY
 
+10 - 11 => Satya Roslin [Node Js Day - 2]
+11 - 12 => Dhamodharan , Shalini [Bootstrap Day 3]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Find , Filter , Some , Every] 
 
-03 - 04 => Satya Roslin [Node Js Day - 2]
-05 - 06 => Dhamodharan , Shalini [Bootstrap Day 3]
+
 06 - 07 => Sundaresh [Form validation]

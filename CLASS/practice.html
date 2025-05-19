@@ -7,123 +7,18 @@
 </head>
 <body>
 
-    <!-- INTRODUCTION , TYPES OF JS , COMMENTS , VARIABLES , STRING CONCATENATION , DATA TYPES , OPERATORS (ARITHMATIC , ASSIGNMENT , COMPARISON , LOGICAL , UNARY) -->
+    <script>
+
+        var arr = [ 8 , 3 , 4 , 6 ]
+
+        // const result = arr.filter(a => a % 2 == 0 )
+        // const result = arr.find(a => a % 2 == 0 )
+        // const result = arr.some(a => a % 2 == 0 )
+        const result = arr.every(a => a % 2 == 0 )
+
+        console.log(result)
+
+    </script>
     
-    <!-- Inline- outputs -->
-
-    <button onclick="alert('This is alertbox!')">click</button>
-    <button onclick="prompt('Enter your name : ')">click</button>
-    <button onclick="confirm('Are you sure wat to delete?')">click</button>
-    <button onclick="console.log('This is log')">click</button>
-    <button onclick="console.error('This is error')">click</button>
-    <button onclick="document.write('This is Document.write')">click</button>
-
-    <!-- Internal -->
-
-    <button onclick="Fun()">click</button>
-
-    <script>
-
-        // function FunctionName(){
-
-        // }
-
-        // FunctionName()
-
-        function Fun(){
-            alert("Iternal JS")
-        }
-
-    </script>
-
-    <!-- External -->
-
-    <button onclick="Fun1()">click</button>
-
-    <script src="sample.js"></script>
-
-    <script>
-
-        // String concatenation
-
-        // var name = "user"
-        // var age = 20
-
-        // console.log("User name : " , name , " , User age : ", age)
-        // console.log("username : " + name)
-        // console.log(`username : ${name} , user age : ${age}`)
-        // document.write("Hello")
-        // document.write("<h1>Hello</h1>")
-        // document.write(`<h1>username : ${name}</h1>`)
-
-        // Data types
-
-        // var data = "Hello"
-
-        // var data = 90
-
-        // var data = null
-
-        // var data;
-
-        // var data = [1 , 2 , 3 , 4]
-
-        // var objectName = {
-        //     key : value,
-        //     key : value,
-        //     key : value
-        // }
-
-        // var data = {
-        //     name : "user",
-        //     age : 20,
-        //     place : "Trichy"
-        // }
-
-        var data = new Date()
-
-        console.log(data)
-        console.log(data.getDate())
-        console.log(data.getDay())
-        console.log(data.getFullYear())
-        console.log(data.getHours())
-        console.log(data.getMonth())
-        console.log(data.toLocaleTimeString())
-
-        console.log(typeof(data))
-
-    </script>
-
-    <br><br><br>
-
-    <button id="tag" onclick="Fun()">click</button>
-    
-    <script>
-
-        function Fun(){
-            document.getElementById("tag").innerHTML = "clicked"
-        }
-
-    </script>
-
-    <button onclick="Hide()">Hide</button>
-    <button onclick="Show()">Show</button>
-
-    <p id="content"></p>
-
-    <img src="" alt="" id="">
-
-    <script>
-
-        function Hide(){
-            document.getElementById("content").innerHTML = ""
-        }
-
-        function Show(){
-            document.getElementById("content").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cum et rerum. Possimus fugit corrupti asperiores iure, accusamus sit? Doloremque id necessitatibus magni quos, magnam debitis laboriosam sunt itaque odit."
-        }
-
-    </script>
-
 </body>
 </html>
