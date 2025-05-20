@@ -288,11 +288,28 @@ Total 3 Class => Yusuf
 02:30 - 03:30 => Yusuf [Types of JS , Comments , Variables , String Concatenation , Data Types] 
 
 
-16 / 05 - MONDAY
+19 / 05 - MONDAY
 
 10 - 11 => Satya Roslin [Node Js Day - 2]
 11 - 12 => Dhamodharan , Shalini [Bootstrap Day 3]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Find , Filter , Some , Every] 
 
+06 - 07 => Sundaresh
+
+
+20 / 05 - TUESDAY
+
+10 - 11 => Satya Roslin [Project Doubts]
+11 - 12 => Dhamodharan , Shalini [Bootstrap Day 1]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Filter Task , Objects & It's Methods] 
+
+06 - 07 => Sundaresh [Form validation]
+
+
+21 / 05 - WEDNESSDAY
+
+10 - 11 => Satya Roslin [Nade JS Day - 3]
+11 - 12 => Dhamodharan , Shalini [Bootstrap Day 2]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Fetching Data From API , Conditional Statements] 
 
 06 - 07 => Sundaresh [Form validation]
