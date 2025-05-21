@@ -7,16 +7,22 @@
 </head>
 <body>
 
+    <button onclick="Add()">Add</button>
+    <span>0</span>
+    <button onclick="Remove()">Remove</button>
+
     <script>
 
-        var arr = [ 8 , 3 , 4 , 6 ]
+        var day = 1
 
-        // const result = arr.filter(a => a % 2 == 0 )
-        // const result = arr.find(a => a % 2 == 0 )
-        // const result = arr.some(a => a % 2 == 0 )
-        const result = arr.every(a => a % 2 == 0 )
-
-        console.log(result)
+        switch(day){
+            case 1:
+                console.log("Monday")
+                break;
+            case 2:
+                console.log("Tuesday")
+                break;
+        }
 
     </script>
     

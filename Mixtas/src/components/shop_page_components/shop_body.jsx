@@ -1,8 +1,29 @@
 import React from 'react'
+import { all_products } from '../../assets/asset'
 
 const shop_body = () => {
   return (
-    <div>shop_body</div>
+    <div className="container my-5">
+    
+      <h1 className='text-center display-5 mb-5'>Shop</h1>
+    
+        <div className="row">
+          {all_products.filter(value => value.category === "shop").map((value , index) => {
+            return (
+              <div className="col-lg-3 col-md-6" key={index}>
+                <div className="card">
+                  <img src={value.img} alt="" />
+                  <div className="card-body">
+                    <p className='text-secondary'>{value.type}</p>
+                    <p style={{fontSize : "15px"}}>{value.desc}</p>
+                    <p>{value.price}</p>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+    </div>
   )
 }
 
