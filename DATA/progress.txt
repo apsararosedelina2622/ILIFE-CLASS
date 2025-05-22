@@ -291,7 +291,7 @@ Total 3 Class => Yusuf
 19 / 05 - MONDAY
 
 10 - 11 => Satya Roslin [Node Js Day - 2]
-11 - 12 => Dhamodharan , Shalini [Bootstrap Day 3]
+11 - 12 => Dhamodharan , Shalini [Bootstrap Day 3] => Internship (Harish)
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Find , Filter , Some , Every] 
 
 06 - 07 => Sundaresh
@@ -309,7 +309,25 @@ Total 3 Class => Yusuf
 21 / 05 - WEDNESSDAY
 
 10 - 11 => Satya Roslin [Nade JS Day - 3]
-11 - 12 => Dhamodharan , Shalini [Bootstrap Day 2]
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri [Fetching Data From API , Conditional Statements] 
+11 - 12 => Dhamodharan , Shalini [CSS Grid , Media Query]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Fetching Data From API , Conditional Statements] 
+
+06 - 07 => Sundaresh
+
+
+22 / 05 - THURSDAY
+
+10 - 11 => Satya Roslin 
+11 - 12 => Dhamodharan , Shalini [Bootstrap Day 2] => Internship (Harish)
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Conditional Statements] 
+
+06 - 07 => Sundaresh [Form validation]
+
+
+23 / 05 - FRIDAY
+
+10 - 11 => Satya Roslin 
+11 - 12 => Dhamodharan , Shalini [Bootstrap Day 3]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Conditional Statements] 
 
 06 - 07 => Sundaresh [Form validation]

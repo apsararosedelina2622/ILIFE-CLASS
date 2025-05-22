@@ -2,6 +2,28 @@ JavaScript Syllabus
 
 * JavaScript is used in webpages for adding interactivity, dynamic content, and functionality ( Authentication, Form Validation, Fetching Data from APIs, Add to Cart ).
 
+
+Day - 1 => Introduction, Outputs in JavaScript, JS Inline, Internal, External ( NODE ), Comment Line in JS, String, Concatenation
+Day - 2 => Variables, Data Types
+Day - 3 => String Methods 
+Day - 4 => Number Methods 
+Day - 5 => Operators
+Day - 6 => Function and its methods
+Day - 7 => Conditional Statements
+Day - 8 => Loops
+Day - 9 => Set Interval, Set Timeout
+Day - 10 => Array Methods 1 ( Simple Methods ) 
+Day - 11 => Array Methods 2 ( ForEach, Map )
+Day - 12 => Array Methods 3 ( Find Filter )
+Day - 13 => Fetching Data from API with filter, Object Methods 
+Day - 14 => DOM  
+Day - 15 => Events, Event listener, Query Selector
+Day - 16 => Form Validation, Password Validation
+Day - 17 => Try, Catch, Finally, Throw, Then, Promises
+
+
+
+
 Day - 1 => Introduction, Types of JS, Outputs, Comments, String Concatenation, Variables
 Day - 2 => Data Types, Operators
 Day - 3 => String Methods, Number Methods 

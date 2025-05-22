@@ -195,13 +195,51 @@ MAY MONTH
 06 - 07 => Sundaresh 
 
 
-13 / 05 - THURSDAY
+15 / 05 - THURSDAY
 
+11 - 12 => Shalini
 12 - 01 => Deepak , Ramakrishnan , Kirija , Kannan , Vaishnavi
 
 03 - 04 => Satya
 06 - 07 => Sundaresh 
 
+
+16 / 05 - FRIDAY
+
+11 - 12 => Shalini
+12 - 01 => Deepak , Ramakrishnan , Kirija , Kannan , Vaishnavi
+
+03 - 04 => Satya
+06 - 07 => Sundaresh 
+
+
+17 / 05 - SATURDAY (No Leave)
+
+
+19 / 05 - MONDAY
+
+06 - 07 => Sundaresh 
+
+
+20 / 05 - TUESDAY
+
+06 - 07 => Sundaresh 
+
+
+21 / 05 - WEDNESSDAY
+
+11 - 12 => Dhamodharan 
+12 - 01 => Hari Babu
+
+06 - 07 => Sundaresh 
+
+
+22 / 05 - THURSDAY
+
+11 - 12 => Dhamodharan 
+12 - 01 => Sai Naresh , Lansuri
+
+06 - 07 => Sundaresh 
 
 
 
