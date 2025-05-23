@@ -322,7 +322,7 @@ Total 3 Class => Yusuf
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Conditional Statements] 
 
 04 - 05 => Internship [React Introduction , Installation]
-06 - 07 => Sundaresh [Form validation]
+06 - 07 => Sundaresh 
 
 
 23 / 05 - FRIDAY
@@ -332,12 +332,23 @@ Total 3 Class => Yusuf
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Conditional Statements] 
 
 04 - 05 => Internship [React Day 1]
-06 - 07 => Sundaresh [Form validation]
+06 - 07 => Sundaresh 
 
 
 24 / 04 - SATURDAY ( Casual Leave ) 
 
 Yusuf => Cards , Borders , Tables , Column Responsive , Modal ( Anish )
+
+26 / 05 - MONDAY
+
+10 - 11 => Kaviyarasan , Murugan [ Foreach , Map , Find , Filter ]
+11 - 12 => Shalini [Bootstrap Day 4] => Internship (Harish)
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Try Catch] 
+
+03 - 04 => Satya Roslin [Node JS Day 4]
+04 - 05 => Internship [React Day 2]
+05 - 06 => Dhamodharan [Bootstrap Day 4]
+06 - 07 => Sundaresh [Form validation]
 
 
 Kaviyarasan , Murugan => Balance Topics [ Foreach , Map , Find , Filter , Object Methods , DOM , Events , Event Listener ]
