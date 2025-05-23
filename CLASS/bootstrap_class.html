@@ -4,141 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-
-    /* body{
-      background-color: red;
-    } */
-
-    /* @media screen and (max-width : 768px) {
-      body{
-        background-color: blue;
-      }
-    }
-
-    @media screen and (max-width : 320px) {
-      body{
-        background-color: green;
-      }
-    } */
-
-    /* @media screen and (min-width : 768px) {
-      body{
-        background-color: blue;
-      }
-    } */
-
-    /* h1{
-      color: purple;
-    }
-
-    @media screen and (max-width : 768px) {
-      h1{
-        color: red;
-      }
-    }
-
-    @media screen and (max-width : 320px) {
-      h1{
-        color: blue;
-      }
-    } */
-
-    /* .container{
-      background-color: lightgreen;
-      padding: 20px;
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(4 , 1fr);
-    }
-
-    .container > div{
-      color: white;
-      background-color: darkgreen;
-      padding: 30px;
-    }
-
-    @media screen and (max-width : 768px) {
-      .container{
-        grid-template-columns: repeat(2 , 1fr);
-      }
-    }
-
-    @media screen and (max-width : 320px) {
-      .container{
-        grid-template-columns: 1fr;
-      }
-    } */
-
-    .container{
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .container > div{
-      height: 200px;
-      color: white;
-      /* flex-grow: 1; */
-      /* flex: 1 50%; */
-      /* flex: 1 100%; */
-      flex: 1;
-    }
-
-    .container .section-1{
-      background-color: red;
-    }
-
-    .container .section-2{
-      background-color: blue;
-    }
-/* 
-    .container .section-3{
-      background-color: green;
-    }
-
-    .container .section-4{
-      background-color: yellow;
-    } */
-
-    /* @media screen and (max-width : 768px) {
-      .container > div{
-        flex: 1 50%;
-      }
-    }
-
-    @media screen and (max-width : 320px) {
-      .container > div{
-        flex: 1 100%;
-      }
-    } */
-
-    @media screen and (max-width : 768px) {
-      .container{
-        flex-direction: row-reverse;
-      }
-    }
-
-    @media screen and (max-width : 320px) {
-      .container{
-        flex-direction: column;
-      }
-    }
-
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<!-- 0 - 320px -->
-<!-- 321px - 768px -->
-
-<!-- <h1>Hello</h1> -->
-
-  <div class="container">
-    <div class="section-1">Section - 1</div>
-    <div class="section-2">Section - 2</div>
-    <!-- <div class="section-3">Section - 3</div>
-    <div class="section-4">Section - 4</div> -->
-  </div>
   
+  <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Modal</button>
+
+  <div class="modal fade" id="mymodal" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Modal Title</h3>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque reprehenderit nesciunt quisquam? Perspiciatis dolor quidem architecto, qui ipsum explicabo deserunt distinctio quas, ea dicta officia praesentium, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae impedit quia in nam mollitia autem eligendi, corrupti vitae! At quibusdam est itaque numquam iure nobis nemo autem, laboriosam vitae nisi. Architecto placeat unde eos, ducimus quis sint laborum iure. Esse atque voluptatibus quia animi repudiandae maxime ex vitae voluptas harum id, dolore quibusdam molestias accusamus architecto culpa aperiam unde cupiditate aliquid! Officia recusandae possimus et repellendus laboriosam accusantium magni, alias sit natus delectus pariatur minus asperiores ut ea labore beatae at nemo dolorem eveniet! Labore amet magni commodi sint consequatur natus asperiores molestiae maiores fugiat placeat! Veritatis nemo earum molestias corrupti? Maxime cumque porro provident hic veniam tempora ab, alias qui nihil magnam quisquam. Repudiandae ipsum atque quo, dicta ratione recusandae incidunt totam maxime ea at reiciendis voluptatem earum inventore quae officia placeat cum libero molestiae sequi, consequatur nostrum repellendus labore sit. Dolorum, vitae architecto! Earum saepe hic suscipit maxime. labore amet ipsa.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal1">Modal</button>
+
+  <div class="modal fade" id="mymodal1" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Modal</h3>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque reprehenderit nesciunt quisquam? Perspiciatis dolor quidem architecto, qui ipsum explicabo deserunt distinctio quas, ea dicta officia praesentium, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae impedit quia in nam mollitia autem eligendi, corrupti vitae! At quibusdam est itaque numquam iure nobis nemo autem, laboriosam vitae nisi. Architecto placeat unde eos, ducimus quis sint laborum iure. Esse atque voluptatibus quia animi repudiandae maxime ex vitae voluptas harum id, dolore quibusdam molestias accusamus architecto culpa aperiam unde cupiditate aliquid! Officia recusandae possimus et repellendus laboriosam accusantium magni, alias sit natus delectus pariatur minus asperiores ut ea labore beatae at nemo dolorem eveniet! Labore amet magni commodi sint consequatur natus asperiores molestiae maiores fugiat placeat! Veritatis nemo earum molestias corrupti? Maxime cumque porro provident hic veniam tempora ab, alias qui nihil magnam quisquam. Repudiandae ipsum atque quo, dicta ratione recusandae incidunt totam maxime ea at reiciendis voluptatem earum inventore quae officia placeat cum libero molestiae sequi, consequatur nostrum repellendus labore sit. Dolorum, vitae architecto! Earum saepe hic suscipit maxime. labore amet ipsa.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapse1">Click</button>
+
+  <div class="collapse" id="collapse1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id nam itaque laboriosam ipsam omnis numquam similique natus vel tempore inventore a at reprehenderit, pariatur porro fugiat. Maiores, harum praesentium.</p>
+  </div>
+
+  <br>
+
+  <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapse2">Click</button>
+
+  <div class="collapse" id="collapse2">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis animi ab facilis molestias, labore cum nam rerum doloribus ipsa placeat corporis, magni maxime maiores ad illo! Repellat, dolores repudiandae. Dolores.</p>
+  </div> -->
+
+
+  <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rerum exercitationem vel, nemo porro minima tenetur veniam animi ullam architecto magnam quo blanditiis delectus vero placeat velit numquam fugiat molestiae! Voluptatem eum provident quas accusamus modi, minima doloremque sint incidunt aliquid quasi recusandae atque nobis suscipit fugiat necessitatibus eius repellendus, rem, ex doloribus in quaerat quibusdam nulla? Est nesciunt cupiditate ullam modi velit maiores magni fugiat voluptatibus dicta nulla sint non reprehenderit, minima hic ex iste dolores illo porro deleniti veritatis mollitia sunt. Voluptatem optio, accusamus autem quae cumque, minus tenetur eligendi vitae odio tempora exercitationem unde eius fuga ratione reprehenderit perspiciatis voluptatum rem reiciendis architecto ipsam voluptatibus sint, ullam explicabo. Libero excepturi pariatur earum ratione necessitatibus, tempore porro totam iure ad, dolorum nulla quae odit itaque. Suscipit sunt perferendis rerum eaque. Quidem deserunt sit itaque veniam recusandae quam unde! Molestiae velit ducimus recusandae magnam debitis illum perferendis repellendus aspernatur delectus, aperiam modi fugiat consectetur eum necessitatibus ut quam nemo, expedita illo laudantium. Sapiente assumenda quos voluptatem incidunt beatae nemo inventore. Nihil quod beatae obcaecati perferendis ex, voluptas minus iure repellendus enim sequi delectus, architecto ducimus. Pariatur excepturi at magnam recusandae similique reprehenderit autem aliquam laboriosam corporis, dolores adipisci ipsam.
+
+  <div class="dropdown text-center">
+    <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Click</button>
+    <div class="dropdown-menu dropdown-menu-dark">
+      <div class="dropdown-item active">Home</div>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-item">About</div>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-item disabled">Contact</div>
+    </div>
+  </div>
+
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary">Dropdown</button>
+    <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"></button>
+    <div class="dropdown-menu dropdown-menu-dark">
+      <div class="dropdown-item active">Home</div>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-item">About</div>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-item disabled">Contact</div>
+    </div>
+  </div> -->
+
 </body>
 </html>

@@ -57,7 +57,7 @@ const server = http.createServer((req , res) => {
             console.log(a.toString()) // username=user&password=123
 
             // value = a.toString()
-            // console.log(value)
+            // console.log(value) // { username : user , password : 123 }
 
             value = querystring.parse(a.toString())
             console.log(value)
