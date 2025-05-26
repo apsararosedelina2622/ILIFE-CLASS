@@ -33,11 +33,11 @@
 
     // const Day3_Props = (props) => {
     //   return (
-        // <>
-        //     <h1>Student Name : {props.stu_name}</h1>
-        //     <h1>Student Age : {props.stu_age}</h1>
-        //     <h1>Student Address : {props.stu_place}</h1>
-        // </>
+    //     <>
+    //         <h1>Student Name : {props.stu_name}</h1>
+    //         <h1>Student Age : {props.stu_age}</h1>
+    //         <h1>Student Address : {props.stu_place}</h1>
+    //     </>
     //   )
     // }
 
@@ -238,11 +238,11 @@
     //     <>
     //       {props.json_value.map((value , index) => {
     //         return(
-    //             <>
+    //             <div key={index}>
     //                 <h4>Name : {value.name}</h4>
     //                 <h4>Age : {value.age}</h4>
     //                 <h4>Place : {value.place}</h4>
-    //             </>
+    //             </div>
     //         )
     //       })}  
     //     </>
@@ -253,23 +253,23 @@
 
 // JSON MAP PROPS USING DESTRUCTURING
 
-    // import React from 'react'
+    import React from 'react'
 
-    // const Day3_Props = ({json_value}) => {
-    //   return (
-    //     <>
-    //         <h1>Total Students : {json_value.length}</h1>
-    //         {json_value.map((value , index) => {
-    //             return(
-    //                 <>
-    //                     <h4>Name : {value.name}</h4>
-    //                     <h4>Age : {value.age}</h4>
-    //                     <h4>Place : {value.place}</h4>
-    //                 </>
-    //             )
-    //         })}  
-    //     </>
-    //   )
-    // }
+    const Day3_Props = ({json_value}) => {
+      return (
+        <>
+            <h1>Total Students : {json_value.length}</h1>
+            {json_value.map((value , index) => {
+                return(
+                    <div key={index}>
+                        <h4>Name : {value.name}</h4>
+                        <h4>Age : {value.age}</h4>
+                        <h4>Place : {value.place}</h4>
+                    </div>
+                )
+            })}  
+        </>
+      )
+    }
 
-    // export default Day3_Props
+    export default Day3_Props

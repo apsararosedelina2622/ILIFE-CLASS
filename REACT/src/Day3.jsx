@@ -12,7 +12,7 @@
     //   return (
     //     <>
     //       <h1 style={{'color':'red', 'background-color' : 'black'}}>Hello</h1>
-    //       <h1 style={{color:'red', backgroundColor : 'black'}}>Hello</h1>
+    //       <h1 style={{color:'purple', backgroundColor : 'plum'}}>Hello</h1>
     //     </>
     //   )
     // }
@@ -31,8 +31,8 @@
     //   }
 
     //   var obj2 = {
-    //     'color' : 'red',
-    //     'background-color' : 'black'
+    //     'color' : 'darkgreen',
+    //     'background-color' : 'lightgreen'
     //   }
 
     //   return (
