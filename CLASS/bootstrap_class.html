@@ -6,132 +6,175 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-  <!-- Navbar , Pagination , Offcanvas -->
+  <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item ">
+      <img src="img/example_img.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item active">
+      <img src="img/sample_img.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/example_img.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+  
 
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a href="#" class="navbar-brand">Navbar</a>
-
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcontent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navcontent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Help</a>
-          </li>
-        </ul>
+  <!-- <div id="abc" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/example_img.png" class="w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Carousel 1</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis officiis molestiae nesciunt itaque non, quidem dolore quia, commodi, eaque ut voluptates laborum? Id neque omnis dolores aliquam incidunt odit nobis!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/sample_img.jpg" class="w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Carousel 2</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis officiis molestiae nesciunt itaque non, quidem dolore quia, commodi, eaque ut voluptates laborum? Id neque omnis dolores aliquam incidunt odit nobis!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/example_img.png" class="w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Carousel 3</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis officiis molestiae nesciunt itaque non, quidem dolore quia, commodi, eaque ut voluptates laborum? Id neque omnis dolores aliquam incidunt odit nobis!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/sample_img.jpg" class="w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Carousel 4</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis officiis molestiae nesciunt itaque non, quidem dolore quia, commodi, eaque ut voluptates laborum? Id neque omnis dolores aliquam incidunt odit nobis!</p>
+        </div>
       </div>
     </div>
-  </nav> -->
-  
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
+
+    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#abc">
+      <span class="carousel-control-prev-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+
+    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#abc">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+    <div class="carousel-indicators">
+      <button class="active" data-bs-slide-to="0" data-bs-target="#abc"></button>
+      <button data-bs-slide-to="1" data-bs-target="#abc"></button>
+      <button data-bs-slide-to="2" data-bs-target="#abc"></button>
+      <button data-bs-slide-to="3" data-bs-target="#abc"></button>
+    </div>
+
+  </div> -->
+
+
+  <!-- <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
   </div>
-</nav> -->
-
-  <!-- <ul class="pagination justify-content-start">
-    <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
-    <li class="page-item disabled"><a href="practice.html" class="page-link">1</a></li>
-    <li class="page-item active"><a href="JavaScript.html" class="page-link">2</a></li>
-    <li class="page-item"><a href="#" class="page-link">3</a></li>
-    <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
-  </ul> -->
-
-  <!-- <ul class="pagination pagination-lg justify-content-start">
-    <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
-    <li class="page-item disabled"><a href="practice.html" class="page-link">1</a></li>
-    <li class="page-item active"><a href="JavaScript.html" class="page-link">2</a></li>
-    <li class="page-item"><a href="#" class="page-link">3</a></li>
-    <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
-  </ul> -->
-
-  <!-- <ul class="pagination justify-content-start">
-    <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
-    <li class="page-item disabled"><a href="practice.html" class="page-link">1</a></li>
-    <li class="page-item active"><a href="JavaScript.html" class="page-link">2</a></li>
-    <li class="page-item"><a href="#" class="page-link">3</a></li>
-    <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
-  </ul> -->
-
-  <!-- <ul class="pagination pagination-sm justify-content-start">
-    <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
-    <li class="page-item disabled"><a href="practice.html" class="page-link">1</a></li>
-    <li class="page-item active"><a href="JavaScript.html" class="page-link">2</a></li>
-    <li class="page-item"><a href="#" class="page-link">3</a></li>
-    <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
-  </ul> -->
-
-  <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#mycanvas">Click</button>
-
-  <div class="offcanvas offcanvas-bottom h-100" id="mycanvas">
-    <div class="offcanvas-header">
-      <h3>Canvas Title</h3>
-      <button class="btn-close" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis est iste aliquam rem commodi eligendi nesciunt consequatur quas? Perferendis saepe cum quo ullam vitae tempora asperiores quas amet repellat et enim adipisci ipsam nesciunt numquam harum ex eius necessitatibus libero consequuntur earum quos corporis totam, magnam nobis. Architecto, beatae voluptatem?</p>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
   </div>
-
-
-  <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#mycanvas1">Click</button>
-
-  <div class="offcanvas offcanvas-bottom h-100" id="mycanvas1">
-    <div class="offcanvas-header">
-      <h3>Title</h3>
-      <button class="btn-close" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis est iste aliquam rem commodi eligendi nesciunt consequatur quas? Perferendis saepe cum quo ullam vitae tempora asperiores quas amet repellat et enim adipisci ipsam nesciunt numquam harum ex eius necessitatibus libero consequuntur earum quos corporis totam, magnam nobis. Architecto, beatae voluptatem?</p>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
   </div>
+</div> -->
 
+  <!-- <div class="accordion" id="abc">
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item1">Click</button>
+      </div>
+      <div class="accordion-collapse collapse" id="item1" data-bs-parent="#abc">
+        <div class="accordion-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam suscipit aperiam dolorem iste veritatis quod veniam assumenda nemo eius. Ex maxime cum quasi voluptatum magni aliquid numquam quis blanditiis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item2">Click</button>
+      </div>
+      <div class="accordion-collapse collapse" id="item2" data-bs-parent="#abc">
+        <div class="accordion-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam suscipit aperiam dolorem iste veritatis quod veniam assumenda nemo eius. Ex maxime cum quasi voluptatum magni aliquid numquam quis blanditiis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item3">Click</button>
+      </div>
+      <div class="accordion-collapse collapse" id="item3" data-bs-parent="#abc">
+        <div class="accordion-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam suscipit aperiam dolorem iste veritatis quod veniam assumenda nemo eius. Ex maxime cum quasi voluptatum magni aliquid numquam quis blanditiis.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <form action="" class="container">
+    <input type="text" class="form-control my-5">
+    <input type="text" class="form-control form-control-lg my-5">
+    <input type="text" class="form-control my-5">
+    <input type="text" class="form-control form-control-sm my-5">
+    <input type="text" class="form-control my-5" value="Hello" readonly>
+    <input type="text" class="form-control my-5" value="Hello" disabled>
+    <input type="text" class="form-control form-control-plaintext" value="Mr / Mrs">
+    <input type="file" class="form-control">
+    <input type="file" class="form-control form-control-lg">
+    <input type="file" class="form-control form-control-sm">
+    <input type="color" class="form-control">
+    <input class="form-control my-5" list="data">
+    <datalist id="data">
+      <option value="HTML"></option>
+      <option value="CSS"></option>
+      <option value="BOOTSTRAP"></option>
+      <option value="JS"></option>
+    </datalist>
+  </form>
 
 </body>
 </html>

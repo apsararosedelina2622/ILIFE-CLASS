@@ -10,6 +10,8 @@
 //         setvisible(!visible)
 //     }
 
+//     // condition ? true : false
+
 //   return (
 //     <>
 //         <button onClick={Fun}>{visible ? "hide" : "show"}</button>
@@ -40,6 +42,7 @@
 //   return (
 //     <>
 //         <input type={show ? "password" : "text"} />
+//         {/* <input type="password" /> */}
 //         <button onClick={Fun}>{show ? "show" : "hide"}</button>
 //     </>
 //   )
@@ -83,6 +86,8 @@
 import React, { useState } from 'react'
 
 const Day5 = () => {
+
+    // var time = new Date().toLocaleTimeString()
 
     const [time , setTime] = useState(new Date().toLocaleTimeString())
 

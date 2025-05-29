@@ -352,14 +352,29 @@ Yusuf => Functions ,  Operators , String Methods , Number Methods ( Anish )
 06 - 07 => Sundaresh
 
 
-27 / 05 - TUESDAY
+27 / 05 - TUESDAY & 28 / 05 - WEDNESSDAY => I'm Leave
 
-10 - 11 => Kaviyarasan , Murugan [Object Methods , DOM]
+
+29 / 05 - THURSDAY
+
+10 - 11 => Kaviyarasan , Murugan [Filter , Doubts Clarification]
 11 - 12 => Shalini [Bootstrap Day 5] => Internship (Harish)
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Loop] 
 
 03 - 04 => Satya Roslin [Node JS Day 4]
 04 - 05 => Internship [React Day 3]
+05 - 06 => Dhamodharan [Bootstrap Day 5]
+06 - 07 => Sundaresh 
+
+
+30 / 05 - FRIDAY
+
+10 - 11 => Kaviyarasan , Murugan [Object Methods , DOM]
+11 - 12 => Shalini [Bootstrap Day 5] => Internship (Harish)
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Try Catch , Form Validation] 
+
+03 - 04 => Satya Roslin [Node JS Day 4]
+04 - 05 => Internship [React Day 4]
 05 - 06 => Dhamodharan [Bootstrap Day 5]
 06 - 07 => Sundaresh [Form validation]
 

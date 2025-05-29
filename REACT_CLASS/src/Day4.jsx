@@ -1,8 +1,8 @@
 // image
 
 // import React from 'react'
-// import img from "./assets/image1.png"
-// import img1 from "./assets/image.png"
+// import img from "./assets/img/image.png"
+// import img1 from "./assets/img/image1.png"
 
 // const Day4 = () => {
 //   return (
@@ -18,13 +18,13 @@
 // Image through Assets.js
 
 // import React from 'react'
-// import { asset } from './assets/assets'
+// import { my_asset } from './assets/assets'
 
 // const Day4 = () => {
 //   return (
 //     <>
-//         <img src={asset.img} alt="" />
-//         <img src={asset.img1} alt="" height={200} />
+//         <img src={my_asset.Img1} alt="" height={200} />
+//         <img src={my_asset.Img2} alt="" height={200} />
 //     </>
 //   )
 // }
@@ -98,33 +98,37 @@
 
 
 
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-const Day4 = () => {
+// const Day4 = () => {
 
-    // var [state , setState] = useState(initial)
+//     // var [state , setState] = useState(initial)
 
-    var [num , setNum] = useState(1)
+//     var [num , setNum] = useState(1)
 
-    const Add = () => {
-        if(num < 10){
-            setNum(num + 1)
-        }
-    }
+//     const Add = () => {
+//         if(num < 10){
+//             setNum(num + 1)
+//         }else{
+//             alert("This is Maximum Limit")
+//         }
+//     }
 
-    const Remove = () => {
-        if(num > 0){
-            setNum(num -1)
-        }
-    }
+//     const Remove = () => {
+//         if(num > 0){
+//             setNum(num -1)
+//         }else{
+//             alert("This is Minimum Limit")
+//         }
+//     }
 
-  return (
-    <>
-        <button onClick={Add}>Add</button>
-        <h1>{num}</h1>
-        <button onClick={Remove}>Remove</button>
-    </>
-  )
-}
+//   return (
+//     <>
+//         <button onClick={Add}>Add</button>
+//         <h1>{num}</h1>
+//         <button onClick={Remove}>Remove</button>
+//     </>
+//   )
+// }
 
-export default Day4
+// export default Day4

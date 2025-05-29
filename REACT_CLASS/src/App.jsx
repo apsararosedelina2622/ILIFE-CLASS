@@ -4,7 +4,7 @@ import React from 'react'
 // import Day2 from './Day2'
 // import Day3 from './Day3'
 // import Day4 from './Day4'
-// import Day5 from './Day5'
+import Day5 from './Day5'
 // import Day6 from './Day6'
 // import Day7 from './Day7'
 // import Day8 from './Day8'
@@ -18,7 +18,7 @@ import React from 'react'
 // import Routers from './Form/Routers'
 // import Context from './Form/Context'
 // import { BrowserRouter } from 'react-router-dom'
-import Day13 from './Day13'
+// import Day13 from './Day13'
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
       {/* <Day2 /> */}
       {/* <Day3 /> */}
       {/* <Day4 /> */}
-      {/* <Day5 /> */}
+      <Day5 />
       {/* <Day6 /> */}
       {/* <Day7 /> */}
       {/* <Day8 /> */}
@@ -44,7 +44,7 @@ const App = () => {
           <Routers />
         </Context>
       </BrowserRouter> */}
-      <Day13 />
+      {/* <Day13 /> */}
     </>
   )
 }
