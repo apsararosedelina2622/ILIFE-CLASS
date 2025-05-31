@@ -1,0 +1,17 @@
+EXPRESS
+
+For Install - npm  i express@4
+
+DAY - 1 => Express Basic Setup, Installing Express JS Package, Creating Mulitple Routes 
+
+DAY - 2 => Installing Thunder Client Extension, Importing HTML 
+files in Express, Getting Values from HTML from using URL ENCODED 
+
+* Extension => Thunder Client => Install
+
+* Thunder Client => New Request => URL 
+
+DAY - 3 => HBS, EJS, Error Handling 
+
+* HBS - npm i hbs 
+* EJS - npm i ejs

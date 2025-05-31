@@ -369,14 +369,36 @@ Yusuf => Functions ,  Operators , String Methods , Number Methods ( Anish )
 
 30 / 05 - FRIDAY
 
-10 - 11 => Kaviyarasan , Murugan [Object Methods , DOM]
+10 - 11 => Kaviyarasan , Murugan [Doubts , DOM]
 11 - 12 => Shalini [Bootstrap Day 5] => Internship (Harish)
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Try Catch , Form Validation] 
 
 03 - 04 => Satya Roslin [Node JS Day 4]
 04 - 05 => Internship [React Day 4]
 05 - 06 => Dhamodharan [Bootstrap Day 5]
+06 - 07 => Sundaresh
+
+
+31 / 05 - SATURDAY
+
+
+
+
+
+================================================================================================
+JUNE MONTH
+================================================================================================
+
+01 / 06 - MONDAY
+
+10 - 11 => Satya Roslin [Node JS Day 4]
+11 - 12 => Shalini , Dhamodharan [Bootstrap Day 5 , JavaScript Introduction]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Form Validation , Password Validation] 
+
+02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM]
+04 - 05 => Internship [React Day 5]
 06 - 07 => Sundaresh [Form validation]
+
 
 
 Kaviyarasan , Murugan => Balance Topics [ Object Methods , DOM , Events , Event Listener ]
