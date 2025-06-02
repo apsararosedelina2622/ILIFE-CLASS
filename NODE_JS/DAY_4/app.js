@@ -103,23 +103,23 @@ const server = http.createServer((req,res)=> {
                             <div class="row">
                                 <div class="col-6">
                                     <label>Enter First Name</label>
-                                    <input value="Anis" type="text" name="fname">
+                                    <input value="User" type="text" name="fname">
                                 </div>
                                 <div class="col-6">
                                     <label>Enter Last Name</label>
-                                    <input value="Fathima" type="text" name="lname">
+                                    <input value="Name" type="text" name="lname">
                                 </div>
                                 <div class="col-6">
                                     <label>Enter Gmail</label>
-                                    <input value="anisfathima324@gmail.com" type="mail" name="mail">
+                                    <input value="user123@gmail.com" type="mail" name="mail">
                                 </div>
                                 <div class="col-6">
                                     <label>Enter Password</label>
-                                    <input value="0808" type="password" name="pw">
+                                    <input value="user@123" type="password" name="pw">
                                 </div>
                                 <div class="col-6">
                                     <label>Enter Confrim Password</label>
-                                    <input value="0808" type="password" name="cpw">
+                                    <input value="user@123" type="password" name="cpw">
                                 </div>
                                 <div class="col-6">
                                     <label>Enter Age</label>
@@ -139,7 +139,7 @@ const server = http.createServer((req,res)=> {
                                 </div>
                                 <div class="col-6">
                                     <label>Enter Date of Birth</label>
-                                    <input type="date" name="dob" value="2004-08-08"><br><br>
+                                    <input type="date" name="dob" value="2003-08-27"><br><br>
                                 </div> 
                             </div>  
                             <center>         

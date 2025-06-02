@@ -7,88 +7,90 @@
 </head>
 <body>
 
-    <input type="password">
+    <!-- <input type="text" id="password" placeholder="Enter your password" onkeyup="Fun()">
 
+    <p id="first">*First Letter must be Capital.</p>
+    <p id="minimum">*Minimum 8 Characters</p>
+    <p id="special">*Atleast one Special Characters</p>
+    <p id="number">*Atleast one Number</p> -->
+
+    <!-- <ul>
+        <li>Item 1</li>
+    </ul> -->
+    
     <script>
 
-        // for(let i = 1; i <= 5; i++){
-        //     // console.log(i)
-        //     for(let j = 1; j <= 5; j++){
-        //         console.log(i , "+" , j , "=" ,i + j)
+        // function Fun(){
+        //     var password = document.getElementById("password").value;
+
+        //     // console.log(password.charAt(0))
+        //     var firstLetter = password.charAt(0)
+
+        //     if(firstLetter === firstLetter.toUpperCase()){
+        //         document.getElementById("first").style.color = "green"
+        //     }else{
+        //         document.getElementById("first").style.color = "red"
         //     }
-        //     console.log("--------");
-        // }
 
-        // try{
-
-        // }catch(err){
-
-        // }finally{
-
-        // }
-
-        // const Fun = () => {
-        //     try{
-        //         let word = 34567
-        //         console.log(word.toUpperCase())
-        //     }catch(err){
-        //         console.log(`Error : ${err}`)
-        //         console.log(`Error Name : ${err.name}`)
-        //         console.log(`Error Message : ${err.message}`)
-        //     }finally{
-        //         console.log("Working!...")
+        //     if(password.length >= 8){
+        //         document.getElementById("minimum").style.color = "green"
+        //     }else{
+        //         document.getElementById("minimum").style.color = "red"
         //     }
-        // }
 
-        // Fun()
+        //     var special = ["!" , "@" , "#" , "$" , "%" , "*"]
 
+        //     if(special.some(a => password.includes(a))){
+        //         document.getElementById("special").style.color = "green"
+        //     }else{
+        //         document.getElementById("special").style.color = "red"
+        //     }
 
-        // const Fun = (a , b) => {
-        //     try{
-        //         console.log(a + c)
-        //     }catch(err){
-        //         console.log(err)
-        //         console.log(err.name)
-        //         console.log(err.message)
-        //     }finally{
-        //         console.log("Working!...")
+        //     var number = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 0]
+
+        //     if(number.some(a => password.includes(a))){
+        //         document.getElementById("number").style.color = "green"
+        //     }else{
+        //         document.getElementById("number").style.color = "red"
+        //     }
+
+        //     if(password.length === 0){
+        //         document.getElementById("first").style.color = "black"
+        //         document.getElementById("minimum").style.color = "black"
+        //         document.getElementById("special").style.color = "black"
+        //         document.getElementById("number").style.color = "black"
         //     }
         // }
 
-        // Fun(3 , 5)
 
-        // const Fun = (num) => {
-        //     try{
-        //         if(num <= 5){
-        //             console.log("Minimum 5")
-        //         }else{
-        //             throw new Error("Maximaum 5")
-        //         }
-        //     }catch(err){
-        //         console.log(err)
-        //         console.log(err.name)
-        //         console.log(err.message)
-        //     }
-        // }
-
-        // Fun(8)
+        // const img = document.createElement("img")
+        // img.src = "https://mixtas.novaworks.net/wp-content/uploads/2023/12/m3_03_1.jpg"
+        // img.height = 200
+        // document.body.appendChild(img)
 
 
-        // const Fun = (age) => {
-        //     try{
-        //         if(age >= 18){
-        //             console.log("You can vote!")
-        //         }else{
-        //             throw new Error("You can't vote")
-        //         }
-        //     }catch(err){
-        //         console.log(err)
-        //         console.log(err.name)
-        //         console.log(err.message)
-        //     }
-        // }
+        // const ul = document.createElement("ul")
+        // const li = document.createElement("li")
+        // const li1 = document.createElement("li")
+        // const a = document.createElement("a")
+        // a.href = "#"
+        // a.innerHTML = "Link"
+        // li.appendChild(a)
+        // li1.innerHTML = "Item 2"
+        // ul.appendChild(li)
+        // ul.appendChild(li1)
+        // document.body.appendChild(ul)
 
-        // Fun(19)
+        var count = 0
+
+        const interval = setInterval(() => {
+            if(count < 3){
+                ++count
+                console.log(count)
+            }else{
+                clearInterval(interval)
+            }
+        } , 1000)
 
     </script>
     

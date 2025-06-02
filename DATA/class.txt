@@ -2,7 +2,7 @@ BATCH
 
 10 - 11 => Satya Roslin
 11 - 12 => Thamodharan , Shalini 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Hari Babu , Sai Naresh , Lansuri , Swathisri
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri
 
 LUNCH
 

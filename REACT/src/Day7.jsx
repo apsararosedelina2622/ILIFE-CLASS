@@ -1,137 +1,100 @@
-// Use Effect
+// USE EFFECT 
 
-// No Dependency =>  Runs when component loads and also Run when changes on the component
+// useEffect(() => {
 
-// import React from 'react'
-// import { useEffect } from 'react'
+// }, [])
 
-// const Day7_Effect = () => {
+// 1. With Dependency 
 
-//   useEffect(() => {
-//     console.log("Running")
-//   })
+// import React, { useEffect, useState } from 'react'
 
-//   return (
-//     <>
-//       fghjklfghjkfghj
-//     </>
-//   )
+// const Day7 = () => {
+
+//     var [ count, setCount ] = useState(1)
+
+//     const countFun = () => {
+//         setCount(++count)
+//     }
+
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     }, [count])
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
-// export default Day7_Effect
+// export default Day7
 
+// 2 . Without Dependecy
 
-// Empty Dependency =>  Run only once when component loads.
+// import React, { useEffect, useState } from 'react'
 
-// import React from 'react'
-// import { useEffect } from 'react'
+// const Day7 = () => {
 
-// const Day7_Effect = () => {
+//     var [ count, setCount ] = useState(1)
 
-//   useEffect(() => {
-//     console.log("Empty Dependency")
-//   } , [])
+//     const countFun = () => {
+//         setCount(++count)
+//     }
 
-//   return (
-//     <>
-//       <p>Hello</p>
-//     </>
-//   )
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     }, [])
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
-// export default Day7_Effect
+// export default Day7
 
+// Example - 2
 
-// With Dependency
+// import React, { useState, useEffect } from 'react'
 
-// import React from 'react'
-// import { useEffect } from 'react'
-// import { useState } from 'react'
+// const Day7 = () => {
+//     const [name, setName] = useState("");
 
-// const Day7_Effect = () => {
+//     useEffect(() => {
+//         console.log("Name updated:", name);
+//     }, [name]);
 
-//   const [count , setCount] = useState(0)
-
-//   const Fun = () => {
-//     setCount(count + 1)
-//   }
-
-//   // console.log("Count Increasing")
-
-//   useEffect(() => {
-//     console.log("Count Increasing")
-//   } , [count])
-
-//   return (
-//     <>
-//       <button onClick={Fun}>Add</button>
-//       <h1>{count}</h1>
-//     </>
-//   )
+//     return (
+//         <>
+//             <input type="text" placeholder="Enter name" onChange={(e) => setName(e.target.value)} />
+//         </>
+//     );
 // }
 
-// export default Day7_Effect
+// export default Day7
 
-import React, { useState } from 'react'
+// Example - 3 
 
-const Day7_Effect = () => {
+// import React, { useState, useEffect } from 'react'
 
-  const [input , setInput] = useState("")
+// const Day7 = () => {
 
-  const display = (e) => {
-    setInput(input + e.target.value)
-    // console.log(e)
-  }
+//     var [ bgColor, setBgColor ] = useState('white')
 
-  const sumFun = () => {
-    setInput(eval(input))
-  }
+//     useEffect(() => {
+//         document.body.style.backgroundColor = bgColor;
+//         alert('Color Changed');
+//     }, [bgColor])
 
-  const clearFun = () =>{
-    setInput("")
-  }
+//     return (
+//         <>
+//             <button onClick={() => {setBgColor('blue')}}>Blue</button>
+//             <button onClick={() => {setBgColor('red')}}>Red</button>
+//         </>
+//     )
+// }
 
-  const deleteFun = () => {
-    setInput(input.slice(0 , -1))
-  }
-
-  return (
-    <>
-      <form action="">
-        <input type="text" value={input} readOnly/>
-
-        <div>
-          <input type="button" onClick={display} value="1" />
-          <input type="button" onClick={display} value="2" />
-          <input type="button" onClick={display} value="3" />
-          <input type="button" onClick={display} value="4" />
-        </div>
-        <div>
-          <input type="button" onClick={display} value="5" />
-          <input type="button" onClick={display} value="6" />
-          <input type="button" onClick={display} value="7" />
-          <input type="button" onClick={display} value="8" />
-        </div>
-        <div>
-          <input type="button" onClick={display} value="9" />
-          <input type="button" onClick={display} value="0" />
-          <input type="button" onClick={display} value="00" />
-          <input type="button" onClick={display} value="." />
-        </div>
-        <div>
-          <input type="button" onClick={display} value="+" />
-          <input type="button" onClick={display} value="-" />
-          <input type="button" onClick={display} value="*" />
-          <input type="button" onClick={display} value="/" />
-        </div>
-        <div>
-          <input type="button" onClick={sumFun} value="=" />
-          <input type="button" onClick={clearFun} value="C" />
-          <input type="button" onClick={deleteFun} value="DE" />
-        </div>
-      </form>
-    </>
-  )
-}
-
-export default Day7_Effect
+// export default Day7

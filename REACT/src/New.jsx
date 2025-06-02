@@ -1,278 +1,153 @@
-// import React from 'react'
+// USE EFFECT 
 
-//     const New = () => {
-//       return (
-//         <>
-//           <h1 style={{'color':'red', 'background-color' : 'black'}}>Hello</h1>
-//           <h1 style={{color:'purple', backgroundColor : 'plum'}}>Hello</h1>
-//         </>
-//       )
-//     }
+// useEffect(() => {
 
-// export default New
+// }, [])
 
+// 1. With Dependency 
 
-
-
-// import React from 'react'
-
-//     const New = () => {
-
-//       var obj1 = {
-//         color : 'red',
-//         backgroundColor : 'blue'
-//       }
-
-//       var obj2 = {
-//         'color' : 'darkgreen',
-//         'background-color' : 'lightgreen'
-//       }
-
-//       return (
-//         <>
-//           <h1 style={obj1}>Hello</h1>
-//           <h1 style={obj2}>Hello</h1>
-//         </>
-//       )
-//     }
-
-// export default New
-
-
-
-// import React from 'react'
-// import './index.css'
-
-//     const Day3 = () => {
-//       return (
-//         <>
-//           <h1>Hello</h1>
-//         </>
-//       )
-//     }
-
-// export default Day3
-
-
-// import React from 'react'
-// import img from "./assets/img/image.png"
-// import img1 from "./assets/img/image1.png"
+// import React, { useEffect, useState } from 'react'
 
 // const New = () => {
-//   return (
-//     <div>
-//         <img src={img} alt="" height={300} />
-//         <img src={img1} alt="" height={300} />
-//     </div>  
-//   )
+
+//     var [ count, setCount ] = useState(1)
+
+//     const countFun = () => {
+//         setCount(++count)
+//     }
+
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     }, [count])
+
+//     // console.log('Number Changed');
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
 // export default New
 
 
-// import React from 'react'
-// import { my_asset } from './assets/assets'
+
+// 2 . Without Dependecy
+
+// import React, { useEffect, useState } from 'react'
 
 // const New = () => {
-//   return (
-//     <>
-//         <img src={my_asset.Img1} alt="" height={200} />
-//         <img src={my_asset.Img2} alt="" height={200} />
-//     </>
-//   )
+
+//     var [ count, setCount ] = useState(1)
+
+//     const countFun = () => {
+//         setCount(++count)
+//     }
+
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     }, [])
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
 // export default New
 
 
-// import React from 'react'
-// import { data } from './assets/assets'
 
-// const Day4 = () => {
-//   return (
-//     <>
-//       {data.map((value , index)=> {
-//         return(
-//             <div key={index}>
-//                 <img src={value.profile} height={200} width={300} alt="" />
-//                 <h1>{value.name}</h1>
-//                 <h1>{value.age}</h1>
-//             </div>
-//         )
-//       })}  
-//     </>
-//   )
-// }
+// Example - 2
 
-// export default Day4
-
-
-// import React from 'react'
-// import { my_asset } from './assets/assets'
-// import {Button, Card, CardBody, Col, Container, Row} from "react-bootstrap"
+// import React, { useState, useEffect } from 'react'
 
 // const New = () => {
-//   return (
-//     <div>
-//         <h1 className='bg-success text-light text-center'>Hello</h1>
+//     const [name, setName] = useState("");
 
-//         <div className="container">
-//           <div className="row">
-//             <div className="col-lg-3 col-md-6">
-//               <div className="card">
-//                 <img src={my_asset.Img1} alt="" />
-//                 <div className="card-body">
-//                   <h4>Hello</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sequi!</p>
-//                 </div>
-//               </div>
-//             </div>
-//             <div className="col-lg-3 col-md-6">
-//               <div className="card">
-//                 <img src={my_asset.Img2} alt="" />
-//                 <div className="card-body">
-//                   <h4>Hello</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sequi!</p>
-//                 </div>
-//               </div>
-//             </div>
-//             <div className="col-lg-3 col-md-6">
-//               <div className="card">
-//                 <img src={my_asset.Img1} alt="" />
-//                 <div className="card-body">
-//                   <h4>Hello</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sequi!</p>
-//                 </div>
-//               </div>
-//             </div>
-//             <div className="col-lg-3 col-md-6">
-//               <div className="card">
-//                 <img src={my_asset.Img2} alt="" />
-//                 <div className="card-body">
-//                   <h4>Hello</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sequi!</p>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
+//     useEffect(() => {
+//         console.log("Name updated:", name);
+//     }, [name]);
 
-//         <Container fluid>
-//           <Row>
-//             <Col lg="3" md="6" sm="12">
-//               <Card>
-//                 <img src={my_asset.Img1} alt="" />
-//                 <CardBody>
-//                   <h4>Card Title</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perferendis!</p>
-//                   <Button className='btn-primary'>Click</Button>
-//                 </CardBody>
-//               </Card>
-//             </Col>
-//             <Col lg="3" md="6" sm="12">
-//               <Card>
-//                 <img src={my_asset.Img2} alt="" />
-//                 <CardBody>
-//                   <h4>Card Title</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perferendis!</p>
-//                 </CardBody>
-//               </Card>
-//             </Col>
-//             <Col lg="3" md="6" sm="12">
-//               <Card>
-//                 <img src={my_asset.Img1} alt="" />
-//                 <CardBody>
-//                   <h4>Card Title</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perferendis!</p>
-//                 </CardBody>
-//               </Card>
-//             </Col>
-//             <Col lg="3" md="6" sm="12">
-//               <Card>
-//                 <img src={my_asset.Img2} alt="" />
-//                 <CardBody>
-//                   <h4>Card Title</h4>
-//                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perferendis!</p>
-//                 </CardBody>
-//               </Card>
-//             </Col>
-//           </Row>
-//         </Container>
+//     return (
+//         <>
+//             <input type="text" placeholder="Enter name" onChange={(e) => setName(e.target.value)} />
+//             <h1>{name}</h1>
+//         </>
+//     );
+// }
 
-//     </div>
-//   )
+// export default New
+
+// Example - 3 
+
+// import React, { useState, useEffect } from 'react'
+
+// const New = () => {
+
+//     var [ bgColor, setBgColor ] = useState('white')
+
+//     useEffect(() => {
+//         document.body.style.backgroundColor = bgColor;
+//         alert('Color Changed');
+//     }, [bgColor])
+
+//     return (
+//         <>
+//             <button onClick={() => {setBgColor('blue')}}>Blue</button>
+//             <button onClick={() => {setBgColor('red')}}>Red</button>
+//         </>
+//     )
 // }
 
 // export default New
 
 
 
-// import { useState } from 'react';
-// import Button from 'react-bootstrap/Button';
-// import Modal from 'react-bootstrap/Modal';
 
-// function New() {
-//   const [show, setShow] = useState(false);
+// // Example - 4
 
-//   const handleClose = () => setShow(false);
-//   const handleShow = () => setShow(true);
+import React, { useEffect, useState } from 'react'
 
-//   return (
-//     <>
-//       <Button variant="danger" onClick={handleShow}>
-//         Launch demo modal
-//       </Button>
+const Day8 = () => {
 
-//       <Modal show={show} onHide={handleClose}>
-//         <Modal.Header closeButton>
-//           <Modal.Title>Modal heading</Modal.Title>
-//         </Modal.Header>
-//         <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-//         <Modal.Footer>
-//           <Button variant="secondary" onClick={handleClose}>
-//             Close
-//           </Button>
-//           <Button variant="primary" onClick={handleClose}>
-//             Save Changes
-//           </Button>
-//         </Modal.Footer>
-//       </Modal>
-//     </>
-//   );
-// }
+    const [data , setData] =useState([])
 
-// export default New;
+    const fetchData = async () => {
+        const url = await fetch(`https://jsonplaceholder.typicode.com/users`)
+        const data = await url.json()
+        console.log(data)
+        setData(data)
+    }
 
-
-
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-
-function New() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => {
-    setShow(false)
-  }
+    useEffect(() => {
+      fetchData()
+    } , [])
 
   return (
     <>
-      <Button variant="primary" onClick={() => setShow(true)}>
-        Launch
-      </Button>
-
-      <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
+        <div className="container">
+            <div className="row">
+                {data.map((value , index) => {
+                    return(
+                        <div className='col-3 my-3' key={index}>
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5>{value.name}</h5>
+                                    <p>User Name : {value.username}</p>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </div>
     </>
-  );
+  )
 }
 
-export default New;
+export default Day8

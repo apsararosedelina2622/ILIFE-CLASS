@@ -395,9 +395,20 @@ JUNE MONTH
 11 - 12 => Shalini , Dhamodharan [Bootstrap Day 5 , JavaScript Introduction]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Form Validation , Password Validation] 
 
-02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM]
 04 - 05 => Internship [React Day 5]
-06 - 07 => Sundaresh [Form validation]
+05 - 06 => Boys Hostel [Doubts]
+06 - 07 => Sundaresh [Form validation , Password validation]
+
+
+02 / 06 - TUESDAY
+
+10 - 11 => Satya Roslin [Express]
+11 - 12 => Shalini , Dhamodharan [JavaScript Day - 1]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Add To Cart - Project] 
+
+02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM]
+04 - 05 => Internship [React Day 6]
+06 - 07 => Sundaresh [Add To Cart - Project]
 
 
 

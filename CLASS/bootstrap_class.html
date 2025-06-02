@@ -4,52 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <div class="container">
-    <div class="accordion" id="parent">
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse1">Click</button>
-        </div>
-        <div class="accordion-collapse collapse" id="collapse1" data-bs-parent="#parent">
-          <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos impedit ipsa quod natus consequatur tempora cupiditate assumenda ea, hic aspernatur quibusdam quaerat ut quas, at corporis amet, fugit nulla ex.</p>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse2">Click</button>
-        </div>
-        <div class="accordion-collapse collapse" id="collapse2" data-bs-parent="#parent">
-          <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos impedit ipsa quod natus consequatur tempora cupiditate assumenda ea, hic aspernatur quibusdam quaerat ut quas, at corporis amet, fugit nulla ex.</p>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse3">Click</button>
-        </div>
-        <div class="accordion-collapse collapse" id="collapse3" data-bs-parent="#parent">
-          <div class="accordion-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum odit possimus dolore esse cupiditate sapiente quisquam ipsum sunt quis, numquam similique, dolorem ut voluptatum. Rem ea exercitationem voluptate doloremque?</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Inline , Internal , External -->
 
-  <p>₹99.00</p>
-  <span class="badge bg-danger">Free</span>
+  <!-- Inline -->
 
-  <button class="btn btn-primary position-relative">Notification
-    <span class="badge bg-danger position-absolute top-0">4+</span>
-  </button>
+  <!-- <button onclick="alert('This is Alert Box')">Click</button>
+  <button onclick="confirm('Are you sure want to delete?')">Click</button>
+  <button onclick="prompt('Enter your name : ')">Click</button>
+  <button onclick="console.log('This is console.log')">Click</button>
+  <button onclick="console.error('This is console.error')">Click</button>
+  <button onclick="document.write('This is document')">Click</button> -->
   
+  <!-- <button onclick="Fun()">Click</button> -->
+
+  <script>
+
+    // function FunctionName(){
+
+    // }
+
+    // FunctionName()
+
+    // function Fun(){
+    //   alert("Internal JS Working!")
+    // }
+
+  </script>
+
+  <!-- External -->
+
+  <!-- <button onclick="Fun()">Click</button> -->
+
+  <button onclick="Fun()" id="tag">Click</button>
+
+  <script src="app.js"></script>
+
 </body>
 </html>
