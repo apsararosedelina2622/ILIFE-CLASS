@@ -2,14 +2,14 @@ BATCH
 
 10 - 11 => Satya Roslin
 11 - 12 => Thamodharan , Shalini 
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Kaviyarasan , Murugan , Sundaresh
 
 LUNCH
 
 03 - 04 => Satya Roslin
 04 - 05 => Internship (6 Members)
 05 - 06 => Thamodharan
-06 - 07 => Sundaresh
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan
 
 SATURDAY BATCH
 
@@ -30,25 +30,30 @@ Kirija , Ramakrishnan , Deepak , Dhinakaran , Hari Babu
 April
 
 11 - 12 => Thamodharan ( Joining Date - 17 / 04 )
+
 11 - 12 => Shalini ( Joining Date - 30 / 04 )
 
-12 - 01 => Hari Banu ( Combine Date- 29 / 04 )
+12 - 01 => Hari Babu ( Combine Date - 29 / 04 )
 
 04 - 05 => Kaviyarasan , Murugan => ( 19 / 04 ) => Batch Combined with Anish
 
 
 May
 
-12 - 01 => Hari Banu => ( 22 / 05 ) => Batch Combined with Anish
+12 - 01 => Hari Babu => ( 22 / 05 ) => Batch Combined with Anish
 
 12 - 01 => Kaviyarasan , Murugan => ( 21 / 05 ) => Batch Combined with 12o Clock Batch
 
-
-May
-
-12 - 01 => Sai Naresh , Lansuri , Swathisri ( Combine Date- 13 / 05 )
+12 - 01 => Sai Naresh , Lansuri , Swathisri ( Combine Date - 13 / 05 )
 
 04 - 05 => Internship [ React ] ( 5 Members ) => ( Joining Date 22 / 05 )
+
+
+June
+
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
+
+12 - 01 => Sundaresh ( Timimg Changed [ 06 - 07 ] => [ 12 - 01 ] ( Combine Date - 03 - 06 ) )
 
 
 

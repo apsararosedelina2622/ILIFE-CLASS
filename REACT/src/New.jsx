@@ -1,153 +1,146 @@
-// USE EFFECT 
+// use Reducer
 
-// useEffect(() => {
-
-// }, [])
-
-// 1. With Dependency 
-
-// import React, { useEffect, useState } from 'react'
+// import React, { useReducer } from 'react'
 
 // const New = () => {
 
-//     var [ count, setCount ] = useState(1)
+//   const ACTION = {
+//     Inc : "Increment",
+//     Dec : "Decrement",
+//     Mul : "Multiplication"
+//   }
 
-//     const countFun = () => {
-//         setCount(++count)
+//   const reduceFun = (state , action) => {
+//     switch(action.type){
+//       case ACTION.Inc :
+//         return {count : state.count + 2}
+//       case ACTION.Dec :
+//         return {count : state.count - 1}
+//       case ACTION.Mul :
+//         return {count : state.count * 2}
+//       default : 
+//         return state
 //     }
+//   }
 
-//     useEffect(() => {
-//         console.log('Number Changed');
-//     }, [count])
+//   const [state , dispatch] = useReducer(reduceFun , {count : 1})
 
-//     // console.log('Number Changed');
+//   const addFun = () => {
+//     dispatch({ type : ACTION.Inc})
+//   }
 
-//     return (
-//         <>
-//             <h1>{count}</h1>
-//             <button onClick={countFun}>Click</button>
-//         </>
-//     )
+//   const subFun = () => {
+//     dispatch({ type : ACTION.Dec})
+//   }
+
+//   const mulFun = () => {
+//     dispatch({ type : ACTION.Mul})
+//   }
+
+//   console.log(state)
+
+//   return (
+//     <>
+//         <button onClick={addFun}>Add</button>        
+//         <button onClick={subFun}>Sub</button>        
+//         <button onClick={mulFun}>Mul</button>  
+//         <h1>{state.count}</h1>      
+//     </>
+//   )
 // }
 
 // export default New
 
 
 
-// 2 . Without Dependecy
+// Use Ref
 
-// import React, { useEffect, useState } from 'react'
+// import React, { useRef } from "react";
 
 // const New = () => {
 
-//     var [ count, setCount ] = useState(1)
+//   const reference = useRef("");
 
-//     const countFun = () => {
-//         setCount(++count)
-//     }
+//   const refFun = () => {
+//     reference.current.style.color = "red"
+//   }
 
-//     useEffect(() => {
-//         console.log('Number Changed');
-//     }, [])
+//   return (
+//     <>
+//       <button onClick={refFun}>
+//         Change Color
+//       </button>
 
-//     return (
-//         <>
-//             <h1>{count}</h1>
-//             <button onClick={countFun}>Click</button>
-//         </>
-//     )
-// }
+//       <div ref={reference}>Box</div>
+//     </>
+//   );
+// };
 
-// export default New
-
+// export default New;
 
 
-// Example - 2
 
-// import React, { useState, useEffect } from 'react'
+// import React, { useRef } from "react";
 
 // const New = () => {
-//     const [name, setName] = useState("");
+//   const reference = useRef();
 
-//     useEffect(() => {
-//         console.log("Name updated:", name);
-//     }, [name]);
+//   const handleHide = () => {
+//     reference.current.style.display = "none";
+//   };
 
-//     return (
-//         <>
-//             <input type="text" placeholder="Enter name" onChange={(e) => setName(e.target.value)} />
-//             <h1>{name}</h1>
-//         </>
-//     );
+//   return (
+//     <>
+//       <p ref={reference}>I am a paragraph!</p>
+//       <button onClick={handleHide}>Hide Paragraph</button>
+//     </>
+//   );
+// };
+
+// export default New;
+
+
+
+// import React, { useRef } from 'react'
+
+// const Day9_Ref = () => {
+
+//   const reference = useRef()
+
+//   const refFun = () => {
+//     reference.current.style.width = '350px'
+//   }
+
+//   return (
+//     <>
+//       <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" alt="" ref={reference} width='250'/>
+//       <br />
+//       <button onClick={refFun}>Click</button>
+//     </>
+//   )
 // }
 
-// export default New
-
-// Example - 3 
-
-// import React, { useState, useEffect } from 'react'
-
-// const New = () => {
-
-//     var [ bgColor, setBgColor ] = useState('white')
-
-//     useEffect(() => {
-//         document.body.style.backgroundColor = bgColor;
-//         alert('Color Changed');
-//     }, [bgColor])
-
-//     return (
-//         <>
-//             <button onClick={() => {setBgColor('blue')}}>Blue</button>
-//             <button onClick={() => {setBgColor('red')}}>Red</button>
-//         </>
-//     )
-// }
-
-// export default New
+// export default Day9_Ref
 
 
 
 
-// // Example - 4
+import React, { useEffect, useRef } from 'react'
 
-import React, { useEffect, useState } from 'react'
+const Day9_Ref = () => {
 
-const Day8 = () => {
+  const reference = useRef()
 
-    const [data , setData] =useState([])
-
-    const fetchData = async () => {
-        const url = await fetch(`https://jsonplaceholder.typicode.com/users`)
-        const data = await url.json()
-        console.log(data)
-        setData(data)
-    }
-
-    useEffect(() => {
-      fetchData()
-    } , [])
+  useEffect(() => {
+    reference.current.focus()
+  }, [])
 
   return (
     <>
-        <div className="container">
-            <div className="row">
-                {data.map((value , index) => {
-                    return(
-                        <div className='col-3 my-3' key={index}>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5>{value.name}</h5>
-                                    <p>User Name : {value.username}</p>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
-        </div>
+      <input type="text" ref={reference} />
+      <input type="text" />
     </>
   )
 }
 
-export default Day8
+export default Day9_Ref

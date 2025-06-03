@@ -11,14 +11,51 @@
 <body>
 
     <div class="container">
-        <div class="d-flex justify-content-between my-3">
-            <h3>Products</h3>
-            <div class="">
-                <i class="fa-solid fa-search"></i>
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <h4>Products</h4>
+            <div>
+                <i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#mymodal"></i>
                 <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-count" class="badge bg-primary rounded-pill"></span>
+            </div>
+        </div>
+
+        <div class="row" id="card-row">
+            
+        </div>
+
+        <h4 id="total-price" class="text-success my-3 text-end"></h4>
+
+        <table class="table my-5 table-primary">
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Product Quantity</th>
+                    <th>Product Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-row">
+                
+            </tbody>
+        </table>
+
+
+        <div class="modal" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Search Here</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script src="example.js"></script>
     
 </body>
 </html>
