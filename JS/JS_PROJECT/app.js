@@ -34,7 +34,7 @@ var cartCount = 0;
 
 function cart_count(){
     document.getElementById("cartCount").innerHTML = cartCount;
-    document.getElementById("cartCount").style.display = cartCount > 0 ? "inline-block" : "none"
+    document.getElementById("cartCount").style.display = cartCount === 0 ? "none" : "inline"
 }
 
 

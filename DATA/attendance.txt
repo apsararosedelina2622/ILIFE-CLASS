@@ -294,22 +294,21 @@ MAY MONTH
 JUNE MONTH
 ================================================================================================
 
-01 / 06 - MONDAY
+02 / 06 - MONDAY
 
 11 - 12 => Shalini
 12 - 01 => Deepak , Dhinakaran
 
 
-02 / 06 - TUESDAY
+03 / 06 - TUESDAY
 
 11 - 12 => Dhamodharan
-12 - 01 => Deepak , Dhinakaran , Ramakrishnan , Kaviyarasan , Murugan , 
-
-06 - 07 => Sundaresh 
+12 - 01 => Deepak , Dhinakaran , Ramakrishnan , Kaviyarasan , Murugan 
 
 
+04 / 06 - WEDNESSDAY
 
-Sundaresh 
+10 - 11 => Satya
+12 - 01 => Deepak , Dhinakaran , Ramakrishnan
 
-29 / 04 to 08 / 05
-15 / 05 to 28 / 05
+

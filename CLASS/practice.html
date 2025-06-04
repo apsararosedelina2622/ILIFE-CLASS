@@ -4,58 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center my-3">
-            <h4>Products</h4>
-            <div>
-                <i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#mymodal"></i>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span id="cart-count" class="badge bg-primary rounded-pill"></span>
-            </div>
-        </div>
+    <!-- onload , onclick , ondblclick , onsubmit , onmouseover(onmouseeneter) , onmouseleave(onmouseout) , onmouseup , onmousedown , onchange , onkeyup , onfocus , onblur , onresize -->
 
-        <div class="row" id="card-row">
-            
-        </div>
+    <!-- <body onload="alert('Event Working!')"> -->
 
-        <h4 id="total-price" class="text-success my-3 text-end"></h4>
+        <!-- <button onclick="Fun()">Click</button>
 
-        <table class="table my-5 table-primary">
-            <thead>
-                <tr>
-                    <th>Product Image</th>
-                    <th>Product Name</th>
-                    <th>Product Quantity</th>
-                    <th>Product Price</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody id="cart-row">
-                
-            </tbody>
-        </table>
+        <script>
 
+            function Fun(){
+                alert("Hello")
+            }
 
-        <div class="modal" id="mymodal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5>Search Here</h5>
-                        <button class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </script> -->
 
-    <script src="example.js"></script>
-    
+        <!-- <button ondblclick="Fun()">Click</button>
+
+        <script>
+
+            function Fun(){
+                alert("Hello")
+            }
+
+        </script> -->
+
+        <!-- <form action="" onsubmit="Fun()">
+            <input type="text">
+            <input type="submit">
+        </form>
+
+        <script>
+
+            function Fun(){
+                alert("Hello")
+            }
+
+        </script> -->
+
+        <!-- <h1 onmouseenter="Fun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut vel temporibus, sapiente maiores officia maxime accusamus, sequi voluptas eum libero eveniet soluta. Placeat dicta magni quod iusto! Aliquid, libero.</h1>
+
+        <script>
+
+            function Fun(){
+                document.getElementsByTagName("h1")[0].style.backgroundColor = "purple"
+            }
+
+        </script> -->
+
+        <!-- <h1 onmouseout="Fun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut vel temporibus, sapiente maiores officia maxime accusamus, sequi voluptas eum libero eveniet soluta. Placeat dicta magni quod iusto! Aliquid, libero.</h1>
+
+        <script>
+
+            function Fun(){
+                document.getElementsByTagName("h1")[0].style.backgroundColor = "purple"
+            }
+
+        </script> -->
+
+        <!-- <h1 onmouseenter="Fun()" onmouseout="Fun1()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut vel temporibus, sapiente maiores officia maxime accusamus, sequi voluptas eum libero eveniet soluta. Placeat dicta magni quod iusto! Aliquid, libero.</h1>
+
+        <script>
+
+            function Fun(){
+                document.getElementsByTagName("h1")[0].style.backgroundColor = "purple"
+            }
+
+            function Fun1(){
+                document.getElementsByTagName("h1")[0].style.backgroundColor = "green"
+            }
+
+        </script> -->
+
+        <!-- <marquee behavior="" direction="" onmouseenter="stop()" onmouseout="start()">Hello</marquee> -->
+
+        <!-- <button onmouseup="Fun()" onmousedown="Fun1()">Click</button>
+
+        <script>
+
+            function Fun(){
+                document.getElementsByTagName("button")[0].innerHTML = "Clicked"
+            }
+
+            function Fun1(){
+                document.getElementsByTagName("button")[0].innerHTML = "Hold"
+            }
+
+        </script> -->
+
+        <!-- <select name="" id="" onchange="alert('changed')">
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">BOOTSTRAP</option>
+            <option value="">JS</option>
+        </select> -->
+
+        <!-- <input type="text" onchange="Fun(event)">
+        <p></p>
+        <script>
+
+            function Fun(event){
+                // console.log(event)
+                console.log(event.target.value)
+                document.getElementsByTagName("p")[0].innerHTML = event.target.value
+            }
+
+        </script> -->
+
+        <!-- <input type="text" onkeyup="Fun(event)">
+        <p></p>
+        <script>
+
+            function Fun(event){
+                // console.log(event)
+                console.log(event.target.value)
+                document.getElementsByTagName("p")[0].innerHTML = event.target.value
+            }
+
+        </script> -->
+
+        <!-- <input type="text" onfocus="Fun()">
+
+        <script>
+
+            function Fun(){
+                document.getElementsByTagName("input")[0].style.backgroundColor = "green"
+            }
+
+        </script> -->
+
+        <!-- <input type="text" onblur="Fun()">
+
+        <script>
+
+            function Fun(){
+                document.getElementsByTagName("input")[0].style.backgroundColor = "green"
+            }
+
+        </script> -->
+
+        <!-- <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
+        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
+        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
+        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
+        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
+
+        <script>
+
+            function Fun(a){
+                a.style.backgroundColor = "green"
+            }
+
+            function Fun1(a){
+                a.style.backgroundColor = "purple"
+            }
+
+        </script> -->
+
+        <!-- <script>
+
+            window.onresize = function(){
+                console.log("Changed")
+            }
+
+        </script> -->
+
+        <!-- <button id="add">Add</button>
+        <button id="remove">Remove</button>
+
+        <script>
+
+            function AddEvent(){
+                alert("Event Added!")
+            }
+
+            document.getElementById("add").addEventListener("click" , AddEvent)
+
+            function RemoveEvent(){
+                alert("Event Removed")
+                document.getElementById("add").removeEventListener("click" , AddEvent)
+            }
+
+            document.getElementById("remove").addEventListener("click" , RemoveEvent)
+
+        </script> -->
+        
 </body>
 </html>

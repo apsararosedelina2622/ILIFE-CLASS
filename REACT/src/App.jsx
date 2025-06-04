@@ -21,10 +21,11 @@ import React from 'react'
 // import Day14 from './Day14'
 // import New from './New'
 // import Example1 from './Example1'
-import ContextFile from './context/ContextFile'
-import Example1 from './Example1'
-import Example2 from './Example2'
-import Example3 from './Example3'
+// import ContextFile from './context/ContextFile'
+// import Example1 from './Example1'
+// import Example2 from './Example2'
+// import Example3 from './Example3'
+import Route_Page from './routers/Route_Page'
 
 const App = () => {
   return (
@@ -52,11 +53,12 @@ const App = () => {
         {/* <Day14 /> */}
         {/* <New /> */}
         {/* <Example1 /> */}
-        <ContextFile>
+        {/* <ContextFile>
           <Example1 />
           <Example2 />
           <Example3 />
-        </ContextFile>
+        </ContextFile> */}
+        <Route_Page />
     </>
   )
 }

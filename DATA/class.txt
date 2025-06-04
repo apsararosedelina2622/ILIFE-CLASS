@@ -1,7 +1,7 @@
 BATCH
 
 10 - 11 => Satya Roslin
-11 - 12 => Thamodharan , Shalini 
+11 - 12 => Thamodharan , Shalini , Maria
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Kaviyarasan , Murugan , Sundaresh
 
 LUNCH
@@ -19,12 +19,12 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Shalini , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Shalini , Maria , Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Yusuf
 
 
 STUDENTS FROM EPIX
 
-Kirija , Ramakrishnan , Deepak , Dhinakaran , Hari Babu
+Kirija , Ramakrishnan , Deepak , Dhinakaran
 
 
 April
@@ -50,6 +50,8 @@ May
 
 
 June
+
+11 - 12 => Maria ( Combine Date - 02 / 06 )
 
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
 

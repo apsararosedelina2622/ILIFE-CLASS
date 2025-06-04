@@ -403,7 +403,7 @@ JUNE MONTH
 03 / 06 - TUESDAY
 
 10 - 11 => Satya Roslin [Express DAY - 1]
-11 - 12 => Shalini , Dhamodharan [JavaScript Day - 1]
+11 - 12 => Shalini , Dhamodharan [JavaScript Day - 1 , 2]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 04 - 05 => Internship [React Day 6]
@@ -411,16 +411,22 @@ JUNE MONTH
 06 - 07 => Sundaresh [Add To Cart - Project]
 
 
-04 / 06 - TUESDAY
+04 / 06 - WEDNESSDAY
 
-10 - 11 => Satya Roslin [Express DAY - 2]
-11 - 12 => Shalini , Dhamodharan [JavaScript Day - 2]
+10 - 11 => Satya Roslin
+11 - 12 => Shalini , Dhamodharan [JavaScript Day - 3 , 4]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
-02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM]
+02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM , Events , Event Listener]
 04 - 05 => Internship [React Day 7]
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Route]
 
 
+05 / 06 - THURSDAY
 
-Kaviyarasan , Murugan => Balance Topics [ DOM , Events , Event Listener ]
+10 - 11 => Satya Roslin [Express DAY - 2]
+11 - 12 => Shalini , Dhamodharan [JavaScript Day - 5]
+12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
+
+04 - 05 => Internship [React Day 8]
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Crud]

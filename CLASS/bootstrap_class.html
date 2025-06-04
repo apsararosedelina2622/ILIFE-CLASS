@@ -7,72 +7,120 @@
 </head>
 <body>
 
-  <!-- Inline , Internal , External -->
+  <!-- String Methods , Number Methods  -->
 
-  <!-- Inline -->
+  <button onclick="Hide()">Hide</button>
+  <button onclick="Show()">Show</button>
 
-  <!-- <button onclick="alert('This is Alert Box')">Click</button>
-  <button onclick="confirm('Are you sure want to delete?')">Click</button>
-  <button onclick="prompt('Enter your name : ')">Click</button>
-  <button onclick="console.log('This is console.log')">Click</button>
-  <button onclick="console.error('This is console.error')">Click</button>
-  <button onclick="document.write('This is document')">Click</button> -->
-  
-  <!-- <button onclick="Fun()">Click</button> -->
+  <p id="tag"></p>
 
   <script>
 
-    // function FunctionName(){
+    function Hide(){
+      document.getElementById("tag").innerHTML = ""
+    }
 
+    function Show(){
+      document.getElementById("tag").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam provident illum ratione in, dicta alias modi enim quam, corporis veritatis eos sunt quidem dolores consectetur quasi suscipit, error eligendi soluta."
+    }
+
+
+    // var obj = {
+    //   name : "user",
+    //   age : 21,
+    //   address : {
+    //     doorno : 202,
+    //     city : "Trichy"
+    //   }
     // }
 
-    // FunctionName()
+    // objectName.key 
 
-    // function Fun(){
-    //   alert("Internal JS Working!")
-    // }
+    // console.log(obj.name)
+    // console.log(obj.age)
+    // console.log(obj)
+    // console.log(obj.address)
+    // console.log(obj.address.doorno)
+    // console.log(obj.address.city)
 
-    // var date = new Date()
+    // String Methods
 
-    // console.log(date)
-    // console.log(date.getDate())
-    // console.log(date.getDay())
-    // console.log(date.getMonth())
-    // console.log(date.getFullYear())
-    // console.log(new Date().toLocaleTimeString())
+    // var data = "Hello World!"
+    // var data1 = "    Hello World!    "
 
-    // let arr = [1 , 2 , 3 , 4]
+    // console.log(data.length)
+    // console.log(data[1])
+    // console.log(data.indexOf("H"))
+    // console.log(data.charAt(4))
+    // console.log(data.includes("W"))
+    // console.log(data.includes("w"))
+    // console.log(data.toUpperCase())
+    // console.log(data.toLowerCase())
+    // // console.log(data.substr(startPostion , Count))
+    // console.log(data.substr(6 , 6))
+    // // console.log(data.replace(oldValue , newValue))
+    // console.log(data.replace("World" , "JS"))
+    // console.log(data1)
+    // console.log(data1.trim())
 
-    // arrname[position]
 
-    // console.log(arr)
-    // console.log(arr[0])
-    // console.log(arr[1])
-    // console.log(arr[2])
-    // console.log(arr[3])
+    // Number Methods
 
-    // let subject = ["HTML" , "CSS" , "BOOTSTRAP" , "JS"]
+    // var num = 23.65;
 
-    // console.log(subject[0])
-    // console.log(subject[1])
-    // console.log(subject[2])
-    // console.log(subject[3])
+    // console.log(num.toFixed())
 
-    let data = ["is" , "my" , "abi" , "name"]
+    // var num = "234"
 
-    // console.log(data[1] + data[3] + data[0] + data[2])
-    // console.log(data[1] , data[3] , data[0] , data[2])
-    console.log(`Message : ${data[1]} ${data[3]} ${data[0]} ${data[2]}`)
+    // console.log(typeof(num))
+    // console.log(typeof(Number(num)))
+
+    // console.log(num + num)
+    // console.log(Number(num) + Number(num))
+
+    // var num = 876;
+
+    // console.log(isNaN(num))
+    // console.log(isNaN("dfgh"))
+    // console.log(isNaN("567"))
+
+    // console.log(isFinite(567))
+    // console.log(isFinite("dfg"))
+    // console.log(isFinite("67"))
+
+    // var num = 45.78;
+    // var num1 = "45gfg";
     
+    // console.log(parseInt(num))
+    // console.log(typeof(num1))
+    // console.log(typeof(parseInt(num1)))
+    // console.log(parseInt(num1))
+
+    // var num = 56.78;
+    // var num1 = "56.78sfdgh";
+
+    // console.log(parseFloat(num))
+    // console.log(typeof(num1))
+    // console.log(typeof(parseFloat(num)))
+    // console.log(parseFloat(num))
+
+    // var num = 81;
+
+    // console.log(Math.sqrt(num))
+
+    // var num = 56.98;
+
+    // console.log(Math.floor(num))
+
+    // var num = 98.7;
+
+    // console.log(Math.ceil(num))
+
+    // console.log(Math.random())
+    // console.log(Math.random() * 50)
+    // console.log(Math.floor(Math.random() * 50))
+
   </script>
-
-  <!-- External -->
-
-  <!-- <button onclick="Fun()">Click</button> -->
-
-  <!-- <button onclick="Fun()" id="tag">Click</button> -->
-
-  <!-- <script src="app.js"></script> -->
-
+  
 </body>
 </html>

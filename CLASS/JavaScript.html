@@ -12,11 +12,11 @@
 
     <div class="container">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <h4>Products</h4>
+            <h3>Products</h3>
             <div>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-brands fa-searchengin" data-bs-toggle="modal" data-bs-target="#mymodal"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
+                <span class="badge bg-primary rounded-pill" id="cart-count"></span>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
             
         </div>
 
-        <table class="table my-5 table-primary">
+        <table class="table table-primary my-3">
             <thead>
                 <tr>
                     <th>Product Image</th>
@@ -38,9 +38,27 @@
                 
             </tbody>
         </table>
-    </div>
 
-    <script src="sample.js"></script>
+        <div class="modal fade" id="mymodal">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Search Here!</h4>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="form-control">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     
+    <script src="app.js"></script>
+
 </body>
 </html>
