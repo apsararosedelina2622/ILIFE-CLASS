@@ -4,192 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #hide{
+            display: none;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- onload , onclick , ondblclick , onsubmit , onmouseover(onmouseeneter) , onmouseleave(onmouseout) , onmouseup , onmousedown , onchange , onkeyup , onfocus , onblur , onresize -->
+    <form action="" onsubmit="Submit(event)" class="container">
+        <h2 class="m-3">Login</h2>
+        <input class="form-control w-25 m-3" type="text" placeholder="Enter Username..." id="username">
+        <span>UserName : user</span>
+        <div class="position-relative w-25 m-3">
+            <input class="form-control pe-5" type="password" placeholder="Enter Password..." id="password">
+            <span>Password : User@123</span>
+            <i id="show" onclick="ToggleIcon()" class="fa-solid fa-eye position-absolute top-50 end-0 translate-middle-y me-3"></i>
+            <i id="hide" onclick="ToggleIcon()" class="fa-solid fa-eye-slash position-absolute top-50 end-0 translate-middle-y me-3"></i>
+        </div>
+        <input type="submit" class="btn btn-success m-3">
+    </form>
 
-    <!-- <body onload="alert('Event Working!')"> -->
+    <span id="span" class="m-3"></span>
 
-        <!-- <button onclick="Fun()">Click</button>
+    <script>
+        function Submit(event){
+            event.preventDefault()
+            var username = document.getElementById("username").value
+            var password = document.getElementById("password").value
 
-        <script>
-
-            function Fun(){
-                alert("Hello")
+            if(username == "user" && password == "User@123"){
+                window.location.href = "JavaScript.html"
+            }else{
+                document.getElementById("span").innerHTML = "*Invalid username password"
+                document.getElementById("span").style.color = "red"
             }
+        }
 
-        </script> -->
-
-        <!-- <button ondblclick="Fun()">Click</button>
-
-        <script>
-
-            function Fun(){
-                alert("Hello")
+        function ToggleIcon(){
+            var passwordIcon = document.getElementById("password")
+            if(passwordIcon.type == "password"){
+                passwordIcon.type = "text";
+                document.getElementById("show").style.display = "none"
+                document.getElementById("hide").style.display = "inline"
+            }else{
+                passwordIcon.type = "password";
+                document.getElementById("show").style.display = "inline"
+                document.getElementById("hide").style.display = "none"
             }
-
-        </script> -->
-
-        <!-- <form action="" onsubmit="Fun()">
-            <input type="text">
-            <input type="submit">
-        </form>
-
-        <script>
-
-            function Fun(){
-                alert("Hello")
-            }
-
-        </script> -->
-
-        <!-- <h1 onmouseenter="Fun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut vel temporibus, sapiente maiores officia maxime accusamus, sequi voluptas eum libero eveniet soluta. Placeat dicta magni quod iusto! Aliquid, libero.</h1>
-
-        <script>
-
-            function Fun(){
-                document.getElementsByTagName("h1")[0].style.backgroundColor = "purple"
-            }
-
-        </script> -->
-
-        <!-- <h1 onmouseout="Fun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut vel temporibus, sapiente maiores officia maxime accusamus, sequi voluptas eum libero eveniet soluta. Placeat dicta magni quod iusto! Aliquid, libero.</h1>
-
-        <script>
-
-            function Fun(){
-                document.getElementsByTagName("h1")[0].style.backgroundColor = "purple"
-            }
-
-        </script> -->
-
-        <!-- <h1 onmouseenter="Fun()" onmouseout="Fun1()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut vel temporibus, sapiente maiores officia maxime accusamus, sequi voluptas eum libero eveniet soluta. Placeat dicta magni quod iusto! Aliquid, libero.</h1>
-
-        <script>
-
-            function Fun(){
-                document.getElementsByTagName("h1")[0].style.backgroundColor = "purple"
-            }
-
-            function Fun1(){
-                document.getElementsByTagName("h1")[0].style.backgroundColor = "green"
-            }
-
-        </script> -->
-
-        <!-- <marquee behavior="" direction="" onmouseenter="stop()" onmouseout="start()">Hello</marquee> -->
-
-        <!-- <button onmouseup="Fun()" onmousedown="Fun1()">Click</button>
-
-        <script>
-
-            function Fun(){
-                document.getElementsByTagName("button")[0].innerHTML = "Clicked"
-            }
-
-            function Fun1(){
-                document.getElementsByTagName("button")[0].innerHTML = "Hold"
-            }
-
-        </script> -->
-
-        <!-- <select name="" id="" onchange="alert('changed')">
-            <option value="">HTML</option>
-            <option value="">CSS</option>
-            <option value="">BOOTSTRAP</option>
-            <option value="">JS</option>
-        </select> -->
-
-        <!-- <input type="text" onchange="Fun(event)">
-        <p></p>
-        <script>
-
-            function Fun(event){
-                // console.log(event)
-                console.log(event.target.value)
-                document.getElementsByTagName("p")[0].innerHTML = event.target.value
-            }
-
-        </script> -->
-
-        <!-- <input type="text" onkeyup="Fun(event)">
-        <p></p>
-        <script>
-
-            function Fun(event){
-                // console.log(event)
-                console.log(event.target.value)
-                document.getElementsByTagName("p")[0].innerHTML = event.target.value
-            }
-
-        </script> -->
-
-        <!-- <input type="text" onfocus="Fun()">
-
-        <script>
-
-            function Fun(){
-                document.getElementsByTagName("input")[0].style.backgroundColor = "green"
-            }
-
-        </script> -->
-
-        <!-- <input type="text" onblur="Fun()">
-
-        <script>
-
-            function Fun(){
-                document.getElementsByTagName("input")[0].style.backgroundColor = "green"
-            }
-
-        </script> -->
-
-        <!-- <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
-        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
-        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
-        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
-        <input type="text" onblur="Fun1(this)" onfocus="Fun(this)">
-
-        <script>
-
-            function Fun(a){
-                a.style.backgroundColor = "green"
-            }
-
-            function Fun1(a){
-                a.style.backgroundColor = "purple"
-            }
-
-        </script> -->
-
-        <!-- <script>
-
-            window.onresize = function(){
-                console.log("Changed")
-            }
-
-        </script> -->
-
-        <!-- <button id="add">Add</button>
-        <button id="remove">Remove</button>
-
-        <script>
-
-            function AddEvent(){
-                alert("Event Added!")
-            }
-
-            document.getElementById("add").addEventListener("click" , AddEvent)
-
-            function RemoveEvent(){
-                alert("Event Removed")
-                document.getElementById("add").removeEventListener("click" , AddEvent)
-            }
-
-            document.getElementById("remove").addEventListener("click" , RemoveEvent)
-
-        </script> -->
-        
+        }
+    </script>
+    
 </body>
 </html>

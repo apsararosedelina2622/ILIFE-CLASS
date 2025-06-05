@@ -1,50 +1,105 @@
-// use Reducer
-
-// import React, { useReducer } from 'react'
+// import React, { useState } from 'react'
 
 // const New = () => {
 
-//   const ACTION = {
-//     Inc : "Increment",
-//     Dec : "Decrement",
-//     Mul : "Multiplication"
+//   const [ input , setInput ] = useState("")
+//   const [ list , setList ] = useState([])
+//   const [ viewText , setViewText ] = useState("")
+//   const [ edit , setEdit ] = useState("")
+//   const [ editText , setEditText ] = useState("")
+
+//   const AddFun = () => {
+//     setList(list.concat(input))
+//     setInput("")
 //   }
 
-//   const reduceFun = (state , action) => {
-//     switch(action.type){
-//       case ACTION.Inc :
-//         return {count : state.count + 2}
-//       case ACTION.Dec :
-//         return {count : state.count - 1}
-//       case ACTION.Mul :
-//         return {count : state.count * 2}
-//       default : 
-//         return state
+//   const DeleteFun = (index) => {
+//     if(confirm("Are you sure want to delete?")){
+//       setList(list.filter((value , i) => i !== index))
 //     }
 //   }
 
-//   const [state , dispatch] = useReducer(reduceFun , {count : 1})
-
-//   const addFun = () => {
-//     dispatch({ type : ACTION.Inc})
+//   const ViewFun = (value) => {
+//     setViewText(value)
 //   }
 
-//   const subFun = () => {
-//     dispatch({ type : ACTION.Dec})
+//   const EditFun = (index) => {
+//     setEdit(index)
+//     setEditText(list[index])
 //   }
 
-//   const mulFun = () => {
-//     dispatch({ type : ACTION.Mul})
+//   const UpdateFun = () => {
+//     setList(list.map((value , index) => edit === index ? editText : value))
+//     setEdit("")
 //   }
-
-//   console.log(state)
 
 //   return (
 //     <>
-//         <button onClick={addFun}>Add</button>        
-//         <button onClick={subFun}>Sub</button>        
-//         <button onClick={mulFun}>Mul</button>  
-//         <h1>{state.count}</h1>      
+//       <div className="container p-5">
+
+//         <h3>To Do List</h3>
+//         <div className="input-group">
+//           <input type="text" className='form-control' value={input} onChange={e => setInput(e.target.value)} />
+//           <button className='btn btn-primary' onClick={AddFun}>Add</button>
+//         </div>
+
+//         {list.length === 0 
+//         ?
+//           <p className='my-5 text-center text-danger'>Your List is Empty!</p>
+//         :
+//           <table className='table table-bordered my-5'>
+//             <thead>
+//               <tr>
+//                 <th>List</th>
+//                 <th>Actions</th>
+//               </tr>
+//             </thead>
+//             <tbody>
+//               {list.map((value , index) => {
+//                 return(
+//                   <tr key={index}>
+//                     <td>
+//                       {edit === index 
+//                       ?
+//                         <input type='text' className='form-control' value={editText} onChange={e => setEditText(e.target.value)} />
+//                       :
+//                         value
+//                       }
+//                     </td>
+//                     <td className='d-flex gap-5'>
+//                       <button className='btn btn-success flex-grow-1' data-bs-toggle="modal" data-bs-target="#mymodal" onClick={() => {ViewFun(value)}}>View</button>
+
+//                       {edit === index 
+//                       ?
+//                         <button className='btn btn-warning flex-grow-1' onClick={UpdateFun}>Update</button>
+//                       :
+//                         <button className='btn btn-warning flex-grow-1' onClick={() => EditFun(index)}>Edit</button>
+//                       }
+
+//                       <button className='btn btn-danger flex-grow-1' onClick={() => DeleteFun(index)}>Delete</button>
+//                     </td>
+//                   </tr>
+//                 )
+//               })}
+//             </tbody>
+//           </table>
+//         }
+
+//         <div className="modal fade" id='mymodal'>
+//           <div className="modal-dialog">
+//             <div className="modal-content">
+//               <div className="modal-header">
+//                 <h4>Your List</h4>
+//                 <button className='btn-close' data-bs-dismiss="modal"></button>
+//               </div>
+//               <div className="modal-body">
+//                 <h5 className='text-center'>{viewText}</h5>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+
+//       </div>
 //     </>
 //   )
 // }
@@ -53,94 +108,123 @@
 
 
 
-// Use Ref
 
-// import React, { useRef } from "react";
+import React, { useState } from 'react'
 
-// const New = () => {
+const New = () => {
 
-//   const reference = useRef("");
+  const [ input , setInput ] = useState("")
+  const [ list , setList ] = useState([])
+  const [ viewText , setViewText ] = useState("")
+  const [ edit , setEdit ] = useState("")
+  const [ editText , setEditText ] = useState("")
 
-//   const refFun = () => {
-//     reference.current.style.color = "red"
-//   }
+  const AddFun = () => {
+    setList(list.concat(input))
+    setInput("")
+  }
 
-//   return (
-//     <>
-//       <button onClick={refFun}>
-//         Change Color
-//       </button>
+  const ViewFun = (value) => {
+    setViewText(value)
+  }
 
-//       <div ref={reference}>Box</div>
-//     </>
-//   );
-// };
+  const RemoveFun = (index) => {
+    if(confirm("Are you sure want to delete?")){
+      setList(list.filter((value , i) => index !== i))
+    }
+  }
 
-// export default New;
+  const EditFun = (index) => {
+    setEdit(index)
+    setEditText(list[index])
+  }
 
+  // 0 , 1 , 2 = i
+  // index = 1
 
+  // 1 !== 0
+  // 1 !== 1
+  // 1 !== 2
 
-// import React, { useRef } from "react";
-
-// const New = () => {
-//   const reference = useRef();
-
-//   const handleHide = () => {
-//     reference.current.style.display = "none";
-//   };
-
-//   return (
-//     <>
-//       <p ref={reference}>I am a paragraph!</p>
-//       <button onClick={handleHide}>Hide Paragraph</button>
-//     </>
-//   );
-// };
-
-// export default New;
-
-
-
-// import React, { useRef } from 'react'
-
-// const Day9_Ref = () => {
-
-//   const reference = useRef()
-
-//   const refFun = () => {
-//     reference.current.style.width = '350px'
-//   }
-
-//   return (
-//     <>
-//       <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" alt="" ref={reference} width='250'/>
-//       <br />
-//       <button onClick={refFun}>Click</button>
-//     </>
-//   )
-// }
-
-// export default Day9_Ref
-
-
-
-
-import React, { useEffect, useRef } from 'react'
-
-const Day9_Ref = () => {
-
-  const reference = useRef()
-
-  useEffect(() => {
-    reference.current.focus()
-  }, [])
-
+  const UpdateFun = () => {
+    setList(list.map((value , index) => index === edit ? editText : value))
+    setEdit("")
+  }
+  
   return (
     <>
-      <input type="text" ref={reference} />
-      <input type="text" />
+      <div className="container p-5">
+
+        <h4>To Do List</h4>
+        <div className="input-group">
+          <input type="text" className='form-control' value={input} onChange={e => setInput(e.target.value)} />
+          <button className='btn btn-primary' onClick={AddFun}>Add</button>
+        </div>
+
+        {
+          list.length === 0
+          ?
+            <p className='text-center text-danger my-5'>Your List is Empty!</p>
+          :
+            <table className='table table-bordered my-5'>
+              <thead>
+                <tr>
+                  <th>List</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                {
+                  list.map((value , index) => {
+                    return(
+                      <tr key={index}>
+                        <td>
+                          {
+                            edit === index 
+                            ?
+                              <input type='text' className='form-control' value={editText} onChange={e => setEditText(e.target.value)} />
+                            :
+                              value
+                          }
+                        </td>
+                        <td className='d-flex gap-5'>
+                          <button className='btn btn-success flex-grow-1' data-bs-toggle="modal" data-bs-target="#mymodal" onClick={()=> ViewFun(value)}>View</button>
+
+                          {
+                            edit === index 
+                            ?
+                              <button className='btn btn-warning flex-grow-1' onClick={UpdateFun}>Update</button>
+                            :
+                              <button className='btn btn-warning flex-grow-1' onClick={() => EditFun(index)}>Edit</button>
+                          }
+
+                          <button className='btn btn-danger flex-grow-1' onClick={() => RemoveFun(index)}>Remove</button>
+                        </td>
+                      </tr>
+                    )
+                  })
+                }
+              </tbody>
+            </table>
+          }
+
+          <div className="modal fade" id='mymodal'>
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h4>List Item</h4>
+                  <button className='btn-close' data-bs-dismiss="modal"></button>
+                </div>
+                <div className="modal-body">
+                  <h5 className='text-center'>{viewText}</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
     </>
   )
 }
 
-export default Day9_Ref
+export default New

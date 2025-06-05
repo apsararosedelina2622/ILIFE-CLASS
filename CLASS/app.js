@@ -32,6 +32,8 @@ var cart = [];
 
 var cartCount = 0
 
+var totalPrice = 0
+
 function CartCount(){
     document.getElementById("cart-count").innerHTML = cartCount;
     document.getElementById("cart-count").style.display = cartCount === 0 ? "none" : "inline"
@@ -56,6 +58,9 @@ function AddToCart(productID){
 
     cartCount++;
     CartCount()
+
+    totalPrice = productData.price + totalPrice;
+    document.getElementById("total-price").innerHTML = `Total Price : ₹${totalPrice}`;
 
     DisplayCart(cart)
 }
@@ -101,6 +106,37 @@ function RemoveFun(productID){
 
     cartCount--;
     CartCount()
+
+    totalPrice = totalPrice - product.price;
+    document.getElementById("total-price").innerHTML = totalPrice === 0 ? "" : `Total Price : ₹${totalPrice}`;
     
     DisplayCart(cart)
+}
+
+
+function SearchFun(){
+    var searchInput = document.getElementById("searchBox").value.toLowerCase();
+    var filteredData = all_products.filter(a => a.name.toLowerCase().includes(searchInput))
+
+    var content = "";
+    
+    if(searchInput.length === 0){
+        content = ""
+    }else{
+        filteredData.map((product) => {
+            content += `
+                <div class="col-lg-3 col-md-6 my-3">
+                    <div class="card">
+                        <img src="${product.img}" alt="">
+                        <div class="card-body">
+                            <h5>${product.name}</h5>
+                            <p>Price : ₹${product.price}</p>
+                        </div>
+                    </div>
+                </div>
+            `
+        })
+    }
+
+    document.getElementById("result-row").innerHTML = content;
 }

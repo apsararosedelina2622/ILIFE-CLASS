@@ -19,13 +19,13 @@ import React from 'react'
 // import Context from './Form/context'
 // import { BrowserRouter } from 'react-router-dom'
 // import Day14 from './Day14'
-// import New from './New'
+import New from './New'
 // import Example1 from './Example1'
 // import ContextFile from './context/ContextFile'
 // import Example1 from './Example1'
 // import Example2 from './Example2'
 // import Example3 from './Example3'
-import Route_Page from './routers/Route_Page'
+// import Route_Page from './routers/Route_Page'
 
 const App = () => {
   return (
@@ -51,14 +51,14 @@ const App = () => {
           </Context>
         </BrowserRouter> */}
         {/* <Day14 /> */}
-        {/* <New /> */}
+        <New />
         {/* <Example1 /> */}
         {/* <ContextFile>
           <Example1 />
           <Example2 />
           <Example3 />
         </ContextFile> */}
-        <Route_Page />
+        {/* <Route_Page /> */}
     </>
   )
 }
