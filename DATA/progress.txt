@@ -392,7 +392,7 @@ JUNE MONTH
 02 / 06 - MONDAY
 
 10 - 11 => Satya Roslin [Node JS Day 4]
-11 - 12 => Shalini , Dhamodharan [Bootstrap Day 5 , JavaScript Introduction]
+11 - 12 => Shalini , Dhamodharan , Maria [Bootstrap Day 5 , JavaScript Introduction]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Form Validation , Password Validation] 
 
 04 - 05 => Internship [React Day 5]
@@ -403,7 +403,7 @@ JUNE MONTH
 03 / 06 - TUESDAY
 
 10 - 11 => Satya Roslin [Express DAY - 1]
-11 - 12 => Shalini , Dhamodharan [JavaScript Day - 1 , 2]
+11 - 12 => Shalini , Dhamodharan , Maria [JavaScript Day - 1 , 2]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 04 - 05 => Internship [React Day 6]
@@ -414,7 +414,7 @@ JUNE MONTH
 04 / 06 - WEDNESSDAY
 
 10 - 11 => Satya Roslin
-11 - 12 => Shalini , Dhamodharan [JavaScript Day - 3 , 4]
+11 - 12 => Shalini , Dhamodharan , Maria [JavaScript Day - 3 , 4]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM , Events , Event Listener]
@@ -425,8 +425,18 @@ JUNE MONTH
 05 / 06 - THURSDAY
 
 10 - 11 => Satya Roslin [Express DAY - 2]
-11 - 12 => Shalini , Dhamodharan [JavaScript Day - 5]
+11 - 12 => Shalini , Dhamodharan , Maria [JavaScript Day - 5]
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
-04 - 05 => Internship [React Day 8]
+04 - 05 => Internship
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Crud]
+
+
+06 / 06 - FRIDAY
+
+10 - 11 => Satya Roslin [Express DAY - 3]
+11 - 12 => Shalini , Dhamodharan , Maria [JavaScript Day - 6]
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
+
+04 - 05 => Internship [React Day 8 , 9]
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Form Validation]

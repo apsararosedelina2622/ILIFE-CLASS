@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { all_products } from '../../assets/asset'
+import { MyContext } from '../../context/MyContextProvider'
 
 const shop_body = () => {
+
+  const { navigate } = useContext(MyContext)
+
   return (
     <div className="container my-5">
     
@@ -11,7 +15,7 @@ const shop_body = () => {
           {all_products.filter(value => value.category === "shop").map((value , index) => {
             return (
               <div className="col-lg-3 col-md-6" key={index}>
-                <div className="card">
+                <div className="card border-0" onClick={() => navigate(`/product/${value.id}`)}>
                   <img src={value.img} alt="" />
                   <div className="card-body">
                     <p className='text-secondary'>{value.type}</p>

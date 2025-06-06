@@ -2,7 +2,7 @@ BATCH
 
 10 - 11 => Satya Roslin
 11 - 12 => Thamodharan , Shalini , Maria
-12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Kaviyarasan , Murugan , Sundaresh
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Kaviyarasan , Murugan , Sundaresh
 
 LUNCH
 
@@ -24,7 +24,7 @@ Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh
 
 STUDENTS FROM EPIX
 
-Kirija , Ramakrishnan , Deepak , Dhinakaran
+Dhinakaran
 
 
 April
@@ -57,6 +57,7 @@ June
 
 12 - 01 => Sundaresh ( Timimg Changed [ 06 - 07 ] => [ 12 - 01 ] ( Combine Date - 03 - 06 ) )
 
+12 - 01 => Kirija , Ramakrishnan , Deepak ( Batch ends on 05 - 06 )
 
 
 

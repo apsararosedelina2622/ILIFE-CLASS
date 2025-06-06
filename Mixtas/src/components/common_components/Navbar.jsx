@@ -2,10 +2,10 @@ import React, { useContext } from 'react';
 import { my_asset } from '../../assets/asset';
 import { Link } from 'react-router-dom';
 import { MyContext } from '../../context/MyContextProvider';
-import { Modal, Button, Form } from 'react-bootstrap';
 
 const Navbar = () => {
-  const { showModal, setShowModal } = useContext(MyContext);
+
+  const { setInput , SearchFun , filteredData , navigate } = useContext(MyContext);
 
   return (
     <>
@@ -27,32 +27,50 @@ const Navbar = () => {
           <Link to="/" className="text-decoration-none text-dark">Contact</Link>
         </div>
         <div className="icon d-flex gap-3">
-          <i
-            className="fa-solid fa-magnifying-glass"
-            onClick={() => setShowModal(true)}
-            style={{ cursor: "pointer" }}
-          ></i>
+          <i className="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#mymodal"></i>
           <i className="fa-solid fa-bag-shopping"></i>
         </div>
       </div>
 
       {/* Modal */}
-      <Modal show={showModal} onHide={() => setShowModal(false)} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Search</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form.Control type="text" placeholder="Search for products..." />
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowModal(false)}>
-            Close
-          </Button>
-          <Button variant="primary">
-            Search
-          </Button>
-        </Modal.Footer>
-      </Modal>
+      <div className="modal fade" id='mymodal'>
+        <div className="modal-dialog modal-fullscreen">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h4>Search Here</h4>
+              <button className='btn-close' data-bs-dismiss="modal"></button>
+            </div>
+            <div className="modal-body">
+              <input type="text" className='form-control' onChange={e => setInput(e.target.value)} onKeyUp={SearchFun} />
+              
+              <div className="row">
+                {
+                  filteredData.length === 0 
+                  ?
+                    <p className='m-5 text-center'>No Products Found</p>
+                  : 
+                    filteredData.map((value , index) => {
+                      return(
+                        <div className="col-lg-3 col-md-6 my-4" key={index}>
+                          <div className="card border-0" onClick={() => navigate(`/product/${value.id}`)}>
+                            <img src={value.img} alt="" />
+                            <div className="card-body">
+                                  <p className='text-secondary'>{value.type}</p>
+                                  <p style={{fontSize : "15px"}}>{value.desc}</p>
+                                  <p>{value.price}</p>
+                              </div>
+                          </div>
+                        </div>
+                      )
+                    })
+                }
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </>
   );
 };
