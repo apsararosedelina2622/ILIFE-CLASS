@@ -3,59 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        #hide{
-            display: none;
-        }
-    </style>
+    <title>Documdgfdgent</title>
+    <link rel="shortcut icon" href="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" type="image/x-icon">
 </head>
 <body>
-
-    <form action="" onsubmit="Submit(event)" class="container">
-        <h2 class="m-3">Login</h2>
-        <input class="form-control w-25 m-3" type="text" placeholder="Enter Username..." id="username">
-        <span>UserName : user</span>
-        <div class="position-relative w-25 m-3">
-            <input class="form-control pe-5" type="password" placeholder="Enter Password..." id="password">
-            <span>Password : User@123</span>
-            <i id="show" onclick="ToggleIcon()" class="fa-solid fa-eye position-absolute top-50 end-0 translate-middle-y me-3"></i>
-            <i id="hide" onclick="ToggleIcon()" class="fa-solid fa-eye-slash position-absolute top-50 end-0 translate-middle-y me-3"></i>
-        </div>
-        <input type="submit" class="btn btn-success m-3">
-    </form>
-
-    <span id="span" class="m-3"></span>
-
-    <script>
-        function Submit(event){
-            event.preventDefault()
-            var username = document.getElementById("username").value
-            var password = document.getElementById("password").value
-
-            if(username == "user" && password == "User@123"){
-                window.location.href = "JavaScript.html"
-            }else{
-                document.getElementById("span").innerHTML = "*Invalid username password"
-                document.getElementById("span").style.color = "red"
-            }
-        }
-
-        function ToggleIcon(){
-            var passwordIcon = document.getElementById("password")
-            if(passwordIcon.type == "password"){
-                passwordIcon.type = "text";
-                document.getElementById("show").style.display = "none"
-                document.getElementById("hide").style.display = "inline"
-            }else{
-                passwordIcon.type = "password";
-                document.getElementById("show").style.display = "inline"
-                document.getElementById("hide").style.display = "none"
-            }
-        }
-    </script>
-    
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>yy
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
 </body>
 </html>
