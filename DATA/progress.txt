@@ -379,7 +379,7 @@ Yusuf => Functions ,  Operators , String Methods , Number Methods ( Anish )
 06 - 07 => Sundaresh
 
 
-31 / 05 - SATURDAY
+31 / 05 - SATURDAY => No Classes
 
 
 
@@ -436,7 +436,21 @@ JUNE MONTH
 
 10 - 11 => Satya Roslin [Express DAY - 3]
 11 - 12 => Shalini , Dhamodharan , Maria [JavaScript Day - 6]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React Introduction] 
 
 04 - 05 => Internship [React Day 8 , 9]
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Form Validation]
+
+
+07 / 05 - SATURDAY => No Classes
+
+
+09 / 05 - MONDAY
+
+11 - 12 => Shalini , Maria [JavaScript Day - 7]
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React Day - 1] 
+
+03 - 04 => Satya Roslin [Express DAY - 4]
+04 - 05 => Internship [React Day 10]
+05 - 06 => Dhamodharan [JavaScript Day - 7]
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Swiper]
