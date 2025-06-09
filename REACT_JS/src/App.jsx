@@ -1,62 +1,13 @@
-// import React from 'react'
-
-// const App = () => {
-//   return (
-//     <div>App</div>
-//   )
-// }
-
-// export default App
-
-
-// import React from "react";
-
-// const App = () => {
-//   return(
-//     <div>
-//       <h1>Hello</h1>
-//     </div>
-//   )
-// }
-
-// export default App
-
-
-// import React from 'react'
-
-// const App = () => {
-//   return (
-//     <div>
-//       <h1>Hello</h1>
-//       <h1>Hello</h1>
-//     </div>
-//   )
-// }
-
-// export default App
-
-
-// import React from 'react'
-
-// const App = () => {
-//   return (
-//     <>
-//       <h1>Hello</h1>
-//       <h1>Hello</h1>
-//     </>
-//   )
-// }
-
-// export default App
-
-
 import React from 'react'
-import Example from './Example'
+
+// import Day1_Intro from './Day1_Intro'
+import Day2_Js from './Day2_Js'
 
 const App = () => {
   return (
     <>
-      <Example />
+      {/* <Day1_Intro /> */}
+      <Day2_Js />
     </>
   )
 }

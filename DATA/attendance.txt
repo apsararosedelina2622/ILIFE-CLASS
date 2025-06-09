@@ -327,3 +327,11 @@ JUNE MONTH
 07 / 05 - SATURDAY
 
 10 - 11 => Yusuf
+
+
+09 / 06 - MONDAY
+
+11 - 12 => Maria , Shalini
+12 - 01 => Kannan , Vaishnavi , Kaviyarasan , Murugan
+
+03 - 04 => Satya

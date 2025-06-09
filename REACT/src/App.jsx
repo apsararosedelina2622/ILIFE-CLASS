@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 // import Day1 from './Day1'
 // import Day2 from './Day2'
 // import Day3 from './Day3'
@@ -20,15 +19,6 @@ import React from 'react'
 // import { BrowserRouter } from 'react-router-dom'
 // import Day14 from './Day14'
 import New from './New'
-// import Example1 from './Example1'
-// import ContextFile from './context/ContextFile'
-// import Example1 from './Example1'
-// import Example2 from './Example2'
-// import Example3 from './Example3'
-// import Route_Page from './routers/Route_Page'
-// import Routers from './Example/Routers'
-// import Context from './Example/Context'
-// import { BrowserRouter } from "react-router-dom"
 
 const App = () => {
   return (
@@ -55,18 +45,6 @@ const App = () => {
         </BrowserRouter> */}
         {/* <Day14 /> */}
         <New />
-        {/* <Example1 /> */}
-        {/* <ContextFile>
-          <Example1 />
-          <Example2 />
-          <Example3 />
-        </ContextFile> */}
-        {/* <Route_Page /> */}
-        {/* <BrowserRouter>
-          <Context>
-            <Routers />
-          </Context>
-        </BrowserRouter> */}
     </>
   )
 }
