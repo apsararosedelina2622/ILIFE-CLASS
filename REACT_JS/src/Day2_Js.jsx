@@ -173,20 +173,38 @@
 // export default Day2_Js
 
 
-import React from "react"
+// import React from "react"
 
-class Day2_Js extends React.Component{
-    render(){
+// class Day2_Js extends React.Component{
+//     render(){
 
-        var name = "user"
+//         var name = "user"
 
-        return(
-            <>
-                <h1>Hello</h1>
-                <h1>Username : {name}</h1>
-            </>
-        )
+//         return(
+//             <>
+//                 <h1>Hello</h1>
+//                 <h1>Username : {name}</h1>
+//             </>
+//         )
+//     }
+// }
+
+// export default Day2_Js
+
+
+import React from 'react'
+
+const Day2_Js = () => {
+  
+    async function Fun(){
+        const url = await fetch("https://jsonplaceholder.typicode.com/users")
+        // console.log(await url.json())
+        const data = await url.json()
+        console.log(data)
+        console.log(data[1].name)
     }
+    Fun()
+
 }
 
 export default Day2_Js

@@ -7,9 +7,8 @@ BATCH
 LUNCH
 
 03 - 04 => Satya Roslin
-04 - 05 => Internship (6 Members)
 05 - 06 => Thamodharan
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan
 
 SATURDAY BATCH
 
@@ -19,7 +18,7 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Shalini , Maria , Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan , Yusuf
 
 
 STUDENTS FROM EPIX
@@ -53,11 +52,19 @@ June
 
 11 - 12 => Maria ( Combine Date - 02 / 06 )
 
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
 
 12 - 01 => Sundaresh ( Timimg Changed [ 06 - 07 ] => [ 12 - 01 ] ( Combine Date - 03 - 06 ) )
 
 12 - 01 => Kirija , Ramakrishnan , Deepak ( Batch ends on 05 - 06 )
+
+04 - 05 => Internship ( 6 Members Batch ends on 10 / 06 )
+
+11 - 12 => Maria ( Anish 12o Clock Batch [ Switched to online ] )
+
+11 - 12 => Shalini ( Batch Combined with Anish's 11o Clock Batch )
+
+
 
 
 

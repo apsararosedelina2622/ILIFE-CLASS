@@ -396,7 +396,7 @@ JUNE MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Form Validation , Password Validation] 
 
 04 - 05 => Internship [React Day 5]
-05 - 06 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
+05 - 06 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
 06 - 07 => Sundaresh [Form validation , Password validation]
 
 
@@ -407,7 +407,7 @@ JUNE MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 04 - 05 => Internship [React Day 6]
-05 - 06 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Use Context]
+05 - 06 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Use Context]
 06 - 07 => Sundaresh [Add To Cart - Project]
 
 
@@ -419,7 +419,7 @@ JUNE MONTH
 
 02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM , Events , Event Listener]
 04 - 05 => Internship [React Day 7]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Route]
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Route]
 
 
 05 / 06 - THURSDAY
@@ -429,7 +429,7 @@ JUNE MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 04 - 05 => Internship
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Crud]
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Crud]
 
 
 06 / 06 - FRIDAY
@@ -439,7 +439,7 @@ JUNE MONTH
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React Introduction] 
 
 04 - 05 => Internship [React Day 8 , 9]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Form Validation]
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Form Validation]
 
 
 07 / 05 - SATURDAY => No Classes
@@ -453,7 +453,7 @@ JUNE MONTH
 03 - 04 => Satya Roslin
 04 - 05 => Internship
 05 - 06 => Dhamodharan [JavaScript Day - 6]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Swiper]
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Swiper]
 
 
 10 / 05 - TUESDAY
@@ -464,4 +464,4 @@ JUNE MONTH
 03 - 04 => Satya Roslin [Express DAY - 4]
 04 - 05 => Internship [React Day 10 , Project]
 05 - 06 => Dhamodharan [JavaScript Day - 6]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation]
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation]

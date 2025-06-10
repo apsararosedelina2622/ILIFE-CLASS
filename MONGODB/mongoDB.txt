@@ -1,0 +1,25 @@
+MONGO DB 
+
+DAY 1 => Introduction about Mongo DB, Installing Mongo DB & Set Up, Mongo DB Atlas 
+DAY 2 => Creating Data Base, Table, Inserting Data, Finding Data
+DAY 3 => Operators, CRUD 
+
+Commands 
+
+* To Show All DataBase
+    show dbs
+
+* To Create DataBase
+    use data
+
+* To Create Table 
+    db.createCollection('user')
+
+* To Insert One Data 
+    db.user.insertOne({'name' : 'Rhythm'})
+
+* To Insert Many Data in One Object
+    db.user.insertOne({ 'name' : 'Rhythm', 'age' : '20', 'place' : 'trichy' })
+
+* To Insert Many Data
+    db.user.insertMany([{ 'name' : 'Rhythm' }, { 'age' : '20' }, { 'place' : 'trichy' }]) 

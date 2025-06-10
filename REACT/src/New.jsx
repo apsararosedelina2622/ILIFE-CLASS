@@ -21,34 +21,58 @@
 
 
 
-import React from 'react'
-import { Swiper , SwiperSlide } from "swiper/react"
-import { Autoplay, Navigation, Pagination } from "swiper/modules"
-import { my_asset } from './assets/assets'
+// import React from 'react'
+// import { Swiper , SwiperSlide } from "swiper/react"
+// import { Autoplay, Navigation, Pagination } from "swiper/modules"
+// import { my_asset } from './assets/assets'
 
-import "swiper/css"
-import "swiper/css/navigation"
-import "swiper/css/pagination"
+// import "swiper/css"
+// import "swiper/css/navigation"
+// import "swiper/css/pagination"
+
+// const New = () => {
+//   return (
+//     <Swiper
+//       slidesPerView={4}
+//       spaceBetween={20}
+//       modules={[ Navigation , Pagination , Autoplay ]}
+//       navigation
+//       pagination={{ clickable : true }}
+//       autoplay={{ delay : 2000 }}
+//       loop={ true }
+//       speed={ 3000 }
+//     >
+//       <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
+//       <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
+//       <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
+//       <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
+//       <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
+//       <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
+//     </Swiper>
+//   )
+// }
+
+// export default New
+
+
+// import React from 'react'
+
+// const New = () => {
+//   async function Fun(){
+//     const url = await fetch("https://jsonplaceholder.typicode.com/users")
+//     const data = await url.json()
+//     console.log(data[0].name)
+//   }
+//   Fun()
+// }
+
+// export default New
+
+import React from 'react'
 
 const New = () => {
   return (
-    <Swiper
-      slidesPerView={4}
-      spaceBetween={20}
-      modules={[ Navigation , Pagination , Autoplay ]}
-      navigation
-      pagination={{ clickable : true }}
-      autoplay={{ delay : 2000 }}
-      loop={ true }
-      speed={ 3000 }
-    >
-      <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
-      <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
-      <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
-      <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
-      <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
-      <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
-    </Swiper>
+    <div>New</div>
   )
 }
 

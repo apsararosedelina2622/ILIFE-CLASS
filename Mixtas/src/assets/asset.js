@@ -1,4 +1,5 @@
 import logo from "./images/logo.png"
+
 import img1 from "./images/product/image-1.png"
 import img2 from "./images/product/image-2.png"
 import img3 from "./images/product/image-3.png"

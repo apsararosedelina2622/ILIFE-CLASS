@@ -13,5 +13,5 @@ files in Express, Getting Values from HTML from using URL ENCODED
 
 DAY - 3 => HBS, EJS, Error Handling 
 
-* HBS - npm i hbs 
+* HBS - npm i hbs
 * EJS - npm i ejs
