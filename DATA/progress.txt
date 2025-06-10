@@ -459,9 +459,18 @@ JUNE MONTH
 10 / 05 - TUESDAY
 
 11 - 12 => Shalini , Maria [JavaScript Day - 6]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React Day - 2] 
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Props] 
+
+03 - 04 => Satya Roslin 
+04 - 05 => Internship [React Day 10 , Project]
+05 - 06 => Dhamodharan 
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
+
+
+11 / 05 - WEDNESSDAY
+
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - useState] 
 
 03 - 04 => Satya Roslin [Express DAY - 4]
-04 - 05 => Internship [React Day 10 , Project]
 05 - 06 => Dhamodharan [JavaScript Day - 6]
-06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation]
+06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
