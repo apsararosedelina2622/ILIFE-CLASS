@@ -8,7 +8,7 @@ LUNCH
 
 03 - 04 => Satya Roslin
 05 - 06 => Thamodharan
-06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan
 
 SATURDAY BATCH
 
@@ -18,7 +18,7 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Thamodharan , Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Yusuf
 
 
 STUDENTS FROM EPIX
@@ -52,7 +52,7 @@ June
 
 11 - 12 => Maria ( Combine Date - 02 / 06 )
 
-06 - 07 => Abdul Rab , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
 
 12 - 01 => Sundaresh ( Timimg Changed [ 06 - 07 ] => [ 12 - 01 ] ( Combine Date - 03 - 06 ) )
 
@@ -95,6 +95,12 @@ Bootstrap Project  => Content Change         => https://sastraproject.netlify.ap
 
 
 Kannan
+
+Sai Naresh
+
+CSS Project        => Ilife Project          => https://sainaresh2727.github.io/Css-Project/
+Bootstrap Project  => From Scratch           => https://sainaresh2727.github.io/BootstrapProjecct/
+
 
 Dhinakaran
 

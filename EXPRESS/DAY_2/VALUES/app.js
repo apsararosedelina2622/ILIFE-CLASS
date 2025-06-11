@@ -3,6 +3,8 @@ const path = require("path")
 const app = express()
 
 app.use(express.urlencoded({ extended : true }))
+// urlencoded      => It Converts buffer data into URL Encoded Data
+// extended : true => It converts encoded data into object
 
 app.get("/" , (req , res) => {
     res.sendFile(path.join(__dirname , "public" , "index.html"))

@@ -1,78 +1,26 @@
-// import React from 'react'
-// import { Swiper , SwiperSlide } from "swiper/react"
-
-// import "swiper/css"
-
-// const New = () => {
-//   return (
-//     <Swiper
-//       slidesPerView={3}
-//     >
-//       <SwiperSlide>Slide 1</SwiperSlide>
-//       <SwiperSlide>Slide 2</SwiperSlide>
-//       <SwiperSlide>Slide 3</SwiperSlide>
-//       <SwiperSlide>Slide 4</SwiperSlide>
-//       <SwiperSlide>Slide 5</SwiperSlide>
-//     </Swiper>
-//   )
-// }
-
-// export default New
-
-
-
-// import React from 'react'
-// import { Swiper , SwiperSlide } from "swiper/react"
-// import { Autoplay, Navigation, Pagination } from "swiper/modules"
-// import { my_asset } from './assets/assets'
-
-// import "swiper/css"
-// import "swiper/css/navigation"
-// import "swiper/css/pagination"
-
-// const New = () => {
-//   return (
-//     <Swiper
-//       slidesPerView={4}
-//       spaceBetween={20}
-//       modules={[ Navigation , Pagination , Autoplay ]}
-//       navigation
-//       pagination={{ clickable : true }}
-//       autoplay={{ delay : 2000 }}
-//       loop={ true }
-//       speed={ 3000 }
-//     >
-//       <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
-//       <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
-//       <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
-//       <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
-//       <SwiperSlide><img src={my_asset.Img1} alt="" height={300} className='w-100' /></SwiperSlide>
-//       <SwiperSlide><img src={my_asset.Img2} alt="" height={300} className='w-100' /></SwiperSlide>
-//     </Swiper>
-//   )
-// }
-
-// export default New
-
-
-// import React from 'react'
-
-// const New = () => {
-//   async function Fun(){
-//     const url = await fetch("https://jsonplaceholder.typicode.com/users")
-//     const data = await url.json()
-//     console.log(data[0].name)
-//   }
-//   Fun()
-// }
-
-// export default New
-
 import React from 'react'
+import { useState } from 'react'
 
 const New = () => {
+
+  var [ theme , setTheme ] = useState(true)
+
+  var obj = {
+    color : theme ? "black" : "white" , 
+    "background-color" : theme ? "white" : "black"
+  }
+
+  const ToggleTheme = () => {
+    setTheme(!theme)
+  }
+
   return (
-    <div>New</div>
+    <>
+      <div style={obj}>
+        <button onClick={ToggleTheme}>Theme</button>
+        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla facilis id minima, praesentium, magni sint repellat quisquam harum tempora vero blanditiis autem obcaecati, hic iure nobis? Velit iusto minima similique?</h1>
+      </div>
+    </>
   )
 }
 

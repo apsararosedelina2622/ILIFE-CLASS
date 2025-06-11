@@ -20,6 +20,8 @@ const express = require('express');
 const app = express();
 
 app.use(express.static('public'));
+// app.use        => run as middleware , it runs before routes
+// express.static => it reads file directly in that public folder
 
 app.listen(5000, () => {
   console.log('Server running on http://localhost:5000');
