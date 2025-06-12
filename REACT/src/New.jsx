@@ -1,25 +1,26 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 const New = () => {
 
-  var [ theme , setTheme ] = useState(true)
+  const [ input , setInput ] = useState("")
+  const [ qr , setQr ] = useState("")
 
-  var obj = {
-    color : theme ? "black" : "white" , 
-    "background-color" : theme ? "white" : "black"
-  }
-
-  const ToggleTheme = () => {
-    setTheme(!theme)
+  const GenerateFun = () => {
+    setQr(` https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${input}`)
   }
 
   return (
     <>
-      <div style={obj}>
-        <button onClick={ToggleTheme}>Theme</button>
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla facilis id minima, praesentium, magni sint repellat quisquam harum tempora vero blanditiis autem obcaecati, hic iure nobis? Velit iusto minima similique?</h1>
-      </div>
+      <input type="text" onChange={(e) => { setInput(e.target.value) }} />
+      <button onClick={GenerateFun}>Generate</button>
+      {/* <img src={qr} alt="" />  */}
+      { 
+        input.length === 0 
+        ?
+        ""
+        :
+        qr && <img src={qr} alt="" />
+      }
     </>
   )
 }

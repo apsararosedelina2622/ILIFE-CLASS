@@ -1,7 +1,7 @@
 BATCH
 
 10 - 11 => Satya Roslin
-11 - 12 => Thamodharan , Shalini , Maria
+11 - 12 => Thamodharan
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Kaviyarasan , Murugan , Sundaresh
 
 LUNCH
