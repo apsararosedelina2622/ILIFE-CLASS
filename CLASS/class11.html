@@ -18,7 +18,7 @@
     // FunctionName()
 
     // function Fun(){
-    //   console.log("Hello")
+    //   console.log("hello")
     // }
 
     // Fun()
@@ -29,106 +29,51 @@
 
     // console.log(Fun())
 
-    // function Fun(a){
-    //   // console.log(a)
+
+    // function Fun(username){
+    //   return `Hello! ${username}`
+    // }
+
+    // console.log(Fun("user"))
+    // console.log(Fun("Banu"))
+
+    // function Fun(a = "user"){
     //   return `Hello! ${a}`
     // }
 
-    // console.log(Fun("Username"))
-
-    // function Fun(a = "User"){
-    //   return `Hello! ${a}`
-    // }
-
-    // // console.log(Fun("Username"))
+    // console.log(Fun("Hii"))
     // console.log(Fun())
 
-    // var FunctionName = () => {
+    // const FunctionName = () => {
       
     // }
 
     // FunctionName()
 
-    // var Fun = () => {
-    //   console.log("Hello")
-    // }
-
-    // Fun()
-
     // const Fun = () => {
-    //   return "Hello!"
-    // }
-
-    // console.log(Fun())
-
-    // const Fun = (data) => {
-    //   return `Hello! ${data}`
-    // }
-
-    // console.log(Fun("username"))
-
-    // const Fun = (data = "user") => {
-    //   return `Hello! ${data}`
-    // }
-
-    // console.log(Fun("username"))
-    // console.log(Fun())
-
-    // const Fun = () => "Hello"
-
-    // console.log(Fun())
-
-    // (function(){
-
-    // })()
-
-    // (function(){
     //   console.log("Hello")
-    // })()
-
-    // async function FunctionName(){
-
-    // }
-
-    // FunctionName()
-
-    // var JSON = [{} , {} , {}]
-
-    // var data = [
-    //   {
-    //     name : "Abi" , 
-    //     age : 21
-    //   },
-    //   {
-    //     name : "Banu", 
-    //     age : 20
-    //   },
-    //   {
-    //     name : "Begum" , 
-    //     age : 22
-    //   }
-    // ]
-
-    // console.log(data)
-    // console.log(data[0])
-    // console.log(data[0].name)
-    // console.log(data[0].age)
-    // console.log(data[1])
-    // console.log(data[2])
-
-    // console.log(data[2].name)
-    
-    // async function Fun(){
-    //   const url = await fetch("https://jsonplaceholder.typicode.com/users")
-    //   // console.log(await url.json())
-    //   const data = await url.json()
-    //   console.log(data)
-    //   console.log(data[4])
-    //   console.log(data[4].username)
-    //   console.log(data[4].company.name)
     // }
 
     // Fun()
+
+    // var Fun = () => {
+    //   return "Hello"
+    // }
+
+    // console.log(Fun())
+
+    // const Fun = (num) => {
+    //   return num + num
+    // }
+    
+    // console.log(Fun(5))
+
+    // const Fun = (a = 5) => {
+    //   return a
+    // }
+
+    // console.log(Fun(10))
+    // console.log(Fun())
 
     // Fun()
 
@@ -138,17 +83,79 @@
 
     // Fun()
 
-    // console.log(name)
-
-    // const name = "user"
-
     // Fun()
 
     // const Fun = () => {
     //   console.log("Hello")
     // }
 
-  </script>
+    // Fun()
+
+    // const Fun = () => "Hello"
+
+    // console.log(Fun())    
+
+    // IIFE 
+
+    // (function(){
+
+    // })()
+
+    // (function(){
+    //   console.log("Hello")
+    // })()
+
+    // var JSON = [ {} , {} , {} ]
+
+    // var JSON = [
+    //   {
+    //     name : "Abi" , 
+    //     age : 21 ,
+    //     place : "Trichy"
+    //   } , 
+    //   {
+    //     name : "Banu" , 
+    //     age : 20 , 
+    //     place : "Chennai" 
+    //   } , 
+    //   {
+    //     name : "Begum" , 
+    //     age : 23 , 
+    //     place : "Madurai"
+    //   }
+    // ]
+
+    // console.log(JSON)
+    // console.log(JSON[0])
+    // console.log(JSON[0].name)
+    // console.log(JSON[0].place)
+    // console.log(JSON[2].age)
+    // console.log(JSON[2].name)
+    // console.log(JSON[2].place)
+
+    // async function FunctionName(){
+      
+    // }
+
+    // FunctionName()
+
+    async function Fun(){
+      const url = await fetch("https://jsonplaceholder.typicode.com/users")
+      // console.log(await url.json())
+      const data = await url.json()
+      console.log(data)
+      console.log(data[5])
+      console.log(data[5].name)
+      console.log(data[5].username)
+      console.log(data[5].company)
+      console.log(data[5].company.name)
+
+      console.log(`Name : ${data[0].name}`)
+    }
+
+    Fun()
+
+  </script>  
 
 </body>
 </html>

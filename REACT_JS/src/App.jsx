@@ -4,7 +4,8 @@ import React from 'react'
 // import Day2_Js from './Day2_Js'
 // import Day3_Props_1 from './Day3_Props_1'
 // import Day4_State_1 from './Day4_State_1'
-import Day5_State_2 from './Day5_State_2'
+// import Day5_State_2 from './Day5_State_2'
+import Day6_Bootstrap from './Day6_Bootstrap'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Day2_Js /> */}
       {/* <Day3_Props_1 /> */}
       {/* <Day4_State_1 /> */}
-      <Day5_State_2 />
+      {/* <Day5_State_2 /> */}
+      <Day6_Bootstrap />
     </>
   )
 }
