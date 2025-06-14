@@ -502,3 +502,13 @@ Yusuf
 10:30 to 11:30 -> Yusuf [ Conditional Statements ]
 12:00 to 01:00 -> Yusuf [ Loops ]
 02:30 to 3:30 -> Yusuf [ Set Interval, Set Timeout, Array Methods - 1 ]
+
+
+16 / 06 - MONDAY
+
+10 - 11 => Satya Roslin [Mongo DB Installation]
+11 - 12 => Dhamodharan [JavaScript Day - 7]
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Effect] 
+
+03 - 04 => Megavarshini [JavaScript Day - 1] 
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Node JS]

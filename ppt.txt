@@ -1,0 +1,68 @@
+Title Slide 
+
+    Title : Introduction For FULL STACK
+    Image: [ Laptop with code + MERN logo collage ]
+
+Slide 1: 
+
+    What is Full Stack Development?
+    Full Stack = Frontend + Backend
+    Full stack developers handle both client-side and server-side
+
+Slide 2: 
+
+    What is MERN Stack?
+    MERN stands for:
+        MongoDB
+        Express.js
+        React.js
+        Node.js
+    Image: [ MERN stack vertical diagram ]
+
+Slide 3:
+
+    What is HTML?
+    Image : [ Websites Design using only HTML ]
+
+
+Slide 4:
+
+    What is CSS?
+    Image : [ Websites Design using CSS ]
+
+Slide 5: 
+
+    Image : [ Collage website design Image using HTML , CSS  ]
+
+Slide 6:
+
+    What is Bootstrap?
+
+Slide 7:
+
+    What is JavaScript?
+
+Slide 8:
+
+    What is React?
+
+Slide 9:
+
+    Introduction about Backend
+    What is Node JS?
+
+Slide 10: 
+
+    What is Express JS?
+
+Slide 11:
+
+    What is Mongo DB?
+
+Slide 12:
+
+    Overall Full Stack
+
+Slide 13:
+
+    Thank You
