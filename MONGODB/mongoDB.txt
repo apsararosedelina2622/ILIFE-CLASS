@@ -12,14 +12,99 @@ Commands
 * To Create DataBase
     use data
 
+* To Show All Collections 
+    show collections
+
 * To Create Table 
-    db.createCollection('user')
+    db.createCollection('User')
 
 * To Insert One Data 
-    db.user.insertOne({'name' : 'Rhythm'})
+    db.user.insertOne({name : 'Hello'})
 
-* To Insert Many Data in One Object
-    db.user.insertOne({ 'name' : 'Rhythm', 'age' : '20', 'place' : 'trichy' })
+* To Insert One Data 
+    db.user.find()
+    db.user.findOne({name : 'Hello'})
 
 * To Insert Many Data
-    db.user.insertMany([{ 'name' : 'Rhythm' }, { 'age' : '20' }, { 'place' : 'trichy' }]) 
+    db.user.insertMany([{ name : 'Hello1' }, { name : 'Hello2' }, { name : 'Hello3' }]) 
+
+* To Insert Many Data in One Object
+    db.user.insertOne({ name : 'Hello', age : '20', place : 'trichy' })
+
+* To Update Many Data 
+    db.user.updateMany(
+        { },
+        { $set: { place: 'trichy' } }
+    )
+
+* To Update One Data 
+    db.data.updateOne(
+        { name: "Hello" },
+        { $set: { age: 30 } }
+    )
+
+    db.user.updateOne(
+        { name: "b", age: 23 },
+        { $unset: { age: "" } }
+    )
+
+* To Delete First Matching Data 
+    db.user.deleteOne({ name: "Hello" })
+
+* To Delete all Matching Data 
+    db.user.deleteMany({ name: "Hello" })
+
+* To Delete a Table 
+    db.user.drop()
+
+* To Delete a Database  
+    db.dropDataBase() 
+
+OPERATORS 
+
+DATA TABLE
+
+[
+  {
+    _id: ObjectId("001"),
+    name: "Ram",
+    age: 25,
+    city: "Chennai",
+    skills: ["Node", "MongoDB", "React"],
+    score: 85,
+    active: true
+  },
+  {
+    _id: ObjectId("002"),
+    name: "Sam",
+    age: 30,
+    city: "Bangalore",
+    skills: ["Python", "Django"],
+    score: 70,
+    active: false
+  },
+  {
+    _id: ObjectId("003"),
+    name: "Kiran",
+    age: 22,
+    city: "Chennai",
+    skills: ["HTML", "CSS"],
+    score: 60,
+    active: true
+  }
+]
+
+* Comparison Operator
+
+==  -> db.details.find({ age: { $eq: 25 } }) 
+!= -> db.details.find({ name: { $ne: "Sam" } })
+> -> db.users.find({ score: { $gt: 70 } })
+< -> db.users.find({ age: { $lt: 30 } })
+>= -> db.users.find({ age: { $gte: 25 } })
+<= -> db.users.find({ age: { $lte: 30 } }) 
+
+* Logical Operator 
+
+and -> db.users.find({ $and: [ { city: "Chennai" }, { active: true } ] })
+or -> db.users.find({ $or: [ { name: "Ram" }, { name: "Sam" } ] }) 
+not -> db.users.find({ age: { $not: { $gt: 25 } } })

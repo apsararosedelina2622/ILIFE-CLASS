@@ -511,4 +511,14 @@ Yusuf
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Effect] 
 
 03 - 04 => Megavarshini [JavaScript Day - 1] 
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Node JS]
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
+
+
+17 / 06 - TUESDAY
+
+10 - 11 => Satya Roslin [Mongo DB Installation]
+11 - 12 => Dhamodharan [JavaScript Day - 7]
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Reducer , Use Ref] 
+
+03 - 04 => Megavarshini [JavaScript Day - 2] 
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Bootstrap , Assets]
