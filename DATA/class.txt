@@ -4,7 +4,7 @@ BATCH
 10 - 11 => Megavarshini
 
 11 - 12 => Thamodharan
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Kaviyarasan , Murugan , Sundaresh
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh
 
 LUNCH
 
@@ -12,7 +12,7 @@ LUNCH
 03 - 04 => Megavarshini
 
 05 - 06 => Thamodharan
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan
+06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Kaviyarasan , Murugan
 
 SATURDAY BATCH
 
@@ -69,6 +69,8 @@ June
 11 - 12 => Shalini ( Batch Combined with Anish's 11o Clock Batch )
 
 10 - 11 => Megavarshini ( New Batch ( Joining Date - 13 / 06 ) [ Shifted Batch ( 10 - 11 , 03 - 04 ) ] )
+
+06 - 07 => Kaviyarasan , Murugan ( Timimg Changed - 17 / 06 [ 12 - 01 => 06 - 07 ] )
 
 
 

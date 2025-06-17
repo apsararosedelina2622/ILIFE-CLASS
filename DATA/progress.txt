@@ -520,5 +520,15 @@ Yusuf
 11 - 12 => Dhamodharan [JavaScript Day - 7]
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Reducer , Use Ref] 
 
-03 - 04 => Megavarshini [JavaScript Day - 2] 
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Bootstrap , Assets]
+03 - 04 => Megavarshini [JavaScript Day - 2 , 3] 
+06 - 07 => Kaviyarasan , Murugan [React - Bootstrap , Assets]
+
+
+18 / 06 - WEDNESSDAY
+
+10 - 11 => Satya Roslin [Mongo DB Atlas Installation]
+11 - 12 => Dhamodharan [JavaScript Day - 7 , 8]
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Context] 
+
+03 - 04 => Megavarshini [JavaScript Day - 3 , 4] 
+06 - 07 => Kaviyarasan , Murugan [React - Use Effect]
