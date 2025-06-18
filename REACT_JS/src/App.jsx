@@ -7,7 +7,11 @@ import React from 'react'
 // import Day5_State_2 from './Day5_State_2'
 // import Day6_Bootstrap from './Day6_Bootstrap'
 // import Day7_Effect from './Day7_Effect'
-import Day8_Reducer_Ref from './Day8_Reducer_Ref'
+// import Day8_Reducer_Ref from './Day8_Reducer_Ref'
+// import Example1 from './Example1'
+import ContextFile from './context/ContextFile'
+import Example1 from './Example1'
+import Example2 from './Example2'
 
 const App = () => {
   return (
@@ -19,7 +23,12 @@ const App = () => {
       {/* <Day5_State_2 /> */}
       {/* <Day6_Bootstrap /> */}
       {/* <Day7_Effect /> */}
-      <Day8_Reducer_Ref />
+      {/* <Day8_Reducer_Ref /> */}
+      {/* <Example1 /> */}
+      <ContextFile>
+        <Example1 />
+        <Example2 />
+      </ContextFile>
     </>
   )
 }
