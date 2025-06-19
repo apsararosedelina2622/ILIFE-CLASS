@@ -533,11 +533,22 @@ Yusuf
 03 - 04 => Megavarshini [JavaScript Day - 3 , 4] 
 06 - 07 => Kaviyarasan , Murugan [React - Use Effect]
 
+
 19 / 06 - THURSDAY
 
 10 - 11 => Satya Roslin [Mongo DB - Schema , CRUD]
-11 - 12 => Dhamodharan [JavaScript Day - 8 , 9]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Context] 
+11 - 12 => Dhamodharan
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Routers] 
 
 03 - 04 => Megavarshini [JavaScript Day - 5] 
 06 - 07 => Kaviyarasan , Murugan [React - Use Reducer , Use Ref]
+
+
+20 / 06 - FRIDAY
+
+10 - 11 => Satya Roslin [Mongo DB - CRUD]
+11 - 12 => Dhamodharan [JavaScript Day - 8 , 9]
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - CRUD] 
+
+03 - 04 => Megavarshini [JavaScript Day - 6] 
+06 - 07 => Kaviyarasan , Murugan [React - Use Ref]

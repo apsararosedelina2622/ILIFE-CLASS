@@ -1,16 +1,17 @@
-const express = require("express");
-const app = express();
-const connectDB = require("./config/db");
-const userRoutes = require("./routes/userRoutes");
-require("dotenv").config();
+const express = require("express")
+const app = express()
 
-// Middlewares
-app.use(express.json());
-connectDB();
+const dotenv = require("dotenv")
+dotenv.config()
 
-// Route Use
-app.use("/api", userRoutes);
+const connectDB = require("./config/db")
+connectDB()
 
-app.listen(process.env.PORT, () => {
-  console.log(`🚀 Server running on port ${process.env.PORT}`);
+app.use(express.json())
+
+const router = require("./router/router")
+app.use("/api" , router )
+
+app.listen(process.env.PORT , () => {
+    console.log("Server running successfully!")
 })

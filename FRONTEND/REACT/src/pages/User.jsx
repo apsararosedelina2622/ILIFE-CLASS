@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 const User = () => {
 
-    const {username} = useParams()
+    const { username } = useParams()
 
   return (
     <>

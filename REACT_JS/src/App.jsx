@@ -9,9 +9,10 @@ import React from 'react'
 // import Day7_Effect from './Day7_Effect'
 // import Day8_Reducer_Ref from './Day8_Reducer_Ref'
 // import Example1 from './Example1'
-import ContextFile from './context/ContextFile'
-import Example1 from './Example1'
-import Example2 from './Example2'
+// import ContextFile from './context/ContextFile'
+// import Example1 from './Example1'
+// import Example2 from './Example2'
+import Day10_Routers from './Day10_Routers'
 
 const App = () => {
   return (
@@ -25,10 +26,11 @@ const App = () => {
       {/* <Day7_Effect /> */}
       {/* <Day8_Reducer_Ref /> */}
       {/* <Example1 /> */}
-      <ContextFile>
+      {/* <ContextFile>
         <Example1 />
         <Example2 />
-      </ContextFile>
+      </ContextFile> */}
+      <Day10_Routers />
     </>
   )
 }

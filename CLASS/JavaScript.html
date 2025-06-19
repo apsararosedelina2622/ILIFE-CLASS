@@ -7,51 +7,109 @@
 </head>
 <body>
 
-    <!-- toFixed() , Number() , isNaN() , isFinite() , parseInt() , parseFloat() , Math.sqrt() , Math.ceil() , Math.floor() , Math.random() -->
-
     <!-- Operator - Arithmatic , Asignment , Comparison , Logical , Ternary , Unary -->
+
+    <form name="myform">
+        <input type="number" name="num1">
+        <input type="number" name="num2">
+        <button onclick="AddFun()" type="button">Add</button>
+        <button>Sub</button>
+        <button>Mul</button>
+    </form>
+
+    <p id="tag"></p>
     
     <script>
 
-        // var num = 67.3
-        // console.log(num.toFixed())
+        function AddFun(){
+            var num1 = Number(document.myform.num1.value)
+            var num2 = Number(document.myform.num2.value)
+            document.getElementById("tag").innerHTML = num1 + num2
+        }
 
-        // var num = "45";
-        // console.log(typeof(num))
-        // console.log(typeof(Number(num)))
-        // console.log(Number(num) + Number(num))
+        // var a = 9;
+        // var b = 8;
 
-        // var num = 76;
-        // console.log(isNaN(num))
-        // console.log(isNaN(78))
-        // console.log(isNaN("fcfd"))
-        // console.log(isNaN("78"))
+        // console.log(a + b)
+        // console.log(a - b)
+        // console.log(a * b)
+        // console.log(a / b)
+        // console.log(a % b)
+
+        // var num = 67;
+
+        // num += 2 // num = num + 2
+        // num -= 4 // num = num - 4 
+
+        // console.log(num)
+
+        // console.log("90" == "90")
+        // console.log(90 != 56)
+        // console.log(90 === "90")
+        // console.log(90 !== "90")
+
+        // var a = 78;
+        // var b = 89;
+
+        // console.log(a < b)
+        // console.log(a < b)
+        // console.log(a >= b)
+        // console.log(a >= b)
+    
+        // console.log(true && true) // true
+        // console.log(true && false) // false
+        // console.log(false && true) // false
+        // console.log(false && false) // false
+
+        // console.log(true || true) // true
+        // console.log(true || false) // true
+        // console.log(false || true) // true
+        // console.log(false || false) // false
+
+        // console.log(!true)
+        // console.log(!false)
+
+        // console.log(( 78 > 90 ) && ( 89 <= 89 )) // false && true = false
+        // console.log(( 78 <= 90 ) || ( 56 === 89 )) // true || false = true
+        // console.log(!(( 78 <= 90 ) || ( 56 === 89 ))) // !(true || false) = !(true) = false
+
+        // console.log(!((45 === 45) && (90 >= 76))) // true && true = !(true) = false
+        // console.log(!((45 === 45) || (90 >= 76))) // true || true = !(true) = false
+
+        // condition ? true statement : false statement
+
+        // console.log(( 78 <= 60 ) ? "Hello" : "Hii")
+
+        // var num = "89"
+
+        // console.log(+ num)
+        // console.log(- num)
+
+        // var num = 5;
+
+        // console.log(num++) // 5 => 6
+        // console.log(num++) // 6 => 7
+        // console.log(++num) // 8
+        // console.log(num) // 8
 
         // var num = 87;
-        // console.log(isFinite(num))
-        // console.log(isFinite("fddd"))
-        // console.log(isFinite("78"))
 
-        // var num = "45.18ytft";
-        // console.log(typeof(num))
-        // console.log(typeof(parseInt(num)))
-        // console.log(parseInt(num))
+        // console.log(++num) // 88
+        // console.log(num++) // 88 => 89
+        // console.log(num) // 89
+        // console.log(num++) // 89 => 90
+        // console.log(++num) // 91
+        // console.log(num) // 91
 
-        // var num = "67.89gfg";
-        // console.log(parseFloat(num))
 
-        // var num = 81;
-        // console.log(Math.sqrt(num))
-
-        // var num = 89.9
-        // console.log(Math.ceil(num))
-
-        // var num = 89.84566766
-        // console.log(Math.floor(num))
-
-        // console.log(Math.floor(Math.random() * 90))
-
+        // console.log(--num) // 86
+        // console.log(num--) // 86 => 85
+        // console.log(num) // 85
+        // console.log(num--) // 85 => 84
+        // console.log(--num) // 83
+        // console.log(num) // 83
+        
     </script>
-
+    
 </body>
 </html>
