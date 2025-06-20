@@ -115,7 +115,7 @@ function remove_cart(productID){
     totalPrice = totalPrice - product.price;
 
     document.getElementById("totalPrice").innerHTML = totalPrice === 0 ? "" : `Total Price : ₹${totalPrice}`
-}
+}   
 
 // 4 , 3 , 2 !== 4 
 

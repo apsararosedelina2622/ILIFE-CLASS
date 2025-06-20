@@ -488,7 +488,7 @@ JUNE MONTH
 13 / 06 - FRIDAY
 
 10 - 11 => Megavarshini [CSS Doubts] 
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Bootstrap , Assets] 
+12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Bootstrap , Assets] 
 
 03 - 04 => Satya Roslin [Express DAY - 4]
 05 - 06 => Dhamodharan [JavaScript Day - 6]
@@ -499,16 +499,16 @@ JUNE MONTH
 
 Yusuf 
 
-10:30 to 11:30 -> Yusuf [ Conditional Statements ]
-12:00 to 01:00 -> Yusuf [ Loops ]
-02:30 to 3:30 -> Yusuf [ Set Interval, Set Timeout, Array Methods - 1 ]
+10:30 to 11:30 => Yusuf [ Conditional Statements ]
+12:00 to 01:00 => Yusuf [ Loops ]
+02:30 to 3:30  => Yusuf [ Set Interval, Set Timeout, Array Methods - 1 ]
 
 
 16 / 06 - MONDAY
 
 10 - 11 => Satya Roslin [Mongo DB Installation]
 11 - 12 => Dhamodharan [JavaScript Day - 7]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Effect] 
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Effect] 
 
 03 - 04 => Megavarshini [JavaScript Day - 1] 
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
@@ -518,7 +518,7 @@ Yusuf
 
 10 - 11 => Satya Roslin [Mongo DB Installation]
 11 - 12 => Dhamodharan [JavaScript Day - 7]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Reducer , Use Ref] 
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Reducer , Use Ref] 
 
 03 - 04 => Megavarshini [JavaScript Day - 2 , 3] 
 06 - 07 => Kaviyarasan , Murugan [React - Bootstrap , Assets]
@@ -528,7 +528,7 @@ Yusuf
 
 10 - 11 => Satya Roslin [Mongo DB Atlas Installation]
 11 - 12 => Dhamodharan [JavaScript Day - 7 , 8]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Context] 
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Use Context] 
 
 03 - 04 => Megavarshini [JavaScript Day - 3 , 4] 
 06 - 07 => Kaviyarasan , Murugan [React - Use Effect]
@@ -538,7 +538,7 @@ Yusuf
 
 10 - 11 => Satya Roslin [Mongo DB - Schema , CRUD]
 11 - 12 => Dhamodharan
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Routers] 
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Routers] 
 
 03 - 04 => Megavarshini [JavaScript Day - 5] 
 06 - 07 => Kaviyarasan , Murugan [React - Use Reducer , Use Ref]
@@ -546,9 +546,22 @@ Yusuf
 
 20 / 06 - FRIDAY
 
+10 - 11 => Satya Roslin
+11 - 12 => Dhamodharan
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - CRUD] 
+
+03 - 04 => Megavarshini
+06 - 07 => Kaviyarasan , Murugan [React - Use Ref ]
+
+
+21 / 06 - SATURDAY ( Casual Leave ) 
+
+
+23 / 06 - MONDAY
+
 10 - 11 => Satya Roslin [Mongo DB - CRUD]
 11 - 12 => Dhamodharan [JavaScript Day - 8 , 9]
-12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React - CRUD] 
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Form Validation] 
 
 03 - 04 => Megavarshini [JavaScript Day - 6] 
 06 - 07 => Kaviyarasan , Murugan [React - Use Ref]

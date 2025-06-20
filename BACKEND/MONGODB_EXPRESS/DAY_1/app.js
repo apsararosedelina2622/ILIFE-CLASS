@@ -1,8 +1,7 @@
 const connectDB = require("./config/db")
+connectDB()
 
 const userSchema = require("./models/user")
-
-connectDB()
 
 const userData = new userSchema({
     name : "Rhythm" ,
