@@ -1,8 +1,8 @@
 const mongoose = require("mongoose")
 
-const userSchema = new mongoose.Schema({
+const userShcema = new mongoose.Schema({
     name : {
-        type : String ,
+        type : String , 
         require : true
     } , 
     age : {
@@ -10,11 +10,11 @@ const userSchema = new mongoose.Schema({
         require : true
     } , 
     place : {
-        type : String ,
+        type : String , 
         require : true
     }
 })
 
-const userModel = mongoose.model("user" , userSchema)
+const userModel = mongoose.model("user" , userShcema)
 
 module.exports = userModel

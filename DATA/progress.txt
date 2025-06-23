@@ -551,7 +551,7 @@ Yusuf
 12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - CRUD] 
 
 03 - 04 => Megavarshini
-06 - 07 => Kaviyarasan , Murugan [React - Use Ref ]
+06 - 07 => Kaviyarasan , Murugan [React - Use Ref , Use Context]
 
 
 21 / 06 - SATURDAY ( Casual Leave ) 
@@ -559,9 +559,19 @@ Yusuf
 
 23 / 06 - MONDAY
 
-10 - 11 => Satya Roslin [Mongo DB - CRUD]
-11 - 12 => Dhamodharan [JavaScript Day - 8 , 9]
+10 - 11 => Megavarshini 
 12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Form Validation] 
 
-03 - 04 => Megavarshini [JavaScript Day - 6] 
-06 - 07 => Kaviyarasan , Murugan [React - Use Ref]
+03 - 04 => Satya Roslin [Mongo DB - CRUD]
+05 - 06 => Dhamodharan [JavaScript Day - 8 , 9]
+06 - 07 => Kaviyarasan , Murugan [React - Routers]
+
+
+24 / 06 - TUESDAY
+
+10 - 11 => Megavarshini [JavaScript Day - 6] 
+12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Swiper Package , Project Explanation] 
+
+03 - 04 => Satya Roslin [Mongo DB - Multer]
+05 - 06 => Dhamodharan [JavaScript Day - 8 , 9]
+06 - 07 => Kaviyarasan , Murugan [React - CRUD]

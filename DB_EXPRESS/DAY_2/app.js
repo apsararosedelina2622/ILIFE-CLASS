@@ -1,18 +1,18 @@
-const express = require("express")
-const app = express()
-
-const router = require("./router/routers");
+const connectDB = require("./config/db");
+connectDB()
 
 const dotenv = require("dotenv")
 dotenv.config()
 
-const connectDB = require("./config/db");
-connectDB()
+const express = require("express");
+const app = express()
+
+const router = require("./router/routers");
 
 app.use(express.json())
 
 app.use("/api" , router)
 
 app.listen(process.env.PORT , () => {
-    console.log("Server running successfully!")
+    console.log("Server Running Successfully!")
 })
