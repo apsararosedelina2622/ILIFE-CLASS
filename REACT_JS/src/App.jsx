@@ -14,13 +14,14 @@ import React from 'react'
 // import Example2 from './Example2'
 // import Day10_Routers from './Day10_Routers'
 // import Day11_Crud from './Day11_Crud'
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Form from './Form/Form'
-import Form_Submit from './Form/Form_Submit'
-import ContextFile from './Form/ContextFile'
-import Home from './Form/Home'
-import Protect from './Form/Protect'
-import About from './Form/About'
+// import { BrowserRouter, Route, Routes } from "react-router-dom"
+// import Form from './Form/Form'
+// import Form_Submit from './Form/Form_Submit'
+// import ContextFile from './Form/ContextFile'
+// import Home from './Form/Home'
+// import Protect from './Form/Protect'
+// import About from './Form/About'
+import Day13_Swiper from './Day13_Swiper'
 
 const App = () => {
   return (
@@ -40,7 +41,7 @@ const App = () => {
       </ContextFile> */}
       {/* <Day10_Routers /> */}
       {/* <Day11_Crud /> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <ContextFile>
           <Routes>
             <Route path='/' element={<Form />} />
@@ -49,7 +50,8 @@ const App = () => {
             <Route path='/about' element={<Protect><About /></Protect>} />
           </Routes>
         </ContextFile>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Day13_Swiper />
     </>
   )
 }

@@ -2,6 +2,10 @@ const User = require("../models/User");
 
 const createUserWithImage = async (req, res) => {
   try {
+    if (!req.file) {
+      return res.status(400).json({ error: "Image file is required" });
+    }
+
     const user = new User({
       name: req.body.name,
       age: req.body.age,
@@ -19,15 +23,4 @@ const createUserWithImage = async (req, res) => {
   }
 };
 
-// Optional: Get image by ID
-const getImage = async (req, res) => {
-  try {
-    const user = await User.findById(req.params.id);
-    res.contentType(user.image.contentType);
-    res.send(user.image.data);
-  } catch (err) {
-    res.status(404).send("Image not found");
-  }
-};
-
-module.exports = { createUserWithImage, getImage };
+module.exports = { createUserWithImage };

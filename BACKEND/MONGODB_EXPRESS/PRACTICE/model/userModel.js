@@ -1,18 +1,22 @@
 const mongoose = require("mongoose")
 
-const userSchema = new mongoose.Schema({
+const userSchema = new mongoose.SchemaType({
     name : {
         type : String , 
-        required : true
-    } ,
+        require : true
+    } , 
     age : {
         type : Number , 
-        required : true
-    } ,
+        require : true
+    } , 
     place : {
         type : String , 
-        required : true
-    } ,
+        require : true
+    } , 
+    image : {
+        data : Buffer , 
+        require : true
+    }
 })
 
 const userModel = mongoose.model("user" , userSchema)

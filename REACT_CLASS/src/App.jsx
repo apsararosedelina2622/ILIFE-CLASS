@@ -6,7 +6,8 @@ import React from 'react'
 // import ContextFile from './context/ContextFile'
 // import Example1 from './Example1'
 // import Example2 from './Example2'
-import Day5_Router from './Day5_Router'
+// import Day5_Router from './Day5_Router'
+import Day6_Crud from './Day6_Crud'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
         <Example1 />
         <Example2 />
       </ContextFile> */}
-      <Day5_Router />
+      {/* <Day5_Router /> */}
+      <Day6_Crud />
     </>
   )
 }
