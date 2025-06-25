@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const userSchema = new mongoose.SchemaType({
+const userSchema = new mongoose.Schema({
     name : {
         type : String , 
         require : true
@@ -14,7 +14,7 @@ const userSchema = new mongoose.SchemaType({
         require : true
     } , 
     image : {
-        data : Buffer , 
+        type : String , 
         require : true
     }
 })

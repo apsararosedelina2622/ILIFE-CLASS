@@ -579,8 +579,17 @@ Yusuf
 
 25 / 06 - WEDNESSDAY
 
+10 - 11 => Megavarshini 
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 1 , Day - 2 ]
+
+03 - 04 => Satya Roslin 
+05 - 06 => Dhamodharan 
+06 - 07 => Kaviyarasan , Murugan
+..
+26 / 06 - THURSDAY
+
 10 - 11 => Megavarshini [JavaScript Day - 7] 
-12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 3 ( Props , CSS , Image ) ]
 
 03 - 04 => Satya Roslin [Mongo DB - Multer]
 05 - 06 => Dhamodharan [JavaScript Day - 8 , 9]
