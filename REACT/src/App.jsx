@@ -45,12 +45,16 @@
 
 import React from 'react'
 
-import Day1_Js from './Day1_Js'
+// import Day1_Js from './Day1_Js'
+// import Day2_Css from './Day2_Css'
+import Props1 from './Props1'
 
 const App = () => {
   return (
     <>
-      <Day1_Js />
+      {/* <Day1_Js /> */}
+      {/* <Day2_Css /> */}
+      <Props1 />
     </>
   )
 }

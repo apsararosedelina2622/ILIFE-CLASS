@@ -585,12 +585,25 @@ Yusuf
 03 - 04 => Satya Roslin 
 05 - 06 => Dhamodharan 
 06 - 07 => Kaviyarasan , Murugan
-..
+
+
 26 / 06 - THURSDAY
 
 10 - 11 => Megavarshini [JavaScript Day - 7] 
+11 - 12 => Internship [ CSS ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 3 ( Props , CSS , Image ) ]
+
+03 - 04 => Satya Roslin 
+05 - 06 => Dhamodharan 
+06 - 07 => Kaviyarasan , Murugan [React - Form Validation]
+
+
+26 / 06 - THURSDAY
+
+10 - 11 => Megavarshini [JavaScript Day - 7 , 8] 
+11 - 12 => Internship [ Bootstrap ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 3 ( useState ) ]
 
 03 - 04 => Satya Roslin [Mongo DB - Multer]
 05 - 06 => Dhamodharan [JavaScript Day - 8 , 9]
-06 - 07 => Kaviyarasan , Murugan [React - Form Validation]
+06 - 07 => Kaviyarasan , Murugan [React - Swiper Package , Project Explanation]
