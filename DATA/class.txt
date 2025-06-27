@@ -72,7 +72,11 @@ June
 
 10 - 11 => Megavarshini ( New Batch ( Joining Date - 13 / 06 ) [ Shifted Batch ( 10 - 11 , 03 - 04 ) ] )
 
+06 - 07 => Mohamed Farook , Muruganandham ( Front end React Course Completed [ 13 / 06 ] )
+
 06 - 07 => Kaviyarasan , Murugan ( Timimg Changed - 17 / 06 [ 12 - 01 => 06 - 07 ] )
+
+12 - 01 => Sundaresh ( Front end React Course Completed [ 24 / 06 ] )
 
 11 - 12 => Internship ( 10 Members Offline [ 25 / 06 ] )
 
@@ -103,7 +107,7 @@ Vaishnavi
 
 CSS Project        => Responsive             => https://carvillaproject1.netlify.app/
 Bootstrap Project  => From Scratch           => https://freshcartproject1.netlify.app/
-Bootstrap Project  => Content Change         => https://sastraproject.netlify.app/
+Bootstrap Project  => Content Change         =>https://sastraproject.netlify.app/
 
 
 Kannan

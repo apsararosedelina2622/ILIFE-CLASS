@@ -47,14 +47,16 @@ import React from 'react'
 
 // import Day1_Js from './Day1_Js'
 // import Day2_Css from './Day2_Css'
-import Props1 from './Props1'
+// import Props1 from './Props1'
+import Day3_State from './Day3_State'
 
 const App = () => {
   return (
     <>
       {/* <Day1_Js /> */}
       {/* <Day2_Css /> */}
-      <Props1 />
+      {/* <Props1 /> */}
+      <Day3_State />
     </>
   )
 }

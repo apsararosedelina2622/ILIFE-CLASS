@@ -4,46 +4,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container{
-            background-color: plum;
-            padding: 20px;
-            display: grid;
-            gap: 20px;
-            /* grid-template-columns: auto auto auto; */
-            /* grid-template-columns: 1fr 1fr 1fr; */
-            /* grid-template-columns: 1fr 2fr 1fr; */
-            /* grid-template-columns: repeat( 4, 1fr); */
-        }
-        .container > div{
-            background-color: purple;
-            padding: 50px;
-            color: white;
-        }
-    </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="box1">
-            <p>Box-1</p>
-        </div>
-        <div class="box2">
-            <p>Box-2</p>
-        </div>
-        <div class="box3">
-            <p>Box-3</p>
-        </div>
-        <div class="box4">
-            <p>Box-4</p>
-        </div>
-        <div class="box5">
-            <p>Box-5</p>
-        </div>
-        <div class="box6">
-            <p>Box-6</p>
-        </div>
-    </div>
+    <!-- Inline Javascript  -->
+     
+    <!-- <button onclick="confirm('im confirm box')">Click Me for confirm</button>
+    <button onclick="alert('im alert box')">Click Me for alert</button>
+    <button onclick="prompt('im prompt box')">Click Me for prompt</button>
+    <button onclick="console.log('im log text')">Click Me for log</button>
+    <button onclick="console.error('im error text')">Click Me for error</button>
+    <button onclick="document.write('im document text')">Click Me for text</button> -->
+    
+    <script>
+
+        // DATA TYPES
+
+            // String
+
+            // var data = "User"
+
+            // Number
+
+            // var data = 774
+
+            // Boolean
+
+            // var data = true
+            // var data = false
+
+            // Null
+
+            // var data = null
+
+            // Undefined
+
+            // var data;
+
+            // console.log(data)
+
+            // Object - Array , Object , Date
+
+            // Array
+
+            // var data = [1, 2 , 3 , 4]
+
+            // Object
+
+            // var data = {
+            //     name : "user",
+            //     place : "Trichy"
+            // }
+
+            // console.log(data[2])
+
+            // Date
+
+            // var data = new Date()
+
+            // console.log(data)
+
+            // var , let , const 
+
+            // const a = 89
+            // a = 90
+
+            // console.log(a)
+        
+        // STRING METHODS
+
+            // let data = "Hello World"
+            // let str = "   Hello World    "
+
+            // console.log(data.length)  // length => 11
+            // console.log(data[1]) // position => e
+            // console.log(data.includes("W")) // true
+            // console.log(data.includes("w")) // false
+            // console.log(data.toLowerCase()) // hello world
+            // console.log(data.toUpperCase()) // HELLO WORLD
+            // console.log(data.substr(6 , 5)) // Hello
+            // console.log(data.replace("World" , "Js")) // Hello Js
+            // console.log(str) // Hello World
+            // console.log(str.trim()) // Hello World
+        
+        // NUMBER METHODS
+
+            // toFixed()
+
+            // var num = 30.56;
+
+            // console.log(num.toFixed()) // 31
+
+            // Number()
+
+            // var num = "375"
+
+            // console.log(typeof(num)) // string
+            // console.log(typeof(Number(num))) // number
+
+            // console.log(num + num) // 375375
+            // console.log(Number(num) + Number(num)) // 750
+
+            // isNaN()
+
+            // var num = 658;
+            // var num1 = "Hello";
+
+            // console.log(isNaN(num)) // false
+            // console.log(isNaN(num1)) // true
+
+            // isFinite()
+
+            // var num = 658;
+            // var num1 = "Hello";
+
+            // console.log(isFinite(num)) // true
+            // console.log(isFinite(num1)) // false
+
+        // CONDITIONAL STATEMENTS
+
+            // if
+
+                // let age = 9;
+
+                // if (age >= 18) {
+                //     console.log("You are an adult.");
+                // }
+
+            // if...else
+
+                // let age = prompt("Enter your Age : ")
+
+                // if (age >= 18) {
+                //     console.log("You can vote.");
+                // } else {
+                //     console.log("You are too young to vote.");
+                // }
+
+            // else...if
+
+                // let marks = 90;
+
+                // if(isNaN(marks)){
+                //     console.log("Invalid")
+                // }
+                // else{
+                //     if (marks >= 90) {
+                //         console.log("Grade: A");
+                //     } else if (marks >= 80) {
+                //         console.log("Grade: B");
+                //     } else if (marks >= 70) {
+                //         console.log("Grade: C");
+                //     } else {
+                //         console.log("Grade: F");
+                //     }
+                // }
+
+        // LOOPS
+
+            // console.log(1)
+            // console.log(2)
+            // console.log(3)
+            // console.log(4)
+
+            // FOR
+
+            // SYNTAX
+
+                // for(initailize; condition; increment /  decrement){
+                //   statments
+                // }
+
+            // INCREMENT   
+            
+                // for(let i=1; i <= 5; i++){
+                //     console.log(i)
+                // }
+            
+            // DECREMENT
+
+                // for(let i=5; i>0; i--){
+                //     console.log(i)
+                // }
+
+        // ARRAY METHODS
+
+            // PUSH
+
+                //   let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                //   arr.push("REACT")
+                //   arr.push("MERN")
+                //   console.log(arr)
+
+            // POP
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                // arr.pop()
+                // console.log(arr)
+
+            // SHIFT
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                // arr.shift()
+                // console.log(arr)
+
+            // UNSHIFT
+
+                // let arr = [ "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                // arr.unshift("HTML")
+                // console.log(arr)
+
+        // OBJECT METHODS
+
+            // Object
+
+                // var obj = {
+                //     name : "User",
+                //     age : 20
+                // }
+
+                // console.log(obj.name)
+                // console.log(obj.age)
+
+            // Nested Object
+
+                // var obj = {
+                //     name : "User",
+                //     age : 20,
+                //     address : {
+                //         no : 202,
+                //         city : "Trichy"
+                //     }
+                // }
+
+                // console.log(obj.name)
+                // console.log(obj.age)
+                // // console.log(obj.address)
+                // console.log(obj.address.no)
+                // console.log(obj.address.city)
+
+    </script>
     
 </body>
 </html>

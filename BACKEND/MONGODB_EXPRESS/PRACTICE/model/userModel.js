@@ -3,19 +3,19 @@ const mongoose = require("mongoose")
 const userSchema = new mongoose.Schema({
     name : {
         type : String , 
-        require : true
+        required : true
     } , 
     age : {
         type : Number , 
-        require : true
+        required : true
     } , 
     place : {
         type : String , 
-        require : true
+        required : true
     } , 
     image : {
-        type : String , 
-        require : true
+        data : Buffer , 
+        contentType : String
     }
 })
 
