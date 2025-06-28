@@ -601,11 +601,40 @@ Yusuf
 
 27 / 06 - FRIDAY
 
-10 - 11 => Megavarshini [JavaScript Day - 7 , 8] 
+10 - 11 => Megavarshini
 11 - 12 => Internship [ JavaScript ]
-12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 3 ( useState ) ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 4 , 5 ( useState ) ]
+
+03 - 04 => Satya Roslin [Mongo DB - Doubts]
+04 - 05 => Internship [Doubts]
+05 - 06 => Dhamodharan 
+06 - 07 => Kaviyarasan , Murugan
+
+
+28 / 06 - SATURDAY 
+
+11 - 12 => Offline Workshop [ Full Stack Development ]
+12 - 01 => Online Workshop [ Full Stack Development ]
+
+03 - 04 => Kaviyarasan , Murugan [React - Swiper Package , Project Explanation]
+
+
+30 / 06 - MONDAY => I'm Leave [ For Graduation Day ]
+
+
+
+
+
+================================================================================================
+JULY MONTH
+================================================================================================
+
+01 / 07 - TUESDAY 
+
+10 - 11 => Megavarshini 
+11 - 12 => Internship [ React ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( useState , Bootstrap ) ]
 
 03 - 04 => Satya Roslin [Mongo DB - Multer]
-04 - 05 => Internship [Doubts]
 05 - 06 => Dhamodharan [JavaScript Day - 8 , 9]
-06 - 07 => Kaviyarasan , Murugan [React - Swiper Package , Project Explanation]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 1]

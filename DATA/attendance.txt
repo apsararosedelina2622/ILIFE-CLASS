@@ -422,7 +422,7 @@ No Leave
 05 - 06 => Dhamodharan
 
 
-24 / 06 - WEDNESSDAY
+25 / 06 - WEDNESSDAY
 
 10 - 11 => Megavarshini
 
@@ -431,7 +431,7 @@ No Leave
 
 
 
-25 / 06 - THURSDAY
+26 / 06 - THURSDAY
 
 12 - 01 => Lansuri , SwathiSree
 
@@ -440,9 +440,14 @@ No Leave
 06 - 07 => Muruganandham
 
 
-26 / 06 - FRIDAY
+27 / 06 - FRIDAY
 
 10 - 11 => Megavarshini
 12 - 01 => Kannan , Lansuri , SwathiSree , Sai Naresh
 
-06 - 07 => Kaviyarasan , Murugan
+06 - 07 => Kaviyarasan , Murugan , Muruganandham
+
+
+28 / 06 - SATURDAY
+
+10 - 11 => Yusuf
