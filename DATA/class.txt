@@ -3,7 +3,6 @@ BATCH
 10 - 11 => Satya Roslin
 10 - 11 => Megavarshini
 
-11 - 12 => Dhamodharan
 11 - 12 => Internship
 
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh
@@ -13,7 +12,6 @@ LUNCH
 03 - 04 => Satya Roslin
 03 - 04 => Megavarshini
 
-05 - 06 => Dhamodharan
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Kaviyarasan , Murugan
 
 SATURDAY BATCH
@@ -79,6 +77,13 @@ June
 12 - 01 => Sundaresh ( Front end React Course Completed [ 24 / 06 ] )
 
 11 - 12 => Internship ( 10 Members Offline [ 25 / 06 ] )
+
+10 - 11 => Megavarshini ( Discontinue [ 25 / 06 ] )
+
+
+July
+
+11 - 12 => Dhamodharan ( Switched to Designing Course [ 01 / 07 ] )
 
 
 

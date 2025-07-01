@@ -8,12 +8,13 @@ import React from 'react'
 // import Example2 from './Example2'
 // import Day5_Router from './Day5_Router'
 // import Day6_Crud from './Day6_Crud'
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Form from './form/Form'
-import Context from './form/Context'
-import Form_Submit from './form/Form_Submit'
-import Home from './form/Home'
-import Protect from './form/Protect'
+// import { BrowserRouter, Route, Routes } from "react-router-dom"
+// import Form from './form/Form'
+// import Context from './form/Context'
+// import Form_Submit from './form/Form_Submit'
+// import Home from './form/Home'
+// import Protect from './form/Protect'
+import Day8 from './Day8'
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
       </ContextFile> */}
       {/* <Day5_Router /> */}
       {/* <Day6_Crud /> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Context>
           <Routes>
 
@@ -37,7 +38,8 @@ const App = () => {
 
           </Routes>
         </Context>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Day8 />
     </>
   )
 }
