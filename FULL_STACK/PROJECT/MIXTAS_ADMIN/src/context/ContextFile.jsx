@@ -13,13 +13,16 @@ const ContextFile = ({ children }) => {
     var [ price , setPrice ] = useState("")
     var [ img , setImg ] = useState("")
 
-    const FormSubmit = async () => {
+    const FormSubmit = async (e) => {
         try{
+
+            e.preventDefault()
+
             const formData = new FormData()
                 formData.append("type" , type)
                 formData.append("desc" , desc)
                 formData.append("price" , price)
-                formData.append("img" , img)
+                formData.append("image" , img)
 
             const result = await axios.post(url , formData)
             alert("Data Added!")

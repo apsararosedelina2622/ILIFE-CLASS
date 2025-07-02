@@ -5,6 +5,6 @@ const upload = require("../middleware/upload")
 
 const { addProduct } = require("../controller/productController")
 
-router.post("/add" , upload.single("img") , addProduct)
+router.post("/add" , upload.single("image") , addProduct)
 
 module.exports = router

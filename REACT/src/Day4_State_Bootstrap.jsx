@@ -28,7 +28,7 @@
 
 
 import React, { useState } from 'react'
-import { my_asset } from './assets/asset'
+import { data, my_asset } from './assets/asset'
 
 import { Button, Card, CardBody, Col, Container, Modal, ModalBody, ModalFooter, ModalHeader, Offcanvas, OffcanvasBody, OffcanvasHeader, Row } from "react-bootstrap"
 
@@ -173,6 +173,26 @@ const Day4_State_Bootstrap = () => {
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi fugiat eaque eum molestiae quae possimus totam distinctio at similique necessitatibus modi corrupti officia molestias exercitationem alias asperiores laborum, neque unde. Atque laudantium animi voluptatum unde tenetur odio rem, labore magnam modi provident delectus numquam doloribus fuga placeat, dolorum perspiciatis in.</p>
             </OffcanvasBody>
         </Offcanvas>
+
+        <Container>
+            <Row>
+                {
+                    data.map((value , index) => {
+                        return(
+                            <Col lg={3} key={index}>
+                                <Card>
+                                    <img src={value.img} alt="" />
+                                    <CardBody>
+                                        <h3>{value.name}</h3>
+                                        <p>{value.desc}</p>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                        )
+                    })
+                }
+            </Row>
+        </Container>
 
     </>
   )

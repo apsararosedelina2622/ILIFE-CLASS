@@ -1,10 +1,11 @@
+const productModel = require("../model/productModal")
 
 const addProduct = async (req , res) => {
     try{
 
-        const { type , desc , price } = rq.body
+        const { type , desc , price } = req.body
 
-        const userData = new userModel({
+        const userData = new productModel({
             type , 
             desc , 
             price ,
@@ -16,6 +17,16 @@ const addProduct = async (req , res) => {
 
         await userData.save()
         res.status(200).send("Data Added!")
+    }
+    catch(err){
+        res.status(200).send(`Error Name : ${err.name} `)
+    }
+}
+
+const getProduct = async (req , res) => {
+    try{
+        await productModel.find()
+        res.status(200).send("Data List!")
     }
     catch(err){
         res.status(200).send(`Error Name : ${err.name} `)

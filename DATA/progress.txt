@@ -643,8 +643,19 @@ JULY MONTH
 
 03 / 07 - WEDNESSDAY 
 
-10 - 11 => Satya Roslin [Mongo DB - CRUD]
+10 - 11 => Satya Roslin 
 11 - 12 => New Batch [ HTML - Day - 1 ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( UseEffect , UseRef ) ]
 
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 2]
+
+
+04 / 07 - THURSDAY 
+
+10 - 11 => Satya Roslin [Mongo DB - CRUD]
+11 - 12 => New Batch [ HTML - Day - 1 , 2 ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => New Batch [ HTML - Day - 1 , 2 ]
+
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 3]

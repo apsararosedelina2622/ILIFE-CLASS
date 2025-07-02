@@ -5,3 +5,26 @@ export const my_asset = {
     Img1 , 
     Img2 
 }
+
+export const data = [
+    {
+        img : Img1 , 
+        name : "Hello" , 
+        desc : "lorem ipsum dolor sit amet"
+    } , 
+    {
+        img : Img2 , 
+        name : "Hiii" , 
+        desc : "lorem ipsum dolor sit amet"
+    } , 
+    {
+        img : Img1 , 
+        name : "Hello" , 
+        desc : "lorem ipsum dolor sit amet"
+    } , 
+    {
+        img : Img2 , 
+        name : "Hiii" , 
+        desc : "lorem ipsum dolor sit amet"
+    }
+]

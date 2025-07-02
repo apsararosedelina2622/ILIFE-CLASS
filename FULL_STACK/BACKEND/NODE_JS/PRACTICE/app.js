@@ -1,10 +1,18 @@
-const file = require("fs")
+const http = require("http")
 
-file.readFile("sample.html" , "utf8" , (err , data) => {
-    if(err){
-        console.log(err.name , err.message)
+const server = http.createServer((req , res) => {
+    if(req.url === "/"){
+        res.statusCode = 200;
+        res.end(`<h1>Home page</h1>`)
+    }
+    else if(req.url === "/about"){
+        res.statusCode = 200;
+        res.end(`<h1>About page</h1>`)
     }
     else{
-        console.log(data)
+        res.statusCode = 404;
+        res.end(`<h1>Error page</h1>`)
     }
 })
+
+server.listen(5000)
