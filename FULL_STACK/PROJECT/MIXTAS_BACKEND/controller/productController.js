@@ -25,12 +25,12 @@ const addProduct = async (req , res) => {
 
 const getProduct = async (req , res) => {
     try{
-        await productModel.find()
-        res.status(200).send("Data List!")
+        const products = await productModel.find()
+        res.status(200).send(products)
     }
     catch(err){
         res.status(200).send(`Error Name : ${err.name} `)
     }
 }
 
-module.exports = { addProduct }
+module.exports = { addProduct , getProduct }

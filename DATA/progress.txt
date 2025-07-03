@@ -635,7 +635,7 @@ JULY MONTH
 02 / 07 - TUESDAY 
 
 10 - 11 => Satya Roslin [Mongo DB - Multer]
-11 - 12 => New Batch [ Introduction ]
+11 - 12 => Internship [ Introduction ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( useState , Bootstrap ) ]
 
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 1]
@@ -644,7 +644,7 @@ JULY MONTH
 03 / 07 - WEDNESSDAY 
 
 10 - 11 => Satya Roslin 
-11 - 12 => New Batch [ HTML - Day - 1 ]
+11 - 12 => Internship [ HTML - Day - 1 ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( UseEffect , UseRef ) ]
 
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 2]
@@ -652,10 +652,21 @@ JULY MONTH
 
 04 / 07 - THURSDAY 
 
-10 - 11 => Satya Roslin [Mongo DB - CRUD]
-11 - 12 => New Batch [ HTML - Day - 1 , 2 ]
-12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+10 - 11 => Satya Roslin [Project]
+11 - 12 => Internship [ HTML ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
 03 - 04 => New Batch [ HTML - Day - 1 , 2 ]
 
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 3]
+
+
+05 / 07 - FRIDAY 
+
+10 - 11 => Satya Roslin [Project]
+11 - 12 => Internship [ CSS ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => New Batch [ HTML - Day - 3 , 4 ]
+
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 4]

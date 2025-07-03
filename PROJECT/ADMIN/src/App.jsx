@@ -1,9 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import ContextFile from './context/ContextFile'
-
 import Form from './pages/Form'
-import Products from './pages/Products'
+import ContextFile from './context/ContextFile'
 
 const App = () => {
   return (
@@ -12,7 +10,6 @@ const App = () => {
         <Routes>
 
           <Route path='/' element={<Form />} />
-          <Route path='/products' element={<Products />} />
 
         </Routes>
       </ContextFile>
