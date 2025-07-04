@@ -647,7 +647,7 @@ JULY MONTH
 11 - 12 => Internship [ HTML - Day - 1 ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( UseEffect , UseRef ) ]
 
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 2]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 2]
 
 
 04 / 07 - THURSDAY 
@@ -658,15 +658,26 @@ JULY MONTH
 
 03 - 04 => New Batch [ HTML - Day - 1 , 2 ]
 
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 3]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 3]
 
 
 05 / 07 - FRIDAY 
 
 10 - 11 => Satya Roslin [Project]
-11 - 12 => Internship [ CSS ]
-12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+11 - 12 => Internship
+12 - 01 => Kannan , Vaishnavi , Dhinakaran 
+11 - 01 => Internship [ AIMAN College Students - Internship ]
 
 03 - 04 => New Batch [ HTML - Day - 3 , 4 ]
 
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 4]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 4]
+
+
+08 / 07 - MONDAY 
+
+11 - 12 => Internship [ CSS ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => New Batch [ CSS - Introduction ]
+04 - 05 => Satya Roslin [Project]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Introduction , Day - 1]

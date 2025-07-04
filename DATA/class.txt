@@ -8,8 +8,8 @@ BATCH
 
 LUNCH
 
-03 - 04 => Satya Roslin
-03 - 04 => New Batch
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan
+04 - 05 => Satya Roslin
 
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Kaviyarasan , Murugan
 
@@ -21,7 +21,7 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh , Dhamodharan , Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdul Rub , Karthikeyan , Yusuf , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan
 
 
 STUDENTS FROM EPIX
@@ -86,7 +86,7 @@ July
 
 11 - 12 => Internship ( 6 Members Internship Offline [ 01 / 07 ] )
 
-03 - 04 => New Batch ( MERN Stack [ 03 / 07 ] )
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan ( MERN Stack [ 03 / 07 ] )
 
 
 
