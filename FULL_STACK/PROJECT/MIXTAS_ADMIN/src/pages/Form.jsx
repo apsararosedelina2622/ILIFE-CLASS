@@ -1,18 +1,31 @@
 import React from 'react'
 import { useContext } from 'react'
 import { MyContext } from '../context/ContextFile'
+import { my_asset } from '../assets/asset'
+import { Link } from 'react-router-dom'
 
 const Form = () => {
 
-    const { setType , setDesc , setPrice , setImg , FormSubmit } = useContext(MyContext)
+    const { setType , setDesc , setPrice , img , ImageFun , previewImg , FormSubmit } = useContext(MyContext)
 
   return (
     <div className="container">
-        <form method="POST" encType='multipart/form-data' onSubmit={FormSubmit}>
+      
+      <div className="d-flex justify-content-between align-items-center my-3">
+        <h3>Add Products</h3>
+        <Link to={"/products"} className='text-decoration-none text-dark fs-5'>View Products</Link>
+      </div>
+
+        <form method="POST" onSubmit={FormSubmit}>
+
+            <input type="file" id="image" accept="image/*" hidden onChange={ImageFun} />
+            <label htmlFor="image">
+              <img src={img ? previewImg : my_asset.uploadImg} alt="Upload_Img" className="my-3" height={200}/>
+            </label>
+
             <input type="text" name='type' onChange={e => setType(e.target.value)} placeholder='Enter Product Type...' className='form-control'  />
             <input type="text" name='desc' onChange={e => setDesc(e.target.value)} placeholder='Enter Product Description...' className='form-control my-3'  />
             <input type="number" name='price' onChange={e => setPrice(e.target.value)} placeholder='Enter Product Price...' className='form-control my-3'  />
-            <input type='file' name='image' className='form-control my-3' onChange={e => setImg(e.target.files[0])} />
             <input type="submit" className='btn btn-primary w-100' />
         </form>
     </div>

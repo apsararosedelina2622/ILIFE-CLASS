@@ -3,16 +3,13 @@ const productModel = require("../model/productModal")
 const addProduct = async (req , res) => {
     try{
 
-        const { type , desc , price } = req.body
+        const { type , desc , price , img } = req.body
 
         const userData = new productModel({
             type , 
             desc , 
             price ,
-            img : {
-                data : req.file.buffer , 
-                contentType : req.file.mimetype
-            }
+            img
         })
 
         await userData.save()
@@ -33,4 +30,14 @@ const getProduct = async (req , res) => {
     }
 }
 
-module.exports = { addProduct , getProduct }
+const removeProduct = async (req , res) => {
+    try{
+        await productModel.findByIdAndDelete(req.params.id)
+        res.status(200).send("Data Removed!")
+    }
+    catch(err){
+        res.status(200).send(`Error Name : ${err.name} `)
+    }
+}
+
+module.exports = { addProduct , getProduct , removeProduct }

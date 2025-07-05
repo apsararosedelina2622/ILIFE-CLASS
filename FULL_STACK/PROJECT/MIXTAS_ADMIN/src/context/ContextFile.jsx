@@ -6,29 +6,43 @@ import axios from "axios"
 export const MyContext = createContext()
 const ContextFile = ({ children }) => {
 
-    var url = "http://localhost:5000/api/"
+    var url = "http://localhost:5000/api"
 
     var [ type , setType ] = useState("")
     var [ desc , setDesc ] = useState("")
     var [ price , setPrice ] = useState("")
     var [ img , setImg ] = useState("")
+    var [ previewImg , setPreviewImg ] = useState("")
 
     var [ productData , setProductData ] = useState([])
+
+    const ImageFun = (e) => {
+        const file = e.target.files[0]
+        setImg(file)
+
+        const reader = new FileReader()
+        reader.onloadend = () => {
+            setPreviewImg(reader.result)
+        }
+        if (file) {
+            reader.readAsDataURL(file)
+        }
+    }
 
     const FormSubmit = async (e) => {
         try{
 
             e.preventDefault()
 
-            const formData = new FormData()
-                formData.append("type" , type)
-                formData.append("desc" , desc)
-                formData.append("price" , price)
-                formData.append("image" , img)
+            const formData = {
+                img , 
+                type , 
+                desc , 
+                price
+            }
 
-            const result = await axios.post(url + "add" + formData)
+            const result = await axios.post(`${url}/add` , formData)
             alert("Data Added!")
-            console.log(result)
         }
         catch(err){
             console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
@@ -37,7 +51,7 @@ const ContextFile = ({ children }) => {
 
     const FetchData = async () => {
         try{
-            const productList = await axios.get(url + "products") 
+            const productList = await axios.get(`${url}/products`) 
             setProductData(productList.data)
         }
         catch(err){
@@ -45,16 +59,26 @@ const ContextFile = ({ children }) => {
         }
     }
 
-    console.log(productData)
-
     useEffect(() => {
         FetchData()
     }, [])
 
+    const RemoveProduct = async (id) => {
+        try{
+            await axios.delete(`${url}/remove/${id}`)
+            alert("Product Removed!")
+        }
+        catch(err){
+            console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
+        }
+    }
+
     var contextValue = {
-        setType , setDesc , setPrice , setImg , 
+        setType , setDesc , setPrice , 
+        img , ImageFun , previewImg ,  
         FormSubmit , 
-        productData
+        productData , 
+        RemoveProduct
     }
 
   return (

@@ -4,170 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat( 4 , 1fr);
+        }
+        .container > div{
+            padding: 30px;
+            background-color: green;
+            color: white;
+        }
+        @media screen and (max-width:768px){
+            .container{
+                grid-template-columns: repeat( 2 , 1fr);
+            }
+        }
+        @media screen and (max-width:320px){
+            .container{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
+
+    <div class="container">
+        <div>Box 1</div>
+        <div>Box 2</div>
+        <div>Box 3</div>
+        <div>Box 4</div>
+    </div>
     
-    <!-- <marquee behavior="smooth" direction="down">Hello</marquee>
-    <marquee behavior="" direction="">Hello</marquee>
-    <marquee behavior="" direction="" scrollamount="100">Hello</marquee>
-    <marquee behavior="" direction="" scrolldelay="200">Hello</marquee>
-
-    <marquee behavior="" direction="" scrollamount="50">
-        <img src="./img/example_img.png" height="200" alt="">
-        <img src="./img/example_img.png" height="200" alt="">
-        <img src="./img/example_img.png" height="200" alt="">
-        <img src="./img/example_img.png" height="200" alt="">
-    </marquee> -->
-
-    <!-- <audio src="./img/audio.mp3" controls></audio>
-
-    <video src="./img/video.mp4" controls></video>
-
-    <iframe width="300" height="200" src="https://www.youtube.com/embed/5oH9Nr3bKfw?si=RhQT7rw9mrRkeezv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7329354131757!2d78.69212450984357!3d10.831738189275843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5b1102f81b3%3A0x88b9c5f1b91120c0!2sILIFE%20TECHNOLOGIES!5e0!3m2!1sen!2sin!4v1751622655894!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-
-    <!-- <table border="1" cellpadding="20" cellspacing="10">
-        <thead>
-            <tr>
-                <th>S.No</th>
-                <th>Name</th>
-                <th>Place</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Abi</td>
-                <td>Chennai</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Banu</td>
-                <td>Trichy</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Begum</td>
-                <td>Madurai</td>
-            </tr>
-        </tbody>
-    </table> -->
-
-
-    <!-- <table border="2" cellpadding="20" cellspacing="10" >
-        <tr>
-            <th>S.No</th>
-            <th colspan="2">Name</th>
-            <th>Place</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Abi</td>
-            <td>sree</td>
-            <td>Trichy</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td colspan="2">Banu</td>
-            <td rowspan="3">Chennai</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td colspan="2">Begum</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Kavi</td>
-            <td>Priya</td>
-        </tr>
-    </table> -->
-
-
-    <form>
-        <label for="">Enter your name</label>
-        <input type="text" required value="Hello" readonly>
-        <input type="text" required value="Hello" disabled>
-        <!-- <input type="text" minlength="2">
-        <input type="text" maxlength="5"> -->
-
-        <br><br><br>
-
-        <label for="">Enter your age</label>
-        <input type="number" value="5173">
-        <!-- <input type="number" min="2"> -->
-        <!-- <input type="number" max="5"> -->
-
-        <br><br><br>
-
-        <!-- <input type="date" required> -->
-
-        <br><br><br>
-
-        <input type="week">
-
-        <br><br><br>
-
-        <input type="month">
-
-        <br><br><br>
-
-        <input type="password">
-
-        <br><br><br>
-
-        <input type="email" placeholder="Enter Email">
-
-        <br><br><br>
-
-        <input type="url">
-
-        <br><br><br>
-
-        <input type="radio" name="abc">
-        <label for="">Men</label>
-        <input type="radio" name="abc">
-        <label for="">Women</label>
-
-        <br><br><br>
-
-        <input type="checkbox" checked>
-        <label for="">HTML</label>
-        <input type="checkbox">
-        <label for="">CSS</label>
-        <input type="checkbox">
-        <label for="">BOOTSTRAP</label>
-
-        <br><br><br>
-
-        <select name="" id="">
-            <option value="">HTML</option>
-            <option value="">CSS</option>
-            <option value="" selected>BOOTSTRAP</option>
-        </select>
-
-        <br><br><br>
-
-        <input type="reset">
-        <input type="submit">
-    </form>
-
-
-    p*5
-
-    p*5{Hello}
-
-    div>h1
-
-    div>h1{Hello}
-
-    div>h1*5{Hello}
-
-    div>h1>p
-
-    div>h1+p
-
-    div>h1*3{Hello}+p{Hii}+span{Welcome}
-
 </body>
 </html>
