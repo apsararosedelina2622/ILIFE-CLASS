@@ -17,15 +17,24 @@ const ContextFile = ({ children }) => {
     var [ productData , setProductData ] = useState([])
 
     const ImageFun = (e) => {
-        const file = e.target.files[0]
-        setImg(file)
+        // const file = e.target.files[0]
+        // setImg(file)
 
-        const reader = new FileReader()
-        reader.onloadend = () => {
-            setPreviewImg(reader.result)
-        }
+        // const reader = new FileReader()
+        // reader.onloadend = () => {
+        //     setPreviewImg(reader.result)
+        // }
+        // if (file) {
+        //     reader.readAsDataURL(file)
+        // }
+
+        const file = e.target.files[0];
         if (file) {
-            reader.readAsDataURL(file)
+        const reader = new FileReader();
+        reader.onloadend = () => {
+            setImg(reader.result); 
+        };
+        reader.readAsDataURL(file);
         }
     }
 
@@ -41,7 +50,7 @@ const ContextFile = ({ children }) => {
                 price
             }
 
-            const result = await axios.post(`${url}/add` , formData)
+            await axios.post(`${url}/add` , formData)
             alert("Data Added!")
         }
         catch(err){
