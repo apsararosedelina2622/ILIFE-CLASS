@@ -656,7 +656,7 @@ JULY MONTH
 11 - 12 => Internship [ HTML ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
-03 - 04 => New Batch [ HTML - Day - 1 , 2 ]
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ HTML - Day - 1 , 2 ]
 
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 3]
 
@@ -666,18 +666,35 @@ JULY MONTH
 10 - 11 => Satya Roslin [Project]
 11 - 12 => Internship
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
-11 - 01 => Internship [ AIMAN College Students - Internship ]
+11 - 01 => Internship [ AIMAN College Students , Introduction ]
 
-03 - 04 => New Batch [ HTML - Day - 3 , 4 ]
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ HTML - Day - 3 , 4 ]
 
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 4]
 
 
-08 / 07 - MONDAY 
+05 / 07 - FRIDAY 
 
+02:30 - 04:00 - Internship [ AIMAN College Students , CSS ]
+
+
+07 / 07 - MONDAY 
+
+10 - 11 => New Batch [ Introduction ]
 11 - 12 => Internship [ CSS ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
 
-03 - 04 => New Batch [ CSS - Introduction ]
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS - Introduction , Day - 1 ]
 04 - 05 => Satya Roslin [Project]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Introduction , Day - 1]
+
+
+08 / 07 - TUESDAY 
+
+10 - 11 => New Batch [ HTML - Day 1 ]
+11 - 12 => Internship [ BOOTSTRAP ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS - Introduction , Day - 2 ]
+04 - 05 => Satya Roslin [Project]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Introduction , Day - 2]

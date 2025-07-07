@@ -8,6 +8,7 @@ const ContextFile = ({ children }) => {
 
     var url = "http://localhost:5000/api"
 
+    var [ category , setCategory ] = useState("")
     var [ type , setType ] = useState("")
     var [ desc , setDesc ] = useState("")
     var [ price , setPrice ] = useState("")
@@ -17,24 +18,14 @@ const ContextFile = ({ children }) => {
     var [ productData , setProductData ] = useState([])
 
     const ImageFun = (e) => {
-        // const file = e.target.files[0]
-        // setImg(file)
-
-        // const reader = new FileReader()
-        // reader.onloadend = () => {
-        //     setPreviewImg(reader.result)
-        // }
-        // if (file) {
-        //     reader.readAsDataURL(file)
-        // }
-
         const file = e.target.files[0];
         if (file) {
-        const reader = new FileReader();
-        reader.onloadend = () => {
-            setImg(reader.result); 
-        };
-        reader.readAsDataURL(file);
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setImg(reader.result); 
+                setPreviewImg(reader.result); 
+            };
+            reader.readAsDataURL(file);
         }
     }
 
@@ -45,6 +36,7 @@ const ContextFile = ({ children }) => {
 
             const formData = {
                 img , 
+                category , 
                 type , 
                 desc , 
                 price
@@ -82,8 +74,13 @@ const ContextFile = ({ children }) => {
         }
     }
 
+    console.log(category)
+
     var contextValue = {
-        setType , setDesc , setPrice , 
+        category , setCategory , 
+        type , setType , 
+        desc , setDesc , 
+        price , setPrice , 
         img , ImageFun , previewImg ,  
         FormSubmit , 
         productData , 

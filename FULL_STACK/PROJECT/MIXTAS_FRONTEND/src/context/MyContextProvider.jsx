@@ -1,26 +1,45 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import { all_products } from '../assets/asset'
 import { useNavigate } from 'react-router-dom'
+import axios from "axios"
 
 export const MyContext = createContext()
 
 const MyContextProvider = ({children}) => {
 
+  var url = "http://localhost:5000/api"
+
   const navigate = useNavigate()
 
   const [ input , setInput ] = useState("")
-
   const [ filteredData , setFilteredData ] = useState([])
+
+  const [ productData , setProductData ] = useState([])
 
   const SearchFun = () => {
     setFilteredData(all_products.filter(a => a.type.toLowerCase().includes(input.toLowerCase())))
   }
 
+  const FetchData = async () => {
+    try{
+      const productList = await axios.get(`${url}/products`)
+      setProductData(productList.data)
+    }
+    catch(err){
+      console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+  }
+
+  useEffect(() => {
+    FetchData()
+  } , [])
+
   const ContextValue = {
     navigate , 
     setInput , 
     SearchFun , 
-    filteredData
+    filteredData , 
+    productData
   }
 
   return (

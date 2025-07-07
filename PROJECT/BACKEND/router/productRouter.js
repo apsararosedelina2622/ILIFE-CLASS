@@ -1,10 +1,10 @@
 const express = require("express")
 const router = express.Router()
 
-const upload = require("../middleware/upload")
+const { addProduct, getProduct } = require("../controller/productController")
 
-const { addProduct } = require("../controller/productController")
+router.post("/add" , addProduct)
 
-router.post("/add" , upload.single("image") , addProduct)
+router.get("/products" , getProduct)
 
 module.exports = router

@@ -1,9 +1,7 @@
 BATCH
 
-10 - 11 => Satya Roslin
-
+10 - 11 => New Batch
 11 - 12 => Internship
-
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh
 
 LUNCH
@@ -115,7 +113,7 @@ Vaishnavi
 
 CSS Project        => Responsive             => https://carvillaproject1.netlify.app/
 Bootstrap Project  => From Scratch           => https://freshcartproject1.netlify.app/
-Bootstrap Project  => Content Change         =>https://sastraproject.netlify.app/
+Bootstrap Project  => Content Change         => https://sastraproject.netlify.app/
 
 
 Kannan
@@ -137,6 +135,7 @@ Sundaresh
 Introduction - 1
 HTML - 2
 CSS - 1
+
 BOOTSTRAP - 1
 JAVASCRIPT - 2
 REACT - 2

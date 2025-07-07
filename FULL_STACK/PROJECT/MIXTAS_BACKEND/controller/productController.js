@@ -3,9 +3,10 @@ const productModel = require("../model/productModal")
 const addProduct = async (req , res) => {
     try{
 
-        const { type , desc , price , img } = req.body
+        const { category , type , desc , price , img } = req.body
 
         const userData = new productModel({
+            category , 
             type , 
             desc , 
             price ,

@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import { all_products } from '../../assets/asset'
+import { MyContext } from '../../context/MyContextProvider'
 
 const Product_body = () => {
 
+  const { productData } = useContext(MyContext)
+
   const { id } = useParams()
 
-  const selectedProduct = all_products.find(e => e.id === Number(id))
+  const selectedProduct = productData.find(e => e._id === id)
 
   return (
     <div className='container'>

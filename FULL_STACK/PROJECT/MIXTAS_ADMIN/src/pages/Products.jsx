@@ -17,6 +17,7 @@ const Products = () => {
             <thead>
                 <tr>
                     <th>Image</th>
+                    <th>Category</th>
                     <th>Type</th>
                     <th>Desc</th>
                     <th>Price</th>
@@ -36,6 +37,7 @@ const Products = () => {
                             return(
                                 <tr key={index}>
                                     <td><img src={value.img} alt="" height={60} /></td>
+                                    <td>{value.category}</td>
                                     <td>{value.type}</td>
                                     <td>{value.desc}</td>
                                     <td>{value.price}</td>

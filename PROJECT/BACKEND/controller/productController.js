@@ -1,23 +1,31 @@
-const productModel = require("../model/productModel")
+const productModel = require("../model/productModel");
 
 const addProduct = async (req , res) => {
     try{
+        const { category , type , desc , price , img } = req.body;
         const productData = new productModel({
-            productType : req.body.productType , 
-            productDesc : req.body.productDesc , 
-            productPrice : req.body.productPrice , 
-            productImage : {
-                data : req.file.buffer , 
-                conntentType : req.file.mimeType
-            }
+            category , 
+            type , 
+            desc , 
+            price , 
+            img
         })
-
         await productData.save()
         res.status(200).send("Data Added!")
     }
     catch(err){
-        res.status(404).send(`Error : ${err.name} , Error : ${err.message}`)
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
     }
 }
 
-module.exports = { addProduct }
+const getProduct = async (req , res) => {
+    try{
+        const productData = await productModel.find()
+        res.status(200).send(productData)
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+} 
+
+module.exports = { addProduct , getProduct }

@@ -1,0 +1,48 @@
+/* h1{
+    color: green;
+} */
+
+/* #tag{
+    color: red;
+}
+
+.title{
+    color: green;
+} */
+
+/* *{
+    color: red;
+} */
+k
+div{
+    /* height: 600px;
+    width: 100%; */
+    /* background-color: green; */
+
+    /* background: linear-gradient(purple , plum); */
+    /* background: linear-gradient( to right , purple , plum); */
+    /* background: linear-gradient( to left , purple , plum); */
+    /* background: linear-gradient( to top , purple , plum); */
+    /* background: linear-gradient( to bottom , purple , plum); */
+
+    /* background: linear-gradient(90deg , purple , plum); */
+    /* background: linear-gradient(90deg , red , blue , green , yellow); */
+
+    /* background: radial-gradient(red , blue); */
+    /* background: radial-gradient( ellipse , red , blue); */
+    /* background: radial-gradient( circle , red , blue , green , yellow); */
+}
+
+/* h1{
+    background: linear-gradient( to right , red , blue);
+    color: transparent;
+    background-clip: text;
+    width: fit-content;
+} */
+
+
+span{
+    background: linear-gradient(to right , purple , plum);
+    color: transparent;
+    background-clip: text;
+}

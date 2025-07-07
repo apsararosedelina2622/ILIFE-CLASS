@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Form = () => {
 
-    const { setType , setDesc , setPrice , img , ImageFun , previewImg , FormSubmit } = useContext(MyContext)
+    const { category , setCategory , type , setType , desc , setDesc , price , setPrice , img , ImageFun , previewImg , FormSubmit } = useContext(MyContext)
 
   return (
     <div className="container">
@@ -23,9 +23,14 @@ const Form = () => {
               <img src={img ? previewImg : my_asset.uploadImg} alt="Upload_Img" className="my-3" height={200}/>
             </label>
 
-            <input type="text" name='type' onChange={e => setType(e.target.value)} placeholder='Enter Product Type...' className='form-control'  />
-            <input type="text" name='desc' onChange={e => setDesc(e.target.value)} placeholder='Enter Product Description...' className='form-control my-3'  />
-            <input type="number" name='price' onChange={e => setPrice(e.target.value)} placeholder='Enter Product Price...' className='form-control my-3'  />
+            <select name="category"className='form-control my-3' value={category} onChange={e => setCategory(e.target.value)}>
+              <option hidden>option</option>
+              <option>Shop</option>
+              <option>New Arrival</option>
+            </select>
+            <input type="text" name='type' value={type} onChange={e => setType(e.target.value)} placeholder='Enter Product Type...' className='form-control'  />
+            <input type="text" name='desc' value={desc} onChange={e => setDesc(e.target.value)} placeholder='Enter Product Description...' className='form-control my-3'  />
+            <input type="number" name='price' value={price} onChange={e => setPrice(e.target.value)} placeholder='Enter Product Price...' className='form-control my-3'  />
             <input type="submit" className='btn btn-primary w-100' />
         </form>
     </div>
