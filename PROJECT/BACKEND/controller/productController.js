@@ -28,4 +28,24 @@ const getProduct = async (req , res) => {
     }
 } 
 
-module.exports = { addProduct , getProduct }
+const removeProduct = async (req , res) => {
+    try{
+        await productModel.findByIdAndDelete(req.params.id)
+        res.status(200).send("Data Removed!")
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+const updateProduct = async (req , res) => {
+    try{
+        var updatedData = await productModel.findByIdAndUpdate(req.params.id , req.body , { new : true })
+        res.status(200).send(updatedData)
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+module.exports = { addProduct , getProduct , removeProduct, updateProduct }

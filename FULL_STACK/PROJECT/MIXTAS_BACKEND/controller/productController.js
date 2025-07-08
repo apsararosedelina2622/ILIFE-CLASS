@@ -41,4 +41,14 @@ const removeProduct = async (req , res) => {
     }
 }
 
-module.exports = { addProduct , getProduct , removeProduct }
+const updateProduct = async (req , res) => {
+    try{
+        const updatedProduct = await productModel.findByIdAndUpdate(req.params.id , req.body , { new : true })
+        res.status(200).send(updatedProduct)
+    }
+    catch(err){
+        res.status(200).send(`Error Name : ${err.name} `)
+    }
+}
+
+module.exports = { addProduct , getProduct , removeProduct , updateProduct }
