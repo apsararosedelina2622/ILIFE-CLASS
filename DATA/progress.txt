@@ -685,7 +685,7 @@ JULY MONTH
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS - Introduction , Day - 1 ]
-04 - 05 => Satya Roslin [Project]
+05 - 06 => Satya Roslin [Project]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Introduction , Day - 1]
 
 
@@ -696,7 +696,8 @@ JULY MONTH
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 2 ]
-04 - 05 => Satya Roslin [Project]
+04 - 05 => MD Sir Class [BOOTSTRAP , Day - 1]
+05 - 06 => Satya Roslin [Project]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Day - 2]
 
 
@@ -707,5 +708,18 @@ JULY MONTH
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 3 ]
-04 - 05 => Satya Roslin [Project]
+04 - 05 => MD Sir Class [BOOTSTRAP , Day - 2]
+05 - 06 => Satya Roslin [Project]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Day - 3]
+
+
+10 / 07 - THURSDAY 
+
+10 - 11 => New Batch [ HTML - Day 3 ]
+11 - 12 => Internship [ JS DAY - 2 ( Half ) ]
+12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 3 ]
+04 - 05 => MD Sir Class [BOOTSTRAP , Day - 2]
+05 - 06 => Satya Roslin [Project]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [MONGO DB Installation]

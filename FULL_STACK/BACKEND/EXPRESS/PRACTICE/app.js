@@ -1,18 +1,33 @@
 const express = require("express")
 const app = express()
 
-const path = require("path")
-
-app.use(express.urlencoded())
-
-app.get("/" , (req , res) => {
-  res.sendFile(path.join(__dirname , "public" , "index.html"))
+app.get("/" , (req , res , next) => {
+  const home = "home page"
+  next(home)
 })
 
-app.post("/submit" , (req , res) => {
-  console.log(req.body)
-  const { username , password } = req.body
-  res.send(`username : ${username} Password : ${password}`)
+app.get("/about" , (req , res , next) => {
+  const about = "about page"
+  next(about)
 })
 
-app.listen(5000)
+app.get("/error" , (req , res , next) => {
+  const error = new Error("about page")
+  next(error)
+})
+
+app.use((err , req , res , next) => {
+  if(err.name){
+    res.send({
+      name : err.name , 
+      message : err.message
+    })
+  }
+  else{
+    res.send(err)
+  }
+})
+
+app.listen(5000, ()=>{
+    console.log('Running Successfully');
+})

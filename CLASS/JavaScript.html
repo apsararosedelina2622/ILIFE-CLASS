@@ -4,100 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        /* input{
-            height: 200px;
-            width: 200px;
-        } */
-         .container{
-            display: flex;
-         }
-         .section{
-            display: flex;
-            align-items: center;
-            gap: 40px;
-         }
-         .box{
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-         }
-    </style>
 </head>
 <body>
+    
+    <!-- Inline Javascript  -->
+    <!-- <button onclick="confirm('im confirm box')">Click Me for confirm</button>
+    <button onclick="alert('im alert box')">Click Me for alert</button>
+    <button onclick="prompt('im prompt box')">Click Me for prompt</button>
+    <button onclick="console.log('im log text')">Click Me for log</button>
+    <button onclick="console.error('im error text')">Click Me for error</button>
+    <button onclick="document.write('im document text')">Click Me for text</button> -->
 
-    <!-- <table border="1" cellpadding="10" cellspacing="5">
-        <tr>
-            <th>S.No</th>
-            <th colspan="2">Name</th>
-            <th>Place</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Trichy</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td colspan="2">Hello</td>
-            <td rowspan="3">Chennai</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td colspan="2">Hello</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td colspan="2">Hello</td>
-        </tr>
-    </table> -->
+    <script>
 
-    <!-- <form action="">
-        <input type="text" required>
-        <input type="number" value="345" readonly disabled>
-        <input type="number" min="4">
-        <input type="number" max="4">
-        <input type="email" >
-        <input type="search" >
-        <input type="password" >
-        <input type="url" >
-        <input type="month" >
-        <input type="week" >
-        <input type="date" >
-        <input type="checkbox" checked>
-        <label for="">Add</label>
-        <input type="checkbox" disabled>
-        <label for="">Add</label>
-        <select name="" id="">
-            <option value="">Hello</option>
-            <option value="" selected>Hii</option>
-        </select>
-        <input type="radio" name="tag">
-        <label for="">Add</label>
-        <input type="radio" name="tag">
-        <label for="">remove</label>
-        <input type="reset">
-        <input type="submit">
-    </form> -->
+        // DATA TYPES
 
-    <!-- <div class="container">
-        <div class="section">
-            <div>
-                <h1>Name</h1>
-                <h1>Name</h1>
-                <h1>Name</h1>
-            </div>
-            <div class="box">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-            </div>
-        </div>
-        <div>
-            map
-        </div>
-    </div> -->
+            // String
+
+            // var data = "User"
+
+            // Number
+
+            // var data = 774
+
+            // Boolean
+
+            // var data = true
+            // var data = false
+
+            // Null
+
+            // var data = null
+
+            // Undefined
+
+            // var data;
+
+            // Not defined - Error
+
+            // console.log(data)
+
+            // Object - Array , Object , Date
+
+            // Array
+
+            // var data = [1, 2 , 3 , 4]
+
+            // console.log(data[0])
+            // console.log(data[1])
+            // console.log(data[2])
+            // console.log(data[3])
+
+            // Object
+
+            // var data = {
+            //     name : "user",
+            //     place : "Trichy"
+            // }
+
+            // console.log(data)
+            // console.log(data.name)
+            // console.log(data.place)
+
+            // Date
+
+            // var data = new Date()
+
+            // console.log(data)
+            // console.log(data.getDate())
+            // console.log(data.getDay())
+            // console.log(data.getMonth())
+            // console.log(data.getFullYear())
+            // console.log(data.toLocaleTimeString())
+            // console.log(data.getHours())
+            
+            // console.log(typeof(data))
+
+        
+        // STRING METHODS
+
+            // let data = "Hello World"
+            let str = "   Hello World    "
+
+            // console.log(data.length)  // length => 11
+            // console.log(data.indexOf("e")) // index => 1
+            // console.log(data.charAt(4)) // position => o
+            // console.log(data.includes("W")) // true
+            // console.log(data.includes("X")) // false
+            // console.log(data.toLowerCase()) // hello world
+            // console.log(data.toUpperCase()) // HELLO WORLD
+            // console.log(data.substr(6 , 5)) // Hello
+            // console.log(data.replace("World" , "Js")) // Hello Js
+            // console.log(str) // Hello World
+            // console.log(str.trim()) // Hello World
+
+        
+        // NUMBER METHODS
+
+            // toFixed()
+
+            // var num = 30.56;
+
+            // console.log(num.toFixed()) // 31
+
+            // Number()
+
+            // var num = "375"
+
+            // console.log(typeof(num)) // string
+            // console.log(typeof(Number(num))) // number
+
+            // console.log(num + num) // 375375
+            // console.log(Number(num) + Number(num)) // 750
+
+            // isNaN()
+
+            // var num = 658;
+            // var num1 = "Hello";
+
+            // console.log(isNaN(num)) // false
+            // console.log(isNaN(num1)) // true
+
+            // isFinite()
+
+            // var num = 658;
+            // var num1 = "Hello";
+
+            // console.log(isFinite(num)) // true
+            // console.log(isFinite(num1)) // false
+
+
+        // CONDITIONAL STATEMENTS
+
+            // if
+
+            // Example - 1
+
+                // let num = 4
+
+                // if(num <= 5){
+                //     console.log("The given number is less than 5")
+                // }
+
+                // let age = 5;
+
+                // if(age >= 18){
+                //     console.log("you are adult")
+                // }
+
+            // if...else
+
+            // Example - 1
+
+                // let age = 18;
+
+                // if (age >= 18) {
+                //     console.log("You can vote.");
+                // } else {
+                //     console.log("You are too young to vote.");
+                // }
+
+            // else...if
+
+                // let marks = 66;
+
+                // if (marks >= 90) {
+                //     console.log("Grade: A");
+                // } else if (marks >= 80) {
+                //     console.log("Grade: B");
+                // } else if (marks >= 70) {
+                //     console.log("Grade: C");
+                // } else {
+                //     console.log("Grade: F");
+                // }
+
+            // nested if else
+
+                // var num = 9;
+
+                // if(isNaN(num)){
+                //     console.log("not a number")
+                // }else{
+                //     if(num % 2 === 0){
+                //         console.log("Even")
+                //     }else{
+                //         console.log("Odd")
+                //     }
+                // }
+
+    </script>
 
 </body>
 </html>
