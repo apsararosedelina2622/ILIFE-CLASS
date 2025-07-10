@@ -21,7 +21,7 @@ Commands
 * To Insert One Data 
     db.user.insertOne({name : 'Hello'})
 
-* To Insert One Data 
+* To Show Data 
     db.user.find()
     db.user.findOne({name : 'Hello'})
 

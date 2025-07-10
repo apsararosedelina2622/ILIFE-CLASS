@@ -7,192 +7,303 @@
 </head>
 <body>
     
-    <!-- Inline Javascript  -->
-    <!-- <button onclick="confirm('im confirm box')">Click Me for confirm</button>
-    <button onclick="alert('im alert box')">Click Me for alert</button>
-    <button onclick="prompt('im prompt box')">Click Me for prompt</button>
-    <button onclick="console.log('im log text')">Click Me for log</button>
-    <button onclick="console.error('im error text')">Click Me for error</button>
-    <button onclick="document.write('im document text')">Click Me for text</button> -->
-
     <script>
 
-        // DATA TYPES
+        // LOOP
 
-            // String
+            // FOR
 
-            // var data = "User"
+            // SYNTAX
 
-            // Number
+                // for(initailize; condition; increment /  decrement){
+                //   statments
+                // }
 
-            // var data = 774
+            // Example - 1
 
-            // Boolean
+                // for(let i=1; i <= 5; i++){
+                //     console.log(i)
+                // }
 
-            // var data = true
-            // var data = false
+            // Example - 2
 
-            // Null
+                // for(let i = 5; i >= 1; i--){
+                //     console.log(i)
+                // }
+        
+        // ARRAY METHODS
 
-            // var data = null
+            // PUSH
 
-            // Undefined
+                //   let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                //   arr.push("REACT")
+                //   console.log(arr)
 
-            // var data;
+            // POP
 
-            // Not defined - Error
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                // arr.pop()
+                // console.log(arr)
 
-            // console.log(data)
+            // SHIFT
 
-            // Object - Array , Object , Date
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                // arr.shift()
+                // console.log(arr)
 
-            // Array
+            // UNSHIFT
 
-            // var data = [1, 2 , 3 , 4]
+                // let arr = [ "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+                // arr.unshift("HTML")
+                // console.log(arr)
 
-            // console.log(data[0])
-            // console.log(data[1])
-            // console.log(data[2])
-            // console.log(data[3])
+            // JOIN
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+
+                // console.log(arr)
+
+                // console.log(arr.join())
+
+                // console.log(arr.join("--"))
+
+                // console.log(arr.join(""))
+
+                // console.log(arr.join(" "))
+
+            // REVERSE
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+
+                // console.log(arr.reverse())
+
+                // let arr = [1, 2, 3, 4, 5];
+
+                // console.log(arr.reverse())
+
+            // FOR EACH
+
+            // syntax 
+
+                // array.forEach((value, index, array) => {
+
+                // })
+
+            // Example - 1
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
+
+                // arr.forEach((value , index , array) => {
+                //     console.log(value)
+                //     console.log(index)
+                //     console.log(array)
+                // })
+
+            // Example - 2
+
+                // let marks = [1, 2, 3, 4];
+
+                // marks.forEach((value , index , array) => {
+                //     console.log(value * 2)
+                // })
+
+            // MAP
+
+            // SYNTAX
+
+                // array.map((value , index , array) => {
+
+                // })
+
+            // Example - 1
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
+
+                // arr.map((value, index, array) => {
+                //     // console.log(value)
+                //     // console.log(index)
+                //     // console.log(array)
+                // })
+
+                // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
+
+                // arr.map((a, b, c) => {
+                //     console.log(c)
+                // })
+
+            // Example - 2
+
+                // let arr = [1, 2, 3, 4];
+
+                // arr.map((value, index, array) => {
+                //     console.log(value * 2)
+                // })
+
+            // Example - 3
+
+                // let data = [
+                //     {
+                //         name : "Abi",
+                //         age : 21
+                //     },
+                //     {
+                //         name : "Banu",
+                //         age : 20
+                //     },
+                //     {
+                //         name : "Begum",
+                //         age : 22
+                //     },
+                // ]
+
+                // data.map((value) => {
+                //     console.log(value)
+                //     console.log(value.name)
+                //     console.log(value.age)
+                // })
+
+            // Find 
+
+                // var num = [10, 48, 3, 2];
+
+                // var result = num.find((value) => { 
+                //     return value % 2 == 0
+                // })
+
+                // console.log(result) // shows first matching result
+
+            // Filter
+
+                // var num = [1 , 2 , 3 , 4]
+                
+                // var result = num.filter((value) => {
+                //     return value % 2 == 0
+                // })
+
+                // console.log(result) // shows all matching result
+
+        // OBJECT METHODS
 
             // Object
 
-            // var data = {
-            //     name : "user",
-            //     place : "Trichy"
-            // }
-
-            // console.log(data)
-            // console.log(data.name)
-            // console.log(data.place)
-
-            // Date
-
-            // var data = new Date()
-
-            // console.log(data)
-            // console.log(data.getDate())
-            // console.log(data.getDay())
-            // console.log(data.getMonth())
-            // console.log(data.getFullYear())
-            // console.log(data.toLocaleTimeString())
-            // console.log(data.getHours())
-            
-            // console.log(typeof(data))
-
-        
-        // STRING METHODS
-
-            // let data = "Hello World"
-            let str = "   Hello World    "
-
-            // console.log(data.length)  // length => 11
-            // console.log(data.indexOf("e")) // index => 1
-            // console.log(data.charAt(4)) // position => o
-            // console.log(data.includes("W")) // true
-            // console.log(data.includes("X")) // false
-            // console.log(data.toLowerCase()) // hello world
-            // console.log(data.toUpperCase()) // HELLO WORLD
-            // console.log(data.substr(6 , 5)) // Hello
-            // console.log(data.replace("World" , "Js")) // Hello Js
-            // console.log(str) // Hello World
-            // console.log(str.trim()) // Hello World
-
-        
-        // NUMBER METHODS
-
-            // toFixed()
-
-            // var num = 30.56;
-
-            // console.log(num.toFixed()) // 31
-
-            // Number()
-
-            // var num = "375"
-
-            // console.log(typeof(num)) // string
-            // console.log(typeof(Number(num))) // number
-
-            // console.log(num + num) // 375375
-            // console.log(Number(num) + Number(num)) // 750
-
-            // isNaN()
-
-            // var num = 658;
-            // var num1 = "Hello";
-
-            // console.log(isNaN(num)) // false
-            // console.log(isNaN(num1)) // true
-
-            // isFinite()
-
-            // var num = 658;
-            // var num1 = "Hello";
-
-            // console.log(isFinite(num)) // true
-            // console.log(isFinite(num1)) // false
-
-
-        // CONDITIONAL STATEMENTS
-
-            // if
-
-            // Example - 1
-
-                // let num = 4
-
-                // if(num <= 5){
-                //     console.log("The given number is less than 5")
+                // var obj = {
+                //     name : "User",
+                //     age : 20
                 // }
 
-                // let age = 5;
+                // console.log(obj.name)
+                // console.log(obj.age)
 
-                // if(age >= 18){
-                //     console.log("you are adult")
-                // }
+            // Nested Object
 
-            // if...else
-
-            // Example - 1
-
-                // let age = 18;
-
-                // if (age >= 18) {
-                //     console.log("You can vote.");
-                // } else {
-                //     console.log("You are too young to vote.");
-                // }
-
-            // else...if
-
-                // let marks = 66;
-
-                // if (marks >= 90) {
-                //     console.log("Grade: A");
-                // } else if (marks >= 80) {
-                //     console.log("Grade: B");
-                // } else if (marks >= 70) {
-                //     console.log("Grade: C");
-                // } else {
-                //     console.log("Grade: F");
-                // }
-
-            // nested if else
-
-                // var num = 9;
-
-                // if(isNaN(num)){
-                //     console.log("not a number")
-                // }else{
-                //     if(num % 2 === 0){
-                //         console.log("Even")
-                //     }else{
-                //         console.log("Odd")
+                // var obj = {
+                //     name : "User",
+                //     age : 20,
+                //     address : {
+                //         no : 202,
+                //         city : "Trichy"
                 //     }
                 // }
 
+                // console.log(obj.name)
+                // console.log(obj.age)
+                // console.log(obj.address)
+                // console.log(obj.address.no)
+                // console.log(obj.address.city)
+
+            // Using Inside Function
+
+                // var obj = {
+                //     name : "User",
+                //     age : 20,
+                //     message : function(){
+                //         return "Hello"
+                //     }
+                // }
+
+                // console.log(obj.message())
+
     </script>
+
+    <!-- EVENTS -->
+
+    <!-- onclick -->
+
+    <!-- <button onclick="Fun()">Click</button>
+
+    <script>
+
+        function Fun(){
+            alert("onclick Event")
+        }
+
+    </script> -->
+
+    <!-- ondblclick -->
+
+    <!-- <button ondblclick="Fun()">Click</button>
+
+    <script>
+
+        function Fun(){
+            alert("ondblclick Event")
+        }
+
+    </script> -->
+
+    <!-- onsubmit -->
+
+    <!-- <form onsubmit="Fun()">
+        <input type="text">
+        <input type="submit">
+    </form>
+
+    <script>
+
+        function Fun(){
+            alert("onsubmit Event")
+        }
+
+    </script> -->
+
+    <!-- onchange -->
+
+    <!-- <select name="" id="" onchange="Fun()">
+        <option value="">Option 1</option>
+        <option value="">Option 2</option>
+        <option value="">Option 3</option>
+    </select>
+
+    <script>
+
+        function Fun(){
+            alert("Option Changed")
+        }
+
+    </script> -->
+
+    <!-- <input type="text" onchange="Fun(event)">
+
+    <script>
+
+        function Fun(event){
+            // console.log(event)
+            console.log(event.target.value)
+        }
+
+    </script> -->
+
+    <!-- onkeyup -->
+
+    <!-- <input type="text" onkeyup="Fun(event)">
+
+    <script>
+
+        function Fun(event){
+            console.log(event.target.value)
+        }
+
+    </script> -->
 
 </body>
 </html>

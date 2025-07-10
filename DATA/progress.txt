@@ -717,9 +717,18 @@ JULY MONTH
 
 10 - 11 => New Batch [ HTML - Day 3 ]
 11 - 12 => Internship [ JS DAY - 2 ( Half ) ]
-12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
+12 - 01 => Kannan , Vaishnavi
 
-03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 3 ]
-04 - 05 => MD Sir Class [BOOTSTRAP , Day - 2]
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 4 ]
 05 - 06 => Satya Roslin [Project]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [MONGO DB Installation]
+
+
+11 / 07 - FRIDAY 
+
+10 - 11 => New Batch [ HTML - Day 4 , Project Explanation ]
+11 - 12 => Internship [ AIMAN College Students , CSS - Project , Bootstrap - Introduction ]
+12 - 01 => Kannan , Vaishnavi [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 5 ]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [MONGO DB Compass]
