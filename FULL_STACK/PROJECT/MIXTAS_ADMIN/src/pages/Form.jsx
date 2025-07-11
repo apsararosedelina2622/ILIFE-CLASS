@@ -13,7 +13,10 @@ const Form = () => {
       
       <div className="d-flex justify-content-between align-items-center my-3">
         <h3>Add Products</h3>
-        <Link to={"/products"} className='text-decoration-none text-dark fs-5'>View Products</Link>
+        <div>
+          <Link to={"/products"} className='text-dark fs-5 mx-2'>View Products</Link>
+          <Link to={"/users"} className='text-dark fs-5 mx-2'>View Users</Link>
+        </div>
       </div>
 
         <form method="POST" onSubmit={FormSubmit}>

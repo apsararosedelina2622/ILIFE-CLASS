@@ -6,7 +6,7 @@ import axios from "axios"
 export const MyContext = createContext()
 const ContextFile = ({ children }) => {
 
-    var url = "http://localhost:5000/api"
+    var url = "http://localhost:5000"
 
     var [ category , setCategory ] = useState("")
     var [ type , setType ] = useState("")
@@ -24,6 +24,8 @@ const ContextFile = ({ children }) => {
     var [ updateImg , setUpdateImg ] = useState("")
     var [ updatePreviewImg , setUpdatePreviewImg ] = useState("")
     var [ updateId , setUpdateId ] = useState("")
+
+    var [ userData , setUserData ] = useState([])
 
     const ImageFun = (e) => {
         const file = e.target.files[0];
@@ -50,8 +52,13 @@ const ContextFile = ({ children }) => {
                 price
             }
 
-            await axios.post(`${url}/add` , formData)
+            await axios.post(`${url}/product/add` , formData)
             alert("Product Added!")
+            setCategory("")
+            setType("")
+            setDesc("")
+            setPrice("")
+            setImg("")
         }
         catch(err){
             console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
@@ -60,7 +67,7 @@ const ContextFile = ({ children }) => {
 
     const FetchData = async () => {
         try{
-            const productList = await axios.get(`${url}/products`) 
+            const productList = await axios.get(`${url}/product/products`) 
             setProductData(productList.data)
         }
         catch(err){
@@ -74,7 +81,7 @@ const ContextFile = ({ children }) => {
 
     const RemoveProduct = async (id) => {
         try{
-            await axios.delete(`${url}/remove/${id}`)
+            await axios.delete(`${url}/product/remove/${id}`)
             alert("Product Removed!")
         }
         catch(err){
@@ -121,7 +128,7 @@ const ContextFile = ({ children }) => {
                 img : updateImg
             }
 
-            await axios.put(`${url}/update/${updateId}` , updateData)
+            await axios.put(`${url}/product/update/${updateId}` , updateData)
             alert("Product Updated!")
             FetchData()
         }
@@ -129,6 +136,30 @@ const ContextFile = ({ children }) => {
             console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
         }
     }
+
+    const FetchUserData = async () => {
+        try{
+            var userList = await axios.get(`${url}/user/users`)
+            setUserData(userList.data)
+        }
+        catch(err){
+            console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
+        }
+    }
+
+    useEffect(() => {
+        FetchUserData()
+    } , [])
+
+    const RemoveUser = async (id) => {
+        try{
+            await axios.delete(`${url}/user/remove/${id}`)
+            alert("User Removed!")
+        }
+        catch(err){
+            console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
+        }
+    } 
 
     var contextValue = {
         category , setCategory , 
@@ -146,7 +177,9 @@ const ContextFile = ({ children }) => {
         updatePrice , setUpdatePrice , 
         updatePreviewImg , 
         UpdateImageFun , 
-        UpdateSubmitFun
+        UpdateSubmitFun , 
+        userData , 
+        RemoveUser
     }
 
   return (

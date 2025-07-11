@@ -4,306 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <script>
-
-        // LOOP
-
-            // FOR
-
-            // SYNTAX
-
-                // for(initailize; condition; increment /  decrement){
-                //   statments
-                // }
-
-            // Example - 1
-
-                // for(let i=1; i <= 5; i++){
-                //     console.log(i)
-                // }
-
-            // Example - 2
-
-                // for(let i = 5; i >= 1; i--){
-                //     console.log(i)
-                // }
-        
-        // ARRAY METHODS
-
-            // PUSH
-
-                //   let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-                //   arr.push("REACT")
-                //   console.log(arr)
-
-            // POP
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-                // arr.pop()
-                // console.log(arr)
-
-            // SHIFT
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-                // arr.shift()
-                // console.log(arr)
-
-            // UNSHIFT
-
-                // let arr = [ "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-                // arr.unshift("HTML")
-                // console.log(arr)
-
-            // JOIN
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-
-                // console.log(arr)
-
-                // console.log(arr.join())
-
-                // console.log(arr.join("--"))
-
-                // console.log(arr.join(""))
-
-                // console.log(arr.join(" "))
-
-            // REVERSE
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-
-                // console.log(arr.reverse())
-
-                // let arr = [1, 2, 3, 4, 5];
-
-                // console.log(arr.reverse())
-
-            // FOR EACH
-
-            // syntax 
-
-                // array.forEach((value, index, array) => {
-
-                // })
-
-            // Example - 1
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
-
-                // arr.forEach((value , index , array) => {
-                //     console.log(value)
-                //     console.log(index)
-                //     console.log(array)
-                // })
-
-            // Example - 2
-
-                // let marks = [1, 2, 3, 4];
-
-                // marks.forEach((value , index , array) => {
-                //     console.log(value * 2)
-                // })
-
-            // MAP
-
-            // SYNTAX
-
-                // array.map((value , index , array) => {
-
-                // })
-
-            // Example - 1
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
-
-                // arr.map((value, index, array) => {
-                //     // console.log(value)
-                //     // console.log(index)
-                //     // console.log(array)
-                // })
-
-                // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
-
-                // arr.map((a, b, c) => {
-                //     console.log(c)
-                // })
-
-            // Example - 2
-
-                // let arr = [1, 2, 3, 4];
-
-                // arr.map((value, index, array) => {
-                //     console.log(value * 2)
-                // })
-
-            // Example - 3
-
-                // let data = [
-                //     {
-                //         name : "Abi",
-                //         age : 21
-                //     },
-                //     {
-                //         name : "Banu",
-                //         age : 20
-                //     },
-                //     {
-                //         name : "Begum",
-                //         age : 22
-                //     },
-                // ]
-
-                // data.map((value) => {
-                //     console.log(value)
-                //     console.log(value.name)
-                //     console.log(value.age)
-                // })
-
-            // Find 
-
-                // var num = [10, 48, 3, 2];
-
-                // var result = num.find((value) => { 
-                //     return value % 2 == 0
-                // })
-
-                // console.log(result) // shows first matching result
-
-            // Filter
-
-                // var num = [1 , 2 , 3 , 4]
-                
-                // var result = num.filter((value) => {
-                //     return value % 2 == 0
-                // })
-
-                // console.log(result) // shows all matching result
-
-        // OBJECT METHODS
-
-            // Object
-
-                // var obj = {
-                //     name : "User",
-                //     age : 20
-                // }
-
-                // console.log(obj.name)
-                // console.log(obj.age)
-
-            // Nested Object
-
-                // var obj = {
-                //     name : "User",
-                //     age : 20,
-                //     address : {
-                //         no : 202,
-                //         city : "Trichy"
-                //     }
-                // }
-
-                // console.log(obj.name)
-                // console.log(obj.age)
-                // console.log(obj.address)
-                // console.log(obj.address.no)
-                // console.log(obj.address.city)
-
-            // Using Inside Function
-
-                // var obj = {
-                //     name : "User",
-                //     age : 20,
-                //     message : function(){
-                //         return "Hello"
-                //     }
-                // }
-
-                // console.log(obj.message())
-
-    </script>
-
-    <!-- EVENTS -->
-
-    <!-- onclick -->
-
-    <!-- <button onclick="Fun()">Click</button>
-
-    <script>
-
-        function Fun(){
-            alert("onclick Event")
-        }
-
-    </script> -->
-
-    <!-- ondblclick -->
-
-    <!-- <button ondblclick="Fun()">Click</button>
-
-    <script>
-
-        function Fun(){
-            alert("ondblclick Event")
-        }
-
-    </script> -->
-
-    <!-- onsubmit -->
-
-    <!-- <form onsubmit="Fun()">
-        <input type="text">
-        <input type="submit">
-    </form>
-
-    <script>
-
-        function Fun(){
-            alert("onsubmit Event")
-        }
-
-    </script> -->
-
-    <!-- onchange -->
-
-    <!-- <select name="" id="" onchange="Fun()">
-        <option value="">Option 1</option>
-        <option value="">Option 2</option>
-        <option value="">Option 3</option>
-    </select>
-
-    <script>
-
-        function Fun(){
-            alert("Option Changed")
-        }
-
-    </script> -->
-
-    <!-- <input type="text" onchange="Fun(event)">
-
-    <script>
-
-        function Fun(event){
-            // console.log(event)
-            console.log(event.target.value)
-        }
-
-    </script> -->
-
-    <!-- onkeyup -->
-
-    <!-- <input type="text" onkeyup="Fun(event)">
-
-    <script>
-
-        function Fun(event){
-            console.log(event.target.value)
-        }
-
-    </script> -->
+    <!-- Cards -->
+
+    <div class="container">
+        <div class="card w-25">
+            <div class="card-header">
+                <h4>Card</h4>
+            </div>
+            <div class="card-body">
+                <h5>Card Title</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, voluptates.</p>
+            </div>
+            <div class="card-footer">
+                <h4>Footer</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card w-25">
+            <div class="card-header">
+                <img src="./img/example_img.png" alt="" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <h5>Card Title</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, voluptates.</p>
+            </div>
+            <div class="card-footer">
+                <h4>Footer</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card w-25">
+            <div class="card-header">
+                <h5>Card Title</h5>
+            </div>
+            <div class="card-body">
+                <img src="./img/example_img.png" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer">
+                <h4>Footer</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card w-25">
+            <img src="./img/example_img.png" alt="">
+            <div class="card-body">
+                <h5>Card</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, veritatis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card my-3">
+                    <img src="./img/example_img.png" alt="">
+                    <div class="card-body">
+                        <h5>Card</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="./img/example_img.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <div class="card-body">
+                                <h5>Card</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aliquam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card-body">
+                                <h5>Card</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, culpa?</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/example_img.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-3">
+            <div class="card">
+                <img src="./img/example_img.png" alt="">
+                <div class="card-body">
+                    <h5>Card</h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary">Click</button>
+                        <p class="fs-5">₹150</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

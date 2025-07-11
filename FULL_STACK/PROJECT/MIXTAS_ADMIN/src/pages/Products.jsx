@@ -11,7 +11,7 @@ const Products = () => {
     <div className="container">
         <div className="d-flex justify-content-between align-items-center my-3">
             <h3>Product List</h3>
-            <Link to={"/"} className='text-decoration-none text-dark fs-5'>Add Products</Link>
+            <Link to={"/"} className='text-dark fs-5'>Add Products</Link>
         </div>
 
         <table className="my-3 table table-primary border-1 border-primary text-center align-middle">

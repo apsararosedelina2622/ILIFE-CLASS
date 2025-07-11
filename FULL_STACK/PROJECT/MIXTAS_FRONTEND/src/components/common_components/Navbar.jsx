@@ -22,9 +22,9 @@ const Navbar = () => {
       <div className="container-fluid d-flex justify-content-between align-items-center px-5 py-3">
         <img src={my_asset.logo} alt="logo" height={30} />
         <div className="menu d-flex gap-3">
-          <Link to="/" className="text-decoration-none text-dark">Home</Link>
+          <Link to="/home" className="text-decoration-none text-dark">Home</Link>
           <Link to="/shop" className="text-decoration-none text-dark">Shop</Link>
-          <Link to="/" className="text-decoration-none text-dark">Contact</Link>
+          <Link to="#" className="text-decoration-none text-dark">Contact</Link>
         </div>
         <div className="icon d-flex gap-3">
           <i className="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#mymodal"></i>

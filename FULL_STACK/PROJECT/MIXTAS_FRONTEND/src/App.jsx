@@ -5,13 +5,15 @@ import Home from './Pages/Home'
 import Shop from './pages/Shop'
 import Product from './pages/Product'
 import MyContextProvider from './context/MyContextProvider'
+import Form from './pages/Form'
 
 const App = () => {
   return (
     <BrowserRouter>
       <MyContextProvider>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Form />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/product/:id' element={<Product />} />
         </Routes>

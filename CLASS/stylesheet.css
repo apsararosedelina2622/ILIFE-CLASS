@@ -1,48 +1,108 @@
-/* h1{
-    color: green;
-} */
-
-/* #tag{
-    color: red;
+.fixed{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 100%;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: -3;
 }
 
-.title{
-    color: green;
-} */
-
-/* *{
-    color: red;
-} */
-k
-div{
-    /* height: 600px;
-    width: 100%; */
-    /* background-color: green; */
-
-    /* background: linear-gradient(purple , plum); */
-    /* background: linear-gradient( to right , purple , plum); */
-    /* background: linear-gradient( to left , purple , plum); */
-    /* background: linear-gradient( to top , purple , plum); */
-    /* background: linear-gradient( to bottom , purple , plum); */
-
-    /* background: linear-gradient(90deg , purple , plum); */
-    /* background: linear-gradient(90deg , red , blue , green , yellow); */
-
-    /* background: radial-gradient(red , blue); */
-    /* background: radial-gradient( ellipse , red , blue); */
-    /* background: radial-gradient( circle , red , blue , green , yellow); */
+*{
+    margin: 0;
+    padding: 0;
 }
 
-/* h1{
-    background: linear-gradient( to right , red , blue);
-    color: transparent;
-    background-clip: text;
-    width: fit-content;
-} */
+h1{
+    text-align: center;
+    font-size: 60px;
+}
 
+.menu{
+    /* background-color: #f1f1f1; */
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    z-index: 5;
+}
 
-span{
-    background: linear-gradient(to right , purple , plum);
-    color: transparent;
-    background-clip: text;
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.relative{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    z-index: -4;
+}
+
+.static{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 30px;
+    position: static;
+    top: 300px;
+    left: 500px;
+}
+
+.absolute{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.absolute-1{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.absolute-1 span{
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.section{
+    display: flex;
+    gap: 30px;
+}
+
+.section > div{
+    flex-grow: 1;
+}
+
+.section .box{
+    position: relative;
+}
+
+.section .box img{
+    height: 200px;
+    width: 300px;
+}
+
+.section .box .content{
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    box-shadow: 1px 1px 5px silver;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
 }

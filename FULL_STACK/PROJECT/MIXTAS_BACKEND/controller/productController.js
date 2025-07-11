@@ -1,11 +1,11 @@
-const productModel = require("../model/productModal")
+const productModel = require("../model/productModel")
 
 const addProduct = async (req , res) => {
     try{
 
         const { category , type , desc , price , img } = req.body
 
-        const userData = new productModel({
+        const productData = new productModel({
             category , 
             type , 
             desc , 
@@ -13,7 +13,7 @@ const addProduct = async (req , res) => {
             img
         })
 
-        await userData.save()
+        await productData.save()
         res.status(200).send("Data Added!")
     }
     catch(err){
