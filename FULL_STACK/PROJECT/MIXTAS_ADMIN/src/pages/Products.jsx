@@ -52,7 +52,7 @@ const Products = () => {
         </table>    
 
         <div className="modal fade" id='mymodal'>
-            <div className="modal-dialog modal-lg">
+            <div className="modal-dialog modal-lg modal-dialog-scrollable">
                 <div className="modal-content">
                     <div className="modal-header">
                         <h4>Update</h4>

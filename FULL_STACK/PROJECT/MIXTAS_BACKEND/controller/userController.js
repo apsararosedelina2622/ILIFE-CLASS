@@ -14,7 +14,7 @@ const addUser = async (req , res) => {
         res.status(200).send("User Data Added!")
     }
     catch(err){
-        res.status(200).send(`Error Name : ${err.name} `)
+        res.status(200).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
     }
 }
 
@@ -24,7 +24,7 @@ const getUser = async (req , res) => {
         res.status(200).send(users)
     }
     catch(err){
-        res.status(200).send(`Error Name : ${err.name} `)
+        res.status(200).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
     }
 }
 
@@ -34,8 +34,26 @@ const removeUser = async (req , res) => {
         res.status(200).send("User Removed!")
     }
     catch(err){
-        res.status(200).send(`Error Name : ${err.name} `)
+        res.status(200).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
     }
 }
 
-module.exports = { addUser , getUser, removeUser }
+const loginUser = async (req , res) => {
+    try{
+        
+        const { username , password } = req.body
+
+        const user = await userModel.findOne({ username , password })
+        if(user){
+            res.status(200).send(user)
+        }
+        else{
+            res.status(404).send("User Not Found!")
+        }
+    }
+    catch(err){
+        res.status(200).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+module.exports = { addUser , getUser, removeUser , loginUser }

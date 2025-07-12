@@ -680,7 +680,7 @@ JULY MONTH
 
 07 / 07 - MONDAY 
 
-10 - 11 => New Batch [ Introduction ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ Introduction ]
 11 - 12 => Internship [ CSS ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
@@ -691,7 +691,7 @@ JULY MONTH
 
 08 / 07 - TUESDAY 
 
-10 - 11 => New Batch [ HTML - Day 1 ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ HTML - Day 1 ]
 11 - 12 => Internship [ BOOTSTRAP ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
@@ -703,7 +703,7 @@ JULY MONTH
 
 09 / 07 - WEDNESSDAY 
 
-10 - 11 => New Batch [ HTML - Day 2 ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ HTML - Day 2 ]
 11 - 12 => Internship [ JS DAY - 1 ( Half ) ]
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 7 , 8 ( useContext , Routers ) ]
 
@@ -715,7 +715,7 @@ JULY MONTH
 
 10 / 07 - THURSDAY 
 
-10 - 11 => New Batch [ HTML - Day 3 ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ HTML - Day 3 ]
 11 - 12 => Internship [ JS DAY - 2 ( Half ) ]
 12 - 01 => Kannan , Vaishnavi
 
@@ -726,9 +726,26 @@ JULY MONTH
 
 11 / 07 - FRIDAY 
 
-10 - 11 => New Batch [ HTML - Day 4 , Project Explanation ]
-11 - 12 => Internship [ AIMAN College Students , CSS - Project , Bootstrap - Introduction ]
-12 - 01 => Kannan , Vaishnavi [ React Day - 7 , 8 ( useContext , Routers ) ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ HTML - Day 4 , Project Explanation ]
+11 - 12 => Internship
+11 - 01 => Internship [ AIMAN College Students , CSS - Project]
+12 - 01 => Kannan , Vaishnavi
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 5 ]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [MONGO DB Compass]
+04 - 05 => MD Sir Class [BOOTSTRAP , Cards and Column Responsive]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan 
+
+
+12 / 07 - SATURDAY 
+
+02 - 04 => Internship [ AIMAN College Students , Bootstrap - Modal , Offcanvas , Collapse , Carousel , Navbar , Form Control ]
+
+
+14 / 07 - MONDAY 
+
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 1 ]
+11 - 12 => Internship [ React JS , DAY - 1 ( Half ) ]
+12 - 01 => Kannan , Vaishnavi [ React Day - 7 , 8 ( useContext , Routers ) ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 6 ]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Compass ]

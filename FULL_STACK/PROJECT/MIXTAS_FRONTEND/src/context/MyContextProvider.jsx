@@ -7,6 +7,8 @@ export const MyContext = createContext()
 
 const MyContextProvider = ({children}) => {
 
+  // Backend URL
+
   var url = "http://localhost:5000"
 
   const navigate = useNavigate()
@@ -23,9 +25,13 @@ const MyContextProvider = ({children}) => {
   var [ loginUsername , setLoginUsername ] = useState("")
   var [ loginPassword , setLoginPassword ] = useState("")
 
+  // Search Function
+
   const SearchFun = () => {
     setFilteredData(all_products.filter(a => a.type.toLowerCase().includes(input.toLowerCase())))
   }
+
+  // Fetching Product Data From Database
 
   const FetchData = async () => {
     try{
@@ -41,8 +47,8 @@ const MyContextProvider = ({children}) => {
     FetchData()
   } , [])
 
-  console.log(email)
-  
+  // Register Function
+
   const RegisterSubmitFun = async (e) => {
     try{
       
@@ -65,27 +71,51 @@ const MyContextProvider = ({children}) => {
     }
   }
 
+  // Login Function
+
   const LoginSubmitFun = async (e) => {
     try{
 
       e.preventDefault()
 
+      const loginData = {
+        username : loginUsername , 
+        password : loginPassword
+      }
+      await axios.post(`${url}/user/login` , loginData)
+      alert("Login Successfully!")
+      navigate("/home")
     }
     catch(err){
+      alert("Invalid username or password.");
       console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
     }
   }
 
+  localStorage.setItem("username" , loginUsername)
+
   const ContextValue = {
     navigate , 
+
+    // Search Function
+
     setInput , 
     SearchFun , 
     filteredData , 
+
+    // Fetching Product Data From Database
+
     productData , 
+
+    // Register Function
+
     username , setUsername , 
     password , setPassword , 
     email , setEmail , 
     RegisterSubmitFun , 
+    
+    // Login Function
+
     loginUsername , setLoginUsername , 
     loginPassword , setLoginPassword , 
     LoginSubmitFun

@@ -1,6 +1,6 @@
 BATCH
 
-10 - 11 => Pugazh , Yusuf
+10 - 11 => Pugazh , Yusuf , Logeshwaran
 11 - 12 => Internship
 12 - 01 => Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh
 
@@ -22,7 +22,7 @@ Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodhar
 
 STUDENTS FROM EPIX
 
--
+Logeshwaran
 
 
 April

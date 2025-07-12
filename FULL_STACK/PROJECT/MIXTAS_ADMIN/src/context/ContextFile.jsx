@@ -6,6 +6,8 @@ import axios from "axios"
 export const MyContext = createContext()
 const ContextFile = ({ children }) => {
 
+    // Backend URL
+
     var url = "http://localhost:5000"
 
     var [ category , setCategory ] = useState("")
@@ -27,6 +29,8 @@ const ContextFile = ({ children }) => {
 
     var [ userData , setUserData ] = useState([])
 
+    // Preview Image Function in Add Product
+
     const ImageFun = (e) => {
         const file = e.target.files[0];
         if (file) {
@@ -38,6 +42,8 @@ const ContextFile = ({ children }) => {
             reader.readAsDataURL(file);
         }
     }
+
+    // Add Product Function
 
     const FormSubmit = async (e) => {
         try{
@@ -65,6 +71,8 @@ const ContextFile = ({ children }) => {
         }
     }
 
+    // Fetching Product Data From Database
+
     const FetchData = async () => {
         try{
             const productList = await axios.get(`${url}/product/products`) 
@@ -79,6 +87,8 @@ const ContextFile = ({ children }) => {
         FetchData()
     }, [])
 
+    // Remove Product Function
+
     const RemoveProduct = async (id) => {
         try{
             await axios.delete(`${url}/product/remove/${id}`)
@@ -88,6 +98,8 @@ const ContextFile = ({ children }) => {
             console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
         }
     }
+
+    // Preview Image Function in Update Product
 
     const UpdateImageFun = (e) => {
         var file = e.target.files[0]
@@ -101,6 +113,8 @@ const ContextFile = ({ children }) => {
             reader.readAsDataURL(file)
         }
     }
+
+    // Update Product Function
     
     const UpdateProduct = (id) => {
         var product = productData.find(a => a._id === id)
@@ -114,6 +128,8 @@ const ContextFile = ({ children }) => {
             setUpdateId(product._id)
         }
     }
+
+    // Update Product Function
 
     const UpdateSubmitFun = async (e) => {
         try{
@@ -137,6 +153,8 @@ const ContextFile = ({ children }) => {
         }
     }
 
+    // Fetching User Data From Database
+
     const FetchUserData = async () => {
         try{
             var userList = await axios.get(`${url}/user/users`)
@@ -151,6 +169,8 @@ const ContextFile = ({ children }) => {
         FetchUserData()
     } , [])
 
+    // Remove User Function
+
     const RemoveUser = async (id) => {
         try{
             await axios.delete(`${url}/user/remove/${id}`)
@@ -162,14 +182,26 @@ const ContextFile = ({ children }) => {
     } 
 
     var contextValue = {
+
+        // Add Product Function
+
         category , setCategory , 
         type , setType , 
         desc , setDesc , 
         price , setPrice , 
         img , ImageFun , previewImg ,  
         FormSubmit , 
-        productData , 
+
+        // Fetching Product Data From Database 
+
+        productData ,
+        
+        // Remove Product Function
+        
         RemoveProduct , 
+
+        // Update Product Function
+
         UpdateProduct , 
         updateCategory , setUpdateCategory , 
         updateType , setUpdateType , 
@@ -178,7 +210,13 @@ const ContextFile = ({ children }) => {
         updatePreviewImg , 
         UpdateImageFun , 
         UpdateSubmitFun , 
+        
+        // Fetching User Data From Database
+
         userData , 
+
+        // Remove User Function
+
         RemoveUser
     }
 

@@ -6,6 +6,7 @@ import Shop from './pages/Shop'
 import Product from './pages/Product'
 import MyContextProvider from './context/MyContextProvider'
 import Form from './pages/Form'
+import Protect from './pages/Protect'
 
 const App = () => {
   return (
@@ -13,9 +14,9 @@ const App = () => {
       <MyContextProvider>
         <Routes>
           <Route path='/' element={<Form />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/shop' element={<Shop />} />
-          <Route path='/product/:id' element={<Product />} />
+          <Route path='/home' element={<Protect><Home /></Protect>} />
+          <Route path='/shop' element={<Protect><Shop /></Protect>} />
+          <Route path='/product/:id' element={<Protect><Product /></Protect>} />
         </Routes>
       </MyContextProvider>
     </BrowserRouter>
