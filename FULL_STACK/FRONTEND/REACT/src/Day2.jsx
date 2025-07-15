@@ -4,19 +4,19 @@
 
 // VARIABLES
 
-import React from 'react'
+// import React from 'react'
 
-const Day2 = () => {
-  var a = 'Hello';
-  var b = 'World'
-  return (
-    <>
-      <h1>{a} {b}</h1>
-    </>
-  )
-}
+// const Day2 = () => {
+//   var a = 'Hello';
+//   var b = 'World'
+//   return (
+//     <>
+//       <h1>{a} {b}</h1>
+//     </>
+//   )
+// }
 
-export default Day2
+// export default Day2
 
 // ARRAY 
 
@@ -26,6 +26,7 @@ export default Day2
 
 //   var arr = ['html', 'css','bootstrap', 'javascript']
 //   var name = ['name', 'abi','my', 'is']
+
 //   return (
 //     <>
 //       <h1>{arr[0]}</h1>
@@ -47,6 +48,7 @@ export default Day2
 // const Day2 = () => {
 
 //   var arr = ['html', 'css','bootstrap', 'javascript']
+  
 //   return (
 //     <>
 //       {arr.map((value, index) => {
@@ -66,12 +68,12 @@ export default Day2
 
 // const Day2 = () => {
 
-  // var obj = {
-  //   name : 'abinaya',
-  //   age : 20,
-  //   place : 'Trichy',
-  //   number : 1234567890
-  // }
+//   // var obj = {
+//   //   name : 'abinaya',
+//   //   age : 20,
+//   //   place : 'Trichy',
+//   //   number : 1234567890
+//   // }
 
 //   var obj = {
 //     name : 'abinaya',
@@ -130,7 +132,7 @@ export default Day2
 //   )
 // }
 
-// export default 
+// export default Day2
 
 // JSON IN MAP 
 

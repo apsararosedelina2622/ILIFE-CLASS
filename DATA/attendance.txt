@@ -177,7 +177,7 @@ MAY MONTH
 10 / 05 - SATURDAY [No Leave]
 
 
-12 / 05 - MONDAY [I'm Leave]
+12 / 05 - MONDAY [Staff Leave]
 
 
 13 / 05 - TUESDAY
@@ -263,7 +263,7 @@ MAY MONTH
 06 - 07 => Sundaresh 
 
 
-27 / 05 - TUESDAY & 28 / 05 - WEDNESSDAY => I'm Leave
+27 / 05 - TUESDAY & 28 / 05 - WEDNESSDAY => Staff Leave
 
 
 29 / 05 - THURSDAY
@@ -453,7 +453,7 @@ No Leave
 10 - 11 => Yusuf
 
 
-30 / 07 - MONDAY => I'm Leave [ For Graduation Day ]
+30 / 07 - MONDAY => Staff Leave [ For Graduation Day ]
 
 
 ================================================================================================
@@ -508,12 +508,20 @@ No Leave
 No Leave
 
 
-10 / 07 - FRIDAY
+11 / 07 - FRIDAY
 
 03 - 04 => Niranjan , Abinaya
 06 - 07 => Abdul Rub , Kaviyarasan , Murugan
 
 
-11 / 07 - SATURDAY
+12 / 07 - SATURDAY
 
 10 - 11 => Yusuf
+
+
+14 / 07 - MONDAY [Staff Leave]
+
+
+15 / 07 - TUESDAY
+
+03 - 04 => Niranjan

@@ -1,0 +1,48 @@
+/* h1{
+    color: green;
+    background-color: lightgreen;
+}
+
+p{
+    color: blue;
+    background-color: lightblue;
+}
+
+#tag{
+    color: red;
+}
+
+.content{
+    color: pink;
+} */
+
+div{
+    /* height: 400px;
+    width: 100%; */
+    /* background-color: green; */
+
+    /* background: linear-gradient(red , blue , green); */
+    /* background: linear-gradient(30deg , red , blue , green); */
+    /* background: linear-gradient(to right , red , blue , green); */
+    /* background: linear-gradient(to left , red , blue , green); */
+    /* background: linear-gradient(to top , red , blue , green); */
+    /* background: linear-gradient(to bottom , red , blue , green); */
+
+    /* background: radial-gradient(purple , plum); */
+    /* background: radial-gradient(ellipse , purple , plum); */
+    /* background: radial-gradient(circle , purple , plum); */
+    /* background: radial-gradient(ellipse , red , blue); */
+}
+
+h1{
+    background: linear-gradient(to right , purple , plum);
+    color: transparent;
+    background-clip: text;
+    width: fit-content;
+}
+
+span{
+    background: linear-gradient(to left , red , blue);
+    color: transparent;
+    background-clip: text;
+}
