@@ -1,48 +1,127 @@
-/* h1{
-    color: green;
-    background-color: lightgreen;
-}
+/* *{ */
+    /* background-color: green; */
+    /* font-family: "Tagesschrift", system-ui;
+} */
 
-p{
-    color: blue;
-    background-color: lightblue;
-}
+/* #tag{ */
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: right; */
+    /* text-align: left; */
+    /* text-align: start; */
 
-#tag{
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+    /* line-height: 3; */
+    /* word-spacing: 30px; */
+    /* letter-spacing: 20px; */
+
+    /* font-size: medium; */
+    /* font-size: large; */
+    /* font-size: larger; */
+    /* font-size: x-large; */
+    /* font-size: xx-large; */
+    /* font-size: small; */
+    /* font-size: smaller; */
+    /* font-size: x-small; */
+    /* font-size: xx-small; */
+    /* font-size: 60px; */
+
+    /* font-style: italic; */
+
+    /* font-weight: 600;
+    font-weight: 900; */
+    /* font-weight: bolder; */
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: "Tagesschrift", system-ui; */
+/* } */
+
+/* a{
+    text-decoration: none;
+} */
+
+/* h1{ */
+    /* font-weight: 100;
+    font-weight: 500; */
+    /* font-weight: lighter; */
+/* } */
+
+
+
+/* div p{
+    color: red;
+} */
+
+/* div > p{
+    color: red;
+} */
+
+/* div + p{
+    color: red;
+} */
+
+/* div ~ p{
+    color: red;
+} */
+
+/* h1 , span , u{
+    color: red;
+} */
+
+/* #tag{
     color: red;
 }
 
-.content{
-    color: pink;
+#tag:hover{
+    color: green;
+    font-weight: bold;
+    font-size: x-large;
 } */
 
-div{
-    /* height: 400px;
-    width: 100%; */
-    /* background-color: green; */
-
-    /* background: linear-gradient(red , blue , green); */
-    /* background: linear-gradient(30deg , red , blue , green); */
-    /* background: linear-gradient(to right , red , blue , green); */
-    /* background: linear-gradient(to left , red , blue , green); */
-    /* background: linear-gradient(to top , red , blue , green); */
-    /* background: linear-gradient(to bottom , red , blue , green); */
-
-    /* background: radial-gradient(purple , plum); */
-    /* background: radial-gradient(ellipse , purple , plum); */
-    /* background: radial-gradient(circle , purple , plum); */
-    /* background: radial-gradient(ellipse , red , blue); */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: plum;
 }
 
-h1{
-    background: linear-gradient(to right , purple , plum);
-    color: transparent;
-    background-clip: text;
-    width: fit-content;
+div:hover{
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+} */
+
+/* button{
+    background-color: lightblue;
+    color: blue;
 }
 
-span{
-    background: linear-gradient(to left , red , blue);
-    color: transparent;
-    background-clip: text;
+button:hover{
+    background-color: lightgreen;
+    color: green;
+} */
+
+/* input:focus{
+    outline: none;
+    border: 5px solid green;
+} */
+
+/* p::before{
+    content: "Hiii ";
+    color: red;
+}
+
+p::after{
+    content: " Welcome";
+    color: green;
+} */
+
+input::placeholder{
+    color: green;
 }

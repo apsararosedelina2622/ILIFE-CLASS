@@ -78,6 +78,8 @@ const MyContextProvider = ({children}) => {
 
       e.preventDefault()
 
+      localStorage.setItem("username" , loginUsername)
+
       const loginData = {
         username : loginUsername , 
         password : loginPassword
@@ -92,7 +94,11 @@ const MyContextProvider = ({children}) => {
     }
   }
 
-  localStorage.setItem("username" , loginUsername)
+  const LogoutFun = () => {
+    localStorage.removeItem("username")
+    setLoginUsername("")
+    navigate("/")
+  }
 
   const ContextValue = {
     navigate , 
@@ -118,7 +124,11 @@ const MyContextProvider = ({children}) => {
 
     loginUsername , setLoginUsername , 
     loginPassword , setLoginPassword , 
-    LoginSubmitFun
+    LoginSubmitFun , 
+
+    // Logout Function
+
+    LogoutFun
   }
 
   return (

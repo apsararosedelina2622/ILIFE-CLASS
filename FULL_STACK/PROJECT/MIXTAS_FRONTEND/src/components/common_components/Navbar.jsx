@@ -5,17 +5,14 @@ import { MyContext } from '../../context/MyContextProvider';
 
 const Navbar = () => {
 
-  const { setInput , SearchFun , filteredData , navigate } = useContext(MyContext);
+  const { setInput , SearchFun , filteredData , navigate , LogoutFun } = useContext(MyContext);
 
   return (
     <>
       {/* Top bar */}
       <div className="container-fluid d-flex justify-content-between px-5 pt-2 pb-0 border">
         <p>Free shipping on US orders $100+ & Free exchanges</p>
-        <div>
-          <span>English</span>
-          <span>USD</span>
-        </div>
+        <a className='text-danger' onClick={LogoutFun}>Logout</a>
       </div>
 
       {/* Navbar */}

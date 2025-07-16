@@ -12,13 +12,9 @@ const userSchema = new mongoose.Schema({
     place : {
         type : String , 
         required : true
-    } , 
-    image : {
-        data : Buffer , 
-        contentType : String
     }
 })
 
-const userModel = mongoose.model("user" , userSchema)
+const userModel = mongoose.model("data" , userSchema)
 
 module.exports = userModel
