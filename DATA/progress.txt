@@ -754,4 +754,17 @@ JULY MONTH
 12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS , Day - 3 ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 6 , 7 ]
+04 - 05 => MD Sir Class [BOOTSTRAP , Carousel , Rounded]
+05 - 06 => New Batch [Introduction , HTML - Day 1]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]
+
+
+17 / 07 - THURSDAY 
+
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 3 ]
+11 - 12 => Internship [ React JS , DAY - 3 (Route)]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS , Day - 4 ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
+05 - 06 => New Batch [Introduction , HTML - Day 1 , Day 2]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]

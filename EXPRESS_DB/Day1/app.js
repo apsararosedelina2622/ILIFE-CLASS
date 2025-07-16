@@ -10,6 +10,5 @@ const userData = new userModel({
 })
 
 userData.save() 
-
     .then(() => console.log("User data saved!"))
     .catch(() => console.log("User data is not saved!"))
