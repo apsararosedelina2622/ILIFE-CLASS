@@ -1,12 +1,18 @@
 const connectDB = require("./config/db");
 connectDB()
 
-const userModel = require("./model/userModel");
+const dotenv = require("dotenv")
+dotenv.config()
 
-const userData = new userModel({
-    name : "Rhythm" , 
-    age : 21 ,
-    place : "Trichy"
+const express = require("express");
+const app = express()
+
+app.use(express.json())
+
+const router = require("./route/userRouter");
+
+app.use("/api" , router)
+
+app.listen(process.env.PORT , () => {
+    console.log("server running!")
 })
-
-userData.save()

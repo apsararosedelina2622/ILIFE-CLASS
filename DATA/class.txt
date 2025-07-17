@@ -7,6 +7,7 @@ BATCH
 LUNCH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan
+05 - 06 => Ganesh
 06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Kaviyarasan , Murugan
 
 SATURDAY BATCH
@@ -17,7 +18,7 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdul Rub , Karthikeyan , Yusuf(Week end) , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Pugazh , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdul Rub , Karthikeyan , Yusuf(Week end) , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Pugazh , Yusuf , Ganesh
 
 
 STUDENTS FROM EPIX
@@ -87,6 +88,8 @@ July
 12 - 01 => Dhinakaran ( Combined with Anish [ 10 / 07 ] )
 
 10 - 11 => Satya Roslin ( Course End [ 10 / 07 ] )
+
+05 - 06 => Ganesh ( Web Designing [ 16 / 07 ] )
 
 
 

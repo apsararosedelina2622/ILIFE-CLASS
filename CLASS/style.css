@@ -1,127 +1,141 @@
-/* *{ */
-    /* background-color: green; */
-    /* font-family: "Tagesschrift", system-ui;
-} */
+/* p{
+    color: green;
+    background-color: lightgreen; */
 
-/* #tag{ */
-    /* text-align: center; */
-    /* text-align: end; */
-    /* text-align: right; */
-    /* text-align: left; */
-    /* text-align: start; */
+    /* padding: 4s; */
+    /* padding: 30px; */
 
-    /* text-transform: lowercase; */
-    /* text-transform: uppercase; */
-    /* text-transform: capitalize; */
+    /* padding: t/b r/l; */
+    /* padding: 30px 60px; */
 
-    /* text-decoration: underline; */
-    /* text-decoration: overline; */
-    /* text-decoration: line-through; */
+    /* padding: t r/l b; */
+    /* padding: 50px 80px 30px; */
 
-    /* line-height: 3; */
-    /* word-spacing: 30px; */
-    /* letter-spacing: 20px; */
+    /* padding: t r b l; */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding: 0 20px 0 0; */
 
-    /* font-size: medium; */
-    /* font-size: large; */
-    /* font-size: larger; */
-    /* font-size: x-large; */
-    /* font-size: xx-large; */
-    /* font-size: small; */
-    /* font-size: smaller; */
-    /* font-size: x-small; */
-    /* font-size: xx-small; */
-    /* font-size: 60px; */
+    /* padding-top: 40px; */
+    /* padding-right: 40px; */
+    /* padding-bottom: 40px; */
+    /* padding-left: 40px; */
+/* }
 
-    /* font-style: italic; */
+#tag{ */
+    /* margin: 4s; */
+    /* margin: 40px; */
 
-    /* font-weight: 600;
-    font-weight: 900; */
-    /* font-weight: bolder; */
+    /* margin: t/b r/l; */
+    /* margin: 40px 80px; */
 
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-family: "Tagesschrift", system-ui; */
+    /* margin: t r/l b; */
+    /* margin: 10px 50px 30px; */
+
+    /* margin: t r b l; */
+    /* margin: 10px 20px 30px 40px; */
+
+    /* margin-top: 40px; */
+    /* margin-right: 40px; */
+    /* margin-bottom: 40px; */
+    /* margin-left: 40px; */
 /* } */
-
-/* a{
-    text-decoration: none;
-} */
-
-/* h1{ */
-    /* font-weight: 100;
-    font-weight: 500; */
-    /* font-weight: lighter; */
-/* } */
-
-
-
-/* div p{
-    color: red;
-} */
-
-/* div > p{
-    color: red;
-} */
-
-/* div + p{
-    color: red;
-} */
-
-/* div ~ p{
-    color: red;
-} */
-
-/* h1 , span , u{
-    color: red;
-} */
 
 /* #tag{
-    color: red;
+    background-color: plum;
+    color: purple;
+    padding: 40px;
+    margin: 40px 80px; */
+
+    /* border: thickness type color; */
+    /* border: 10px solid purple; */
+
+    /* border: 5px solid purple; */
+    /* border: 5px dotted purple; */
+    /* border: 5px double purple; */
+    /* border: 5px dashed purple; */
+    /* border: 5px inset purple; */
+    /* border: 5px outset purple; */
+    /* border: 10px ridge purple; */
+    /* border: 10px groove purple; */
+
+    /* border-top: 10px solid purple; */
+    /* border-right: 10px solid purple; */
+    /* border-bottom: 10px solid purple; */
+    /* border-left: 10px solid purple; */
+
+    /* border: 5px solid purple; */
+
+    /* border-radius: 100%; */
+    /* border-radius: 50%; */
+
+    /* border-radius: 30px; */
+    /* border-radius: 30px 60px; */
+    /* border-radius: 30px 60px 10px; */
+    /* border-radius: 10px 20px 30px 40px; */
+
+    /* border-radius: 0 30px;
 }
 
-#tag:hover{
-    color: green;
-    font-weight: bold;
-    font-size: x-large;
-} */
-
-/* div{
+img{
     height: 100px;
     width: 100px;
-    background-color: plum;
+    border: 3px solid purple;
+    border-radius: 100%;
 }
 
-div:hover{
-    background-color: purple;
-    height: 200px;
-    width: 200px;
+ul{ */
+    /* list-style-type: none; */
+    /* list-style-type: disc; */
+    /* list-style-type: decimal; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-roman;
 } */
 
-/* button{
-    background-color: lightblue;
-    color: blue;
-}
-
-button:hover{
+/* p{
     background-color: lightgreen;
     color: green;
-} */
-
-/* input:focus{
-    outline: none;
-    border: 5px solid green;
-} */
-
-/* p::before{
-    content: "Hiii ";
-    color: red;
+    display: inline;
+    height: 100px;
+    width: 100px;
 }
 
-p::after{
-    content: " Welcome";
-    color: green;
+a{
+    background-color: plum;
+    color: purple;
+    text-decoration: none; */
+    /* display: block; */
+    /* display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+img{
+    display: none;
 } */
 
-input::placeholder{
-    color: green;
-}
+/* div img{ */
+    /* float: left; */
+    /* float: right; */
+    /* float: none; */
+/* } */
+
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: plum; */
+
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    /* overflow-x: scroll; */
+    /* overflow-y: scroll;
+} */
+
+/* div p{
+    width: 350px;
+} */

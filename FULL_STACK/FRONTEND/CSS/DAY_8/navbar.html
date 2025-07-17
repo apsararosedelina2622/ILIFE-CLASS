@@ -23,26 +23,32 @@
             text-decoration: none;
             color: white;
         }
-        #menu-toggle , #icon{
+        #menu-toggle , #icon1 , #icon2{
             display: none;
         }
         @media screen and (max-width:768px) {
             .menu{
                 display: none;
             }
-            #icon{
+            #icon1{
                 display: inline;
             }
             #menu-toggle:checked ~ .menu{
                 display: flex;
                 flex-direction: column;
+                gap: 18px;
                 width: 100%;
                 position: absolute;
                 top: 50px;
                 left: 0;
                 background-color: black;
                 padding: 10px 0;
-                row-gap: 10px;
+            }
+            #menu-toggle:checked ~ #icon1{
+                display: none;
+            }
+            #menu-toggle:checked ~ #icon2{
+                display: inline;
             }
         }
     </style>
@@ -54,8 +60,12 @@
 
         <input type="checkbox" id="menu-toggle">
 
-        <label for="menu-toggle" id="icon">
+        <label for="menu-toggle" id="icon1">
             <i class="fa-solid fa-bars fa-2x"></i>
+        </label>
+
+        <label for="menu-toggle" id="icon2">
+            <i class="fa-solid fa-xmark fa-2x"></i>
         </label>
         
         <div class="menu">

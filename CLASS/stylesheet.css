@@ -1,177 +1,155 @@
-/* div{
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    margin: 100px;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-delay: 0.1s;
-    transition-timing-function: ease;
-} */
-
-/* div:hover{
-    background-color: red; */
-    /* transform: scaleX(1.5); */
-    /* transform: scaleY(1.5); */
-    /* transform: scale(x , y); */
-    /* transform: scale(1.5 , 1.5); */
-    /* transform: scale(-1.5 , -1.5); */
-
-    /* transform: rotateX(30deg); */
-    /* transform: rotateX(-180deg); */
-    /* transform: rotateY(180deg); */
-    /* transform: rotateY(-180deg); */
-    /* transform: rotate(30deg); */
-    /* transform: rotate(-90deg); */
-
-    /* transform: skewX(90deg); */
-    /* transform: skewX(-80deg); */
-    /* transform: skewY(60deg); */
-    /* transform: skewY(-60deg); */
-    /* transform: skew(30deg); */
-
-    /* transform: translateX(70px); */
-    /* transform: translateX(-70px); */
-    /* transform: translateY(50px); */
-    /* transform: translateY(-50px); */
-    /* transform: translate(x , y); */
-    /* transform: translate(20px , 50px); */
-/* } */
-
-/* div{
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
-    background-color: black;
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-div img{
-    height: 200px;
-    width: 200px;
-    transition: all 1s 0.1s ease-in;
+.container > div{
+    height: 200px; */
+    /* flex-grow: 1; */
+    /* flex: 1 100%; */
+    /* flex: 1 50%; */
+    /* flex: 1 25%;
 }
 
-div img:hover{
-    transform: scale(1.2 , 1.2);
-    opacity: 0.5;
-} */
-
-/* ul{ */
-    /* list-style-type: disc; */
-    /* list-style-type: none; */
-    /* list-style-type: circle; */
-    /* list-style-type: square; */
-    /* list-style-type: decimal; */
-    /* list-style-type: lower-alpha; */
-    /* list-style-type: upper-alpha; */
-    /* list-style-type: lower-roman; */
-    /* list-style-type: upper-roman; */
-/* } */
-
-/* table , th , td{
-    border: 1px solid green;
-} */
-
-/* table{
-    width: 100%;
-    text-align: center;
+.container .box1{
+    background-color: red;
 }
 
-thead{
-    background-color: plum;
-    color: purple;
+.container .box2{
+    background-color: blue;
 }
 
-th , td{
-    padding: 10px;
-}
-
-tbody tr:nth-child(odd){
-    background-color: lightgreen;
-    color: green;
-}
-
-tbody tr:nth-child(even){
-    background-color: plum;
-    color: purple;
-}
-
-.container{
-    max-width: 100%;
-    overflow-x: auto;
-} */
-
-/* body{
+.container .box3{
     background-color: green;
 }
 
-@media screen and (max-width : 768px){
-    body{
-        background-color: blue;
-    }
-}
-
-@media screen and (max-width : 320px) {
-    body{
-        background-color: red;
-    }
-} */
-
-
-/* body{
-    background-color: green;
-}
-
-@media screen and (min-width : 768px){
-    body{
-        background-color: blue;
-    }
-}
-
-@media screen and (min-width : 320px) {
-    body{
-        background-color: red;
-    }
-} */
-
-/* p{
-    font-size: 30px;
+.container .box4{
+    background-color: yellow;
 }
 
 @media screen and (max-width : 768px) {
-    p{
-        font-size: 60px;
+    .container > div{
+        flex: 1 50%;
     }
 }
 
 @media screen and (max-width : 320px) {
-    p{
-        font-size: 90px;
+    .container > div{
+        flex: 1 100%;
     }
 } */
-
+/* 
 .container{
-    background-color: plum;
-    color: white;
-    padding: 20px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4 , 1fr);
+    display: flex;
 }
 
 .container > div{
     padding: 30px;
-    background-color: purple;
+    flex-grow: 1;
+}
+
+.container .box1{
+    background-color: red;
+}
+
+.container .box2{
+    background-color: blue;
 }
 
 @media screen and (max-width : 768px) {
     .container{
-        grid-template-columns: repeat(2 , 1fr);
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width : 320px) {
     .container{
-        grid-template-columns: 1fr;
+        flex-direction: column-reverse;
+    }
+} */
+
+/* :root{
+    --color : lightgreen;
+    --bg-color : green;
+}
+
+h1 , span{
+    color: var(--color);
+    background-color: var(--bg-color);
+}
+
+p , u{
+    color: var(--bg-color);
+    background-color: var(--color);
+}
+
+button{ */
+    /* cursor: pointer; */
+    /* cursor: alias; */
+    /* cursor: grab; */
+    /* cursor: grabbing; */
+    /* cursor: cell; */
+    /* cursor: help;
+} */
+
+/* #toggle:checked + label{
+    color: red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color : plum;
+    --bg-color : purple;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color);
+    color: var(--bg-color);
+    padding: 15px;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0 15px;
+}
+
+#menu-toggle , #icon , #icon1{
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+    .menu{
+        display: none;
+    }
+
+     #icon{
+        display: inline;
+    }
+
+    #menu-toggle:checked ~ .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 62px;
+        left: 0;
+        background-color: var(--color);
+        width: 100%;
+    }
+
+    #menu-toggle:checked ~ #icon{
+        display: none;
+    }
+
+    #menu-toggle:checked ~ #icon1{
+        display: inline;
     }
 }

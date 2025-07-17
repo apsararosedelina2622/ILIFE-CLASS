@@ -761,10 +761,21 @@ JULY MONTH
 
 17 / 07 - THURSDAY 
 
-10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 3 ]
-11 - 12 => Internship [ React JS , DAY - 3 (Route)]
-12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS , Day - 4 ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 3 , 4 ]
+11 - 12 => Internship [ React JS - ( Route , Swiper ) Node JS]
+12 - 01 => Sai Naresh , Lansuri , Swathisri
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
 05 - 06 => New Batch [Introduction , HTML - Day 1 , Day 2]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]
+
+
+18 / 07 - FRIDAY 
+
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 4 , 5 ]
+11 - 12 => Internship [ Express , MongoDB]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS , Day - 4 ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
+05 - 06 => New Batch [Introduction , HTML - Day 2 , Day 3]
 06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]
