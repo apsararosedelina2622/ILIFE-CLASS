@@ -6,10 +6,7 @@ const AddUser = async (req , res) => {
             name : req.body.name , 
             age : req.body.age , 
             place : req.body.place , 
-            image : {
-                data : req.file.buffer , 
-                contentType : req.file.mimetype
-            }
+            image : req.file.filename
         })
 
         await userData.save()

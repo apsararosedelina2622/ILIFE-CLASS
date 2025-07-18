@@ -755,8 +755,8 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 6 , 7 ]
 04 - 05 => MD Sir Class [BOOTSTRAP , Carousel , Rounded]
-05 - 06 => New Batch [Introduction , HTML - Day 1]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]
+05 - 06 => Ganesh [Introduction , HTML - Day 1]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 1 ]
 
 
 17 / 07 - THURSDAY 
@@ -766,16 +766,32 @@ JULY MONTH
 12 - 01 => Sai Naresh , Lansuri , Swathisri
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
-05 - 06 => New Batch [Introduction , HTML - Day 1 , Day 2]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]
+05 - 06 => Ganesh [Introduction , HTML - Day 1]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express (Doubts) ]
 
 
 18 / 07 - FRIDAY 
 
-10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 4 , 5 ]
-11 - 12 => Internship [ Express , MongoDB]
-12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS , Day - 4 ]
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 4 , 6 (Flex) ]
+11 - 12 => Internship [ Express , MongoDB ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS , Day - 4 , Express JS Introduction ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Project Explanation ]
+05 - 06 => Ganesh [ HTML - Day 2 ]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan
+
+19 / 07 - SATURDAY
+
+10 - 11 => Internship [ AIMAN College Students , Project ]
+12 - 01 => Internship [ AIMAN College Students , Project ]
+02 - 04 => Internship [ AIMAN College Students , JavaScript ]
+
+
+21 / 07 - MONDAY 
+
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 5 ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 1 , 2 ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
-05 - 06 => New Batch [Introduction , HTML - Day 2 , Day 3]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express ]
+05 - 06 => Ganesh [ HTML - Day 3 ]
+06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 2 ]

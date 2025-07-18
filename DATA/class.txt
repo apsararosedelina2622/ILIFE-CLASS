@@ -1,7 +1,6 @@
 BATCH
 
 10 - 11 => Pugazh , Yusuf , Logeshwaran
-11 - 12 => Internship
 12 - 01 => Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Sundaresh
 
 LUNCH
@@ -18,12 +17,12 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdul Rub , Karthikeyan , Yusuf(Week end) , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Pugazh , Yusuf , Ganesh
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdul Rub , Karthikeyan , Yusuf(Week end) , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Pugazh , Yusuf
 
 
 STUDENTS FROM EPIX
 
-Logeshwaran
+Logeshwaran , Ganesh
 
 
 April
@@ -90,6 +89,8 @@ July
 10 - 11 => Satya Roslin ( Course End [ 10 / 07 ] )
 
 05 - 06 => Ganesh ( Web Designing [ 16 / 07 ] )
+
+11 - 12 => Internship ( Internship End [ 18 / 07 ] )
 
 
 

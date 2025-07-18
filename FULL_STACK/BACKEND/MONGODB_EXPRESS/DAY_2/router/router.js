@@ -6,6 +6,6 @@ const { AddUser, GetUser, DeleteUser, UpdateUser } = require("../controller/cont
 router.post("/add" , AddUser)
 router.get("/user" , GetUser)
 router.delete("/remove/:id" , DeleteUser)
-router.get("/update/:id" , UpdateUser)
+router.put("/update/:id" , UpdateUser)
 
 module.exports = router

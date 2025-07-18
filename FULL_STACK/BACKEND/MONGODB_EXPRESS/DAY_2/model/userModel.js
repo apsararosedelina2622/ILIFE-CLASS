@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
     place : {
         type : String , 
         required : true
-    } ,
+    }
 })
 
 const userModel = mongoose.model("user" , userSchema)
