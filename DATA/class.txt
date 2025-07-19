@@ -7,7 +7,7 @@ LUNCH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan
 05 - 06 => Ganesh
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan , Kaviyarasan , Murugan
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan , Kaviyarasan , Murugan
 
 SATURDAY BATCH
 
@@ -17,7 +17,7 @@ Total 3 Classes => Yusuf
 
 STUDENTS FROM ILFE
 
-Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdul Rub , Karthikeyan , Yusuf(Week end) , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Pugazh , Yusuf
+Satya Roslin , Vaishnavi , Kannan , Sai Naresh , Lansuri , Swathisri , Dhamodharan , Abdur Rub , Karthikeyan , Yusuf(Week end) , Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Pugazh , Yusuf
 
 
 STUDENTS FROM EPIX
@@ -51,7 +51,7 @@ June
 
 11 - 12 => Maria ( Combine Date - 02 / 06 )
 
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan ( Combine Date - 02 / 06 )
 
 12 - 01 => Sundaresh ( Timimg Changed [ 06 - 07 ] => [ 12 - 01 ] ( Combine Date - 03 - 06 ) )
 

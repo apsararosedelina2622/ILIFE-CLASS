@@ -360,7 +360,7 @@ JUNE MONTH
 12 - 01 => Kannan , Vaishnavi
 
 05 - 06 => Dhamodharan
-06 - 07 => Abdul Rub , Mohamed Farook
+06 - 07 => Abdur Rub , Mohamed Farook
 
 
 13 / 06 - FRIDAY
@@ -511,7 +511,7 @@ No Leave
 11 / 07 - FRIDAY
 
 03 - 04 => Niranjan , Abinaya
-06 - 07 => Abdul Rub , Kaviyarasan , Murugan
+06 - 07 => Abdur Rub , Kaviyarasan , Murugan
 
 
 12 / 07 - SATURDAY
@@ -535,3 +535,9 @@ No Leave
 17 / 07 - THURSDAY
 
 12 - 01 => Lansuri , SwathiSree , Sai Naresh
+
+
+18 / 07 - FRIDAY
+
+03 - 04 => Niranjan
+06 - 07 => Abdur Rub , Karthikeyan , Murugan , Kaviyarasan

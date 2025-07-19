@@ -396,7 +396,7 @@ JUNE MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri [Form Validation , Password Validation] 
 
 04 - 05 => Internship [React Day 5]
-05 - 06 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
+05 - 06 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
 06 - 07 => Sundaresh [Form validation , Password validation]
 
 
@@ -407,7 +407,7 @@ JUNE MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 04 - 05 => Internship [React Day 6]
-05 - 06 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Use Context]
+05 - 06 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Use Context]
 06 - 07 => Sundaresh [Add To Cart - Project]
 
 
@@ -419,7 +419,7 @@ JUNE MONTH
 
 02 - 03 => Kaviyarasan , Murugan [Object Methods , DOM , Events , Event Listener]
 04 - 05 => Internship [React Day 7]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Route]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Route]
 
 
 05 / 06 - THURSDAY
@@ -429,7 +429,7 @@ JUNE MONTH
 12 - 01 => Kirija , Ramakrishnan , Deepak , Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [Add To Cart - Project] 
 
 04 - 05 => Internship
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Crud]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Crud]
 
 
 06 / 06 - FRIDAY
@@ -439,7 +439,7 @@ JUNE MONTH
 12 - 01 => Vaishnavi , Dhinakaran , Kannan , Kaviyarasan , Murugan , Sai Naresh , Lansuri , Swathisri , Sundaresh [React Introduction] 
 
 04 - 05 => Internship [React Day 8 , 9]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Form Validation]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Form Validation]
 
 
 07 / 06 - SATURDAY => No Classes
@@ -453,7 +453,7 @@ JUNE MONTH
 03 - 04 => Satya Roslin
 04 - 05 => Internship
 05 - 06 => Dhamodharan [JavaScript Day - 6]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Swiper]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Swiper]
 
 
 10 / 06 - TUESDAY
@@ -464,7 +464,7 @@ JUNE MONTH
 03 - 04 => Satya Roslin 
 04 - 05 => Internship [React Day 10 , Project]
 05 - 06 => Dhamodharan 
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
 
 
 11 / 06 - WEDNESSDAY
@@ -473,7 +473,7 @@ JUNE MONTH
 
 03 - 04 => Satya Roslin [Express DAY - 4]
 05 - 06 => Dhamodharan [JavaScript Day - 6]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
 
 
 12 / 06 - THURSDAY
@@ -482,7 +482,7 @@ JUNE MONTH
 
 03 - 04 => Satya Roslin [Express DAY - 4]
 05 - 06 => Dhamodharan
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Doubts]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Doubts]
 
 
 13 / 06 - FRIDAY
@@ -492,7 +492,7 @@ JUNE MONTH
 
 03 - 04 => Satya Roslin [Express DAY - 4]
 05 - 06 => Dhamodharan [JavaScript Day - 6]
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [React - Project Explanation , Doubts]
 
 
 14 / 06 - SATURDAY 
@@ -511,7 +511,7 @@ Yusuf
 12 - 01 => Sai Naresh , Lansuri , Swathisri , Sundaresh [React - Effect] 
 
 03 - 04 => Megavarshini [JavaScript Day - 1] 
-06 - 07 => Abdul Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
+06 - 07 => Abdur Rub , Mohamed Farook , Muruganandham , Karthikeyan [Doubts]
 
 
 17 / 06 - TUESDAY
@@ -634,7 +634,7 @@ JULY MONTH
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( useState , Bootstrap ) ]
 
 05 - 06 => Kaviyarasan , Murugan [React - Swiper Package , Project Explanation]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 1]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Introduction , Day - 1]
 
 
 02 / 07 - WEDNESSDAY 
@@ -644,7 +644,7 @@ JULY MONTH
 12 - 01 => Kannan , Vaishnavi , Dhinakaran [ React Day - 5 , 6 ( UseEffect , UseRef ) ]
 
 05 - 06 => Kaviyarasan , Murugan [React - Project Explanation]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 2]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 2]
 
 
 03 / 07 - THURSDAY 
@@ -654,7 +654,7 @@ JULY MONTH
 12 - 01 => Kannan , Vaishnavi , Dhinakaran 
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ HTML - Day - 1 , 2 ]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 3]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 3]
 
 
 04 / 07 - FRIDAY 
@@ -663,7 +663,7 @@ JULY MONTH
 12 - 01 => Internship [ AIMAN College Students , Introduction ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ HTML - Day - 3 , 4 ]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 4]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Node JS - Day - 4]
 
 
 05 / 07 - SATURDAY 
@@ -679,7 +679,7 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS - Introduction , Day - 1 ]
 05 - 06 => Satya Roslin [Project]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Introduction , Day - 1]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Express Introduction , Day - 1]
 
 
 08 / 07 - TUESDAY 
@@ -691,7 +691,7 @@ JULY MONTH
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 2 ]
 04 - 05 => MD Sir Class [BOOTSTRAP , Day - 1]
 05 - 06 => Satya Roslin [Project]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Day - 2]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Express Day - 2]
 
 
 09 / 07 - WEDNESSDAY 
@@ -703,7 +703,7 @@ JULY MONTH
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 3 ]
 04 - 05 => MD Sir Class [BOOTSTRAP , Day - 2]
 05 - 06 => Satya Roslin [Project]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [Express Day - 3]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [Express Day - 3]
 
 
 10 / 07 - THURSDAY 
@@ -714,7 +714,7 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 4 ]
 05 - 06 => Satya Roslin [Project]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [MONGO DB Installation]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [MONGO DB Installation]
 
 
 11 / 07 - FRIDAY 
@@ -724,7 +724,7 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 5 ]
 04 - 05 => MD Sir Class [BOOTSTRAP , Cards and Column Responsive]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan 
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan 
 
 
 12 / 07 - SATURDAY 
@@ -744,7 +744,7 @@ JULY MONTH
 12 - 01 => Sai Naresh , Lansuri , Swathisri [ Node JS Introduction , Day - 2 ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 6 ]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Compass ]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Compass ]
 
 
 16 / 07 - WEDNESSDAY 
@@ -756,7 +756,7 @@ JULY MONTH
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 6 , 7 ]
 04 - 05 => MD Sir Class [BOOTSTRAP , Carousel , Rounded]
 05 - 06 => Ganesh [Introduction , HTML - Day 1]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 1 ]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 1 ]
 
 
 17 / 07 - THURSDAY 
@@ -767,7 +767,7 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
 05 - 06 => Ganesh [Introduction , HTML - Day 1]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express (Doubts) ]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express (Doubts) ]
 
 
 18 / 07 - FRIDAY 
@@ -778,13 +778,15 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Project Explanation ]
 05 - 06 => Ganesh [ HTML - Day 2 ]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan
+
 
 19 / 07 - SATURDAY
 
-10 - 11 => Internship [ AIMAN College Students , Project ]
-12 - 01 => Internship [ AIMAN College Students , Project ]
-02 - 04 => Internship [ AIMAN College Students , JavaScript ]
+10 - 11 => Internship [ AIMAN College Students , Bootstrap Project ]
+12 - 01 => Internship [ AIMAN College Students , JavaScript , Day - 1 , 2 ]
+02 - 03 => Internship [ AIMAN College Students , Bootstrap Project ]
+03 - 04 => Internship [ AIMAN College Students , JavaScript , Day - 3 , 4 , 5 ]
 
 
 21 / 07 - MONDAY 
@@ -794,4 +796,4 @@ JULY MONTH
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
 05 - 06 => Ganesh [ HTML - Day 3 ]
-06 - 07 => Abdul Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 2 ]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 2 ]
