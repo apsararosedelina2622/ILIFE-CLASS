@@ -792,8 +792,18 @@ JULY MONTH
 21 / 07 - MONDAY 
 
 10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 5 ]
-12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 1 , 2 ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 1 ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ CSS , Day - 8 ]
-05 - 06 => Ganesh [ HTML - Day 3 ]
+05 - 06 => Ganesh
 06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 2 ]
+
+
+22 / 07 - TUESDAY 
+
+10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 6 ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 2 ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ BOOTSTRAP Introduction , Day - 1 ]
+05 - 06 => New Student [ HTML - Introduction , Day - 1 ]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 3 ]

@@ -47,3 +47,12 @@
 //         console.log(data.toString())
 //     }
 // })
+
+
+// DELETE FILE
+
+// const fs = require("fs")
+
+// fs.writeFileSync("sample.html" , "Hello")
+
+// fs.unlinkSync("sample.html")

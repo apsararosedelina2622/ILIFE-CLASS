@@ -1,155 +1,174 @@
-/* .container{
-    display: flex;
-    flex-wrap: wrap;
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: red; */
+
+    /* animation-name: animate; */
+    /* animation-duration: 2s; */
+    /* animation-delay: 1s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-iteration-count: 2; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+
+    /* animation: name duration timing-function delay iteration-count direction; */
+    /* animation: animate 2s linear 0.1s infinite normal;
 }
 
-.container > div{
-    height: 200px; */
-    /* flex-grow: 1; */
-    /* flex: 1 100%; */
-    /* flex: 1 50%; */
-    /* flex: 1 25%;
-}
 
-.container .box1{
-    background-color: red;
-}
-
-.container .box2{
-    background-color: blue;
-}
-
-.container .box3{
-    background-color: green;
-}
-
-.container .box4{
-    background-color: yellow;
-}
-
-@media screen and (max-width : 768px) {
-    .container > div{
-        flex: 1 50%;
+@keyframes animate{
+    0%{
+        margin: 0;
+        background-color: red;
     }
+    25%{
+        margin-left: 100px;
+        background-color: blue;
+    }
+    100%{
+        margin: 0;
+        background-color: green;
+    }
+} */
+
+/* 
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 
-@media screen and (max-width : 320px) {
-    .container > div{
-        flex: 1 100%;
+@keyframes animate{
+    0%{
+        margin: 0;
+    }
+    25%{
+        margin-left: 200px;
+        margin-top: 0;
+        background-color: blue;
+    }
+    50%{
+        margin-top: 200px;
+        margin-left: 200px;
+        background-color: green;
+    }
+    75%{
+        margin-left: 0;
+        margin-top: 200px;
+        background-color: yellow;
+    }
+    100%{
+        margin: 0;
+    }
+} */
+
+/* 
+button{
+    padding: 10px 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    animation: animate 1s ease 0.1s infinite normal;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow: 2px 2px 5px orangered;
+        transform: scale(1 , 1);
+    }
+    50%{
+        box-shadow: 4px 4px 8px orangered;
+        transform: scale(1.2 , 1.2);
+    }
+    100%{
+        box-shadow: 2px 2px 5px orangered;
+        transform: scale(1 , 1);
     }
 } */
 /* 
-.container{
-    display: flex;
-}
-
-.container > div{
-    padding: 30px;
-    flex-grow: 1;
-}
-
-.container .box1{
-    background-color: red;
-}
-
-.container .box2{
+div{
+    height: 100px;
+    width: 100px;
     background-color: blue;
+    border-radius: 100%;
+
+    animation: animate 2s ease 0.1s infinite normal;
 }
 
-@media screen and (max-width : 768px) {
-    .container{
-        flex-direction: column;
+@keyframes animate{
+    0%{
+        margin: 0;
     }
-}
-
-@media screen and (max-width : 320px) {
-    .container{
-        flex-direction: column-reverse;
+    25%{
+        margin-top: 100px;
+    }
+    50%{
+        margin-top: 50px;
+    }
+    75%{
+        margin-top: 100px;
+    }
+    100%{
+        margin: 0;
     }
 } */
 
-/* :root{
-    --color : lightgreen;
-    --bg-color : green;
+/* div{
+    height: 50px;
+    width: 50px;
+    border: 5px solid gray;
+    border-top: 5px solid blue;
+    border-radius: 100%;
+    animation: animate 2s ease 0.1s infinite normal;
 }
 
-h1 , span{
-    color: var(--color);
-    background-color: var(--bg-color);
-}
-
-p , u{
-    color: var(--bg-color);
-    background-color: var(--color);
-}
-
-button{ */
-    /* cursor: pointer; */
-    /* cursor: alias; */
-    /* cursor: grab; */
-    /* cursor: grabbing; */
-    /* cursor: cell; */
-    /* cursor: help;
+@keyframes animate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 } */
 
-/* #toggle:checked + label{
-    color: red;
-} */
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-:root{
-    --color : plum;
-    --bg-color : purple;
-}
-
-.navbar{
+.load{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color);
-    color: var(--bg-color);
-    padding: 15px;
+    gap: 30px;
 }
 
-.navbar .menu a{
-    text-decoration: none;
-    color: var(--bg-color);
-    margin: 0 15px;
+.load > div{
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    border-radius: 100%;
+    animation: animate 2s ease 0.1s infinite normal;
 }
 
-#menu-toggle , #icon , #icon1{
-    display: none;
+.load .dot2{
+    animation-delay: 0.3s;
 }
 
-@media screen and (max-width : 768px) {
-    .menu{
-        display: none;
-    }
+.load .dot3{
+    animation-delay: 0.6s;
+}
 
-     #icon{
-        display: inline;
+@keyframes animate{
+    0%{
+        transform: translateY(0);
     }
-
-    #menu-toggle:checked ~ .menu{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: absolute;
-        top: 62px;
-        left: 0;
-        background-color: var(--color);
-        width: 100%;
+    50%{
+        transform: translateY(80px);
     }
-
-    #menu-toggle:checked ~ #icon{
-        display: none;
-    }
-
-    #menu-toggle:checked ~ #icon1{
-        display: inline;
+    100%{
+        transform: translateY(0);
     }
 }
