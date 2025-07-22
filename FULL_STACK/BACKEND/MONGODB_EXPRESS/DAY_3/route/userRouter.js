@@ -3,10 +3,9 @@ const router = express.Router()
 
 const upload = require("../middleware/upload")
 
-const { AddUser, deleteUser } = require("../controller/userController")
+const { AddUser, getUser } = require("../controller/userController")
 
 router.post("/add" , upload.single("image") , AddUser)
-
-router.delete("/delete/:id" , deleteUser)
+router.get("/users" , getUser)
 
 module.exports = router

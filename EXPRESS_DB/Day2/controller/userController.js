@@ -21,4 +21,24 @@ const getUser = async (req , res) => {
     }
 }
 
-module.exports = { addUser , getUser }
+const deleteUser = async (req , res) => {
+    try{
+        await userModel.findByIdAndDelete(req.params.id)
+        res.status(200).send("Userdata Removed!")
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+const updateUser = async (req , res) => {
+    try{
+        const updatedData = await userModel.findByIdAndUpdate(req.params.id , req.body , { new : true })
+        res.status(200).send(updatedData)
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+module.exports = { addUser , getUser , deleteUser , updateUser }

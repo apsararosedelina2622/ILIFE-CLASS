@@ -1,11 +1,9 @@
 const express = require("express")
 const router = express.Router()
 
-const { addUser, getUser, removeUser, updateUser } = require("../controller/userController")
+const upload = require("../middleware/upload")
+const addUser = require("../controller/userController")
 
-router.post("/add" , addUser)
-router.get("/user" , getUser)
-router.delete("/remove/:id" , removeUser)
-router.put("/update/:id" , updateUser)
+router.post("/add" , upload.single("image") , addUser)
 
 module.exports = router
