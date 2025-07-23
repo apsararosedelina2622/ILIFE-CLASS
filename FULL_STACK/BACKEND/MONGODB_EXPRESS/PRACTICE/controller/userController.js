@@ -1,14 +1,14 @@
 const userModel = require("../model/userModel")
 
-const addUser = async (req , res) => {
+const addData = async (req , res) => {
     try{
-        const userData = new userModel({
-            name : req.body.name , 
-            age : req.body.age , 
-            place : req.body.place , 
+        const data = new userModel({
+            username : req.body.username , 
+            password : req.body.password , 
             image : req.file.filename
         })
-        userData.save()
+
+        await data.save()
         res.status(200).send("Userdata Added!")
     }
     catch(err){
@@ -16,4 +16,4 @@ const addUser = async (req , res) => {
     }
 }
 
-module.exports = addUser
+module.exports = addData
