@@ -58,7 +58,7 @@ Commands
     db.user.drop()
 
 * To Delete a Database  
-    db.dropDataBase() 
+    db.dropDatabase() 
 
 OPERATORS 
 
