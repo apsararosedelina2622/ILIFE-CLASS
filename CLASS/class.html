@@ -7,15 +7,334 @@
 </head>
 <body>
 
-    Hello
+    <script>
 
-    <!-- String Methods => length , position , indexOf , includes , toUpperCase , toLowerCase , substr , replace , trim , push , pop , shift , unshift -->
+        // Conditional Statements
 
-    <!-- Number Methods => toFixed() , Number() , isNaN() , isFinite() -->
+        // if
 
-    <!-- Operator => Arithmatic , Asignment , Comparison , Logical , Unary -->
-    
-    <!-- <script src="app.js"></script> -->
+        // Example - 1
+
+            // let age = 8;
+
+            // if (age >= 18) {
+            //     console.log("You are an adult.");
+            // }
+
+        // Example - 2
+
+            // let num = 6
+
+            // if(num <= 5){
+            //     console.log("The given number is less than 5")
+            // }
+
+        // if...else
+
+        // Example - 1
+
+            // let age = 56;
+
+            // if (age >= 18) {
+            //     console.log("You can vote.");
+            // } else {
+            //     console.log("You are too young to vote.");
+            // }
+
+        // Example - 2
+
+            // let age = prompt("Enter your Age : ")
+
+            // if (age >= 18) {
+            //     console.log("You can vote.");
+            // } else {
+            //     console.log("You are too young to vote.");
+            // }
+
+
+        // else...if
+
+            // let marks = 65;
+
+            // if (marks >= 90) {
+            //     console.log("Grade: A");
+            // } else if (marks >= 80) {
+            //     console.log("Grade: B");
+            // } else if (marks >= 70) {
+            //     console.log("Grade: C");
+            // } else {
+            //     console.log("Grade: F");
+            // }
+
+
+        // nested if
+
+            let num = "dfgjk";
+
+            // console.log(!isNaN(num));
+
+            // if(num % 2 == 0){
+            //     console.log('Even');
+            // }else{
+            //     console.log('Odd');
+            // }
+            
+            // if(!isNaN(num)){
+            //     if(num % 2 == 0){
+            //         console.log('Even');
+            //     }else{
+            //         console.log('Odd');
+            //     }
+            // }else{
+            //     console.log('Not a number');
+            // }
+
+
+            // if(isNaN(num)){
+            //     console.log("not a number")
+            // }else{
+            //     if(num % 2 == 0){
+            //         console.log("Even number")
+            //     }else{
+            //         console.log("Odd Number")
+            //     }
+            // }
+
+
+        // switch
+        
+            // let day = 3;
+
+            // switch (day) {
+            //     case 1:
+            //         console.log("Monday");
+            //         break;
+            //     case 2:
+            //         console.log("Tuesday");
+            //         break;
+            //     case 3:
+            //         console.log("Wednesday");
+            //         break;
+            //     case 4:
+            //         console.log("Thursday");
+            //         break;
+            //     case 5:
+            //         console.log("Friday");
+            //         break;
+            //     case 6:
+            //         console.log("Saturday");
+            //         break;
+            //     case 7:
+            //         console.log("Sunday");
+            //         break;
+            //     default:
+            //         console.log("Invalid day");
+            // }
+
+        // FOR
+
+        // SYNTAX
+
+            // for(initailize; condition; increment /  decrement){
+            //   statments
+            // }
+
+        // INCREMENT   
+        
+        // Example - 1
+
+            // for(let i=1; i <= 5; i++){
+            //     console.log(i)
+            // }
+
+        // Example - 2
+
+            // let arr = ["HTML", "CSS" ,"BOOTSRAP"]
+            
+            // for(let i=0 ; i <= arr.length-1 ; i++){
+            //     console.log(arr[i])
+            // }
+
+        // DECREMENT
+
+        // Example - 1
+
+            for(let i=5; i>0; i--){
+                console.log(i)
+            }
+
+        // Example - 2
+
+            // let word = "HELLO"
+            // let reverse = ""
+
+            // for(let i=word.length - 1; i>=0; i--){
+            //     reverse += word[i]
+            // }
+            // document.write("reversed word : " + reverse)
+
+        // WHILE
+
+        // SYNTAX
+
+            // initialize;
+            // while(condition){
+            //     statement;
+            //     Increment / Decrement;
+            // }
+
+        // INCREMENT
+
+            // let i = 1;
+            // while(i<=5){
+            //     console.log(i)
+            //     i++;
+            // }
+
+        // DECREMENT
+
+            // let i = 5;
+            // while(i>0){
+            //     console.log(i)
+            //     i--;
+            // }
+
+        // Example - 1
+
+            // let password = "123";
+            // let userPassword = ""
+            // while( userPassword !==  password ){
+            //     userPassword = prompt("Enter Your Password : ")
+            // }
+
+            // console.log("Access Granted!")
+
+        // DO WHILE
+
+        // SYNTAX
+
+            // initialize;
+            // do{
+            //     statement;
+            //     Increment / Decrement;
+            // }while(condition)
+
+        // Example - 1
+
+            // let count = 1;
+            // do{
+            //     console.log(count);
+            //     count++;
+            // }while(count <= 5)
+
+        // FOR EACH
+
+        // syntax 
+
+            // array.forEach((value, index, array) => {
+
+            // })
+
+        // Example - 1
+
+            // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
+
+            // arr.forEach((value , index , array) => {
+            //     console.log(value)
+            //     console.log(index)
+            //     console.log(array)
+            // })
+
+        // Example - 2
+
+            // let marks = [1, 2, 3, 4];
+
+            // marks.forEach((value , index , array) => {
+            //     console.log(value * 2)
+            // })
+
+        // Example - 3
+
+            // let marks = [1, 2, 3, 4];
+
+            // marks.forEach((value , index , array) => {
+            //     array[index] = value * 2
+            // })
+
+            // console.log(marks)
+
+        // MAP
+
+        // SYNTAX
+
+            // array.map((value , index , array) => {
+
+            // })
+
+        // Example - 1
+
+            // let arr = ["HTML", "CSS", "BOOTSTRAP", 'JAVASCRIPT'];
+
+            // arr.map((value, index, array) => {
+            //     console.log(value)
+            //     console.log(index)
+            //     console.log(array)
+            // })
+
+        // Example - 2
+
+            // let arr = [1, 2, 3, 4];
+
+            // arr.map((value, index, array) => {
+            //     console.log(value * 2)
+            // })
+
+        // Example - 3
+
+            // let data = [
+            //     {
+            //         name : "Abi",
+            //         age : 21
+            //     },
+            //     {
+            //         name : "Banu",
+            //         age : 20
+            //     },
+            //     {
+            //         name : "Begum",
+            //         age : 22
+            //     },
+            // ]
+
+            // data.map((value) => {
+            //     console.log(value)
+            //     console.log(value.name)
+            //     console.log(value.age)
+            // })
+
+        // Difference Between Map & Foreach
+
+        // Foreach
+
+            // var num = [1, 2, 3, 4];
+
+            // // num.forEach((value) => console.log(value * 2)) 
+
+            // var result = num.forEach((value) => {return value * 2})
+
+            // console.log(result) // undefined
+
+        // Map
+
+            // var num = [1, 2, 3, 4];
+
+            // // num.map((value) => console.log(value * 2)) 
+
+            // var result = num.map((value) => {return value * 2})
+
+            // console.log(result) 
+
+    </script>
 
 </body>
 </html>

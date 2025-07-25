@@ -805,7 +805,7 @@ JULY MONTH
 12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 2 ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan 
-05 - 06 => New Student [ HTML - Introduction , Day - 1 ]
+05 - 06 => Loga Anand [ HTML - Introduction , Day - 1 ]
 06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 2 ]
 
 
@@ -815,17 +815,7 @@ JULY MONTH
 12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 3 ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ BOOTSTRAP Introduction , Day - 1 ]
-05 - 06 => New Student [ HTML - Introduction , Day - 2 ]
-06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 3 ]
-
-
-23 / 07 - WEDNESSDAY 
-
-10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 7 ]
-12 - 01 => Sai Naresh , Lansuri , Swathisri [ Express JS , Day - 3 ]
-
-03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan
-05 - 06 => New Student [ HTML - Introduction , Day - 1 ]
+05 - 06 => Loga Anand [ HTML - Day - 1 ]
 06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 3 ]
 
 
@@ -833,19 +823,20 @@ JULY MONTH
 
 10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 8 ]
 11 - 12 => Internship [ AIMAN College Students , JavaScript , Day - 7 ]
-12 - 01 => Sai Naresh , Lansuri , Swathisri [ MongoDB Introduction , Day - 1 ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ MongoDB Compass Introduction , Day - 1 ]
 
+02 - 03 => Satya [ Final Project Doubts ]
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan
-05 - 06 => New Student [ HTML - Introduction , Day - 2 ]
+05 - 06 => Loga Anand , Ganesh [ HTML - Day - 2 ]
 06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ MONGO DB Express , Day - 3 ]
 
 
-24 / 07 - THURSDAY 
+25 / 07 - FRIDAY 
 
 10 - 11 => Pugazh , Yusuf , Logeshwaran [ CSS - Day 9 ]
-11 - 12 => Internship [ AIMAN College Students , JavaScript , Day - 8 ]
-12 - 01 => Sai Naresh , Lansuri , Swathisri [ MongoDB Introduction , Day - 2 ]
+11 - 12 => Internship [ AIMAN College Students , Project ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ MongoDB Compass , Day - 2 , MongoDB Atlas Installation , Introduction ]
 
 03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ BOOTSTRAP Introduction , Day - 1 ]
-05 - 06 => New Student [ HTML - Introduction , Day - 3 ]
+05 - 06 => Loga Anand , Ganesh [ HTML - Day - 3 ]
 06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ Project ]

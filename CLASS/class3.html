@@ -4,15 +4,268 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+        .tag{
+            color: lightblue;
+        }
+    </style> -->
+    <style>
+
+        /* .container{
+            padding: 20px;
+            background-color: plum;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(2 , 1fr);
+        }
+
+        .container > div{
+            padding: 30px;
+            background-color: purple;
+            color: white;
+        }
+        .container .section1{
+            display: grid;
+            gap: 20px;
+        }
+
+        .container .section1 > div{
+            background-color: blue;
+            padding: 20px;
+            color: white;
+        }
+
+        .container .section1 .box1{
+            grid-column: 1 / span 2;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container{
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .container .section1 .box1{
+                grid-column: 1;
+            }
+        } */
+
+
+        /* .container .box2{
+            grid-column: 2;
+        }
+
+        .container .box3{
+            grid-column: 3;
+        }
+
+        .container .box7{
+            grid-column: 1 / span 3;
+        } */
+
+        div{
+            width: 200px;
+            text-align: center;
+            background-color: green;
+            padding: 20px;
+        }
+
+
+        i{
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 100%;
+
+        }
+
+    </style>
 </head>
 <body>
-    <!-- <div></div> -->
-    <!-- <button>Click</button> -->
-    <div class="load">
-        <div class="dot1"></div>
-        <div class="dot2"></div>
-        <div class="dot3"></div>
+
+    <!-- <h1>Hello</h1> -->
+
+    <!-- <h1 class="text-danger">Color</h1>
+    <h1 class="text-primary">Color</h1>
+    <h1 class="text-secondary">Color</h1>
+    <h1 class="text-success">Color</h1>
+    <h1 class="text-info">Color</h1>
+    <h1 class="text-warning">Color</h1>
+    <h1 class="text-dark">Color</h1>
+    <h1 class="text-light">Color</h1>
+
+    <h1 class="bg-danger">Background Color</h1>
+    <h1 class="bg-primary">Background Color</h1>
+    <h1 class="bg-secondary">Background Color</h1>
+    <h1 class="bg-success">Background Color</h1>
+    <h1 class="bg-info">Background Color</h1>
+    <h1 class="bg-warning">Background Color</h1>
+    <h1 class="bg-light tag">Background Color</h1>
+    <h1 class="bg-dark text-light">Background Color</h1>
+
+    <button>Click</button>
+    <button class="btn">Click</button>
+    <button class="btn-primary">Click</button>
+
+    <br><br><br><br><br>
+
+    <button class="btn btn-primary">Click</button>
+    <button class="btn btn-danger">Click</button>
+    <button class="btn btn-secondary">Click</button>
+    <button class="btn btn-info">Click</button>
+    <button class="btn btn-warning">Click</button>
+    <button class="btn btn-success">Click</button>
+    <button class="btn btn-light">Click</button>
+    <button class="btn btn-dark">Click</button>
+
+    <br><br><br><br><br>
+
+    <button class="btn btn-outline-primary">Outline Button</button>
+    <button class="btn btn-outline-danger">Outline Button</button>
+    <button class="btn btn-outline-info">Outline Button</button>
+    <button class="btn btn-outline-warning">Outline Button</button>
+    <button class="btn btn-outline-success">Outline Button</button>
+    <button class="btn btn-outline-secondary">Outline Button</button>
+    <button class="btn btn-outline-light">Outline Button</button>
+    <button class="btn btn-outline-dark">Outline Button</button>
+
+    <br><br><br><br><br>
+
+    <button class="btn btn-success btn-lg">Click</button>
+    <button class="btn btn-success">Click</button>
+    <button class="btn btn-success btn-sm">Click</button>
+
+    <br><br><br><br><br>
+
+    <p class="bg-success text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light p-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light p-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light pt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light pe-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light ps-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light px-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+
+    <br><br><br><br><br>
+
+    <p class="bg-success text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light m-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light m-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light m-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light ms-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light me-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light mx-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+    <p class="bg-success text-light my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime suscipit, quos nobis eius aut minima eveniet dicta dolores doloremque. Incidunt magni praesentium fuga suscipit accusamus deleniti alias aliquid repellendus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis temporibus odio quae vitae sint recusandae quis cupiditate natus aliquam velit. Facilis officiis ratione vitae ex adipisci voluptas ipsum inventore error nostrum. Quos, numquam sit? Recusandae earum blanditiis natus ratione atque nulla et possimus molestias, odio architecto in magnam sed porro.</p>
+
+    <br><br><br><br><br>
+
+    <h1 class="bg-warning text-success">Width</h1>
+    <h1 class="bg-warning text-success w-100">Width</h1>
+    <h1 class="bg-warning text-success w-75">Width</h1>
+    <h1 class="bg-warning text-success w-50">Width</h1>
+    <h1 class="bg-warning text-success w-25">Width</h1>
+
+    <br><br><br><br><br>
+
+    <p class="h1">Hello</p>
+    <p class="h2">Hello</p>
+    <p class="h3">Hello</p>
+    <p class="h4">Hello</p>
+    <p class="h5">Hello</p>
+    <p class="h6">Hello</p>
+
+    <br><br><br><br><br>
+
+    <p class="fs-1">Font Size</p>
+    <p class="fs-2">Font Size</p>
+    <p class="fs-3">Font Size</p>
+    <p class="fs-4">Font Size</p>
+    <p class="fs-5">Font Size</p>
+
+    <br><br><br><br><br>
+
+    <p class="display-1">Display</p>
+    <p class="display-2">Display</p>
+    <p class="display-3">Display</p>
+    <p class="display-4">Display</p>
+    <p class="display-5">Display</p>
+    <p class="display-6">Display</p>
+
+    <br><br><br><br><br>
+
+    <p class="fw-bold">Bold</p>
+    <h1 class="fw-light">Light</h1>
+
+    <br><br><br><br><br>
+
+    <p class="fst-italic">Italic</p>
+
+    <br><br><br><br><br>
+
+    <p class="text-center">Hello</p>
+    <p class="text-start">Hello</p>
+    <p class="text-end">Hello</p>
+
+    <br><br><br><br><br>
+
+    <p class="text-decoration-underline">Hello</p>
+    <p class="text-decoration-line-through">Hello</p>
+    <a href="" class="text-decoration-none bg-dark text-light p-3 m-3">Hello</a>
+
+    <br><br><br><br><br>
+
+    <p class="bg-light p-5 m-5 shadow-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 shadow">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 shadow-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+
+    <br><br><br><br><br>
+
+    <p class="bg-light p-5 m-5 border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 border border-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 border border-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 border border-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 border border-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 border border-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+    <p class="bg-light p-5 m-5 border border-5 border-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ea odio impedit a nisi, alias praesentium quas accusantium? Commodi laboriosam doloremque molestias quos, aliquam similique ratione ipsa aut quibusdam rem atque corporis recusandae cum inventore impedit temporibus dicta. Nihil numquam nemo necessitatibus quibusdam alias inventore quos vero, rerum provident blanditiis.</p>
+
+    <br><br><br><br><br>
+
+    <p class="bg-light m-5 p-5 border border-5 border-success">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquid, officia repellendus unde vero quaerat assumenda inventore? Minima consequuntur quasi sed delectus nulla alias, culpa aut, aspernatur nemo reprehenderit ullam eius aliquam nesciunt deserunt ea at. Odio magnam ducimus harum ratione, corporis soluta, expedita doloribus, repellendus ad doloremque rerum dolor?</p>
+    <p class="bg-light m-5 p-5 border border-5 border-success rounded">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquid, officia repellendus unde vero quaerat assumenda inventore? Minima consequuntur quasi sed delectus nulla alias, culpa aut, aspernatur nemo reprehenderit ullam eius aliquam nesciunt deserunt ea at. Odio magnam ducimus harum ratione, corporis soluta, expedita doloribus, repellendus ad doloremque rerum dolor?</p>
+    <p class="bg-light m-5 p-5 border border-5 border-success rounded-circle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquid, officia repellendus unde vero quaerat assumenda inventore? Minima consequuntur quasi sed delectus nulla alias, culpa aut, aspernatur nemo reprehenderit ullam eius aliquam nesciunt deserunt ea at. Odio magnam ducimus harum ratione, corporis soluta, expedita doloribus, repellendus ad doloremque rerum dolor?</p>
+    <p class="bg-light m-5 p-5 border border-5 border-success rounded-pill">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquid, officia repellendus unde vero quaerat assumenda inventore? Minima consequuntur quasi sed delectus nulla alias, culpa aut, aspernatur nemo reprehenderit ullam eius aliquam nesciunt deserunt ea at. Odio magnam ducimus harum ratione, corporis soluta, expedita doloribus, repellendus ad doloremque rerum dolor?</p>
+    <button class="btn btn-primary m-5 rounded-0">Click</button> -->
+
+
+    <!-- <div class="container">
+        <div class="section1">
+            <div class="box1">Box 1</div>
+            <div class="box2">Box 2</div>
+            <div class="box3">Box 3</div>
+        </div>
+        <div class="section2">
+
+        </div>
+    </div> -->
+
+    <div>
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
     </div>
+
 </body>
 </html>

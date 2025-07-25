@@ -1,7 +1,10 @@
 import React, { createContext, useState } from 'react'
+import axios from "axios"
 
 export const MyContext = createContext()
 const ContextProvider = ({ children }) => {
+
+    const url = "http://localhost:5000"
 
     var [ type , setType ] = useState("")
     var [ category , setCategory ] = useState("")
@@ -15,12 +18,34 @@ const ContextProvider = ({ children }) => {
 
         if(file){
             var reader = new FileReader()
-            reader.onload = () => {
-                setImg(reader.file)
-                setPreviewImg(reader.file)
+
+            reader.onloadend = () => {
+                setImg(reader.result)
+                setPreviewImg(reader.result)
             }
+
+            reader.readAsDataURL(file)
         }
-        reader.readAsDataURL(file)
+    }
+
+    const FormSubmit = async (e) => {
+        try{
+            e.preventDefault()
+
+            const formData = {
+                img , 
+                category , 
+                type , 
+                desc , 
+                price
+            }
+
+            await axios.post(`${url}/product/add` , formData)
+            alert("Product added!")
+        }
+        catch(err){
+            console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
+        }
     }
 
     const contextValue = {
@@ -28,7 +53,9 @@ const ContextProvider = ({ children }) => {
         category , setCategory , 
         desc , setDesc , 
         price , setPrice , 
-        img , ImageFun , previewImg
+        ImageFun , previewImg , 
+
+        FormSubmit
     }
 
   return (

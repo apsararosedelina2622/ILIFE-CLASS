@@ -4,7 +4,7 @@ import { MyContext } from '../context/ContextProvider'
 
 const AddProduct = () => {
 
-    const { type , setType , category , setCategory , desc , setDesc , price , setPrice , img , ImageFun , previewImg } = useContext(MyContext)
+    const { type , setType , category , setCategory , desc , setDesc , price , setPrice , ImageFun , previewImg , FormSubmit } = useContext(MyContext)
 
   return (
     <>
@@ -12,11 +12,11 @@ const AddProduct = () => {
             <div className="p-4">
                 <h3>Add Product</h3>
             </div>
-            <form>
+            <form onSubmit={FormSubmit}>
 
                 <input type="file" id='image' hidden onChange={ImageFun} />
                 <label htmlFor="image">
-                    <img src={img ? previewImg : my_asset.upload_img} alt="" height={200} />
+                    <img src={previewImg ? previewImg : my_asset.upload_img} alt="" height={200} width={200} />
                 </label>
 
                 <select className='form-control my-3' value={category} onChange={e => setCategory(e.target.value)}>

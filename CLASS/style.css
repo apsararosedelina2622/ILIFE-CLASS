@@ -140,41 +140,213 @@
 /* #toggle:checked + label{
     color: red;
 } */
-
+/* 
 *{
     margin: 0;
     padding: 0;
+}
+
+:root{
+    --color : green;
+    --bgcolor : lightgreen;
 }
 
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color: var(--bgcolor);
+    color: var(--color);
     padding: 13px;
 }
 
 .navbar .menu a{
     text-decoration: none;
-    color: white;
+    color: var(--color);
     padding: 0 15px;
 }
 
-#menu-toggle , #icon{
+#menu-toggle , #icon , #icon1{
     display: none;
 }
 
 @media screen and (max-width : 768px) {
-    .navbar .menu{
+    .menu{
         display: none;
     }
 
-    .navbar #icon{
+    #icon{
         display: inline;
     }
 
     #menu-toggle:checked ~ .menu{
-        
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 59px;
+        left: 0;
+        background-color: var(--bgcolor);
+        width: 100%;
+        padding: 10px;
+    }
+
+    #menu-toggle:checked ~ #icon{
+        display: none;
+    }
+
+    #menu-toggle:checked ~ #icon1{
+        display: inline;
+    }
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: red; */
+    /* animation-name: animate; */
+    /* animation-duration: 2s; */
+    /* animation-delay: 1s; */
+    /* animation-timing-function: ease; */
+    /* animation-iteration-count: 2; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+
+    /* animation: name duration timing-function delay iteration-count direction; */
+    /* animation: animate 2s ease 1s infinite normal;
+} */
+
+/* @keyframes animate{
+    from{
+        margin: 0;
+    }
+    to{
+        margin-left: 200px;
+    }
+} */
+
+
+/* @keyframes animate{
+    0%{
+        margin: 0;
+    }
+    25%{
+        margin-left: 200px;
+        margin-top: 0;
+    }
+    50%{
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    75%{
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    100%{
+        margin: 0;
+    }
+} */
+
+/* button{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    animation: animate 2s ease 0.1s infinite alternate;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow: 1px 1px 5px orangered;
+        transform: scale(1 , 1);
+    }
+    50%{
+        transform: scale(1.2 , 1.2);
+        box-shadow: 3px 3px 10px orangered;
+    }
+    100%{
+        box-shadow: 1px 1px 5px orangered;
+        transform: scale(1 , 1);
+    }
+} */
+/* 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border-radius: 100%;
+    animation: ball 2s ease-in 0.1s infinite alternate;
+}
+
+@keyframes ball{
+    0%{
+        margin: 0;
+    }
+    25%{
+        margin-top: 100px;
+    }
+    50%{
+        margin-top: 50px;
+    }
+    75%{
+        margin-top: 100px;
+    }
+    100%{
+        margin: 0;
+    }
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 5px solid gray;
+    border-top: 5px solid blue;
+    animation: animate 2s ease-in 0.1s infinite normal;
+}
+
+@keyframes animate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+.loader{
+    display: flex;
+    gap: 20px;
+}
+
+.loader > div{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 100%;
+    animation: animate 2s ease-in 0.1s infinite normal;
+}
+
+.loader > .dot2{
+    animation-delay: 0.3s;
+}
+
+.loader > .dot3{
+    animation-delay: 0.5s;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0);   
+    }
+    50%{
+        transform: translateY(100px);   
+    }
+    100%{
+        transform: translateY(0);   
     }
 }
