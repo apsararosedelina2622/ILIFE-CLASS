@@ -18,4 +18,14 @@ const addProduct = async (req , res) => {
     }
 }
 
-module.exports = { addProduct }
+const getUser = async (req , res) => {
+    try{
+        const userList = await productModel.find()
+        res.status(200).send(userList)
+    }
+    catch(err){
+        res.status(200).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+module.exports = { addProduct , getUser }

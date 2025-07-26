@@ -837,6 +837,22 @@ JULY MONTH
 11 - 12 => Internship [ AIMAN College Students , Project ]
 12 - 01 => Sai Naresh , Lansuri , Swathisri [ MongoDB Compass , Day - 2 , MongoDB Atlas Installation , Introduction ]
 
-03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan [ BOOTSTRAP Introduction , Day - 1 ]
+03:30 - 04:30 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Yusuf , Logeshwaran [ BOOTSTRAP Introduction , Day - 1 ]
 05 - 06 => Loga Anand , Ganesh [ HTML - Day - 3 ]
+06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ Project ]
+
+
+26 / 07 - SATURDAY 
+
+10:30 - 01:00 => Sir Batch [ JavaScript Day 3 , 4 , 5 ]
+
+
+28 / 07 - MONDAY 
+
+10 - 11 => Pugazh [ BOOTSTRAP Introduction , Day 1 , 2 ]
+11 - 12 => Sir Batch [ JavaScript Day 3 , 4 , 5 ]
+12 - 01 => Sai Naresh , Lansuri , Swathisri [ MongoDB Express Day 1 ]
+
+03 - 04 => Kathirvel , Kaviya , Abinaya , Dhivya Sri , Gayathiri , Kalaivani , Vinothini , Tharik , Niranjan , Yusuf , Logeshwaran [ BOOTSTRAP Introduction , Day - 2 ]
+05 - 06 => Loga Anand , Ganesh [ HTML - Day - 4 ]
 06 - 07 => Abdur Rub , Karthikeyan , Kaviyarasan , Murugan [ Project ]

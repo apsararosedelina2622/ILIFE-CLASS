@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { my_asset } from '../assets/asset'
 import { MyContext } from '../context/ContextProvider'
+import { Link } from 'react-router-dom'
 
 const AddProduct = () => {
 
@@ -9,8 +10,9 @@ const AddProduct = () => {
   return (
     <>
         <div className="container">
-            <div className="p-4">
+            <div className="p-4 d-flex justify-content-between">
                 <h3>Add Product</h3>
+                <Link to="/products" className='text-dark'>View Products</Link>
             </div>
             <form onSubmit={FormSubmit}>
 
